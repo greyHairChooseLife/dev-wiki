@@ -1,0 +1,1 @@
+- [neovim에서 ts_error_prettify 사용하기](neovim에서 ts_error_prettify 사용하기)
