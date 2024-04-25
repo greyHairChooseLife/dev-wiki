@@ -19,85 +19,85 @@ date: 2024-03-26
 
 ## 문제 해결
 
-1. 도메인 구입처를 통해 소유자 인증을 해야한다. 내 경우는 AWS Route53를 통해 구입했으니, AWS Route53
-   콘솔에서 인증을 진행했다. (이메일 다시보내기를 위한 배너가 떴다.)
+1.  도메인 구입처를 통해 소유자 인증을 해야한다. 내 경우는 AWS Route53를 통해 구입했으니, AWS Route53
+    콘솔에서 인증을 진행했다. (이메일 다시보내기를 위한 배너가 떴다.)
 
-2. 도메인 소유자 정보가 인증되었음을 알리는 메일이 왔다.
+2.  도메인 소유자 정보가 인증되었음을 알리는 메일이 왔다.
 
-   > Dear AWS customer,
-   >
-   > Your email address [인증 받은 이메일] has been successfully verified for domain reg istration. No
-   > further action is required on your part.
-   >
-   > Regards, Amazon Route 53
+    > Dear AWS customer,
+    >
+    > Your email address [인증 받은 이메일] has been successfully verified for domain reg istration. No
+    > further action is required on your part.
+    >
+    > Regards, Amazon Route 53
 
-3. _(이후 호스트존을 재생성해도 도메인 정상화가 안된다.)_
+3.  _(이후 호스트존을 재생성해도 도메인 정상화가 안된다.)_
 
-4. _(검색하다보니 AWS support에 티켓을 발행하여 해결했다는 후기를 봤다. 나도 남긴다.)_
+4.  _(검색하다보니 AWS support에 티켓을 발행하여 해결했다는 후기를 봤다. 나도 남긴다.)_
 
-5. _(AWS support의 가이드라인에 따라 1)_ 보니까
-   [whois 웹사이트](https://whois.gandi.net/en/results?search=example.com)에서 확인한 NS와 호스트존에 설정된
-   NS가 달랐다. 엉뚱한 집에 가서 주문한거 달라하니 줄 수가 있나...
+5.  _(AWS support의 가이드라인에 따라 1)_ 보니까
+    [whois 웹사이트](https://whois.gandi.net/en/results?search=example.com)에서 확인한 NS와 호스트존에 설정된
+    NS가 달랐다. 엉뚱한 집에 가서 주문한거 달라하니 줄 수가 있나...
 
-6. _(AWS support의 가이드라인에 따라 2)_ **domain에 할당된 name server를 재설정했다. 호스트존이 아니라
-   도메인에 설정된 NS를 변경하는 것이었다.**
+6.  _(AWS support의 가이드라인에 따라 2)_ **domain에 할당된 name server를 재설정했다. 호스트존이 아니라
+    도메인에 설정된 NS를 변경하는 것이었다.**
 
-   <details>
-   <summary>가이드 펼치기</summary>
-    Hello,
+        <details>
+        <summary>가이드 펼치기</summary>
+         Hello,
 
-   Thank you for following up.
+    Thank you for following up.
 
-   I understand that the domain is not currently available on internet. I will guide you further.
+    I understand that the domain is not currently available on internet. I will guide you further.
 
-   Upon detailed review, I see that the name servers in the hosted zone and the public whois look up do not
-   match hence the domain is not resolving.
+    Upon detailed review, I see that the name servers in the hosted zone and the public whois look up do not
+    match hence the domain is not resolving.
 
-   The current hosted zone for your domain have the following NS records:
+    The current hosted zone for your domain have the following NS records:
 
-   new-ns1.myns new-ns2.myns new-ns3.myns new-ns4.myns
+    new-ns1.myns new-ns2.myns new-ns3.myns new-ns4.myns
 
-   However a WHOIS lookup for the same domain lists different Name Server
+    However a WHOIS lookup for the same domain lists different Name Server
 
-   - https://whois.gandi.net/en/results?search=example.com
+    - https://whois.gandi.net/en/results?search=example.com
 
-   old-ns1.myns old-ns2.myns old-ns3.myns old-ns4.myns
+    old-ns1.myns old-ns2.myns old-ns3.myns old-ns4.myns
 
-   When these values don't match, your website or web application can be intermittently unavailable on the
-   internet. To make these values match, perform the following procedure:
+    When these values don't match, your website or web application can be intermittently unavailable on the
+    internet. To make these values match, perform the following procedure:
 
-   1. Navigate to the “Hosted zones” page for your domain at your Route 53 console
-      (https://console.aws.amazon.com/route53/home )
-   2. Click on “Hosted zones” at the left column
-   3. Click on the \*\*\*round-radio button next to the hosted zone name associated with your domain.
-   4. At the far right column, make a note (click to copy) the four name servers from this newly created
-      hosted zone:
+    1. Navigate to the “Hosted zones” page for your domain at your Route 53 console
+       (https://console.aws.amazon.com/route53/home )
+    2. Click on “Hosted zones” at the left column
+    3. Click on the \*\*\*round-radio button next to the hosted zone name associated with your domain.
+    4. At the far right column, make a note (click to copy) the four name servers from this newly created
+       hosted zone:
 
-      new-ns1.myns new-ns2.myns new-ns3.myns new-ns4.myns
+       new-ns1.myns new-ns2.myns new-ns3.myns new-ns4.myns
 
-   5. Navigate to the **_“Registered domains” details page for your domain at your Route 53 console
-      (_**Click “Registered domains” at the left column)
-   6. Click on the domain name in question
-   7. Click **_“Add or edit name servers” (_**highlighted in blue, at the far right of the page)
-   8. Update the name servers to match the four name servers from the newly created hosted zone:
+    5. Navigate to the **_“Registered domains” details page for your domain at your Route 53 console
+       (_**Click “Registered domains” at the left column)
+    6. Click on the domain name in question
+    7. Click **_“Add or edit name servers” (_**highlighted in blue, at the far right of the page)
+    8. Update the name servers to match the four name servers from the newly created hosted zone:
 
-      new-ns1.myns new-ns2.myns new-ns3.myns new-ns4.myns
+       new-ns1.myns new-ns2.myns new-ns3.myns new-ns4.myns
 
-   9. Monitor the operation via a WHOIS lookup
-   10. Allow up to 48 hours for the change to propagate
-   11. Test to make sure your domain is resolving correctly per the record sets you have setup.
+    9. Monitor the operation via a WHOIS lookup
+    10. Allow up to 48 hours for the change to propagate
+    11. Test to make sure your domain is resolving correctly per the record sets you have setup.
 
-   You can find more information to how to update the name servers for your domain at the following link:
-   https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-name-servers-glue-records.html
+    You can find more information to how to update the name servers for your domain at the following link:
+    https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-name-servers-glue-records.html
 
-   I trust you find this helpful, but please don't hesitate to request more information, or ask additional
-   questions, we’ll be here to reply as quickly as possible.
+    I trust you find this helpful, but please don't hesitate to request more information, or ask additional
+    questions, we’ll be here to reply as quickly as possible.
 
-   We value your feedback. Please share your experience by rating this and other correspondences in the AWS
-   Support Center. You can rate a correspondence by selecting the stars in the top right corner of the
-   correspondence.
+    We value your feedback. Please share your experience by rating this and other correspondences in the AWS
+    Support Center. You can rate a correspondence by selecting the stars in the top right corner of the
+    correspondence.
 
-   </details>
+        </details>
 
 ## 되짚기
 

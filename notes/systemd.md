@@ -56,13 +56,13 @@ systemctl로 켜줘야했다.
 **특히 1>2>3 번호순으로 높은 priority를 가진다.** unit file은 말하자면 설정파일이기 때문에 덮어 씌워진다는
 뜻이다.
 
-1.  `/etc/systemd/system/` : 가장 자주 방문할 위치.
+1. `/etc/systemd/system/` : 가장 자주 방문할 위치.
 
-2.  `/run/systemd/system/` : systemd가 전체 시스템을 관리하는 와중에 생기는 임시파일 따위를 저장하는 곳.
-    사람이 관여할 일이 없다고 보면 된다.
+2. `/run/systemd/system/` : systemd가 전체 시스템을 관리하는 와중에 생기는 임시파일 따위를 저장하는 곳.
+   사람이 관여할 일이 없다고 보면 된다.
 
-3.  `/lib/systemd/system/` : application이 설치될 때 필요하면 여기에 만들어진다. 낮은 우선순위를 갖는건
-    당연하다. 내가 시스템의 주인이니까.
+3. `/lib/systemd/system/` : application이 설치될 때 필요하면 여기에 만들어진다. 낮은 우선순위를 갖는건
+   당연하다. 내가 시스템의 주인이니까.
 
 ## 4. How is "unit file" look alike?
 

@@ -27,6 +27,7 @@
 - [multiple goals](https://www.youtube.com/watch?v=sxKu2a8glEE)
 - [calendar](https://www.youtube.com/watch?v=Y2uOsl_4sXc)
 - [gpt calendar](https://www.youtube.com/watch?v=JKJ1rso3WNc)
+- [web: au vimEnter \* call Bye2023()](https://au-vimenter.github.io/post/2023-12-23-au-vimenter/)
 
 ## tools
 
@@ -69,6 +70,7 @@
 
 - [닉네임은 농부: 여러가지 식물 재배](https://www.clien.net/service/board/lecture/18686416?od=T31&po=0&category=0&groupCd=allreview)
 - [Re : 제로부터 시작하는… 월순익 1,000만원 만드는 슬로우 라이프 하기로 했습니다. (Ep. 1~4)](https://www.jianyang.co.kr/p/re-1000-ep-14)
-## about vimwiki
-- [hacker news about vimwiki](https://news.ycombinator.com/item?id=13157497)
 
+## about vimwiki
+
+- [hacker news about vimwiki](https://news.ycombinator.com/item?id=13157497)

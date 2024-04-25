@@ -14,3 +14,5 @@ _(단, private repository에 저장된 것은 당연히 제외)_
 
 - [baby-sitting-simulator](baby-sitting-simulator)
 - [book-club](book-club)
+- [anki-diary](anki-diary)
+- [조직문화시스템](조직문화시스템)

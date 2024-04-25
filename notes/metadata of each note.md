@@ -1,8 +1,8 @@
 ---
-uid: 
+uid:
 title:
-created: 
-updated: 
+created:
+updated:
 ---
 
 # 공통
@@ -10,10 +10,10 @@ updated:
 - snippet 등 노트 시작 시 최대한 자동화 하자.
 
 # uid
- 
+
 - 숫자와 알파벳을 번갈아 쓴다.
 - depth가 하나 내려갈 때마다 서로다른 단위가 사용되고, '1' 혹은 'a'부터 다시 시작된다.
- 
+
 > ex)  
 > 1~0a~z...
 

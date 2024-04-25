@@ -11,12 +11,13 @@
 # TOC
 
 1. [Concepts](Concepts)
-3. [Tools](Tools)
-4. [Projects](Projects)
-5. [Bugs](Bugs)
-6. [Devlog](Devlog)
+2. [Tools](Tools)
+3. [Projects](Projects)
+4. [Bugs](Bugs)
+5. [Devlog](Devlog)
+6. [Life](Life)
 
-# *Reference
+# \*Reference
 
 - [link list](link-list)
 
@@ -24,11 +25,8 @@
 
 - [sheet A](https://gist.github.com/drkarl/4c503bccb62558dc85e8b1bc0f29e9cb)
 - [sheet B](https://dokk.org/library/vimwiki_1.1.1_quick_reference_Posp%C3%ADchal_2011)
- 
+
 # TODO
 
 - How to get the CONCEPT in my brain? How to map it?
-- [markdown-preview 뒤로가기](markdown-preview 뒤로가기)
-- [내 위키를 웹으로 배포하기](내 위키를 웹으로 배포하기)
-- [Styling my wiki](https://stackoverflow.com/questions/61299108/how-do-i-get-vimwiki-links-to-display-as-underlined-instead-of-default-brackets)
-- [metadata of each note](metadata of each note)
+- [upgrade wiki](upgrade wiki)

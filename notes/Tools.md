@@ -33,13 +33,14 @@ date: 2024-04-11
 
 그러느라 돈 되는 일을 못하고, 취업과 당장의 실무에 도움이 되는 지식에 집중하지못 하는 것.
 
-## List 
+## List
 
 - [documentation](documentation)
 - [github](github)
 - [neovim](neovim)
 - [sysadmin](sysadmin)
 - [shellcheck](shellcheck)
+- [Gatsby(static site generator)로 블로그 만들기](Gatsby(static site generator)로 블로그 만들기)
 
 ## TODO
 

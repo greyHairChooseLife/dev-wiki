@@ -38,8 +38,8 @@ _VERSION: 1.4.3_
 
   - sysz를 뜯어보자.
 
-    <details>
-    <summary>source code of "sysz"</summary>
+       <details>
+       <summary>source code of "sysz"</summary>
 
     ```bash
     _sysz_list() {
@@ -73,10 +73,10 @@ _VERSION: 1.4.3_
     }
     ```
 
-    </details><br />
+       </details><br />
 
     뭐지? 내가 저렇게 똑같이 command 입력하고 살펴봐도 다 모아봐도 숫자가 다르다... 이상하다...  
-    이것만 너무 매달릴수 없으니 일단은 넘어가자...
+     이것만 너무 매달릴수 없으니 일단은 넘어가자...
 
 ## \*reference
 

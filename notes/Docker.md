@@ -93,6 +93,10 @@ run-time에 필요한 환경과 build-time에 필요한 환경은 다를 수 있
 4. 어떻게 연결(통신)하고 분리시킬 것인가?
 5. 마운트와의 차이점이 뭐야?
 
+# Tips
+
+- [일반 사용자로 docker 사용하기, bye bye sudo](일반 사용자로 docker 사용하기, bye bye sudo)
+
 # Tools
 
 - [github: lazydocker](https://github.com/jesseduffield/lazydocker)

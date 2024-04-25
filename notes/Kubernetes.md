@@ -77,4 +77,3 @@ update:
 - [services](services)
 - [configMap](configMap)
 - [Volume](Volume)(local)
-

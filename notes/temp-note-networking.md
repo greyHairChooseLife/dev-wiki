@@ -47,7 +47,7 @@ update:
 - 클러스터 내 `Service`나 `Pods`에 대한 도메인 이름 요청은 `CoreDNS`를 통해 해석됩니다. `CoreDNS`는 클러스터
 내부의 `Service`나 `Pods`에 대한 도메인 이름을 IP 주소로 매핑하여, 트래픽이 적절한 목적지로 라우팅될 수 있게
 합니다.
-</details>
+   </details>
 
 ## 자세한 설명
 
