@@ -41,6 +41,7 @@ date: 2024-04-11
 - [sysadmin](sysadmin)
 - [shellcheck](shellcheck)
 - [Gatsby(static site generator)로 블로그 만들기](Gatsby(static site generator)로 블로그 만들기)
+- [생산성](생산성)
 
 ## TODO
 
