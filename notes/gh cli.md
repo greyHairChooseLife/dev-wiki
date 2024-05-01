@@ -1,29 +1,11 @@
----
-title: 'gh notify'
-date: 2024-04-11
----
+# QNA 
 
-## for what?
+Q. `gh pr create`으로 PR을 생성하긴 했는데, 이게 어디에 병합되는거야?
 
-github notification을 통해 내가 구독한 것들의 소식들을 받아볼 수 있다.
+- default branch로 merge된다. 보통 main 또는 master로 지정되어 있다. 이것은 gh repo edit에서 확인/변경하거나 github 웹에서도 확인/변경 할 수 있다.
 
-예를들어,
+- 또는 PR을 생성할 때 -B --base 플래그로 병합될 base를 설정할 수도 있다.
 
-1. 관심있는 repo, 동료, 멋쟁이 등의 활동
-2. 특히 구독해 놓은 이슈
-3. (협업이라도 하는 경우)관련 이슈와 PR 등
+# gh cli extension
 
-이것을 웹사이트 말고 gh cli에서 둘러볼 수 있는 확장이다.
-
-이슈나 pr에 코멘트들 까지 읽고 쓸 수 있어서 활용도가 높겠다.
-
-## TODO
-
-fzf 기반인데, 로컬 환경의 user fzf config가 반영이 안된다. 이부분만 조금 손보면 업무 흐름이 많이 개선될 수
-있겠다.
-
-협업할 일이 많아지면 그때 꺼내보자.
-
-## reference
-
-- [github repo](https://github.com/meiji163/gh-notify)
+- [gh notify](gh notify)
