@@ -44,3 +44,7 @@
 
 - How to get the CONCEPT in my brain? How to map it?
 - [upgrade wiki](upgrade wiki)
+
+# Scratch Pad
+
+- [draft](draft)
