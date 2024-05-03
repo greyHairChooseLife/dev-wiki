@@ -35,10 +35,11 @@
 
 - [link list](link-list)
 
-# Cheet Sheet
+# cheet shell-script
 
-- [sheet A](https://gist.github.com/drkarl/4c503bccb62558dc85e8b1bc0f29e9cb)
-- [sheet B](https://dokk.org/library/vimwiki_1.1.1_quick_reference_Posp%C3%ADchal_2011)
+- [hardware control](hardware control)
+- [file share & control](file share & control)
+- [dev-obs](dev-obs)
 
 # TODO
 

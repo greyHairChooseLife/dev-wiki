@@ -14,6 +14,7 @@
 - [K8s telegram](https://www.clien.net/service/board/cm_linux/16301066?od=T31&po=22&category=0&groupCd=)
 
 - [서비스 규모에 따른 배포 방법, chatGPT](https://chat.openai.com/g/g-tXRU6PcBN-devops-gpt/c/f9ecf606-4e2e-418b-9464-efd8d4668a7a)
+- [youtube: about nginx](https://www.youtube.com/watch?v=tqZfdffaaBo&ab_channel=%EC%9A%B0%EB%A6%AC%EB%B0%8B_woorimIT )
 
 ### CICD
 
@@ -42,6 +43,7 @@
 - https://www.youtube.com/watch?v=tDOxm4P3udo
 - https://www.youtube.com/watch?v=57x4ZzzCr2Y
 - https://www.youtube.com/watch?v=K-FKqXj8BAQ&list=WL&index=8
+- [youtube: git/gihub 등 사용법](https://www.youtube.com/watch?v=Zx0XyyVLOho&ab_channel=%EC%82%B6%EC%9D%80%EA%B0%9C%EB%B0%9C)
 
 ## etc
 
@@ -60,6 +62,13 @@
 - [network](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html)
 - [고수들의 커맨드](https://www.clien.net/service/board/cm_linux/16461267?od=T31&po=20&category=0&groupCd=)
 
+- [no record1](https://www.youtube.com/watch?v=Kwn1eHZP3C4&ab_channel=Spellthorn)
+- [no record2](https://www.youtube.com/watch?v=wUf3UytV4wQ&ab_channel=TreyCodes)
+- [no record3](https://www.youtube.com/watch?v=rn3NLshfI24&ab_channel=%EC%9A%B0%EC%95%84%EC%95%84)
+- 
+- [how to debug?](https://okky.kr/articles/272227)
+- [why is gmail slow?](https://for-development.tistory.com/121)
+
 ## chatGPT, this and that
 
 - [활용사례](https://www.youtube.com/watch?v=9Ibegk8Yhy0)
@@ -74,3 +83,9 @@
 ## about vimwiki
 
 - [hacker news about vimwiki](https://news.ycombinator.com/item?id=13157497)
+
+## visual design
+
+- [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU) 
+- [youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
+- [youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
