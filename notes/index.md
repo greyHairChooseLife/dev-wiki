@@ -50,6 +50,8 @@
 - dotfile 관리, youtube
 - arch linux 설치하기
 - 배포 방법 공부
+- linux | redirection & pipe
+- linux | permission
 
 
 # Scratch Pad
