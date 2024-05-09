@@ -46,6 +46,12 @@
 - How to get the CONCEPT in my brain? How to map it?
 - [upgrade wiki](upgrade wiki)
 
+- 윈도우로 ssh 통신
+- dotfile 관리, youtube
+- arch linux 설치하기
+- 배포 방법 공부
+
+
 # Scratch Pad
 
 - [draft](draft)
