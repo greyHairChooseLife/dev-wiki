@@ -36,7 +36,7 @@ date: 2024-04-11
 ## List
 
 - [documentation](documentation)
-- [github](github)
+- [git and github](git and github)
 - [neovim](neovim)
 - [sysadmin](sysadmin)
 - [shellcheck](shellcheck)
