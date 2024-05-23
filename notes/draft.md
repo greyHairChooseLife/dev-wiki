@@ -29,3 +29,14 @@
 
 
 
+# let's encrypt with docker
+
+https://ywtechit.tistory.com/454
+
+# 협업에 개발환경 맞추기
+
+https://beoks.tistory.com/entry/Docker-Compose-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95-%EC%9D%BC%EB%8C%80%EA%B8%B0local-dev-prod
+
+
+# github as db, json as db
+https://www.youtube.com/watch?v=cYP0k_shdWc
