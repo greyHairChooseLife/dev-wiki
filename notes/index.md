@@ -32,6 +32,7 @@
 6. [Bugs](Bugs)
 7. [Devlog](Devlog)
 8. [Life](Life)
+9. [Tiny Posts](Tiny Posts)
 
 # \*Reference
 
