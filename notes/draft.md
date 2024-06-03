@@ -127,3 +127,8 @@ https://blog.banksalad.com/tech/spark-on-kubernetes/
 # 배치 프로세싱 vs 스트리밍 프로세싱
 
 https://velog.io/@roo333/%EB%B0%B0%EC%B9%98-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1-VS-%EC%8A%A4%ED%8A%B8%EB%A6%BC-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1
+
+
+# play youtube through mov-cli
+
+https://www.youtube.com/watch?v=W2D5T5Gkyic
