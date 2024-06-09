@@ -16,6 +16,7 @@
   - kafka
   - parquet
   - big data pipeline
+  - pandas
 
 
 ## batch vs streaming processing
