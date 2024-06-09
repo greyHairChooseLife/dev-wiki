@@ -3,7 +3,7 @@ title: 'mkdocs의 활용'
 date: 2024-04-18
 ---
 
-## 왜 mkdocs?
+# 왜 mkdocs?
 
 - 오픈소스
 

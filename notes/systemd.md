@@ -14,7 +14,7 @@ systemctl로 켜줘야했다.
 
 ## 1. What is "systemd"
 
-`init`은 부팅 후 가장 먼저 실행되는 PID 1번 프로스세스였는데, 이것을 대체한 것이 `systemd`다. 그리고 다른
+_init_은 부팅 후 가장 먼저 실행되는 PID 1번 프로스세스였는데, 이것을 대체한 것이 _systemd_다. 그리고 다른
 기능들도 대체했다.
 
 > system and service manager, usually not invoked directly by the user

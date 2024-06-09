@@ -6,13 +6,13 @@
 SPA(Single Page Application)로 간단한 정적 사이트를 배포하는 일도 많다.
 
 **파이프라인 구성요소**
- 
+
 - 개발 서버
 - runner 서버
 - container (image)registry
 - 배포 서버
 
-> 순서도  
+> 순서도
 > 1. 개발 진행
 > 2. github push 또는 pr merge에 따라 runner 실행(적절한 방식을 runner의 트리거로 설정한다.)
 > 3. runner server(github 또는 self-hosted)에서 runner 실행
@@ -23,6 +23,4 @@ SPA(Single Page Application)로 간단한 정적 사이트를 배포하는 일�
 "self-hosted runner"의 설정은 github 저장소 설정에서 매우 쉽게 할 수 있다. github 웹사이트의 설정창에서 관련 안내가 모두 제공된다.
 
 github: <https://github.com/study-and-trial/static-site>
-
-## 2. 
 
