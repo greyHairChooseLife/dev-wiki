@@ -1,19 +1,10 @@
 ## TOC
 
-  * [about Big Data](./big-data/index)
-
-
-
-
-
-
-
-
-
 
 
 
 ## Partials
 
-  * [database](database)
-  * [mariadb-최적화](mariadb-최적화)
+    * [Big Data 키워드](Big Data 키워드)
+    * [database의 종류](database의 종류)
+    * [mariaDB 최적화](mariaDB 최적화)
