@@ -47,7 +47,7 @@
 
     _즉, 가능한 쓰지 않아야한다._
 
-## keys
+## Keys
 
     1. superkey
 
@@ -62,18 +62,17 @@
     3. **primary key**
 
         - candidate key 중에서 선택한 key
-        - 선택사항이지 강제할 것은 없다. 근데 당연히 attributes의 숫자가 적을수록 편라다.
+        - 선택사항이지 강제할 것은 없다. 근데 당연히 attributes의 숫자가 적을수록 편하다.
 
     4. unique key
 
         - primary key가 아닌 나머지 candidate key들
-        - 즉, primary key와 중복되지 않는 key들
 
     5. foreign key
 
-        - 다른 relation의 primary key를 참조하는 attributes set
+        - 다른 relation의 primary key를 참조하는 attribute
 
-## constraints
+## Constraints
 
     _relations들이 언제나 지켜야하는 제약 사항_
 

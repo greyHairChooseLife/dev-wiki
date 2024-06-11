@@ -15,7 +15,7 @@
     %% - ref: https://www.youtube.com/watch?v=c8WNbcxkRhY&list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe&index=3
     %%
     * [relational database 기본개념 및 키워드](./partials/relational database 기본개념 및 키워드)
-    * [SQL 기본개념](./partials/SQL 기본개념)
+    * [SQL 기본개념](partials/SQL 기본개념, Attribute Type, Key Constraints)
 
 
 ## draft
