@@ -15,8 +15,11 @@
     %% - ref: https://www.youtube.com/watch?v=c8WNbcxkRhY&list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe&index=3
     %%
     * [relational database 기본개념 및 키워드](./partials/relational database 기본개념 및 키워드)
-    * [SQL 기본개념](partials/SQL 기본개념, Attribute Type, Key Constraints)
-
+    * [SQL 기본개념, Attribute Type, Key Constraints](partials/SQL 기본개념, Attribute Type, Key Constraints)
+    * [SQL query](partials/SQL query)
+    * [SQL에서 NULL의 의미](partials/SQL에서 NULL의 의미)
+    * [SQL과 JOIN](partials/SQL과 JOIN)
+    * [SQL과 정렬 및 통계](partials/SQL과 정렬 및 통계)
 
 ## draft
 
