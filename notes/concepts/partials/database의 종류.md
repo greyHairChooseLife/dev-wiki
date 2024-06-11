@@ -1,4 +1,3 @@
-
 ## 1. key-value Database
 
     - key-value 형태로 데이터를 저장
