@@ -7,7 +7,7 @@
 ## TOC
 
   * [Concept](concepts/index)
-  * [Workflow](workflows/index)
+  * [[Workflow](workflows/index)
   * [Problem Solving](problem-solving/index)
   * [Post](dev-posts/index)
 
@@ -48,4 +48,6 @@ TODO
   - 배포 방법 공부
   - command line redirection & pipe
   - linux's permission
-  - _custom cli command: ffg_가 _.gitignore_까지 검색하도록 기능 추가
+  - _custom cli command: ffg_가 `.gitignore`까지 검색하도록 기능 추가
+  - _custom cli command: ffd_의 preview가 `node_modules/`는 제외하도록 기능 업데이트
+  - vimwiki에서는 tab size를 2 -> 4로 변경하기

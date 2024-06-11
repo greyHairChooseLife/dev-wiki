@@ -65,7 +65,7 @@
 - [no record1](https://www.youtube.com/watch?v=Kwn1eHZP3C4&ab_channel=Spellthorn)
 - [no record2](https://www.youtube.com/watch?v=wUf3UytV4wQ&ab_channel=TreyCodes)
 - [no record3](https://www.youtube.com/watch?v=rn3NLshfI24&ab_channel=%EC%9A%B0%EC%95%84%EC%95%84)
-- 
+-
 - [how to debug?](https://okky.kr/articles/272227)
 - [why is gmail slow?](https://for-development.tistory.com/121)
 
@@ -86,6 +86,10 @@
 
 ## visual design
 
-- [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU) 
+- [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
 - [youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
 - [youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
+
+## javascript tutorials
+
+https://www.squash.io/tutorials/
