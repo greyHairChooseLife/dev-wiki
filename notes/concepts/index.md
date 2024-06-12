@@ -8,11 +8,15 @@
 
     _파편화된 개념 지식을 기록_
 
-    * [mariaDB 최적화](./partials/mariaDB 최적화)
-    * [database의 종류](./partials/database의 종류)
+    ### ETC
+
+        * [mariaDB 최적화](./partials/mariaDB 최적화)
+        * [database의 종류](./partials/database의 종류)
+
+    ### Relational Database
 
     %% NOTE:
-    %% - ref: https://www.youtube.com/watch?v=c8WNbcxkRhY&list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe&index=3
+    %% - youtube 재생목록: https://www.youtube.com/playlist?list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe
     %%
     * [relational database 기본개념 및 키워드](./partials/relational database 기본개념 및 키워드)
     * [SQL 기본개념, Attribute Type, Key Constraints](partials/SQL 기본개념, Attribute Type, Key Constraints)
@@ -20,9 +24,19 @@
     * [SQL에서 NULL의 의미](partials/SQL에서 NULL의 의미)
     * [SQL과 JOIN](partials/SQL과 JOIN)
     * [SQL과 정렬 및 통계](partials/SQL과 정렬 및 통계)
+    * [데이터베이스 트랜잭션, ACID](partials/데이터베이스 트랜잭션, ACID)
+
+
 
 ## draft
 
     _터무니없이 미완성인 기록_
 
-    * [Big Data 키워드](./draft/Big Data 키워드)
+    ### Big Data
+
+        * [Big Data 키워드](draft/Big Data 키워드)
+
+    ### Relational Database & SQL
+
+        * [SQL에서 stored Function 및 stored Procedure](draft/SQL에서 stored Function 및 stored Procedure)
+        * [draft/SQL concurrency control, 트랜잭션의 Isolation 보장하기](draft/SQL concurrency control, 트랜잭션의 Isolation 보장하기)
