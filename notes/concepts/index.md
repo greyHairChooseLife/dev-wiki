@@ -26,6 +26,9 @@
     * [SQL과 정렬 및 통계](partials/SQL과 정렬 및 통계)
     * [데이터베이스 트랜잭션, ACID](partials/데이터베이스 트랜잭션, ACID)
 
+    * [데이터베이스 설계-정규화](partials/데이터베이스 설계-정규화)
+    * [데이터베이스 설계-DB index](partials/데이터베이스 설계-DB index)
+
 
 
 ## draft
