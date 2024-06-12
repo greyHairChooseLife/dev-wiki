@@ -10,25 +10,27 @@
 
     ### ETC
 
-        * [mariaDB 최적화](./partials/mariaDB 최적화)
         * [database의 종류](./partials/database의 종류)
 
     ### Relational Database
 
-    %% NOTE:
-    %% - youtube 재생목록: https://www.youtube.com/playlist?list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe
-    %%
-    * [relational database 기본개념 및 키워드](./partials/relational database 기본개념 및 키워드)
-    * [SQL 기본개념, Attribute Type, Key Constraints](partials/SQL 기본개념, Attribute Type, Key Constraints)
-    * [SQL query](partials/SQL query)
-    * [SQL에서 NULL의 의미](partials/SQL에서 NULL의 의미)
-    * [SQL과 JOIN](partials/SQL과 JOIN)
-    * [SQL과 정렬 및 통계](partials/SQL과 정렬 및 통계)
-    * [데이터베이스 트랜잭션, ACID](partials/데이터베이스 트랜잭션, ACID)
+        %% NOTE:
+        %% - youtube 재생목록: https://www.youtube.com/playlist?list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe
+        %%
+        * [relational database 기본개념 및 키워드](./partials/relational database 기본개념 및 키워드)
+        * [SQL 기본개념, Attribute Type, Key Constraints](partials/SQL 기본개념, Attribute Type, Key Constraints)
+        * [SQL query](partials/SQL query)
+        * [SQL에서 NULL의 의미](partials/SQL에서 NULL의 의미)
+        * [SQL과 JOIN](partials/SQL과 JOIN)
+        * [SQL과 정렬 및 통계](partials/SQL과 정렬 및 통계)
+        * [데이터베이스 트랜잭션, ACID](partials/데이터베이스 트랜잭션, ACID)
 
-    * [데이터베이스 설계-정규화](partials/데이터베이스 설계-정규화)
-    * [데이터베이스 설계-DB index](partials/데이터베이스 설계-DB index)
+        * [데이터베이스 설계-정규화](partials/데이터베이스 설계-정규화)
+        * [데이터베이스 설계-DB index](partials/데이터베이스 설계-DB index)
+        * [데이터베이스 설계-파티셔닝, 샤딩, 레플리케이션](partials/데이터베이스 설계-파티셔닝, 샤딩, 레플리케이션)
 
+        * [데이터베이스 성능 최적화-서버 리소스 활용](partials/데이터베이스 성능 최적화-서버 리소스 활용)
+        * [데이터베이스 성능 최적화-DB connection pool](partials/데이터베이스 성능 최적화-DB connection pool)
 
 
 ## draft
