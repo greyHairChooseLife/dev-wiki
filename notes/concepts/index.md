@@ -32,6 +32,7 @@
         * [데이터베이스 성능 최적화-서버 리소스 활용](partials/데이터베이스 성능 최적화-서버 리소스 활용)
         * [데이터베이스 성능 최적화-DB connection pool](partials/데이터베이스 성능 최적화-DB connection pool)
 
+        * [RDB vs NoSQL](partials/RDB vs NoSQL)
 
 ## draft
 
