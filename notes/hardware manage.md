@@ -12,3 +12,8 @@
   (If you have administrative (root) privileges and want to restart PulseAudio system-wide, you can use the following command instead:
 
   `sudo systemctl restart pulseaudio`
+
+
+- 설치된 패키지 용량 순으로 확인
+
+  `expac -H M "%011m\t%-20n\t%10d" $(comm -23 <(pacman -Qqe | sort) <(pacman -Qqg base base-devel | sort)) | sort -n`

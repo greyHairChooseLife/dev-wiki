@@ -35,6 +35,9 @@
   * [hardware manage](hardware manage)
   * [file share & control](file share & control)
 
+    디렉토리 내 모든 json파일의 길이의 총 합
+    `jq '. | length' *.json | awk '{s+=$1} END {print s}'`
+
 ## Reference
 
   * [useful links](useful-links)
