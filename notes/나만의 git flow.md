@@ -60,7 +60,7 @@
 4. PR을 squash merge하고, issue를 close한다.
    이때 PR의 메시지를 merge commit에도 그대로 활용한다. 단, title과 message는 조금 수정/추가한다.
 
-   ex) (3의 예시에 이어서...)
+   ex)
    ```(squash)merge commit message
    title: SQUASH MERGE from PR #6, branch bug/issue-5
    message:

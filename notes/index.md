@@ -38,6 +38,19 @@
     디렉토리 내 모든 json파일의 길이의 총 합
     `jq '. | length' *.json | awk '{s+=$1} END {print s}'`
 
+    %% ref: https://github.com/sindrets/diffview.nvim
+    DiffviewFileHistory
+    : 지정한 범위의 commit histroy 리스트를 메뉴판에 넣어주고, 항목당 변경 내역을 보여준다.
+    : 이때 다양한 범위를 지정할 수 있는데,
+        - 특정 파일
+        - 특정 범위(visual block)
+        - 특정 commit(git rev)
+        - 특정 범위와 범위의 범위의 차이점
+
+    DiffviewOpen
+    : 지정한 범위에서 변경된 file view를 메뉴판에 넣어준다. 무엇이 변경되었는지 파일마다 볼 수 있다.
+
+
 ## Reference
 
   * [useful links](useful-links)
