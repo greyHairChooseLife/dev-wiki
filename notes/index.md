@@ -38,6 +38,15 @@
     디렉토리 내 모든 json파일의 길이의 총 합
     `jq '. | length' *.json | awk '{s+=$1} END {print s}'`
 
+    ```
+    jq '. | length' dataset/*.json | awk '{s+=$1} END {print s}'
+    jq '. | length' uniq*.json | awk '{s+=$1} END {print s}'
+    jq '. | length' dataset/Bibliographic_cleaned.csv.*.json | awk '{s+=$1} END {print s}'
+    jq '. | length' dataset/Abstract_cleaned.csv.*.json | awk '{s+=$1} END {print s}'
+    ```
+    도커 컨테이너 내부 파일 복사 호스트로 복사
+    `[sy@sy-230620 ~]$ docker cp a7614153bd78:/dist/assets/index-C6b_ONX_.js prod.js`
+
     %% ref: https://github.com/sindrets/diffview.nvim
     DiffviewFileHistory
     : 지정한 범위의 commit histroy 리스트를 메뉴판에 넣어주고, 항목당 변경 내역을 보여준다.
