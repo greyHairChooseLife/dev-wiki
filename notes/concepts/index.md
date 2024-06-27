@@ -12,6 +12,8 @@
 
         * [database의 종류](./partials/database의 종류)
         * [bore, simple tcp tunnel CLI. make localhost to public server](./partials/bore, simple tcp tunnel CLI. make localhost to public server)
+https://github.com/agarrharr/awesome-cli-apps
+https://github.com/Kikobeats/awesome-cli
 
     ### Relational Database
 
