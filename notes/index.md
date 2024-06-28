@@ -76,3 +76,4 @@ TODO
   - _custom cli command: ffg_가 `.gitignore`까지 검색하도록 기능 추가
   - _custom cli command: ffd_의 preview가 `node_modules/`는 제외하도록 기능 업데이트
   - vimwiki에서는 tab size를 2 -> 4로 변경하기
+  - read: [An Experienced (Neo)Vimmer's Workflow](https://seniormars.com/posts/neovim-workflow/)
