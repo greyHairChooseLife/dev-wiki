@@ -77,3 +77,7 @@ TODO
   - _custom cli command: ffd_의 preview가 `node_modules/`는 제외하도록 기능 업데이트
   - vimwiki에서는 tab size를 2 -> 4로 변경하기
   - read: [An Experienced (Neo)Vimmer's Workflow](https://seniormars.com/posts/neovim-workflow/)
+  - nvim: ,R 커맨드(keymap)로 화면 얼어버리는 문제
+      - xorg를 kill 및 -HUB하면 프로세스를 종료하지 않는다고 한다. 그런데 나는 그냥 다 종료된다.
+      - 디스플레이매니저를 다시시작하는 방법도 있다고 한다. i3 wm을 말하는게 아니고, lightdm을 말한다.
+        (system)service니까 systemctl restart lightdm해주자.
