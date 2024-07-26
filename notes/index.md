@@ -94,3 +94,13 @@ https://www.youtube.com/watch?v=OWaHfpHxgb8
 
 [learn how to project](https://github.com/boostcampwm-2022)
  and https://www.essential2189.dev/db-performance-fts
+
+
+
+ %% TODO: 
+
+ 1. vim 플러그인 2개, 마지막 커밋에 적어둔거랑 startify 대체제
+ 2. i3 config 업데이트
+ 3. my-bashrc 업데이트
+ 4. docup처럼 docfetch 등 서로다른 환경을 동기화하기 쉽게 만드는 것을 고민해보자.
+
