@@ -49,3 +49,11 @@ date: 2024-04-11
 ## TODO
 
 `fzf`와 `gh gist` 버무려서 github.gist를 잘 활용해보자.
+
+- CLI tools for visualizing data
+    https://www.youtube.com/watch?v=4IqsqWLqR9Y
+
+    https://github.com/yassinebridi/serpl
+    https://github.com/shshemi/tabiew
+    https://fx.wtf/
+    https://github.com/fioncat/otree

@@ -81,3 +81,16 @@ TODO
       - xorg를 kill 및 -HUB하면 프로세스를 종료하지 않는다고 한다. 그런데 나는 그냥 다 종료된다.
       - 디스플레이매니저를 다시시작하는 방법도 있다고 한다. i3 wm을 말하는게 아니고, lightdm을 말한다.
         (system)service니까 systemctl restart lightdm해주자.
+
+
+[bigdata with javascript](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
+
+
+css 참고용 사이트
+https://animista.net/
+https://www.youtube.com/watch?v=OWaHfpHxgb8
+
+
+
+[learn how to project](https://github.com/boostcampwm-2022)
+ and https://www.essential2189.dev/db-performance-fts
