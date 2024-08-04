@@ -1,29 +1,28 @@
-# wiki for DEV
+#     DEV  WIKI
 
   _이 위키의 목적은 기록하여 (나중에)필요시 되찾아보기 위함이다._
   _따라서, 가급적 개조식으로 작성한다._
 
-
 ## TOC
 
-  * [Concept](concepts/index)
-  * [Workflow](workflows/index)
-  * [Problem Solving](problem-solving/index)
-  * [Post](dev-posts/index)
+[Concept](concepts/index)
+[Workflow](workflows/index)
+[Problem Solving](problem-solving/index)
+[Post](dev-posts/index)
 
 ## (temperal)from here to here
 
   _이 메뉴의 내용은 모두 바로 위에 TOC로 옮기도록 하자. (sub-directory를 구성하는 작업)_
 
-  * [Concepts](Concepts)
-  * [Tools](Tools)
-  * [Projects](Projects)
-  * [Architectures](Architectures)
-  * [CICD](CICD)
-  * [Bugs](Bugs)
-  * [Devlog](Devlog)
-  * [Life](Life)
-  * [Tiny Posts](Tiny Posts)
+[Concepts](Concepts)
+[Tools](Tools)
+[Projects](Projects)
+[Architectures](Architectures)
+[CICD](CICD)
+[Bugs](Bugs)
+[Devlog](Devlog)
+[Life](Life)
+[Tiny Posts](Tiny Posts)
 
 ## Scratch Pad
 
@@ -104,4 +103,3 @@ https://www.youtube.com/watch?v=OWaHfpHxgb8
  2. i3 config 업데이트
  3. my-bashrc 업데이트
  4. docup처럼 docfetch 등 서로다른 환경을 동기화하기 쉽게 만드는 것을 고민해보자.
-

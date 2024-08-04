@@ -18,20 +18,20 @@ A fzf terminal UI for systemctl
 
 _VERSION: 1.4.3_
 
-- See and filter both system and user units simultaneously.
-- Supports all unit types.
-- Units ordered by service, timer, socket, and the rest.
-- Runs sudo automatically and only if necessary.
-- Filter units by state using ctrl-s or the --state option.
-- Run daemon-reload with ctrl-r.
-- Has short versions of systemctl commands to reduce typing.
-- Runs status after other commands (start, stop, restart, etc).
-- Select multiple units, states, and commands using TAB.
-- Only prompts commands based on current state (e.g. show "start" only if the unit is inactive).
+  - See and filter both system and user units simultaneously.
+  - Supports all unit types.
+  - Units ordered by service, timer, socket, and the rest.
+  - Runs sudo automatically and only if necessary.
+  - Filter units by state using ctrl-s or the --state option.
+  - Run daemon-reload with ctrl-r.
+  - Has short versions of systemctl commands to reduce typing.
+  - Runs status after other commands (start, stop, restart, etc).
+  - Select multiple units, states, and commands using TAB.
+  - Only prompts commands based on current state (e.g. show "start" only if the unit is inactive).
 
 ## \*QnA
 
-- `Unit <unit name> could not be found.`라고 나오는 것은 뭐야? 어떻게 대처해?
+- `Unit <unit name> could not be found.`라고 나오는 것은 뭐야? 어떻게 대처해?:
 
   > 말 그대로 unit 파일을 찾을 수 없다는건데, 이상한건 없는파일을 도대체 어떻게 찾을 시도를 했냐는거다.
   > systemctl에 어떤 명령을 붙여봐도 sysz의 기본 명령만큼 리스트를 보여주지 않는다.
@@ -75,7 +75,7 @@ _VERSION: 1.4.3_
 
        </details><br />
 
-    뭐지? 내가 저렇게 똑같이 command 입력하고 살펴봐도 다 모아봐도 숫자가 다르다... 이상하다...  
+    뭐지? 내가 저렇게 똑같이 command 입력하고 살펴봐도 다 모아봐도 숫자가 다르다... 이상하다...
      이것만 너무 매달릴수 없으니 일단은 넘어가자...
 
 ## \*reference
