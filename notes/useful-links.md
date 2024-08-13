@@ -68,6 +68,7 @@
 -
 - [how to debug?](https://okky.kr/articles/272227)
 - [why is gmail slow?](https://for-development.tistory.com/121)
+- [e-commerce example site](https://contents.clayful.store/)
 
 ## chatGPT, this and that
 
