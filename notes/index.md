@@ -32,6 +32,7 @@
 ## Cheet Sheet
 
   * [hardware manage](hardware manage)
+  * [system configs](system-configs)
   * [file share & control](file share & control)
 
     디렉토리 내 모든 json파일의 길이의 총 합
