@@ -1,11 +1,11 @@
 #  DEV WIKI
 
-  _이 위키의 목적은 기록하여 (나중에)필요시 되찾아보기 위함이다._
-  _따라서, 가급적 개조식으로 작성한다._
+  _이 위키의 목적은 기록하여 (나중에)필요시 되찾아보기 위함이다.
+  따라서, 가급적 개조식으로 작성한다._
 
 ## TOC
 
-[Concept](concepts/index)
+[Concept & Tool](concepts&tools/index.md)
 [Workflow](workflows/index)
 [Problem Solving](problem-solving/index)
 [Post](dev-posts/index)
@@ -37,7 +37,7 @@
 [awesome command history](awesome-command-history)
 
 
-## Resources
+## Todo: 공부할 것
 
 - devops:
   [knowledge tree](https://subicura.com/devops/guide/deploy.html)
@@ -140,7 +140,7 @@
 [-] 디스플레이매니저를 다시시작하는 방법도 있다고 한다. i3 wm을 말하는게 아니고, lightdm을 말한다. (system)service니까 systemctl restart lightdm해주자.
 
 
-## 낙서장
+## Scratch Pad
 
 - 경주 골든 페스티벌:
   - 날짜: 2024.9.27(금) ~ 2024.9.29(일)
@@ -153,9 +153,8 @@
 
   총액: ~
 
-| 내용             | 금액                  | 비고                            |
-| :--------------: | --------------------: | --------------------            |
-| 페스티벌 참가비  | 88,000*2인= 166,000   | 토~일, 하루 55,000, 이틀 88,000 |
-| 숙소A            |                       | 게스트하우스                    |
-| 숙소B            |                       | 한옥 펜션                       |
-
+| 내용             | 금액       | 비고                            |
+| :--------------: | ---------: | --------------------            |
+| 페스티벌 참가비  | 176,000    | 토~일, 하루 55,000, 이틀 88,000 |
+| 숙소A            | 60,000     | 게스트하우스, 2024-09-27(금)    |
+| 숙소B            | 109,000    | 한옥 펜션, 2024-09-28(토), 믿음 |
