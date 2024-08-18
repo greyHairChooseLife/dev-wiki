@@ -1,5 +1,8 @@
-- [Container](Container)
 - [Linux](Linux)
+-
+- [$HOME path structure]($HOME path structure)
+- [systemd](systemd)
+- [system migration](system migration)
 - [Shell](Shell)
 - [Style](Style)
 - [Language](Language)

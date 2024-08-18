@@ -5,7 +5,7 @@ date: 2024-04-01
 update:
 ---
 
-> (개발 단계부터 이미지 생성까지는 도커 클라이언트를 활용하고)  
+> (개발 단계부터 이미지 생성까지는 도커 클라이언트를 활용하고)
 > 컨테이너 관련 작업이 배포 및 운영 단계로 넘어가기 시작하면 쿠버네티스를 사용할 때다.
 
 ## 목적
@@ -63,17 +63,17 @@ update:
 
 # Installing
 
-- [소속 개념](소속 개념)
-- [step-by-step](step-by-step)
+- [소속 개념](/concepts_and_tools/tools/kubernetes/소속_개념.md)
+[step by step](/concepts_and_tools/tools/kubernetes/step_by_step.md)
 
 # Networking
 
-- [temp-note-networking](temp-note-networking)
+- [temp note networking](/concepts_and_tools/tools/kubernetes/temp_note_networking.md)
 
 # Resources
 
-- [api group](api group)
-- [workloads](workloads)
-- [services](services)
-- [configMap](configMap)
-- [Volume](Volume)(local)
+- [api group](/concepts_and_tools/tools/kubernetes/api_group.md)
+- [workloads](/concepts_and_tools/tools/kubernetes/workloads.md)
+- [services](/concepts_and_tools/tools/kubernetes/services)
+- [configMap](/concepts_and_tools/tools/kubernetes/configMap)
+- [Volume(local)](/concepts_and_tools/tools/kubernetes/Volume.md)

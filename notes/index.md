@@ -5,16 +5,19 @@
 
 ## TOC
 
-[Concept & Tool](concepts_and_tools/index.md)
-[Workflow](workflows/index)
-[Problem Solving](problem-solving/index)
-[Post](dev-posts/index)
+[HUB: Problem Solving](problem_solving/index.md)
+[HUB: Post](dev-posts/index.md)
+
+[HUB: Workflow](workflows/index.md)
+[HUB: Concept & Tool](concepts_and_tools/index.md)
+
+
+
 
 ## (temperal)from here to here
 
   _이 메뉴의 내용은 모두 바로 위에 TOC로 옮기도록 하자. (sub-directory를 구성하는 작업)_
 
-[Concepts](Concepts)
 [Tools](Tools)
 [Projects](Projects)
 [Architectures](Architectures)
