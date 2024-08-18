@@ -12,13 +12,13 @@
 
 ### server
 
-[bore](/concepts&tools/tools/bore.md):
+[bore](/concepts_and_tools/tools/bore.md):
   simple tcp tunnel CLI. make localhost to public server
 
 
 ### Database
 
-[HUB: relational database](/concepts&tools/concepts/relational-database/index.md)
+[HUB: relational database](/concepts_and_tools/concepts/relational-database/index.md)
 
 
 ### ETC
