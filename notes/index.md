@@ -3,6 +3,12 @@
   _이 위키의 목적은 기록하여 (나중에)필요시 되찾아보기 위함이다.
   따라서, 가급적 개조식으로 작성한다._
 
+
+```bash
+# 현재 디렉토리 내의 파일명에 공백이 있을 때, 공백을 _로 변경하기
+for file in *\ *; do mv "$file" "${file// /_}"; done
+```
+
 ## TOC
 
 [HUB: Problem Solving](problem_solving/index.md)
