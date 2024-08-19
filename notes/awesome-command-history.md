@@ -14,4 +14,9 @@ jq '. | length' *.json | awk '{s+=$1} END {print s}'
 ```bash
 # 컨테이너 내부 파일을 호스트로 복사
 docker cp a7614153bd78:/dist/assets/index-C6b_ONX_.js prod.js
-```
+
+ex)
+docker cp index.js ps2:/usr/src/app/index.js
+# ```
+
+
