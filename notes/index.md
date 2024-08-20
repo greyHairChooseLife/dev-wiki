@@ -38,13 +38,13 @@ for file in *\ *; do mv "$file" "${file// /_}"; done
 [(moving from...) draft](draft)
 [(to here...) index](./draft/index)
 
-## Cheet Sheet
+## Cheat Sheet
 
 [hardware manage](hardware manage)
 [system configs](system-configs)
 [file share & control](file share & control)
 [awesome command history](awesome-command-history)
-
+[Surfingkeys](/cheat_sheet/Surfingkeys_extension.md)
 
 ## Todo: 공부할 것
 
@@ -60,6 +60,8 @@ for file in *\ *; do mv "$file" "${file// /_}"; done
   [서비스 규모에 따른 배포 방법, chatGPT](https://chat.openai.com/g/g-tXRU6PcBN-devops-gpt/c/f9ecf606-4e2e-418b-9464-efd8d4668a7a)
   [youtube: about nginx](https://www.youtube.com/watch?v=tqZfdffaaBo&ab_channel=%EC%9A%B0%EB%A6%AC%EB%B0%8B_woorimIT)
   [초보자를 위한 게임개발 총론](https://gpgstudy.com/gpgiki/%EC%B4%88%EB%B3%B4%EC%9E%90_Faq)
+  [The only Cloud services you actually need to know](https://www.youtube.com/watch?v=gcfB8iIPtbY)
+
 
 - CICD:
   [cicd-1](https://velog.io/@rmswjdtn/Spring-Docker-Github-Action-Spring-Boot-%EC%9E%90%EB%8F%99%EB%B0%B0%ED%8F%AC%ED%99%98%EA%B2%BD-%EB%A7%8C%EB%93%A4%EA%B8%B0)
