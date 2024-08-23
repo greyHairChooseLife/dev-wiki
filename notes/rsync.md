@@ -10,4 +10,7 @@ rsync -az ./*.json sy@10.71.126.25:/home/sy/temp
 - a: 압축
 - z: 압축
 - r: 모든 하위 내용
-rsync -az ./*.json sy@10.71.126.200:/home/sy/Working/patent/detail-docker/output/KR/* /home/sy/cbpromaker/미래창업연구소/patent-data-processing/scrappers/detail/output/output_from_cblabtop
+rsync -az ./KR*.json sy@10.71.126.200:/home/sy/Working/patent/detail-docker/inputs
+rsync -az index.js sy@10.71.126.200:/home/sy/Working/patent/detail-docker
+rsync -az /home/sy/cbpromaker/미래창업연구소/patent/scrappers/query_detail/src/grepData.js sy@10.71.126.200:/home/sy/Working/patent/detail-docker/src/
+rsync -az /home/sy/cbpromaker/미래창업연구소/patent/scrappers/query_detail/index.js sy@10.71.126.200:/home/sy/Working/patent/detail-docker

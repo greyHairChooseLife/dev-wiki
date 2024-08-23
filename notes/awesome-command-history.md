@@ -28,3 +28,13 @@ docker cp index.js ps2:/usr/src/app/index.js
 # 화질 구지
 convert input.jpg -resize 50% output.jpg
 ```
+
+
+## inside vim
+
+- rows가 엄청 많을 때, json으로 변환하기 위해 양쪽을 따옴표로 감싸기
+  (이게 `:norm I"` 이런식으로 하면 엄청 느리다.)
+
+```bash
+:%s/^/"/ | %s/$/"/
+```
