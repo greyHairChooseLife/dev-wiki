@@ -29,10 +29,11 @@ date: 2024-04-18
 
 ## temp
 
-```bash # 현재 디렉토리 내의 파일명에 공백이 있을 때, 공백을 '_'(under-bar)로 변경하기
+- 현재 디렉토리 내의 파일명에 공백이 있을 때, 공백을 '_'(under-bar)로 변경하기
 
-for file in *\ *; do mv "$file" "${file// /_}"; done
-```
+  ```bash
+  for file in *\ *; do mv "$file" "${file// /_}"; done
+  ```
 
 
 ## deprecated

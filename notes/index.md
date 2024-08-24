@@ -16,7 +16,7 @@
 
 [ Document](/tools/documentation/index.md)
 [ Git](/tools/git_and_github/index.md) [-]
-[ Vim](/tools/vim/index.md)
+[ Vim](/tools/vim/index.md) [-]
 [ System admin](/tools/system_admin/index.md)
 
 ## 3. Life
@@ -45,7 +45,7 @@
 [system configs](system-configs)
 [file share & control](file share & control)
 [awesome command history](awesome-command-history)
-[Surfingkeys](/cheat_sheet/Surfingkeys_extension.md)
+[Surfingkeys](/cheat_sheet/Surfingkeys_extension.md) [-]
 
 ## Todo: 공부할 것
 
