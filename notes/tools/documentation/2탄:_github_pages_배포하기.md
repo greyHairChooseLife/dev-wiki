@@ -19,7 +19,7 @@ slug: '2023/05/make-gatsby-blog-2nd'
 
 ## 1. checkout branch
 
-나는 로컬에서 배포용 브랜치를 따로 관리하지 않을거다. 오로지 최종 결과물인 main브랜치를 이용한다.  
+나는 로컬에서 배포용 브랜치를 따로 관리하지 않을거다. 오로지 최종 결과물인 main브랜치를 이용한다.
 애초에 main 브랜치에서 이 명령을 사용하더라도 결과값은 참이기 때문에 안전하다.
 
 ## 2. build
@@ -35,12 +35,12 @@ github pages에 배포를 하려다보면 자동으로 부여 받는 주소에 b
 <details>
   <summary>gh-pages 패키지 <code>--no-history</code> 옵션 사용하기</summary>
   <div style="background-color: #E2EADD; padding: 10px">
-  
+
   gh-pages 패키지의 옵션 중 아래와 같은 것을 찾을 수 있다.
   >-f, --no-history // Push force new commit without parent history
-   
+
   gh-pages 패키지의 작동 방식을 보면 지정한 build directory를, 지정한 branch로 커밋하고, 이 branch를 github pages 서비스로 호스팅 한다. 그러니까 gh-pages를 실행 할 때마다 커밋 즉 커밋 히스토리가 쌓인다.
-  
+
   처음에는 별거 아니어도 history가 쌓일수록 빌드 시간을 늘릴 수 있다고 한다. 이를 방지하는 옵션이다. `-f`라는 옵션 약어는 `git push --force`처럼 기존 히스토리에 강제로 덮어 씌워버리기 때문으로 보인다.
   </div>
 </details><br>

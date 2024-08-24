@@ -1,11 +1,9 @@
+
 ---
 title: 'sysz: interactive ui for systemctl'
 date: 2024-04-16
 update: 2024-04-21
 ---
-
-정확히는 TUI는 아니겠다. 단지 fzf를 활용해서 systemctl를 더욱 interactive하게사 용하는 스크립트 정도라고 할
-수 있다. 제작자도 오직 shell script로만 제작했다고강 조한다.
 
 매번 `systemctl status`를 치면서 번거로웠고, 마땅한 도구가 안보여서 fzf preview 를 활용해서 직접 만들까
 했는데, 오늘 보니 멀쩡한게 있다.
@@ -38,9 +36,6 @@ _VERSION: 1.4.3_
 
   - sysz를 뜯어보자.
 
-       <details>
-       <summary>source code of "sysz"</summary>
-
     ```bash
     _sysz_list() {
       local args
@@ -72,8 +67,6 @@ _VERSION: 1.4.3_
         done
     }
     ```
-
-       </details><br />
 
     뭐지? 내가 저렇게 똑같이 command 입력하고 살펴봐도 다 모아봐도 숫자가 다르다... 이상하다...
      이것만 너무 매달릴수 없으니 일단은 넘어가자...

@@ -5,7 +5,7 @@
 
 - [issue to gitsigns.nvim plugin](issue to gitsigns.nvim plugin)
 - [vim을 왜 쓸까?](vim을 왜 쓸까?)
-
+[what is chatGPT](/dev-posts/what_is_chatGPT): 2024-05-03
 
 * TODO
 

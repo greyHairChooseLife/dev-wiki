@@ -52,7 +52,7 @@ Gatsby측에서 직접 만든 plugin도 있고, 커뮤니티에서 만들어지�
 <details>
   <summary>요약: 일반적인 데이터 사용 과정</summary>
   <div style="background-color: #E2EADD; padding: 10px">
-  
+
 1. Add a source plugin to add data into the GraphQL data layer.
 2. Use GraphiQL to design a query that responds with the data you want from the data layer.
 3. Add the query into your component.
@@ -75,7 +75,7 @@ page component와 이른바 building-block component에서의 query 사용이 �
 <details>
   <summary>building-block component</summary>
   <div style="background-color: #E2EADD; padding: 10px">
-  
+
 ```
 import { graphql, useStaticQuery } from "gatsby"
 

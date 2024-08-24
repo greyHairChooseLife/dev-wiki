@@ -1,3 +1,6 @@
+# 󰏢 rsync로 파일 주고받기
+
+
 ```bash
 rsync -az <path from> <user>@<host ip>:<path to>
 
@@ -10,6 +13,9 @@ rsync -az ./*.json sy@10.71.126.25:/home/sy/temp
 - a: 압축
 - z: 압축
 - r: 모든 하위 내용
+
+## 히스토리
+
 rsync -az ./KR*.json sy@10.71.126.200:/home/sy/Working/patent/detail-docker/inputs
 rsync -az index.js sy@10.71.126.200:/home/sy/Working/patent/detail-docker
 rsync -az /home/sy/cbpromaker/미래창업연구소/patent/scrappers/query_detail/src/grepData.js sy@10.71.126.200:/home/sy/Working/patent/detail-docker/src/

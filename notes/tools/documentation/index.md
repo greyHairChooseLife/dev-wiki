@@ -1,9 +1,11 @@
+# 󰏢 Document
+
 ---
 title: 'mkdocs의 활용'
 date: 2024-04-18
 ---
 
-# 왜 mkdocs?
+## 왜 mkdocs?
 
 - 오픈소스
 
@@ -15,9 +17,28 @@ date: 2024-04-18
 - markdown
 - git과의 궁합
 
+
 ## 2. vim-wiki
 
-## 2.1. vim-wiki cheet-sheet
+### vim-wiki cheet-sheet
 
 [web A](https://gist.github.com/drkarl/4c503bccb62558dc85e8b1bc0f29e9cb)
 [web B](https://dokk.org/library/vimwiki_1.1.1_quick_reference_Posp%C3%ADchal_2011)
+
+
+
+## temp
+
+```bash # 현재 디렉토리 내의 파일명에 공백이 있을 때, 공백을 '_'(under-bar)로 변경하기
+
+for file in *\ *; do mv "$file" "${file// /_}"; done
+```
+
+
+## deprecated
+
+> [!lg] Log 2024-08-24
+> 처음엔 이렇게 gatsby로 시도했었다.
+>
+> [1탄: gatsby 이해하기](/tools/documentation/1탄:_gatsby_이해하기)
+> [2탄: github pages 배포하기](/tools/documentation/2탄:_github_pages_배포하기)

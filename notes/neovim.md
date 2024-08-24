@@ -1,2 +1,0 @@
-- [neovim에서 ts_error_prettify 사용하기](neovim에서 ts_error_prettify 사용하기)
-- [모든 keymap 확인하기](모든 keymap 확인하기)

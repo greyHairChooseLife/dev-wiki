@@ -32,14 +32,11 @@
 
 ## Tool List
 
-- server
-  [bore](/concepts_and_tools/tools/bore.md):
-    simple tcp tunnel CLI. make localhost to public server
-
 - container
   [docker](/concepts_and_tools/tools/docker.md):
   [HUB: kubernetes](/concepts_and_tools/tools/kubernetes/index.md):
 
+-
 
 > [!rf]
 >

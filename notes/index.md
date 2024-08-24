@@ -4,27 +4,28 @@
   따라서, 가급적 개조식으로 작성한다._
 
 
-```bash
-# 현재 디렉토리 내의 파일명에 공백이 있을 때, 공백을 _로 변경하기
-for file in *\ *; do mv "$file" "${file// /_}"; done
-```
+## 1. How to Dev
 
-## TOC
+[HUB: Problem Solving](/problem_solving/index.md)
+[HUB: Post](/dev-posts/index.md)
 
-[HUB: Problem Solving](problem_solving/index.md)
-[HUB: Post](dev-posts/index.md)
+[HUB: Workflow](/workflows/index.md)
+[HUB: Concept & Tool](/concepts_and_tools/index.md)
 
-[HUB: Workflow](workflows/index.md)
-[HUB: Concept & Tool](concepts_and_tools/index.md)
+### Tools
 
+[ Document](/tools/documentation/index.md)
+[ Git](/tools/git_and_github/index.md) [-]
+[ Vim](/tools/vim/index.md)
+[ System admin](/tools/system_admin/index.md)
 
+## 3. Life
 
 
 ## (temperal)from here to here
 
   _이 메뉴의 내용은 모두 바로 위에 TOC로 옮기도록 하자. (sub-directory를 구성하는 작업)_
 
-[Tools](Tools)
 [Projects](Projects)
 [Architectures](Architectures)
 [CICD](CICD)
@@ -151,7 +152,7 @@ for file in *\ *; do mv "$file" "${file// /_}"; done
 [-] 디스플레이매니저를 다시시작하는 방법도 있다고 한다. i3 wm을 말하는게 아니고, lightdm을 말한다. (system)service니까 systemctl restart lightdm해주자.
 
 
-## Scratch Pad
+## 4. Scratch
 
 - 경주 골든 페스티벌:
   - 날짜: 2024.9.27(금) ~ 2024.9.29(일)
