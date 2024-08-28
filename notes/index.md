@@ -12,15 +12,19 @@
 [HUB: Workflow](/workflows/index.md)
 [HUB: Concept & Tool](/concepts_and_tools/index.md)
 
-### Tools
+### 1.1 Tools
 
 [ Document](/tools/documentation/index.md)
 [ Git](/tools/git_and_github/index.md) [-]
-[ Vim](/tools/vim/index.md) [-]
+[ Vim](/tools/vim/index.md)
 [ System admin](/tools/system_admin/index.md)
 
-## 3. Life
 
+## 2. Life
+
+
+[ Hobby](/life/hobby/index.md)
+[ Car](/life/car/index.md)
 
 ## (temperal)from here to here
 
@@ -31,8 +35,9 @@
 [CICD](CICD)
 [Bugs](Bugs)
 [Devlog](Devlog)
-[Life](Life)
 [Tiny Posts](Tiny Posts)
+[Life](Life)
+
 
 ## Scratch Pad
 
@@ -150,6 +155,7 @@
 [-] nvim: ,R 커맨드(keymap)로 화면 얼어버리는 문제
 [-] xorg를 kill 및 -HUB하면 프로세스를 종료하지 않는다고 한다. 그런데 나는 그냥 다 종료된다.
 [-] 디스플레이매니저를 다시시작하는 방법도 있다고 한다. i3 wm을 말하는게 아니고, lightdm을 말한다. (system)service니까 systemctl restart lightdm해주자.
+[-] [Harvard CS50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
 
 
 ## 4. Scratch
@@ -170,3 +176,4 @@
 | 페스티벌 참가비  | 176,000    | 토~일, 하루 55,000, 이틀 88,000 |
 | 숙소A            | 60,000     | 게스트하우스, 2024-09-27(금)    |
 | 숙소B            | 109,000    | 한옥 펜션, 2024-09-28(토), 믿음 |
+

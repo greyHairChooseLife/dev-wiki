@@ -38,3 +38,9 @@ convert input.jpg -resize 50% output.jpg
 ```bash
 :%s/^/"/ | %s/$/"/
 ```
+
+
+## pnpm을 npm으로 되돌리기
+
+1. `rm pnpm-lock.yaml`
+2. `rm -rf node_modules`
