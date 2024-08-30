@@ -44,3 +44,15 @@ convert input.jpg -resize 50% output.jpg
 
 1. `rm pnpm-lock.yaml`
 2. `rm -rf node_modules`
+
+## puppeteer
+
+- 프록시 설정
+
+  ```javascript
+    const browser = await puppeteer.launch({
+      args: [
+        '--proxy-server=http://your-proxy-server:port', // 프록시 서버 주소
+      ]
+    });
+  ```
