@@ -56,3 +56,12 @@ convert input.jpg -resize 50% output.jpg
       ]
     });
   ```
+
+
+## pptx to image
+
+[web](https://convertio.co/kr/pptx-png/)
+
+## nodejs
+
+`node --max-old-space-size=8192 index.js`
