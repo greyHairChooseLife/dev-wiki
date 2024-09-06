@@ -22,9 +22,9 @@
 
 ## 2. Life
 
-
 [ Hobby](/life/hobby/index.md)
 [ Car](/life/car/index.md)
+[ 민주 시민의 책임과 권한](/life/democratic_citizen/index.md) [-]
 
 ## (temperal)from here to here
 

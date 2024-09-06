@@ -65,3 +65,11 @@ convert input.jpg -resize 50% output.jpg
 ## nodejs
 
 `node --max-old-space-size=8192 index.js`
+
+
+## zip, archive
+
+- 압축하기
+
+  `zip -r archive.zip ./dir`
+
