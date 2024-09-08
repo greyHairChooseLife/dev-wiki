@@ -1,17 +1,19 @@
 # 󰏢 HUB: Workflow
 
 
-## TOC
+## 1. 큰 것들
 
-[HUB: Big Data Engineering](/workflows/big_data_engineering/index.md)
-[HUB: Hardware Management](/workflows/hardware-management/index)
-[HUB: Web Dev](/workflows/web_dev/index)
+[ Big Data Engineering](/workflows/big_data_engineering/index.md)
+[ Hardware Management](/workflows/hardware-management/index)
+[ Web Dev](/workflows/web_dev/index)
 
-[HUB: project_initiator](/workflows/project_initiator/index.md)
+[ Init Setting](/workflows/project_initiator/index.md)
 
-## web scrapping
+## 2. 작은 것들
 
-> [!lg] 웹 접근성 기반 선택자를 활용하자
+### 2.1. web scrapping
+
+> [!lg]웹 접근성 기반 선택자를 활용하자
 >
 > - 접근성 기반 선택자 사용의 실제 예시
 >
@@ -30,26 +32,45 @@
 >   접근성 기반 선택자는 웹 스크래핑, 자동화 테스트, UI 테스트 등에서 안정적으로 사용할 수 있는 강력한 도구입니다.
 
 
-
-
-
-
-
-## 서버 관리
+### 2.2. 서버 관리
 
 [비밀번호 없이 ssh 연결하기](/workflows/서버관리/비밀번호_없이_ssh_연결하기)
 [rsync로 파일 주고받기](/workflows/서버관리/rsync로_파일_주고받기)
 [nfs로 디렉토리 공유하기](/workflows/서버관리/nfs로_디렉토리_공유하기)
 
-## cloud storage
+### 2.3. cloud storage
 
 [rclone으로 클라우드 스토리지 서비스 동기화](/workflows/cloud_storage/rclone으로_클라우드_스토리지_서비스_동기화)
 
 
-## shell scripting
+### 2.4. shell scripting [-]
 
 [shellcheck](/workflows/shell_scripting/shellcheck.md): 쉘 스크립트 에러 체크
-  [-] 근데 shell script는 LSP가 없나? 있을것같은데...한번 대조해보자.
+  [-]근데 shell script는 LSP가 없나? 있을것같은데...한번 대조해보자.
+
+### 2.5. CI/CD
+
+> [!cn] 개념정리
+>
+> 배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요소이다. 요구사항을 파악하고 빠르게 반영하기도 바쁜데, 배포가 매끄럽지 못해서 턱턱 막힌다면 진짜 갑갑하다.
+
+> [!ye] single container SPA
+>
+> [실습 github](https://github.com/study-and-trial/static-site)
+>
+> - 파이프라인 구성요소
+>   - dev 서버
+>   - github-action runner 서버
+>   - container (image)registry
+>   - 배포 서버
+>
+> - 작업 순서
+>   1. 개발 진행
+>   2. github push 또는 pr merge에 따라 runner 실행(적절한 방식을 runner의 트리거로 설정한다.)
+>   3. runner server(github 또는 self-hosted)에서 runner 실행:
+>      1. container (image)registry 로그인
+>      2. 컨테이너 이미지 빌드, 레지스트리에 push
+>      3. 배포서버에 ssh 접속하여 이미지 pull, 컨테이너 재시작
 
 
 ## tiny

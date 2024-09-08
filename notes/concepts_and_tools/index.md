@@ -1,8 +1,15 @@
 # 󰏢 HUB: Concept & Tool
 
-  _단순히 '정의'뿐 아니라  '연관된 생태계'에서의 위상까지 정리해보자_
 
+**how to lean something?**
 
+1. 공식문서를 슬쩍 본다.
+2. 일단 튜토리얼이든 생각나는거든 해본다.
+3. 안되거나 궁금해진걸 찾아본다.
+4. 어느정도 된다 싶으면 잘만들어진 소스를 찾아보고 비교해서 습득한다.
+5. 도큐먼트를 어느정도 꼼꼼히 본다.
+6. 좀 고급?기능을 사용해본다.
+7. 도큐먼트를 꼼꼼히보거나 오픈소스의 경우 언어의 라이브러리 혹은 제품의 소스를 까본다.
 
 ## Concept List
 
@@ -21,6 +28,13 @@
 - Web Dev:
   [static website vs dynamic website](/concepts_and_tools/concepts/web_dev/static_website_vs_dynamic_website)
 
+  - express.js
+
+    > [!qt] why unerscore prefix for unused 'req' or 'res' in express.js?
+    >   󱞪 "해당 파라미터는 사용하지 않음"을 명시적으로 표시하기 위해서다.
+    >     [ref](https://stackoverflow.com/questions/59119738/what-is-the-reason-for-prefixing-unused-parameters-with-an-underscore)
+
+
 
 ### draft
 
@@ -35,8 +49,6 @@
 - container
   [docker](/concepts_and_tools/tools/docker.md):
   [HUB: kubernetes](/concepts_and_tools/tools/kubernetes/index.md):
-
--
 
 > [!rf]
 >

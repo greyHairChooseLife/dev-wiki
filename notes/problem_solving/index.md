@@ -5,7 +5,8 @@
 
 ## 해결되지 않은 문제
 
-[docker named volume through NFS protocol](docker_named_volume_through_NFS_protocol)
+[docker named volume through NFS protocol](/problem_solving/docker_named_volume_through_NFS_protocol)
 
 ## 해결된 문제
 
+[domain status: clientHold](/problem_solving/domain_status:_clientHold)

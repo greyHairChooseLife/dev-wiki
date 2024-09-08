@@ -1,9 +1,8 @@
----
-title: '10시 이후로는 언어정보의 input을 제한한다.'
-birth: '2023-06-21'
-modified:
-slug: 'Language-Information-input-is-restricted-after-10PM.'
----
+# 󰏢 10시 이후로는 언어정보의 input을 제한한다.
+
+[lg] 2023-06-21
+
+
 
 아침에 일찍 한 5~6시쯤 일어나고 싶은데 잘 안된다. 그런데 잘 생각 해 보니 잘 안되는 것은 일찍 일어나는 것이 아니라 일찍 자는 것이다. 왜 그럴까?
 
