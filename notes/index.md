@@ -6,18 +6,18 @@
 
 ## 1. 프로그래밍 [-]
 
-[ Problem Solving](/problem_solving/index.md)
-[ Post](/dev-posts/index.md)
-
-[ Workflow](/workflows/index.md) [-]
-[ Concept & Tool](/concepts_and_tools/index.md)
+[ Problem Solving](/Programing/problem_solving/index.md)
+[ Post](/Programing/posts/index.md)
+[ Workflow](/Programing/workflows/index.md) [-]
+[ Concept & Tool](/Programing/concepts_and_tools/index.md)
 
 ### 1.1 개발환경
 
-[ Document](/tools/documentation/index.md)
-[ Git](/tools/git_and_github/index.md)
-[ Vim](/tools/vim/index.md)
-[ System admin](/tools/system_admin/index.md)
+[ Document](/dev-tools/documentation/index.md)
+[ Git](/dev-tools/git_and_github/index.md)
+[ Vim](/dev-tools/vim/index.md)
+[ System admin](/dev-tools/system_admin/index.md)
+[ shell script](/dev-tools/shell_script/index.md)
 
 
 ## 2. Project
@@ -64,19 +64,19 @@
 
 [ 수필](/life/수필/index.md)
 [ Hobby](/life/hobby/index.md)
-[ Car](/life/car/index.md)
+[ Car](/life/car/index.md) [-]
 [ 민주 시민의 책임과 권한](/life/democratic_citizen/index.md) [-]
 
 
-## Cheat Sheet
+## Cheat Sheet [-]
 
-[hardware manage](hardware manage)
-[system configs](system-configs)
-[file share & control](file share & control)
-[awesome command history](awesome-command-history)
-[Surfingkeys](/cheat_sheet/Surfingkeys_extension.md) [-]
+[ Hardware](/Cheat_Sheet/hardware_manage)
+[ System configs](/Cheat_Sheet/System_configs)
+[ file share & control](/Cheat_Sheet/file_share_&_control)
+[ awesome command history](/Cheat_Sheet/awesome_command_history)
+[ Surfingkeys](/Cheat_Sheet/Surfingkeys) [-]
 
-## Todo: 공부할 것
+## Todo: 공부할 것 [-]
 
 - devops:
   [knowledge tree](https://subicura.com/devops/guide/deploy.html)
@@ -204,28 +204,9 @@
 [-] [Harvard CS50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
 [-] javascript는 얼마나 많은 시스템 리소스를 사용할 수 있을까?
 
-## 4. Scratch
-
-- 경주 골든 페스티벌:
-  - 날짜: 2024.9.27(금) ~ 2024.9.29(일)
-  - 숙소:
-    - 금요일: [게스트하우스 2인실](https://www.yeogi.com/domestic-accommodations/11288?checkIn=2024-09-27&checkOut=2024-09-29&personal=2)
-    - 토요일: [한옥 펜션](https://www.yeogi.com/domestic-accommodations/67500?checkIn=2024-09-27&checkOut=2024-09-29&personal=2)
-
-
-- 예산:
-
-  총액: ~
-
-| 내용             | 금액       | 비고                            |
-| :--------------: | ---------: | --------------------            |
-| 페스티벌 참가비  | 176,000    | 토~일, 하루 55,000, 이틀 88,000 |
-| 숙소A            | 60,000     | 게스트하우스, 2024-09-27(금)    |
-| 숙소B            | 109,000    | 한옥 펜션, 2024-09-28(토), 믿음 |
-
-
-
 https://www.youtube.com/watch?v=pbwYllmXHjk
 https://www.youtube.com/watch?v=C1cSuv_V0M8
 https://www.youtube.com/watch?v=XnfsucgWApE
 https://www.youtube.com/watch?v=ny-L_KLrKIU
+
+## 4. Scratch
