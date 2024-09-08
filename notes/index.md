@@ -223,3 +223,9 @@
 | 숙소A            | 60,000     | 게스트하우스, 2024-09-27(금)    |
 | 숙소B            | 109,000    | 한옥 펜션, 2024-09-28(토), 믿음 |
 
+
+
+https://www.youtube.com/watch?v=pbwYllmXHjk
+https://www.youtube.com/watch?v=C1cSuv_V0M8
+https://www.youtube.com/watch?v=XnfsucgWApE
+https://www.youtube.com/watch?v=ny-L_KLrKIU
