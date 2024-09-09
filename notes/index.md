@@ -64,17 +64,17 @@
 
 [ 수필](/life/수필/index.md)
 [ Hobby](/life/hobby/index.md)
-[ Car](/life/car/index.md) [-]
+[ Car](/life/car/index.md)
 [ 민주 시민의 책임과 권한](/life/democratic_citizen/index.md) [-]
 
 
-## Cheat Sheet [-]
+## Cheat Sheet
 
 [ Hardware](/Cheat_Sheet/hardware_manage)
 [ System configs](/Cheat_Sheet/System_configs)
 [ file share & control](/Cheat_Sheet/file_share_&_control)
 [ awesome command history](/Cheat_Sheet/awesome_command_history)
-[ Surfingkeys](/Cheat_Sheet/Surfingkeys) [-]
+[ Surfingkeys](/Cheat_Sheet/Surfingkeys)
 
 ## Todo: 공부할 것 [-]
 
