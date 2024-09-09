@@ -3,10 +3,10 @@
 
 ## 1. 큰 것들
 
-[ Big Data Engineering](/workflows/big_data_engineering/index.md)
-[ Hardware Management](/workflows/hardware-management/index)
-[ Web Dev](/workflows/web_dev/index)
-[ Init Setting](/workflows/project_initiator/index.md)
+[ Big Data Engineering](/Programing/workflows/big_data_engineering/index.md)
+[ Hardware Management](/Programing/workflows/hardware-management/index)
+[ Web Dev](/Programing/workflows/web_dev/index)
+[ Init Setting](/Programing/workflows/project_initiator/index.md)
 
 ## 2. 작은 것들
 
@@ -33,21 +33,16 @@
 
 ### 2.2. 서버 관리
 
-[비밀번호 없이 ssh 연결하기](/workflows/서버관리/비밀번호_없이_ssh_연결하기)
-[rsync로 파일 주고받기](/workflows/서버관리/rsync로_파일_주고받기)
-[nfs로 디렉토리 공유하기](/workflows/서버관리/nfs로_디렉토리_공유하기)
+[비밀번호 없이 ssh 연결하기](/Programing/workflows/서버관리/비밀번호_없이_ssh_연결하기)
+[rsync로 파일 주고받기](/Programing/workflows/서버관리/rsync로_파일_주고받기)
+[nfs로 디렉토리 공유하기](/Programing/workflows/서버관리/nfs로_디렉토리_공유하기)
 
 ### 2.3. cloud storage
 
-[rclone으로 클라우드 스토리지 서비스 동기화](/workflows/cloud_storage/rclone으로_클라우드_스토리지_서비스_동기화)
+[rclone으로 클라우드 스토리지 서비스 동기화](/Programing/workflows/cloud_storage/rclone으로_클라우드_스토리지_서비스_동기화)
 
 
-### 2.4. shell scripting [-]
-
-[shellcheck](/workflows/shell_scripting/shellcheck.md): 쉘 스크립트 에러 체크
-  [-]근데 shell script는 LSP가 없나? 있을것같은데...한번 대조해보자.
-
-### 2.5. CI/CD
+### 2.4. CI/CD
 
 > [!cn] 개념정리
 >
@@ -74,8 +69,7 @@
 
 ## tiny
 
-/workflows/tiny/bor
 - server
-  [bore](/concepts_and_tools/tools/bore.md):
+  [bore](/Programing/concepts_and_tools/tools/bore.md):
     simple tcp tunnel CLI. make localhost to public server
 

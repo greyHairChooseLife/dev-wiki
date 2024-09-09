@@ -31,7 +31,7 @@
     c. Aggregating
         - 전체 데이터를 종합하여 하나의 값으로 요약
         - `Array.reduce`, `Array.forEach` 등 활용
-        - [Danfo.js](/workflows/big_data_engineering/danfoJs.md)
+        - [Danfo.js](/Programing/workflows/big_data_engineering/danfoJs.md)
 
     d. Visualization
         1. [d3.js](https://d3js.org/)

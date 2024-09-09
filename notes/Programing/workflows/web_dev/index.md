@@ -31,4 +31,4 @@
 
 ## 2. Design
 
-[스타일링](/workflows/web_dev/style)
+[스타일링](/Programing/workflows/web_dev/style)

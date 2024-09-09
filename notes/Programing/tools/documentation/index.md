@@ -47,5 +47,5 @@ date: 2024-04-18
 > [!lg] Log 2024-08-24
 > 처음엔 이렇게 gatsby로 시도했었다.
 >
-> [1탄: gatsby 이해하기](/dev-tools/documentation/1탄:_gatsby_이해하기)
-> [2탄: github pages 배포하기](/dev-tools/documentation/2탄:_github_pages_배포하기)
+> [1탄: gatsby 이해하기](/Programing/tools/documentation/1탄:_gatsby_이해하기)
+> [2탄: github pages 배포하기](/Programing/tools/documentation/2탄:_github_pages_배포하기)

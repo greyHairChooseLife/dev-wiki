@@ -4,22 +4,29 @@
 
 ## 자주 사용하는 명령어
 
-- rclone listremotes
-  : 등록된 remotes 리스트
+- 등록된 remotes 리스트
 
-- rclone ls <remote>:<path>
-  : <remote>의 <path> 파일리스트
+  `rclone listremotes`
 
-- rclone tree
-  : 걍 tree랑 똑같다.
+- <remote>의 <path> 파일리스트
 
-- rclone copy <source path> <remote>:<dest path>
-  : copy는 이름이 중복이면 건너뛴다.
-  : --progress 진행상황 flag
+  `rclone ls <remote>:<path>`
 
-- rclone sync <src path> <remote>:<dest path>
-  : 중복이면 덮어쓴다. remote만 modifeid 되는것.
+- 걍 tree랑 똑같다.
+
+  `rclone tree`
+
+- copy는 이름이 중복이면 건너뛴다.
+
+  `rclone copy <source path> <remote>:<dest path>`
+
+- 중복이면 덮어쓴다. remote만 modifeid 되는것.
+
+  `rclone sync <src path> <remote>:<dest path>`
 
 
+## 유용한 flag
 
+- 진행률 표시
 
+  `--progress`

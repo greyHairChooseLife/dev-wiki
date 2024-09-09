@@ -4,23 +4,25 @@
   따라서, 가급적 개조식으로 작성한다._
 
 
-## 1. 프로그래밍 [-]
+## 1. 프로그래밍
 
 [ Problem Solving](/Programing/problem_solving/index.md)
 [ Post](/Programing/posts/index.md)
-[ Workflow](/Programing/workflows/index.md) [-]
+[ Workflow](/Programing/workflows/index.md)
 [ Concept & Tool](/Programing/concepts_and_tools/index.md)
 
 ### 1.1 개발환경
 
-[ Document](/dev-tools/documentation/index.md)
-[ Git](/dev-tools/git_and_github/index.md)
-[ Vim](/dev-tools/vim/index.md)
-[ System admin](/dev-tools/system_admin/index.md)
-[ shell script](/dev-tools/shell_script/index.md)
+[ Document](/Programing/tools/documentation/index.md)
+[ Git](/Programing/tools/git_and_github/index.md)
+[ Vim](/Programing/tools/vim/index.md)
+[ System admin](/Programing/tools/system_admin/index.md)
+[ shell script](/Programing/tools/shell_script/index.md)
 
 
 ## 2. Project
+
+부지런히 해~
 
 ### 2.1 떠오르는 아이디어
 
@@ -51,8 +53,8 @@
 
 ### 2.2. 구체화된 아이디어 [-]
 
-[ anki-diary](/projects/idea/anki-diary) [-]
-[ 충북프로메이케센터 홈페이지 리뉴얼](/projects/idea/충북프로메이케센터_홈페이지_리뉴얼)
+[ anki-diary](/Project/idea/anki-diary) [-]
+[ 충북프로메이케센터 홈페이지 리뉴얼](/Project/idea/충북프로메이케센터_홈페이지_리뉴얼)
 
 ## 3. Life [-]
 
@@ -62,10 +64,10 @@
   3. 잘 모르는 부분, 지나치게 복잡한 부분(전문용어를 사용했다던가)을 찾는다.
   4. `3.`에서 찾은 내용을 더 쉽고 단순하게 설명하기 위해 추가적으로 조사한다.
 
-[ 수필](/life/수필/index.md)
-[ Hobby](/life/hobby/index.md)
-[ Car](/life/car/index.md)
-[ 민주 시민의 책임과 권한](/life/democratic_citizen/index.md) [-]
+[ 수필](/Life/수필/index.md)
+[ Hobby](/Life/hobby/index.md)
+[ Car](/Life/car/index.md)
+[ 민주 시민의 책임과 권한](/Life/democratic_citizen/index.md) [-]
 
 
 ## Cheat Sheet
@@ -165,8 +167,6 @@
 
 - 아무거나
   [let's encrypt with docker](https://ywtechit.tistory.com/454)
-  [협업에 개발환경 맞추기](https://beoks.tistory.com/entry/Docker-Compose-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95-%EC%9D%BC%EB%8C%80%EA%B8%B0local-dev-prod)
-  [github as db, json as db](https://www.youtube.com/watch?v=cYP0k_shdWc)
   [python](https://www.google.com/search?q=30%20dayas%20of%20python)
   [python](https://www.google.com/search?q=geek%20computers)
   [browser list](https://www.youtube.com/results?search_query=%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0+%EC%BB%B4%ED%93%A8%ED%84%B0)
@@ -183,8 +183,6 @@
   [browser list](https://www.youtube.com/watch?v=Bwf8AoGFq8M)
   [browser list](https://www.youtube.com/watch?v=0Ssx7jJJADI)
   [spark on k8s](https://blog.banksalad.com/tech/spark-on-kubernetes/)
-  [배치 프로세싱 vs 스트리밍 프로세싱](https://velog.io/@roo333/%EB%B0%B0%EC%B9%98-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1-VS-%EC%8A%A4%ED%8A%B8%EB%A6%BC-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1)
-  [left issue on docker compose repo](https://github.com/docker/compose/issues/11852)
 
 ## Todo [-]
 
