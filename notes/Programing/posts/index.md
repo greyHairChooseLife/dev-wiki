@@ -9,3 +9,6 @@
 [I just wanted to deploy my code!](/Programing/posts/I_just_wanted_to_deploy_my_code!)
 [오픈소스에 난생처음 PR 날리기](/Programing/posts/오픈소스에_난생처음_PR_날리기)
 
+
+[개발자로서 어떻게 살아남을까?](개발자로서_어떻게_살아남을까?)
+

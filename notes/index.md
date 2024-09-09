@@ -80,6 +80,12 @@
 
 ## Todo: 공부할 것 [-]
 
+- 잘 정리된 튜토리얼들, `TS`, `python` 등 간단한 주제별로 있다.
+  [tutorials](https://www.squash.io/tutorials/)
+
+- big data
+  [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
+
 - devops:
   [knowledge tree](https://subicura.com/devops/guide/deploy.html)
   [learning path](https://www.youtube.com/watch?v=qJAxwVHKRfU)
@@ -140,32 +146,17 @@
   [learn how to project-1](https://github.com/boostcampwm-2022)
   [learn how to project-2](https://www.essential2189.dev/db-performance-fts)
 
-- chatGPT:
-  [활용사례](https://www.youtube.com/watch?v=9Ibegk8Yhy0)
-  [개발자는 어떻게 살아남을까](https://www.youtube.com/watch?v=U55ex_ga7_k)
-  [개발자는 어떻게 살아남을까](https://www.youtube.com/watch?v=M2T-4SoLY-0)
-
-- 일상생활:
-  [닉네임은 농부: 여러가지 식물 재배](https://www.clien.net/service/board/lecture/18686416?od=T31&po=0&category=0&groupCd=allreview)
-  [Re : 제로부터 시작하는… 월순익 1,000만원 만드는 슬로우 라이프 하기로 했습니다. (Ep. 1~4)](https://www.jianyang.co.kr/p/re-1000-ep-14)
-
-- about vimwiki:
-  [hacker news about vimwiki](https://news.ycombinator.com/item?id=13157497)
-
 - visual design:
   [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
   [youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
   [youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
 
-- tutorials:
-  [javascript](https://www.squash.io/tutorials/)
 
-- css style
-  [css-1](https://animista.net/)
-  [css-2](https://www.youtube.com/watch?v=OWaHfpHxgb8)
-  [bigdata with javascript](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
+- 각종
+  [커뮤니티 구축 방법론](https://www.jianyang.co.kr/p/7-feat?utm_source=publication-search)
 
-- 아무거나
+
+- 썩었다.
   [let's encrypt with docker](https://ywtechit.tistory.com/454)
   [python](https://www.google.com/search?q=30%20dayas%20of%20python)
   [python](https://www.google.com/search?q=geek%20computers)
