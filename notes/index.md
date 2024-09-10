@@ -87,6 +87,8 @@
 - big data
   [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
 
+- [css 학습 채널](https://www.youtube.com/@lundeveloper)
+
 - devops:
   [knowledge tree](https://subicura.com/devops/guide/deploy.html)
   [learning path](https://www.youtube.com/watch?v=qJAxwVHKRfU)
@@ -145,6 +147,8 @@
   [e-commerce example site](https://contents.clayful.store/)
   [learn how to project-1](https://github.com/boostcampwm-2022)
   [learn how to project-2](https://www.essential2189.dev/db-performance-fts)
+  [건전지 사용 제품을 충전지 방식으로 개조하기](https://www.youtube.com/watch?v=-zltotyU1Ek)
+
 
 - visual design:
   [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
