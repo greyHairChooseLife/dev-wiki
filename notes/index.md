@@ -68,6 +68,7 @@
 [ Hobby](/Life/hobby/index.md)
 [ Car](/Life/car/index.md)
 [ 민주 시민의 책임과 권한](/Life/democratic_citizen/index.md) [-]
+[ 냠냠](/Life/냠냠/index.md)
 
 
 ## Cheat Sheet
@@ -108,10 +109,9 @@
   [cicd-4](https://nihaldias.medium.com/nginx-vs-serve-for-deploying-react-applications-642c3135aadc)
 
 - productivitiy
-  [multiple goals](https://www.youtube.com/watch?v=sxKu2a8glEE)
-  [calendar](https://www.youtube.com/watch?v=Y2uOsl_4sXc)
-  [gpt calendar](https://www.youtube.com/watch?v=JKJ1rso3WNc)
   [web: au vimEnter \* call Bye2023()](https://au-vimenter.github.io/post/2023-12-23-au-vimenter/)
+    [session 1](https://www.youtube.com/watch?v=EacPHrYRc_4)
+    [session 2](https://www.youtube.com/watch?v=lbZkCPaFom0)
   [An Experienced (Neo)Vimmer's Workflow](https://seniormars.com/posts/neovim-workflow/)
 
 - tools
