@@ -73,3 +73,20 @@ convert input.jpg -resize 50% output.jpg
 
   `zip -r archive.zip ./dir`
 
+
+## pdf 조작
+
+- 180도 회전
+
+  `qpdf --rotate=180 input.pdf output.pdf`
+
+## youtube 다운로드
+
+- 오디오만 추출
+
+  `yt-dlp -x --audio-format mp3 <url>`
+
+## vim buffer sort
+
+- Acending : {'n', 'v'} `:sort`
+- Decending: {'n', 'v'} `:sort!`

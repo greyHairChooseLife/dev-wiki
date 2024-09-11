@@ -1,9 +1,16 @@
 # 󰏢 Document
 
----
+
+
+[-] job diary에서 **회의** 파트가 생겼는데, 이것도 todo 페이지처럼 양식이 있으면 좋을듯
+
+[-] 아래 내용 재정리 필요
+
+
+
 title: 'mkdocs의 활용'
 date: 2024-04-18
----
+
 
 ## 왜 mkdocs?
 
@@ -49,3 +56,4 @@ date: 2024-04-18
 >
 > [1탄: gatsby 이해하기](/Programing/tools/documentation/1탄:_gatsby_이해하기)
 > [2탄: github pages 배포하기](/Programing/tools/documentation/2탄:_github_pages_배포하기)
+

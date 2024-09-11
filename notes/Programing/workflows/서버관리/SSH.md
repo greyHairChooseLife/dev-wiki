@@ -1,5 +1,50 @@
-# 󰏢 비밀번호 없이 ssh 연결하기
+# 󰏢 SSH protocol
 
+
+
+## 서버 측
+
+_: 접속 대상, 목적지_
+
+- sshd(SSH daemon)가 실행되고 있어야 한다.
+
+  ```bash
+  sudo systemctl status sshd
+  ```
+
+- configuraion 파일은 `/etc/ssh/sshd_config`에 있다.
+
+  > [!ye] 설정 변경 후 서비스 재시작 필요
+
+  - 비밀번호 인증 사용 여부
+    : `PasswordAuthentication <yes/no>`
+  - 기본포트번호 변경
+    : `Port <번호>`
+
+
+## 클라이언트 측
+
+_: 접속 요청지, 출발지_
+
+- ssh-client가 필요하다.
+
+  ```bash
+  # 설치 확인
+  ssh -V
+
+  # 필요시 설치
+  pacman -S openssh
+  ```
+
+
+## ssh 접속
+
+```bash
+ssh -i <사용할_키> -p <포트번호> <user>@<host>
+```
+
+
+## 비밀번호 없이 ssh 연결하기
 
 접속하려는 서버측에 ~/.ssh/authorized_keys 파일에 클라이언트 측의 공개키를 등록하면 비밀번호 없이 ssh 접속이 가능하다.
 
@@ -12,7 +57,6 @@
    ```bash
    ssh-copy-id -i ~/.ssh/id_rsa.pub <user>@<host>
    ```
-
 
 > [!re] 특이사항
 >

@@ -33,7 +33,7 @@
 
 ### 2.2. 서버 관리
 
-[비밀번호 없이 ssh 연결하기](/Programing/workflows/서버관리/비밀번호_없이_ssh_연결하기)
+[SSH protocol](/Programing/workflows/서버관리/SSH)
 [rsync로 파일 주고받기](/Programing/workflows/서버관리/rsync로_파일_주고받기)
 [nfs로 디렉토리 공유하기](/Programing/workflows/서버관리/nfs로_디렉토리_공유하기)
 

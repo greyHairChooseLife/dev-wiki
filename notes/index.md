@@ -11,11 +11,11 @@
 [ Workflow](/Programing/workflows/index.md)
 [ Concept & Tool](/Programing/concepts_and_tools/index.md)
 
-### 1.1 개발환경
+### 1.1 개발환경 [-]
 
-[ Document](/Programing/tools/documentation/index.md)
+[ Document](/Programing/tools/documentation/index.md) [-]
 [ Git](/Programing/tools/git_and_github/index.md)
-[ Vim](/Programing/tools/vim/index.md)
+[ Vim](/Programing/tools/vim/index.md) [-]
 [ System admin](/Programing/tools/system_admin/index.md)
 [ shell script](/Programing/tools/shell_script/index.md)
 
@@ -79,7 +79,7 @@
 [ awesome command history](/Cheat_Sheet/awesome_command_history)
 [ Surfingkeys](/Cheat_Sheet/Surfingkeys)
 
-## Todo: 공부할 것 [-]
+## Reference: 공부할 것 [-]
 
 - 잘 정리된 튜토리얼들, `TS`, `python` 등 간단한 주제별로 있다.
   [tutorials](https://www.squash.io/tutorials/)
@@ -87,7 +87,29 @@
 - big data
   [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
 
-- [css 학습 채널](https://www.youtube.com/@lundeveloper)
+- 생산성
+  [From note-taking to note-making](https://nesslabs.com/from-note-taking-to-note-making)
+  [The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
+  [7 Habits For Effective Text Editing](https://www.youtube.com/watch?v=eX9m3g5J-XA)
+  [터미널 색 구성 '과학적'으로 조리하기](https://c.innori.com/155)
+  [한글 가이드 문서: bash-shell, sed, awk, make, macro](https://mug896.github.io/bash-shell/bug_reports.html)
+  [온라인 글쓰기 1편: 좋은 **질문**하기](https://github.com/WieeRd/questionable/blob/master/i18n/ko.md#%EA%B0%84%EB%8B%A8-%EC%9A%94%EC%95%BD)
+  [온라인 글쓰기 2편: 좋은 **답변**하기](https://edykim.com/ko/post/tech-has-a-toxic-tone-problem-lets-fix-it/)
+
+- visual design:
+  [css 학습 채널](https://www.youtube.com/@lundeveloper)
+
+  > [!re] ai 붐 이후 많이 바뀌었을텐데, 현시점에도 의미있는 근본적인 내용인지 판단 필요
+  >   [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
+  >   [youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
+  >   [youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
+
+- etc
+  [커뮤니티 구축 방법론](https://www.jianyang.co.kr/p/7-feat?utm_source=publication-search)
+
+
+---
+
 
 - devops:
   [knowledge tree](https://subicura.com/devops/guide/deploy.html)
@@ -109,12 +131,6 @@
   [cicd-2](https://velog.io/@rmswjdtn/posts)
   [cicd-3](https://www.youtube.com/watch?v=6-RtA6FlbgQ)
   [cicd-4](https://nihaldias.medium.com/nginx-vs-serve-for-deploying-react-applications-642c3135aadc)
-
-- productivitiy
-  [web: au vimEnter \* call Bye2023()](https://au-vimenter.github.io/post/2023-12-23-au-vimenter/)
-    [session 1](https://www.youtube.com/watch?v=EacPHrYRc_4)
-    [session 2](https://www.youtube.com/watch?v=lbZkCPaFom0)
-  [An Experienced (Neo)Vimmer's Workflow](https://seniormars.com/posts/neovim-workflow/)
 
 - tools
   [lazySQL](https://github.com/jorgerojas26/lazysql)
@@ -148,17 +164,6 @@
   [learn how to project-1](https://github.com/boostcampwm-2022)
   [learn how to project-2](https://www.essential2189.dev/db-performance-fts)
   [건전지 사용 제품을 충전지 방식으로 개조하기](https://www.youtube.com/watch?v=-zltotyU1Ek)
-
-
-- visual design:
-  [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
-  [youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
-  [youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
-
-
-- 각종
-  [커뮤니티 구축 방법론](https://www.jianyang.co.kr/p/7-feat?utm_source=publication-search)
-
 
 - 썩었다.
   [let's encrypt with docker](https://ywtechit.tistory.com/454)
