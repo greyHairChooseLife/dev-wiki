@@ -90,3 +90,7 @@ convert input.jpg -resize 50% output.jpg
 
 - Acending : {'n', 'v'} `:sort`
 - Decending: {'n', 'v'} `:sort!`
+
+## 내 ip 확인, my ip
+
+- `curl ifconfig.me`

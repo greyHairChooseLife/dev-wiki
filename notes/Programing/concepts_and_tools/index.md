@@ -34,6 +34,10 @@
     >   󱞪 "해당 파라미터는 사용하지 않음"을 명시적으로 표시하기 위해서다.
     >     [ref](https://stackoverflow.com/questions/59119738/what-is-the-reason-for-prefixing-unused-parameters-with-an-underscore)
 
+- 게임 개발
+  [초보자를 위한 게임개발 총론](https://gpgstudy.com/gpgiki/%EC%B4%88%EB%B3%B4%EC%9E%90_Faq)
+  [flutter game dev Big series](https://www.youtube.com/watch?v=Kwn1eHZP3C4&ab_channel=Spellthorn)
+  [flutter game dev Small series](https://www.youtube.com/watch?v=wUf3UytV4wQ&ab_channel=TreyCodes)
 
 
 ### draft

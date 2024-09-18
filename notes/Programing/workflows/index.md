@@ -1,6 +1,20 @@
 # 󰏢 HUB: Workflow
 
 
+> [!ye] 나의 성과를 측정/평가 하자
+>
+> - 생산적인 **기간**을 보내기 위해서는...
+>
+>   1. **나를 평가하는 사람**의 기준을 명확하게 인지해야 한다.
+>   2. **나 스스로**의 기준이 명확하게 있어야한다.(즉, 나의 목표 부터가 명확해야 한다.)
+>
+> - 생산적인 **하루**를 보내기 위해서는...
+>
+>   1. 큰 일을 작은 일로 나눈다.
+>   2. 완료의 기준을 명확히 한다.
+>   3. 코딩도 마찬가지다.
+
+
 ## 1. 큰 것들
 
 [ Big Data Engineering](/Programing/workflows/big_data_engineering/index.md)
@@ -10,7 +24,8 @@
 
 ## 2. 작은 것들
 
-### 2.1. web scrapping
+
+### web scrapping
 
 > [!lg]웹 접근성 기반 선택자를 활용하자
 >
@@ -31,13 +46,17 @@
 >   접근성 기반 선택자는 웹 스크래핑, 자동화 테스트, UI 테스트 등에서 안정적으로 사용할 수 있는 강력한 도구입니다.
 
 
-### 2.2. 서버 관리
+### 서버 파일, dir 관리
 
-[SSH protocol](/Programing/workflows/서버관리/SSH)
 [rsync로 파일 주고받기](/Programing/workflows/서버관리/rsync로_파일_주고받기)
 [nfs로 디렉토리 공유하기](/Programing/workflows/서버관리/nfs로_디렉토리_공유하기)
 
-### 2.3. cloud storage
+### SSH [-]
+
+[SSH protocol](/Programing/workflows/서버관리/SSH) [-]
+
+
+### cloud storage: google drive 등
 
 [rclone으로 클라우드 스토리지 서비스 동기화](/Programing/workflows/cloud_storage/rclone으로_클라우드_스토리지_서비스_동기화)
 
@@ -65,6 +84,7 @@
 >      1. container (image)registry 로그인
 >      2. 컨테이너 이미지 빌드, 레지스트리에 push
 >      3. 배포서버에 ssh 접속하여 이미지 pull, 컨테이너 재시작
+
 
 
 ## tiny
