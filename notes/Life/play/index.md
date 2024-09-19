@@ -1,5 +1,24 @@
-# 󰏢 냠냠
+# 󰏢 Hobby
 
+
+
+## 1. Movie
+
+### 1.1 Sooner or Later
+
+| Title         | Director     |
+| ---           | ---          |
+| Cool World    | Ralph Bakshi |
+| 흔들리는 도쿄 | 봉준호       |
+
+
+## 2. 놀러갈 곳
+
+![충북 수영 스팟](./statics/swim_spot.png)
+
+
+
+## 3. 냠냠
 
 > [!gr] 냉동숙성회 무한리필
 >
@@ -17,3 +36,4 @@
 > 사장님의 저서
 > ‘주문하신 인생 한 그릇 나왔습니다‘ 책 구매 링크
 > https://buly.kr/Csi4fo7
+
