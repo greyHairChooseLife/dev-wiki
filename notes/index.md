@@ -80,6 +80,8 @@
 [ 민주 시민의 책임과 권한](/Life/democratic_citizen/index.md) [-]
 [ 좋은 가족, 좋은 친구 되기](/Life/좋은_가족,_좋은_친구_되기/index.md)
 
+[ 운동](/Life/운동/index.md)
+
 
 ## Cheat Sheet
 
