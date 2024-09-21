@@ -8,6 +8,8 @@
 [docker named volume through NFS protocol](/Programing/problem_solving/docker_named_volume_through_NFS_protocol)
 
 
-## 해결된 문제
+## 해결된 문제 [-]
 
 [domain status: clientHold](/Programing/problem_solving/domain_status:_clientHold)
+
+[-] github pages에 client-side 프로젝트를 배포하면서 어떻게 인증정보 관련 보안을 유지할 수 있을까?

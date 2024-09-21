@@ -15,15 +15,16 @@
 >   3. 코딩도 마찬가지다.
 
 
-## 1. 큰 것들
+## 1. 큰 것들 [-]
 
 [ Big Data Engineering](/Programing/workflows/big_data_engineering/index.md)
 [ Hardware Management](/Programing/workflows/hardware-management/index)
 [ Web Dev](/Programing/workflows/web_dev/index)
 [ Init Setting](/Programing/workflows/project_initiator/index.md)
+[ AI driven process](/Programing/workflows/AI_driven_process/index.md) [-]
+
 
 ## 2. 작은 것들
-
 
 ### web scrapping
 
@@ -51,9 +52,9 @@
 [rsync로 파일 주고받기](/Programing/workflows/서버관리/rsync로_파일_주고받기)
 [nfs로 디렉토리 공유하기](/Programing/workflows/서버관리/nfs로_디렉토리_공유하기)
 
-### SSH [-]
+### SSH
 
-[SSH protocol](/Programing/workflows/서버관리/SSH) [-]
+[SSH protocol](/Programing/workflows/서버관리/SSH)
 
 
 ### cloud storage: google drive 등
