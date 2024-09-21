@@ -63,8 +63,12 @@
 
 ### 2.2. 구체화된 아이디어 [-]
 
-[ anki-diary](/Project/idea/anki-diary) [-]
-[ 충북프로메이케센터 홈페이지 리뉴얼](/Project/idea/충북프로메이케센터_홈페이지_리뉴얼)
+[ anki-diary](/Project/ideas/anki-diary) [-]
+[ 충북프로메이케센터 홈페이지 리뉴얼](/Project/ideas/충북프로메이케센터_홈페이지_리뉴얼)
+
+### 2.3. 진행중 [-]
+
+[ 칭찬 수집기](/Project/진행중/칭찬_수집기/index.md) [-]
 
 ## 3. Life [-]
 
@@ -121,6 +125,7 @@
   [The twelve-factor app](https://12factor.net/)
   [Harvard CS 50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
   [파이썬 버전이 달라지며 뭐가 바뀌었나?](https://www.youtube.com/watch?v=XnfsucgWApE)
+  [천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
 
 - 잘 정리된 튜토리얼들, `TS`, `python` 등 간단한 주제별로 있다.
   [tutorials: English](https://www.squash.io/tutorials/)
