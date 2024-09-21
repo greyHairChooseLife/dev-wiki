@@ -8,7 +8,12 @@
 >
 > [배포](https://greyhairchooselife.github.io/compliment-collector/)
 
-## chat-gpt 가이드라인
+## Update Log [-]
+
+[-] 하루 한번만 칭찬을 할 수 있도록 제한, 하루의 기준은 한국 기준 24:00
+[-] 칭찬 기록에 시간 표현은 현지 기준 읽기 쉬운 형태로 수정(현재 UTC 기준)
+
+## 개발 가이드라인 with chatGPT
 
 - 요청 프롬프트:
 
