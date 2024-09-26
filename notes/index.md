@@ -6,23 +6,23 @@
 
 ## 1. 프로그래밍 [-]
 
-  [ Problem Solving](/Programing/problem_solving/index.md) [-]
-  [ Post](/Programing/posts/index.md)
-  [ Workflow](/Programing/workflows/index.md) [-]
-  [ Concept & Tool](/Programing/concepts_and_tools/index.md)
+[ Problem Solving](/Programing/problem_solving/index.md) [-]
+[ Post](/Programing/posts/index.md)
+[ Workflow](/Programing/workflows/index.md) [-]
+[ Concept & Tool](/Programing/concepts_and_tools/index.md)
 
 ### 1.1 개발환경 [-]
 
-  [ Document](/Programing/tools/documentation/index.md) [-]
-  [ Git](/Programing/tools/git_and_github/index.md)
-  [ Vim](/Programing/tools/vim/index.md) [-]
-  [ System admin](/Programing/tools/system_admin/index.md)
-  [ shell script](/Programing/tools/shell_script/index.md)
+[ Document](/Programing/tools/documentation/index.md) [-]
+[ Git](/Programing/tools/git_and_github/index.md)
+[ Vim](/Programing/tools/vim/index.md) [-]
+[ System admin](/Programing/tools/system_admin/index.md)
+[ shell script](/Programing/tools/shell_script/index.md)
 
 
 ## 2. Project
 
-  _"더 열심히 해"_ from.고은상
+_"더 열심히 해"_ from.고은상
 
 ### 2.1 떠오르는 아이디어
 
@@ -70,23 +70,24 @@
 
 [ 칭찬 수집기](/Project/진행중/칭찬_수집기/index.md) [-]
 
+
 ## 3. Life [-]
 
-  > [!gr] 무언가를 배우는 방법
-  >
-  > 1. 공부 하려는 주제에 대해 조사한다.
-  > 2. 설명을 적어 본다. 가상의 10살 어린이를 앞에 두고.
-  > 3. 잘 모르는 부분, 지나치게 복잡한 부분(전문용어를 사용했다던가)을 찾는다.
-  > 4. `3.`에서 찾은 내용을 더 쉽고 단순하게 설명하기 위해 추가적으로 조사한다.
+> [!gr] 무언가를 배우는 방법
+>
+> 1. 공부 하려는 주제에 대해 조사한다.
+> 2. 설명을 적어 본다. 가상의 10살 어린이를 앞에 두고.
+> 3. 잘 모르는 부분, 지나치게 복잡한 부분(전문용어를 사용했다던가)을 찾는다.
+> 4. `3.`에서 찾은 내용을 더 쉽고 단순하게 설명하기 위해 추가적으로 조사한다.
 
 
-  [ 수필](/Life/수필/index.md)
-  [ 놀자](/Life/play/index.md)
-  [ Car](/Life/car/index.md)
-  [ 민주 시민의 책임과 권한](/Life/democratic_citizen/index.md) [-]
-  [ 좋은 가족, 좋은 친구 되기](/Life/좋은_가족,_좋은_친구_되기/index.md)
+[ 수필](/Life/수필/index.md)
+[ 놀자](/Life/play/index.md)
+[ Car](/Life/car/index.md)
+[ 민주 시민의 책임과 권한](/Life/democratic_citizen/index.md) [-]
+[ 좋은 가족, 좋은 친구 되기](/Life/좋은_가족,_좋은_친구_되기/index.md)
 
-  [ 운동](/Life/운동/index.md)
+[ 운동](/Life/운동/index.md)
 
 
 ## Cheat Sheet
@@ -100,18 +101,23 @@
 
 ## Read & Watch: Dev [-]
 
+- 시간 죽이기 게임
+
+  [ 알고리즘 게임: CodinGame](https://www.codingame.com/training)
+  [CSS 게임: Css Diner](https://flukeout.github.io/)
+
 - 알고리즘
 
   1. 근데 알고리즘도 뭐 그렇게 어렵지는 않고, 아래에서 크게 벗어나지는 않더라구요.
-     - 문법 숙지 -> 브루트포스 -> 백트래킹 -> 자료구조 공부(STL) -> DFS -> BFS -> 다익스트라 -> 유니온파인드 -> MST
-       (이후)
-     - 정렬
-     - 이분탐색
-     - 그리디
-     - 기본적인 DP
-     - 비트마스킹
-     - 유클리드호제법
-     - 에라토스테네스의 체
+    - 문법 숙지 -> 브루트포스 -> 백트래킹 -> 자료구조 공부(STL) -> DFS -> BFS -> 다익스트라 -> 유니온파인드 -> MST
+     (이후)
+    - 정렬
+    - 이분탐색
+    - 그리디
+    - 기본적인 DP
+    - 비트마스킹
+    - 유클리드호제법
+    - 에라토스테네스의 체
 
   2. 저희 회사도 막 신박한 희안한 알고리즘 가져와서 풀어야되는걸 내기보다는 알고리즘을 제대로 이해했는지, 제약사항이 주어졌을 때 어떻게 개선할 수 있고 얼마나 개선됐는지 설명할 수 있는지 이런걸 봐요. Big O 노테이션으로다가.
   3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
