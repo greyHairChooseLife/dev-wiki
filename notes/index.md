@@ -92,10 +92,10 @@ _"더 열심히 해"_ from.고은상
 
 ## Cheat Sheet
 
+  [ awesome command history](/Cheat_Sheet/awesome_command_history)
   [ Hardware](/Cheat_Sheet/hardware_manage)
   [ System configs](/Cheat_Sheet/System_configs)
   [ file share & control](/Cheat_Sheet/file_share_&_control)
-  [ awesome command history](/Cheat_Sheet/awesome_command_history)
   [ Surfingkeys](/Cheat_Sheet/Surfingkeys)
 
 
