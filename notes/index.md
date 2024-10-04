@@ -61,6 +61,14 @@ _"더 열심히 해"_ from.고은상
 
 > [!ye] 어떤거 만들어볼만한지는 awesome-selfhosted에 적당히 괜찮은 주제들이 있어요
 
+
+> [!ye] 게임 아이디어
+>
+> [요런 스타일](https://www.youtube.com/watch?v=YPowsippmRM) 좋다.
+>
+> [로그라이크류](https://www.youtube.com/watch?v=JFAzdybohUc)도 재밌다.
+
+
 ### 2.2. 구체화된 아이디어 [-]
 
 [ anki-diary](/Project/ideas/anki-diary) [-]
