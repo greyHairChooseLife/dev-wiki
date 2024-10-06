@@ -69,6 +69,14 @@ _"더 열심히 해"_ from.고은상
 > [로그라이크류](https://www.youtube.com/watch?v=JFAzdybohUc)도 재밌다.
 
 
+> [!ye] 유아(6세 이하 초등입학 전)용 동화 읽어주고 각종 질문에 대답해주는 인형
+>
+> - 비용 절감
+> - 어린이 레벨에 맞는 안전한 대화
+> - 하드웨어
+> - 마케팅
+
+
 ### 2.2. 구체화된 아이디어 [-]
 
 [ anki-diary](/Project/ideas/anki-diary) [-]
@@ -196,3 +204,7 @@ _"더 열심히 해"_ from.고은상
 
 
 ## 4. Scratch
+
+[퀄리티 좋은 유투버](https://www.youtube.com/watch?v=LlYzkt2m8NY)
+
+
