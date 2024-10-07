@@ -43,7 +43,7 @@ docker cp index.js ps2:/usr/src/app/index.js
 ```bash
 # imagemagick 패키지를 이용
 # 화질 구지
-convert input.jpg -resize 50% output.jpg
+magick input.jpg -resize 50% output.jpg
 ```
 
 
