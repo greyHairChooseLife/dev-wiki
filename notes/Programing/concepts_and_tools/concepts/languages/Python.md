@@ -59,7 +59,7 @@ _꾸준히 조금씩 기록해 나가자._
 _3.5 버전부터 적용_
 
 - type hint를 사용하면 정적 타입을 지정할 수 있다.
-  단, 이는 **타입 체크를 하지 않는다.** IDE에서 에러가 있다고 표시해주는 역할 정도다.
+  **단, 이는 타입 체크를 하지 않는다.** IDE에서 에러가 있다고 표시해주는 역할 정도다.
 
   ```python
   def add(a: int, b: int) -> int:
@@ -83,8 +83,6 @@ _3.5 버전부터 적용_
 - `is` 연산자로 `None`인지 확인할 수 있다.
   ex) `thisValue is None`
 
-- JS의 `undefined`와 비슷하다.
-
 
 #### 숫자형: 정수, 실수 등
 
@@ -95,7 +93,6 @@ _3.5 버전부터 적용_
 
 
 #### 문자형
-
 
 문자열은 `''`, `""`, `''' '''`, `""" """`로 표현한다.
 
@@ -196,6 +193,8 @@ _3.5 버전부터 적용_
 
 #### set(집합)
 
+- `{a, b, ...}`로 표현한다.
+
 - 중복을 허용하지 않는다.
 
 - 순서가 없다. (따라서 인덱싱을 할 수 없다.)
@@ -251,9 +250,10 @@ _3.5 버전부터 적용_
 
 ### 함수 functino
 
-- JS와 달리 **넘치거나, 부족한 인자**를 받으면 **에러**가 발생한다.
+- **넘치거나, 부족한 인자**를 받으면 **에러**가 발생한다.
 
 - return이 없는 경우 `None`을 반환한다.
+  JS가 `undefined`를 반환하듯이
 
 - positional argument와 keyword argument가 있다.
 
@@ -364,9 +364,9 @@ _3.5 버전부터 적용_
     - `file.write('내용')`으로 쓴다.
     - 기존 내용 뒤에 **추가한다.**
 
-  - `open`했으면 `close` 해야 한다.
+  - **주의!!** `open`했으면 `close` 해야 한다.
 
-    단, `with` 구문을 활용해 스코프 내에서만 사용하고 자동으로 `close`할 수 있다.
+    단, `with open(FILE, MODE) as my_file:` 구문을 활용해 스코프 내에서만 사용하고 자동으로 `close`할 수 있다.
 
     ```python
     with open('file.txt', 'r') as file:
@@ -397,7 +397,7 @@ $python file.py 100 200
 
 일정한 (클래스)변수와 함수(메소드)를 가진 객체를 찍어내는 틀이다.
 
-- 객체명은 맨 앞글자를 대문자로 쓰는게 관례다.
+- 클래스명은 맨 앞글자를 대문자로 쓰는게 관례다.
 
 - `self`는 객체 자신을 가리킨다. (JS의 this와 비슷하다.)
 
@@ -407,7 +407,7 @@ $python file.py 100 200
 
   인스턴스 수준에서 재할당 가능은 하지만, 굳이??
 
-- `def method: ...` 처럼, 메소드의 구현을 생략하고 인터페이스만 정의할 수 있다.
+- `def method: ...` 처럼, 말줄임표로 메소드의 구현을 생략하고 인터페이스만 정의할 수 있다.
 
 
 #### 상속
@@ -450,10 +450,11 @@ from 모듈_이름 import 모듈_함수A, 모듈_함수B
 
   즉, `__name__`은 예약어로써, 해당 구문이 현재 파일에 정의된 것인지, import된 모듈에 정의된 것이지 구분한다. import된 모듈에서 정의된 것이라면 모듈의 이름이 `__name__`이 된다.
 
-  - 활용 예라면 모듈 개발시 테스트 코드를 작성할 수 있다.
+  - 활용 예로 모듈 개발시 테스트 코드를 작성할 수 있다.
 
 - 모듈 내에서 정의된 변수, 클래스 등은 import된 위치에서 뭐든 호출할 수 있다.
   JS와 달리 `export`를 따로 선언할 필요가 없다.
+  _(이건 오히려 불편할듯? global 키워드처럼 뭔가 표현이 있으면 좋을텐데)_
 
 - import 하려는 모듈의 경로를 추가해야할 수 있다.
 
@@ -511,20 +512,45 @@ from my_package import math_operations
     - 위와같은 이유로 `from pkg import *` 방식은 권장하지 않는다. `import pkg`를 사용하자.
 
 
+### 가상환경
 
+npm에 node_modules/가 있는 것처럼, 파이썬에도 가상환경이 있다. `python -m venv myvenv/` 하여 생성한다.
 
+```bash
+# tree -L 2 myenv/
 
+myenv/
+├── bin
+│   ├── activate
+│   ├── activate.csh
+│   ├── activate.fish
+│   ├── Activate.ps1
+│   ├── pip
+│   ├── pip3
+│   ├── pip3.12
+│   ├── python -> /usr/bin/python
+│   ├── python3 -> python
+│   └── python3.12 -> python
+├── include
+│   └── python3.12
+├── lib
+│   └── python3.12
+├── lib64 -> lib
+└── pyvenv.cfg
 
+7 directories, 11 files
+```
 
+- `source myenv/bin/activate`를 실행하면 가상환경이 활성화된다.
 
+  - 이렇게 가상환경에 진입하면 `pip 명령어` 등을 프로젝트 베이스로 실행할 수 있다.
+  - 이 때를 기준으로 pip freeze, pip install 하며 패키지를 관리한다.
+  - deactivate로 빠져나올 수 있다.
 
+- `source myenv/bin/activate --system-site-packages`로 시스템 패키지를 가상환경에서 사용(만) 할 수 있다.
 
-
-
-
-
-
-
+> [!rf]
+> [유툽](https://www.youtube.com/watch?v=YQKxAJKMgbo)
 
 
 ### 예외처리 exception handling
@@ -542,10 +568,10 @@ from my_package import math_operations
     # 항상 실행하는 코드
   ```
 
-  - except에 아무것도 안쓰면 모든 예외를 받아낸다.
+  - except 뒤에 아무 예외도 지정하지 않으면 모든 예외를 받아낸다.
 
 
-- `raise`로 예외를 발생시킬 수 있다.
+- `raise`로 예외를 임의 발생시킬 수 있다.
 
   ```python
   class BasePersonClass:
@@ -555,11 +581,8 @@ from my_package import math_operations
             raise MyError()
   ```
 
-  - 왜 예외를 일부러 발생시킬까?
-
-    여러가지 목적이 있겠지만, 클래스를 상속받을 때 자식 클래스에서 메소드를 반드시 재정의(구현)하도록 강제할 수도 있다.
-
-    또는 임의의 에러 조건을 만들어낼 때 사용한다.
+  ex) 클래스를 상속받을 때 자식 클래스에서 메소드를 반드시 재정의(구현)하도록 강제할 수도 있다.
+  ex) 임의의 에러 조건을 만들어낼 때 사용한다.
 
 
 ### 내장함수 built-in function

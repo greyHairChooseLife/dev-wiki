@@ -1,8 +1,21 @@
 # 󰏢 System admin
 
 
-[sysz](/dev-tools/system_admin/sysz.md): `systemctl`을 편리하게!
+## TOC
 
+[sysz](/Programing/tools/system_admin/sysz.md): `systemctl`을 편리하게!
+
+- x11 세션에서 wayland세션을 실행할 수 있다.(session in session)
+
+  weston DE를 활용해서 가능한데,
+
+  ```bash
+  # weston 설치
+  sudo pacman -S weston
+
+  # background 실행
+  weston --backend=x11-backend.so
+  ```
 
 
 ## One day, maybe?
