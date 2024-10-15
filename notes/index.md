@@ -4,6 +4,13 @@
   따라서, 가급적 개조식으로 작성한다._
 
 
+**HOT LINKS**
+
+[견적서 관리](/Project/진행중/견적서_관리/index.md) [-]
+
+
+
+
 ## 1. 프로그래밍 [-]
 
 [ Problem Solving](/Programing/problem_solving/index.md) [-]
@@ -22,7 +29,7 @@
 
 
 
-## 2. Project
+## 2. Project [-]
 
 _"더 열심히 해"_ from.고은상
 
