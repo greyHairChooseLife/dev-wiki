@@ -4,7 +4,6 @@
   따라서, 가급적 개조식으로 작성한다._
 
 
-ssdflkj
 ## 1. 프로그래밍 [-]
 
 [ Problem Solving](/Programing/problem_solving/index.md) [-]
@@ -19,6 +18,8 @@ ssdflkj
 [ Vim](/Programing/tools/vim/index.md) [-]
 [ System admin](/Programing/tools/system_admin/index.md)
 [ shell script](/Programing/tools/shell_script/index.md)
+[ browser](/Programing/tools/browser/index.md)
+
 
 
 ## 2. Project
@@ -114,11 +115,11 @@ _"더 열심히 해"_ from.고은상
 
 ## Cheat Sheet
 
-  [ awesome command history](/Cheat_Sheet/awesome_command_history)
-  [ Hardware](/Cheat_Sheet/hardware_manage)
-  [ System configs](/Cheat_Sheet/System_configs)
-  [ file share & control](/Cheat_Sheet/file_share_&_control)
-  [ Surfingkeys](/Cheat_Sheet/Surfingkeys)
+[ command history](/Cheat_Sheet/command_history)
+[ awesome API](/Cheat_Sheet/awesome_API)
+[ Hardware](/Cheat_Sheet/hardware_manage)
+[ System configs](/Cheat_Sheet/System_configs)
+[ file share & control](/Cheat_Sheet/file_share_&_control)
 
 
 ## Read & Watch: Dev [-]
