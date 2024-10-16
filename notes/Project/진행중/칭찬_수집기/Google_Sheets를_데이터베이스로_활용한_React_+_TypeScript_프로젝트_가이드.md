@@ -6,6 +6,7 @@
 3. 서비스 계정을 만들고 JSON 형태로 인증 키를 다운로드
 4. 구글 시트에서 서비스 계정 이메일을 공유하여 API에서 데이터를 읽고 쓸 수 있도록 권한 설정
 
+
 ## 2. React + Vite 프로젝트 시작
 
 ### Vite로 React 프로젝트 초기화:
@@ -31,6 +32,7 @@ npm install @types/react @types/react-dom typescript
 ```bash
 npm install googleapis
 ```
+
 
 ## 3. Google Sheets API 연동 코드 작성
 
@@ -66,6 +68,7 @@ async function appendSheetData(newData: string[][]) {
 }
 ```
 
+
 ## 4. GitHub Pages로 배포
 
 ### `vite.config.js` 파일에서 `base` 경로 설정:
@@ -85,5 +88,6 @@ git subtree push --prefix dist origin gh-pages
 ```
 
 ## 5. 중요 고려 사항
+
 - Google Sheets API는 비동기로 작동하므로 적절한 로딩 상태 관리가 필요합니다.
 - API 요청 시 보안 문제를 고려하여, API 키는 서버에서 관리하는 것이 좋습니다.

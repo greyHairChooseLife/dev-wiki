@@ -13,6 +13,29 @@
 [-] 하루 한번만 칭찬을 할 수 있도록 제한, 하루의 기준은 한국 기준 24:00
 [x] 칭찬 기록에 시간 표현은 현지 기준 읽기 쉬운 형태로 수정(현재 UTC 기준)
 
+> [!dt]2024-10-16
+> [x] cors 설정을 통해 AWS lambda의 요청을 제한적으로 허용. 쉽게말해 배포한 gh-pages domain에서만 해당 lambda를 호출할 수 있도록 설정.
+>
+>  󱞪 _AWS API gateway에서 각 api마다 cors설정 할 수 있다._
+>
+>   - `Access-Control-Allow-Origin` 옵션에 접근 가능한 도메인을 지정해준다.
+>   - `Access-Control-Allow-Methods` 옵션에 `GET, OPTIOPNS`를 지정해 준다.
+>   - AWS lambda에서 return 헤더에 아래와같이 추가해준다.
+>     ```javascript
+>     return {
+>       statusCode: 200,
+>       headers: {
+>         'Access-Control-Allow-Headers': '*',
+>         'Access-Control-Allow-Origin': 'https://greyhairchooselife.github.io',
+>         'Access-Control-Allow-Methods': 'GET, OPTIONS', // OPTIONS을 추가하지 않으면 CORS 오류 발생
+>       },
+>       body: JSON.stringify({
+>        some: 'data',
+>       }),
+>     };
+>     ```
+
+
 ## 개발 가이드라인 with chatGPT
 
 - 요청 프롬프트:
@@ -82,7 +105,7 @@
      > [!qt] OAuth를 사용하여 해볼까?
      >   󱞪 사용자 입장에서 너무 번거롭다. 우리 클라이언트는 구글 등 플랫폼에 로그인 하는 것을 매번 수동으로 하신다.
 
-     [**AWS Lambda**를 사용하여 인증정보를 관리하고, 클라이언트는 이에 인증 결과만 받아서 사용하자.](AWS_Lambda를_사용하여_인증정보를_관리하고,_클라이언트는_이에_인증_결과만_받아서_사용하자.) [-]
+     [**AWS Lambda**를 사용하여 인증정보를 관리하고, 클라이언트는 이에 인증 결과만 받아서 사용하자.](AWS_Lambda를_사용하여_인증정보를_관리하고,_클라이언트는_이에_인증_결과만_받아서_사용하자.)
 
    - 실패 사례
      - library: [google-auth-library](https://github.com/googleapis/google-auth-library-nodejs)
@@ -99,7 +122,9 @@
    - library: [google-spreadsheet](https://github.com/theoephraim/node-google-spreadsheet)
 
 4. UI 디자인
-[-] 상의하고 해보자
+
+  내맘대루
+
 
 
 ## 배포 과정
