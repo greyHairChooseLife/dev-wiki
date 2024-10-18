@@ -131,6 +131,11 @@ _"더 열심히 해"_ from.고은상
 
 ## Read & Watch: Dev [-]
 
+- backend course
+  - [web-course](https://www.boot.dev/tracks/backend)
+  - [github](https://github.com/bootdotdev/curriculum/issues/5)
+
+
 - 시간 죽이기 게임
 
   [ 알고리즘 게임: CodinGame](https://www.codingame.com/training)
