@@ -213,7 +213,7 @@ _"더 열심히 해"_ from.고은상
   [secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
   [e-commerce example site](https://contents.clayful.store/)
   [부트캠프 팀 과제 커밋 히스토리 보는게 도움될듯](https://github.com/boostcampwm-2022)
-
+,.
 
 ## Read & Watch: other [-]
 
