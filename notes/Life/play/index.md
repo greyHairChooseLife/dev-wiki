@@ -6,10 +6,11 @@
 
 ### 1.1 Sooner or Later
 
-| Title         | Director     |
-| ---           | ---          |
-| Cool World    | Ralph Bakshi |
-| 흔들리는 도쿄 | 봉준호       |
+| Title                  | Director     |
+| ---                    | ---          |
+| Cool World             | Ralph Bakshi |
+| 흔들리는 도쿄          | 봉준호       |
+| 해리 프리그의 비밀전쟁 |              |
 
 
 ### 곤 사토시

@@ -7,6 +7,8 @@
 
 [docker named volume through NFS protocol](/Programing/problem_solving/docker_named_volume_through_NFS_protocol)
 
+[프로세스 조회 및 종료](/Programing/problem_solving/프로세스_조회_및_종료)
+
 
 ## 해결된 문제 [-]
 

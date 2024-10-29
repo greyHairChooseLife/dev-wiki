@@ -14,6 +14,7 @@
 ## Concept List
 
 - Language:
+  [javascript](/Programing/concepts_and_tools/concepts/languages/javascript)
   [dart](/Programing/concepts_and_tools/concepts/languages/dart/index.md)
   [Python](/Programing/concepts_and_tools/concepts/languages/Python)
 
