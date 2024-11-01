@@ -36,20 +36,4 @@ _ThePrimeagen이라는 개발자(유투브채널 운영)의 방식을 적용해�
 
 
 [모든 keymap 확인하기](/Programing/tools/vim/모든_keymap_확인하기)
-
 [how to get bigger icons?](https://www.reddit.com/r/neovim/comments/1f6a3q3/what_nerd_fonts_have_bigger_icons_than_the_others/)
-
-what is tagvar?
-what is tags?
-https://www.reddit.com/r/neovim/comments/mx6lfh/symbolsoutlinenvim_a_tree_like_view_for_symbols/
-https://github.com/liuchengxu/vista.vim
-https://github.com/liuchengxu/vista.vim/issues/257
-
-harpoon
-
-
-
-## TODO [-]
-
-[-] toggleTerm 플러그인으로 vim 버퍼 안에서 '다수의 고유한 터미널(id 부여)'을 열 수 있다. [관련 영상](https://www.youtube.com/watch?v=lbZkCPaFom0)
-[-] render-markdwon에서 링크 regex하여 오늘 날짜면 해당 날짜에 **TODAY** 같은거 표시해줄 수 있을라나? 링크가 아니라도 방법이 분명 있을듯
