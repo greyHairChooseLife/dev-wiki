@@ -255,3 +255,18 @@ _"더 열심히 해"_ from.고은상
 > _"너 (이 부분에 대해) 내가 어떻게 생각하고 있다고 생각해?"_
 >
 > 또한 내가 누군가를, 누군가 나를 평가 또는 판단 할 때 그것이 상대의 실체가 아닌 이해의 허상이라는 것을 유념하자.
+
+
+https://github.com/Aider-AI/aider
+https://github.com/nekowasabi/aider.vim
+https://github.com/joshuavial/aider.nvim
+https://www.youtube.com/watch?v=SGhPHkJ_YAI
+https://www.youtube.com/watch?v=4kzSV2xctjc
+https://www.youtube.com/watch?v=Igr6jQJEoNs
+https://www.youtube.com/watch?v=q240LsOW8ZQ&list=PL0sBvfbMvyZgIGNnegEVEOOMfroGkZBXx&index=8
+https://chatgpt.com/g/g-zjT7l8NAz-neovim-navigator/c/67274120-dc14-8013-9955-c46957b877d0
+https://www.reddit.com/r/neovim/comments/1ghzlx4/how_i_navigate_between_buffers_in_neovim_8_min/
+https://www.reddit.com/r/neovim/comments/1gi1s3r/introducing_focusnvim_a_best_of_both_worlds_zen/
+https://www.reddit.com/r/neovim/comments/1gi9iut/beta_symbolsnvim_code_outline_sidebar_my_first/
+
+
