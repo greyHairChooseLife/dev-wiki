@@ -270,3 +270,4 @@ https://www.reddit.com/r/neovim/comments/1gi1s3r/introducing_focusnvim_a_best_of
 https://www.reddit.com/r/neovim/comments/1gi9iut/beta_symbolsnvim_code_outline_sidebar_my_first/
 
 
+rofi install, config from github-gist, bashrc update, i3 update(config compare first)
