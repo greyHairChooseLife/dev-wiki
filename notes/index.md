@@ -262,12 +262,9 @@ https://github.com/nekowasabi/aider.vim
 https://github.com/joshuavial/aider.nvim
 https://www.youtube.com/watch?v=SGhPHkJ_YAI
 https://www.youtube.com/watch?v=4kzSV2xctjc
-https://www.youtube.com/watch?v=Igr6jQJEoNs
-https://www.youtube.com/watch?v=q240LsOW8ZQ&list=PL0sBvfbMvyZgIGNnegEVEOOMfroGkZBXx&index=8
-https://chatgpt.com/g/g-zjT7l8NAz-neovim-navigator/c/67274120-dc14-8013-9955-c46957b877d0
-https://www.reddit.com/r/neovim/comments/1ghzlx4/how_i_navigate_between_buffers_in_neovim_8_min/
-https://www.reddit.com/r/neovim/comments/1gi1s3r/introducing_focusnvim_a_best_of_both_worlds_zen/
-https://www.reddit.com/r/neovim/comments/1gi9iut/beta_symbolsnvim_code_outline_sidebar_my_first/
 
+**BETTER READ IT**
+[arch wiki python](https://wiki.archlinux.org/title/Python#Package_management)
 
-rofi install, config from github-gist, bashrc update, i3 update(config compare first)
+https://aider.chat/docs/usage.html
+
