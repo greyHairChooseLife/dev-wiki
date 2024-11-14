@@ -74,11 +74,9 @@
 
 
 
-# GitHub CLI 소프트 포크와 하드 포크 활용 워크플로우
-
 ## 3. 'soft vs hard' Fork
 
-### 3.1. 차이점
+### 차이점
 
 - soft Fork:
   원본 프로젝트와 상호작용을 **유지**하며, 자신의 저장소에서 실험 및 PR로 기여
@@ -86,85 +84,83 @@
 - hard Fork:
   원본 프로젝트와의 **연결을 끊고, 독립적으로** 프로젝트를 발전시킬 때 사용
 
-### 3.2. 워크플로우
+### 워크플로우 Soft Fork
 
-> [!ye] soft Fork
->
-> 1. 프로젝트 포크:
->    ```bash
->       gh repo fork original-owner/repository-name
->    ```
->
-> 2. 포크된 저장소 클론:
->    ```bash
->    git clone https://github.com/my-username/repository-name
->    ```
->
-> 3. 원본 저장소 리모트로 추가:
->    ```bash
->    cd repository-name
->    git remote add upstream https://github.com/original-owner/repository-name
->    git remote -v`
->    ```
->
-> 4. **(필요할 때)** 원본 프로젝트 업데이트 반영:
->    ```bash
->    `git fetch upstream`
->    `git checkout main`
->    `git merge upstream/main`
->    `git push origin main`
->    ```
->
-> 5. 브랜치 생성:
->    ```bash
->    git checkout -b feature/new-feature
->    ```
->
-> 6. 코드 변경 후 내 저장소에 기록:
->    ```bash
->    git add .
->    git commit -m "Add new feature"
->    git push origin feature/new-feature
->    ```
->
-> 7. PR 생성:
->    ```bash
->    gh pr create --base original-owner/main --head my-username:feature/new-feature --title "Add new feature" --body "This PR adds a new feature."
->    ```
+1. 프로젝트 포크:
+   ```bash
+      gh repo fork original-owner/repository-name
+   ```
 
-> [!ye] hard Fork
->
-> 1. 프로젝트 포크:
->    ```bash
->    gh repo fork original-owner/repository-name
->    ```
->
-> 2. 포크된 저장소 클론:
->    ```bash
->    git clone https://github.com/my-username/repository-name
->    ```
->
-> 3. (선택 사항)원본 저장소와의 연결 끊기:
->    ```bash
->    git remote remove upstream
->    ```
->
-> 4. 브랜치 생성 및 수정:
->    ```bash
->    cd repository-name
->    git checkout -b my-own-version
->    ```
->
-> 5. 코드 변경 후 커밋:
->    ```bash
->    git add .
->    git commit -m "Major changes to start independent project"
->    ```
->
-> 6. 내 저장소에 푸시:
->    ```bash
->    git push origin my-own-version
->    ```
+2. 포크된 저장소 클론:
+   ```bash
+   git clone https://github.com/my-username/repository-name
+   ```
+
+3. 원본 저장소 리모트로 추가:
+   ```bash
+   cd repository-name
+   git remote add upstream https://github.com/original-owner/repository-name
+   git remote -v`
+   ```
+
+4. **(필요할 때)** 원본 프로젝트 업데이트 반영:
+   ```bash
+   `git fetch upstream`
+   `git checkout main`
+   `git merge upstream/main`
+   `git push origin main`
+   ```
+
+5. 브랜치 생성:
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+
+6. 코드 변경 후 내 저장소에 기록:
+   ```bash
+   git add .
+   git commit -m "Add new feature"
+   git push origin feature/new-feature
+   ```
+
+7. PR 생성:
+   ```bash
+   gh pr create --base original-owner/main --head my-username:feature/new-feature --title "Add new feature" --body "This PR adds a new feature."
+   ```
+
+### 워크플로우 Hard Fork
+
+1. 프로젝트 포크:
+   ```bash
+   gh repo fork original-owner/repository-name
+   ```
+
+2. 포크된 저장소 클론:
+   ```bash
+   git clone https://github.com/my-username/repository-name
+   ```
+
+3. (선택 사항)원본 저장소와의 연결 끊기:
+   ```bash
+   git remote remove upstream
+   ```
+
+4. 브랜치 생성 및 수정:
+   ```bash
+   cd repository-name
+   git checkout -b my-own-version
+   ```
+
+5. 코드 변경 후 커밋:
+   ```bash
+   git add .
+   git commit -m "Major changes to start independent project"
+   ```
+
+6. 내 저장소에 푸시:
+   ```bash
+   git push origin my-own-version
+   ```
 
 
 ## 새 프로젝트 시작하기
@@ -173,6 +169,7 @@
 
 - vite 등의 도구로 initial-setting이 되어있는 경우, 새 코드를 작성하기 전에 먼저 필요없는 코드를 제거하는게 가장 깔끔할듯 싶다.
   한번에 모두 정리하기 힘들다면, 직후의 작업(커밋)으로 변경될 여지가 있는 놈들만이라도 remove로 **지우기만**하고 시작하면 코드 리뷰에 좋을듯.
+
 
 ## 99. deprecated
 

@@ -41,6 +41,17 @@
   [flutter game dev Big series](https://www.youtube.com/watch?v=Kwn1eHZP3C4&ab_channel=Spellthorn)
   [flutter game dev Small series](https://www.youtube.com/watch?v=wUf3UytV4wQ&ab_channel=TreyCodes)
 
+- AI coding:
+
+  - aider:
+
+    `/ask`: 일반적인 코드 관련 질문이나 작은 규모의 코드변경
+    `/architect`: 더 큰 규모의 설계나 아키텍쳐 결정
+
+    `aider --no-git`: 히스토리 관리 및 변경 파일 추적이 불가능하다. git 저장소가 아닌 경우 활용
+    `aider --no-auto-commits`: 변경사항을 커밋까지 하진 않는다.
+
+
 
 ### draft
 

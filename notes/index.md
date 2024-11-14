@@ -257,14 +257,6 @@ _"더 열심히 해"_ from.고은상
 > 또한 내가 누군가를, 누군가 나를 평가 또는 판단 할 때 그것이 상대의 실체가 아닌 이해의 허상이라는 것을 유념하자.
 
 
-https://github.com/Aider-AI/aider
-https://github.com/nekowasabi/aider.vim
-https://github.com/joshuavial/aider.nvim
-https://www.youtube.com/watch?v=SGhPHkJ_YAI
-https://www.youtube.com/watch?v=4kzSV2xctjc
-
 **BETTER READ IT**
 [arch wiki python](https://wiki.archlinux.org/title/Python#Package_management)
-
-https://aider.chat/docs/usage.html
 
