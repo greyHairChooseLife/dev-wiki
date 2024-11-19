@@ -32,8 +32,18 @@ _ThePrimeagen이라는 개발자(유투브채널 운영)의 방식을 적용해�
 - vista.vim
 
 
+### fork 떠온 플러그인 관리하기
+
+1. 포크 떠온다.
+2. `packer '<내 아이디>/<플러그인 이름>'`하여 설치한다.
+3. 개선이 필요할 때, `.local/share/nvim/site/pack/packer/start/`에서 이것저것 건드려 본다.
+4. 작업한 커밋을 push할땐, origin을 ssh전용 링크로 바꿔야한다. http(s)방식은 이제 못쓰니까.
+   커밋 히스토리는 상관없다면 remote을 새로 clone받아서 변경 내용(파일)을 복붙하고 커밋 및 push해도 간단한다.
+
+
 ## simple tips
 
 
 [모든 keymap 확인하기](/Programing/tools/vim/모든_keymap_확인하기)
 [how to get bigger icons?](https://www.reddit.com/r/neovim/comments/1f6a3q3/what_nerd_fonts_have_bigger_icons_than_the_others/)
+[비어있는 모든 키맵](https://breezewiki.nadeko.net/vim/wiki/Unused_keys)
