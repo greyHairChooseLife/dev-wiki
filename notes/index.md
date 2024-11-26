@@ -24,6 +24,7 @@
 [ System admin](/Programing/tools/system_admin/index.md)
 [ shell script](/Programing/tools/shell_script/index.md)
 [ browser](/Programing/tools/browser/index.md)
+[ AI](/Programing/tools/AI/index.md)
 
 
 
@@ -258,3 +259,11 @@ _"더 열심히 해"_ from.고은상
 **BETTER READ IT**
 [arch wiki python](https://wiki.archlinux.org/title/Python#Package_management)
 
+- 구입하자
+
+[소개](https://www.youtube.com/watch?v=fFNeuHAL3-E)
+[스타일 가이드 소개](https://www.youtube.com/watch?v=_7wO8CZEwBw)
+[구매링크](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbEJHSVk3LU5Qc2JLeVFwLXNQa1ZHSnBDcTBmQXxBQ3Jtc0trRkV1S0lGZnlfZjJnME1fdmh6eWdXLWRjVXZvS2FJMU52WHhONVFKcEhxSG5CeFM2VTdTV05fY3VhbVBDSnJmSUdheVp2SHlyLVlkaE85M1pDc2NiTGNRYURGY1BZTVdwdXpOZDlKRUVpX1h2TWY0aw&q=https%3A%2F%2Fwww.sixshop.com%2Fmadia%2Fproduct%2Fuiux_Styleguide_2)
+
+- 영화, 감자심포니
+- 최유리, 숲
