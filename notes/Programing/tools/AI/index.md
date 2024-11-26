@@ -1,6 +1,14 @@
 # 󰏢 index
 
 
+### vim 통합
+
+#### 플러그인
+
+https://github.com/GeorgesAlkhouri/nvim-aider?tab=readme-ov-file
+
+- 이 밖에도 최소 2개 플러그인 있다.
+
 
 ### slash 커맨드
 
