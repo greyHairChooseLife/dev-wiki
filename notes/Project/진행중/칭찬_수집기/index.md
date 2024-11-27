@@ -8,9 +8,9 @@
 >
 > [배포](https://greyhairchooselife.github.io/compliment-collector/)
 
-## Update Log [-]
+## Update Log
 
-[-] 하루 한번만 칭찬을 할 수 있도록 제한, 하루의 기준은 한국 기준 24:00
+[x] 하루 한번만 칭찬을 할 수 있도록 제한, 하루의 기준은 한국 기준 24:00
 [x] 칭찬 기록에 시간 표현은 현지 기준 읽기 쉬운 형태로 수정(현재 UTC 기준)
 
 > [!dt]2024-10-16
@@ -40,20 +40,82 @@
 
 - 요청 프롬프트:
 
-  ```txt
-  구글 sheets를 데이터베이스로 활용하는 간단한 스테틱 어플리케이션을 만들거야.
-  배포는 github pages로 하고싶은데, vite, react, typescript로 프로젝트를 시작할거야.
+  > 구글 sheets를 데이터베이스로 활용하는 간단한 스테틱 어플리케이션을 만들거야.
+  > 배포는 github pages로 하고싶은데, vite, react, typescript로 프로젝트를 시작할거야.
+  >
+  > google sheets와 연결하고 데이터를 쓰고 읽는 api 사용이 관건이겠는데, 이 부분에 대해서는 경험이 전혀 없어.
+  >
+  > 한번 가이드해봐
 
-  google sheets와 연결하고 데이터를 쓰고 읽는 api 사용이 관건이겠는데, 이 부분에 대해서는 경험이 전혀 없어.
+### 1. Google Sheets API 설정
 
-  한번 가이드해봐
+1. [Google Cloud Console](https://console.cloud.google.com/)에 접속하여 프로젝트 생성
+2. **Google Sheets API**를 활성화
+3. 서비스 계정을 만들고 JSON 형태로 인증 키를 다운로드
+4. 구글 시트에서 서비스 계정 이메일을 공유하여 API에서 데이터를 읽고 쓸 수 있도록 권한 설정
 
-  ```
 
-  [답변: Google_Sheets를_데이터베이스로_활용한_React_+_TypeScript_프로젝트_가이드](/Project/진행중/칭찬_수집기/Google_Sheets를_데이터베이스로_활용한_React_+_TypeScript_프로젝트_가이드)
+### 2. Google Sheets API 연동 코드 작성
+
+Google Sheets API를 사용하여 데이터를 읽고 쓰는 코드를 작성합니다.
+
+#### Google Sheets API를 사용한 데이터 읽기 및 쓰기 예시 코드:
+```typescript
+import { google } from 'googleapis';
+
+// 인증 정보 입력
+const sheets = google.sheets({ version: 'v4', auth: "your-auth" });
+
+// Google Sheets에서 데이터 읽기
+async function getSheetData() {
+  const res = await sheets.spreadsheets.values.get({
+    spreadsheetId: 'your-spreadsheet-id',
+    range: 'Sheet1!A1:D5', // 원하는 셀 범위
+  });
+  console.log(res.data.values);
+}
+
+// Google Sheets에 데이터 추가
+async function appendSheetData(newData: string[][]) {
+  const res = await sheets.spreadsheets.values.append({
+    spreadsheetId: 'your-spreadsheet-id',
+    range: 'Sheet1!A1',
+    valueInputOption: 'RAW',
+    requestBody: {
+      values: newData,
+    },
+  });
+  console.log('Data Appended:', res.data.updates);
+}
+```
 
 
-## 제작 과정: 1차 시도 [-]
+### 3. GitHub Pages로 배포
+
+#### `vite.config.js` 파일에서 `base` 경로 설정:
+GitHub Pages는 정적 파일을 서빙하므로 배포 시 베이스 경로를 설정해야 합니다.
+```javascript
+export default {
+  base: '/your-repo-name/',
+};
+```
+
+#### 프로젝트를 GitHub Pages로 배포:
+```bash
+npm run build
+git add dist -f
+git commit -m "Deploy"
+git subtree push --prefix dist origin gh-pages
+```
+
+### 4. 중요 고려 사항
+
+- Google Sheets API는 비동기로 작동하므로 적절한 로딩 상태 관리가 필요합니다.
+- API 요청 시 보안 문제를 고려하여, API 키는 서버에서 관리하는 것이 좋습니다.
+
+
+
+## 제작 과정: 1차 시도
 
 1. vite, ts, react 프로젝트 생성
 2. 시트 읽기: Google Sheets API 없이
@@ -65,7 +127,6 @@
    >
    > [video](https://www.youtube.com/watch?v=cRwpTv33Z_g)
    > [repo](https://github.com/theotrain/load-google-sheet-data-using-sql)
-   > [-]  columns 값을 얻기 위해서는 fetched response의 lable이 아니라 id를 가져와야한다. 기본적으로 lable은 빈 값이기 때문에 table data를 얻기 위해 순회하는 동안 동일한 column name에 의거, row마다의 마지막 요소로 덮어씌워져 버린다. 이것을 softfork 및 PR날려보자. 유투브 영상에 대하여도 감사를 표하자.
 
 > [!re] 개발 중단 2024-09-20
 >
@@ -78,7 +139,7 @@
 > 그리하여 현재 개발 내용은 따로 브랜치를 파서 보관하고, Google Sheet Api를 사용하는 방법 다시 시도한다.
 
 
-## 제작 과정: 2차 시도 [-]
+## 제작 과정: 2차 시도
 
 1. 구글 API 활성화  클라우드 프로젝트 생성
 
