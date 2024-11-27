@@ -102,6 +102,28 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 #### Operating System
 
 [만자로 시스템 복사(이사)하기](/Programing/concepts_and_tools/concepts/linux/만자로_시스템_복사하기)
+[sysz](/Programing/tools/system_admin/sysz.md): `systemctl`을 편리하게!
+
+
+> [!ye] 리눅스 종합 system configurations 관리 툴(아직 한창 개발중):
+>
+> [제작자 소개](https://www.youtube.com/watch?v=Zt0HnIMbzZQ)
+> [github](https://github.com/ChrisTitusTech/linutil)
+
+
+> [!ye] x11 세션에서 wayland 세션을 실행할 수 있다.(session in session)
+>
+> weston DE를 활용해서 가능한데,
+>
+> ```bash
+> # weston 설치
+> sudo pacman -S weston
+>
+> # background 실행
+> weston --backend=x11-backend.so
+> ```
+
+
 
 #### Post
 
@@ -109,6 +131,7 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 [gitsigns.nvim plugin에 이슈 남기기](/Programing/posts/gitsigns.nvim_plugin에_이슈_남기기)
 [nvim 플러그인에 이슈 남기기](/Programing/posts/nvim_플러그인에_이슈_남기기)
 [오픈소스에 난생처음 PR 날리기](/Programing/posts/오픈소스에_난생처음_PR_날리기)
+
 
 ### 개발 학습 [-]
 
@@ -119,12 +142,28 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 [linux `$HOME` path](/Programing/concepts_and_tools/concepts/linux/home_path)
 [systemd](/Programing/concepts_and_tools/concepts/linux/systemd)
+[what is shell?](/Area/개발_학습/Linux/what_is_shell)
+
+#### Container
+
+[docker](/Programing/concepts_and_tools/tools/docker.md):
+[HUB: kubernetes](/Programing/concepts_and_tools/tools/kubernetes/index.md):
+
+#### Web Dev
+
+[static website vs dynamic website](/Programing/concepts_and_tools/concepts/web_dev/static_website_vs_dynamic_website)
 
 #### Languages
 
 [Javascript](/Area/개발_학습/Languages/Javascript) [-]
 [Dart](/Area/개발_학습/Languages/Dart) [-]
 [Python](/Area/개발_학습/Languages/Python)
+
+
+#### Big Data
+
+[Keywords](/Area/개발_학습/Big_Data/Keywords)
+[Apache arrow](/Area/개발_학습/Big_Data/Apache_arrow)
 
 #### Database
 
@@ -146,6 +185,11 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 > [!rf]
 > [강의 재생목록](https://www.youtube.com/playlist?list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe)
 
+
+[-] [SQL에서 stored Function 및 stored Procedure](/Programing/concepts_and_tools/draft/SQL에서_stored_Function_및_stored_Procedure)
+[-] [draft/SQL concurrency control, 트랜잭션의 Isolation 보장하기](/Programing/concepts_and_tools/draft/SQL_concurrency_control,_트랜잭션의_Isolation_보장하기)
+
+
 #### 문제 해결: 미결
 
 [docker named volume with NFS protocol](/Programing/problem_solving/docker_named_volume_through_NFS_protocol)
@@ -161,65 +205,69 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 [what is chatGPT](/Programing/posts/what_is_chatGPT)
 
 
+#### Reference
 
-> [!rf]
->
->- etc
->  [부트캠프 팀 과제 커밋 히스토리 보는게 도움될듯](https://github.com/boostcampwm-2022)
->  [7 Habits For Effective Text Editing](https://www.youtube.com/watch?v=eX9m3g5J-XA)
->  [bash-shell, sed, awk, make, macro: 한글 가이드 문서](https://mug896.github.io/bash-shell/bug_reports.html)
->
->- backend course
->  [web-course](https://www.boot.dev/tracks/backend)
->  [github](https://github.com/bootdotdev/curriculum)
->
->- 시간 죽이는 개발자 게임
->  [ 알고리즘 게임: CodinGame](https://www.codingame.com/training)
->  [CSS 게임: Css Diner](https://flukeout.github.io/)
->
->
->- 알고리즘
->
->  1. 근데 알고리즘도 뭐 그렇게 어렵지는 않고, 아래에서 크게 벗어나지는 않더라구요.
->    - 문법 숙지 -> 브루트포스 -> 백트래킹 -> 자료구조 공부(STL) -> DFS -> BFS -> 다익스트라 -> 유니온파인드 -> MST
->     (이후)
->    - 정렬
->    - 이분탐색
->    - 그리디
->    - 기본적인 DP
->    - 비트마스킹
->    - 유클리드호제법
->    - 에라토스테네스의 체
->
->  2. 저희 회사도 막 신박한 희안한 알고리즘 가져와서 풀어야되는걸 내기보다는 알고리즘을 제대로 이해했는지, 제약사항이 주어졌을 때 어떻게 개선할 수 있고 얼마나 개선됐는지 설명할 수 있는지 이런걸 봐요. Big O 노테이션으로다가.
->  3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
->
->- 따라하기
->  [chrome todo extension in JS](https://www.youtube.com/watch?v=ny-L_KLrKIU)
->
->- 개발 일반
->  [The twelve-factor app](https://12factor.net/)
->  [Harvard CS 50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
->  [파이썬 버전이 달라지며 뭐가 바뀌었나?](https://www.youtube.com/watch?v=XnfsucgWApE)
->  [천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
->
->- 잘 정리된 튜토리얼들, `TS`, `python` 등 간단한 주제별로 있다.
->  [tutorials: English](https://www.squash.io/tutorials/)
->  [tutorials: Korean](https://www.joinc.co.kr/w/architecture)
->  [30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
->
->- big data
->  [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
->  [**유료강의:** 빅데이터 파이프라인 마스터; 성공을 위한 도구와 기술](https://www.inflearn.com/course/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EB%A7%88%EC%8A%A4%ED%84%B0?inst=dcf981c7&utm_source=instructor&utm_medium=referral&utm_campaign=inflearn_%ED%8A%B8%EB%9E%98%ED%94%BD_promotion-link)
->  [빅데이터 플랫폼 특론: play-list](https://www.youtube.com/playlist?list=PLCsebpDZm0n6HYSDaNxKQYrNrD4Xk9meX)
->  [하둡 분산파일 시스템 구축: play-list](https://www.youtube.com/watch?v=g6xIMSYjh0w&list=PLY-_9hx4ldZwYOjtfRT0MV2k9JcnTUYW2)
->
->- docker, k8s
->  [docker, k8s, microservcie](https://www.youtube.com/watch?v=xdqOxF2JqwU)
->  [best k8s tool](https://www.youtube.com/watch?v=R0HlJsugOAE)
->  [develop in kub, not in docker-compose](https://www.youtube.com/watch?v=RTo9Pvo_yiY)
->  [docker network extra usuage](https://www.youtube.com/watch?v=bKFMS5C4CG0)
->  [kub network](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html)
+- etc
+  [부트캠프 팀 과제 커밋 히스토리 보는게 도움될듯](https://github.com/boostcampwm-2022)
+  [7 Habits For Effective Text Editing](https://www.youtube.com/watch?v=eX9m3g5J-XA)
+  [bash-shell, sed, awk, make, macro: 한글 가이드 문서](https://mug896.github.io/bash-shell/bug_reports.html)
+
+- backend course
+  [web-course](https://www.boot.dev/tracks/backend)
+  [github](https://github.com/bootdotdev/curriculum)
+
+- 시간 죽이는 개발자 게임
+  [ 알고리즘 게임: CodinGame](https://www.codingame.com/training)
+  [CSS 게임: Css Diner](https://flukeout.github.io/)
+
+
+- 알고리즘
+
+  1. 근데 알고리즘도 뭐 그렇게 어렵지는 않고, 아래에서 크게 벗어나지는 않더라구요.
+    - 문법 숙지 -> 브루트포스 -> 백트래킹 -> 자료구조 공부(STL) -> DFS -> BFS -> 다익스트라 -> 유니온파인드 -> MST
+     (이후)
+    - 정렬
+    - 이분탐색
+    - 그리디
+    - 기본적인 DP
+    - 비트마스킹
+    - 유클리드호제법
+    - 에라토스테네스의 체
+
+  2. 저희 회사도 막 신박한 희안한 알고리즘 가져와서 풀어야되는걸 내기보다는 알고리즘을 제대로 이해했는지, 제약사항이 주어졌을 때 어떻게 개선할 수 있고 얼마나 개선됐는지 설명할 수 있는지 이런걸 봐요. Big O 노테이션으로다가.
+  3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
+
+- 따라하기
+  [chrome todo extension in JS](https://www.youtube.com/watch?v=ny-L_KLrKIU)
+
+- 개발 일반
+  [The twelve-factor app](https://12factor.net/)
+  [Harvard CS 50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
+  [파이썬 버전이 달라지며 뭐가 바뀌었나?](https://www.youtube.com/watch?v=XnfsucgWApE)
+  [천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
+
+- 잘 정리된 튜토리얼들, `TS`, `python` 등 간단한 주제별로 있다.
+  [tutorials: English](https://www.squash.io/tutorials/)
+  [tutorials: Korean](https://www.joinc.co.kr/w/architecture)
+  [30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
+
+- big data
+  [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
+  [**유료강의:** 빅데이터 파이프라인 마스터; 성공을 위한 도구와 기술](https://www.inflearn.com/course/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EB%A7%88%EC%8A%A4%ED%84%B0?inst=dcf981c7&utm_source=instructor&utm_medium=referral&utm_campaign=inflearn_%ED%8A%B8%EB%9E%98%ED%94%BD_promotion-link)
+  [빅데이터 플랫폼 특론: play-list](https://www.youtube.com/playlist?list=PLCsebpDZm0n6HYSDaNxKQYrNrD4Xk9meX)
+  [하둡 분산파일 시스템 구축: play-list](https://www.youtube.com/watch?v=g6xIMSYjh0w&list=PLY-_9hx4ldZwYOjtfRT0MV2k9JcnTUYW2)
+
+- docker, k8s
+  [docker, k8s, microservcie](https://www.youtube.com/watch?v=xdqOxF2JqwU)
+  [best k8s tool](https://www.youtube.com/watch?v=R0HlJsugOAE)
+  [develop in kub, not in docker-compose](https://www.youtube.com/watch?v=RTo9Pvo_yiY)
+  [docker network extra usuage](https://www.youtube.com/watch?v=bKFMS5C4CG0)
+  [kub network](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html)
+
+- 게임 개발
+  [초보자를 위한 게임개발 총론](https://gpgstudy.com/gpgiki/%EC%B4%88%EB%B3%B4%EC%9E%90_Faq)
+  [flutter game dev Big series](https://www.youtube.com/watch?v=Kwn1eHZP3C4&ab_channel=Spellthorn)
+  [flutter game dev Small series](https://www.youtube.com/watch?v=wUf3UytV4wQ&ab_channel=TreyCodes)
 
 
 ### 구독 서비스 관리
@@ -517,18 +565,16 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 
 
+
 ## 1. 프로그래밍 [-]
 
 [ Workflow](/Programing/workflows/index.md) [-]
-[ Concept & Tool](/Programing/concepts_and_tools/index.md)
 
 ### 1.1 개발환경 [-]
 
 [ Document](/Programing/tools/documentation/index.md) [-]
 [ Git](/Programing/tools/git_and_github/index.md)
 [ Vim](/Programing/tools/vim/index.md)
-[ System admin](/Programing/tools/system_admin/index.md)
-[ shell script](/Programing/tools/shell_script/index.md)
 [ browser](/Programing/tools/browser/index.md)
 [ AI](/Programing/tools/AI/index.md)
 
@@ -538,4 +584,5 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 
 
-## 4. Scratch
+
+

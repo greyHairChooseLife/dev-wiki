@@ -1,5 +1,11 @@
-# 󰏢 shell script
+# 󰏢 what is shell
 
+```
+hide:
+title: 'shell script의 세계'
+date: 2024-04-07
+update:
+```
 
 > [!cn] 개념정리
 >
@@ -14,6 +20,7 @@
 >
 >   지금은 그걸 실시간으로 할 수 있는 것이다. hardware였던 `터미널`은 software인 `터미널 에뮬레이터`로
 >   대체되었다. (`urxvt, xterm, iterm2` 등이 있다.)
+
 
 > [!cn] 개념정리
 >

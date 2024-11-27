@@ -61,19 +61,19 @@ update:
 - [쿠버네티스 초급 안내서](https://subicura.com/k8s/guide/pod.html#%E1%84%88%E1%85%A1%E1%84%85%E1%85%B3%E1%84%80%E1%85%A6-pod-%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5)
 - [따배-유투브](https://www.youtube.com/watch?v=lheclzO-G7k&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c&index=4)
 
-# Installing
+## Installing
 
-- [소속 개념](/concepts_and_tools/tools/kubernetes/소속_개념.md)
-[step by step](/concepts_and_tools/tools/kubernetes/step_by_step.md)
+[소속 개념](/Programing/concepts_and_tools/tools/kubernetes/소속_개념.md)
+[step by step](/Programing/concepts_and_tools/tools/kubernetes/step_by_step.md)
 
-# Networking
+## Networking
 
-- [temp note networking](/concepts_and_tools/tools/kubernetes/temp_note_networking.md)
+[temp note networking](/Programing/concepts_and_tools/tools/kubernetes/temp_note_networking.md)
 
-# Resources
+## Resources
 
-- [api group](/concepts_and_tools/tools/kubernetes/api_group.md)
-- [workloads](/concepts_and_tools/tools/kubernetes/workloads.md)
-- [services](/concepts_and_tools/tools/kubernetes/services)
-- [configMap](/concepts_and_tools/tools/kubernetes/configMap)
-- [Volume(local)](/concepts_and_tools/tools/kubernetes/Volume.md)
+[api group](/Programing/concepts_and_tools/tools/kubernetes/api_group.md)
+[workloads](/Programing/concepts_and_tools/tools/kubernetes/workloads.md)
+[services](/Programing/concepts_and_tools/tools/kubernetes/services)
+[configMap](/Programing/concepts_and_tools/tools/kubernetes/configMap)
+[Volume(local)](/Programing/concepts_and_tools/tools/kubernetes/Volume.md)
