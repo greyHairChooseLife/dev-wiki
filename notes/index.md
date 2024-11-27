@@ -1,90 +1,373 @@
 #  DEV WIKI
 
 
+
 _이 위키의 목적은 기록하여 (나중에)필요시 되찾아보기 위함이다.
 누군가에게 뽐내기 위한 용도가 아니다._
 
-
-**HOT LINKS**
-
-
-
-
-### PARA 메모법에 대하여
-
-_실행도를 기준으로 노트를 분류하는 기법. 주제별로 나누는 것이 아니다._
-
-- Project:
-  - **지금 가장 전념**하는 것
-  - 기간/목표가 명확함. 즉, 끝이 있음
-  - ex) 이사하기, 직장 취업하기, 책 쓰기
-
-- Area:
-  - **끝이 없고, 꾸준히** 해 나가는 것
-  - 나의 책임이나 역할이 있음
-  - ex) 운동, 독서, 프로그래밍 실력 향상
-
-- Resource:
-  - 관심 분야 정보
-  - 내 **책임은 없음**
-  - ex) 창업, 종교, 예술, 춤추는법 등
-
-- Archive:
-  - 위의 세 가지에 속하지 않는 것
-  - 종료/중단된 프로젝트
-  - 책임이 사라진 영역, 관심이 사라진 자원
-
-
-
-
+_"더 열심히 해"_ from.고은상
 
 
 ## Project
 
 ### 프로그래밍
 
--
+> [!re] 일시 중단
+>
+> [견적서 관리](/Project/진행중/견적서_관리/index.md)
+> - 최초 설계가 잘못되었는데, 설계 부터 다시 하기엔 당장 시급한 일이 있다.
 
 
 ## Area
 
+### 생산성을 기르자
 
+> [!rf]
+>
+> [The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
+> [지식근로자의 생산성](https://www.joinc.co.kr/w/knowledge-workder-productivity)
+
+
+#### 노트 정정리 방법
+
+> [!rf]
+>
+> [From note-taking to note-making](https://nesslabs.com/from-note-taking-to-note-making)
+
+
+- PARA 메모법
+
+  _실행도를 기준으로 노트를 분류하는 기법. 주제별로 나누는 것이 아니다._
+
+  >- Project:
+  >  - **지금 가장 전념**하는 것
+  >  - 기간/목표가 명확함. 즉, 끝이 있음
+  >  - ex) 이사하기, 직장 취업하기, 책 쓰기
+  >
+  >- Area:
+  >  - **끝이 없고, 꾸준히** 해 나가는 것
+  >  - 나의 책임이나 역할이 있음
+  >  - ex) 운동, 독서, 프로그래밍 실력 향상
+  >
+  >- Resource:
+  >  - 관심 분야 정보
+  >  - 내 **책임은 없음**
+  >  - ex) 창업, 종교, 예술, 춤추는법 등
+  >
+  >- Archive:
+  >  - 위의 세 가지에 속하지 않는 것
+  >  - 종료/중단된 프로젝트
+  >  - 책임이 사라진 영역, 관심이 사라진 자원
+
+#### Post
+
+[개발자로서 어떻게 살아남을까?](개발자로서_어떻게_살아남을까?)
+
+>[lg] 2024-09-09
+>
+>
+>  > [!rf] 아래 영상들을 보고서...
+>  >
+>  > [개발자는 어떻게 살아남을까](https://www.youtube.com/watch?v=U55ex_ga7_k)
+>  > [개발자는 어떻게 살아남을까](https://www.youtube.com/watch?v=M2T-4SoLY-0)
+>
+>
+>- 쉽게 변하지 않는 본질적인 것들에 집중하자.
+>
+>  ex) 과거 Hadoop/Hbase같은걸 세팅하려면 몇달이 걸렸다. 지금은 즉시 사용할 수 있는 SaaS가 있다.
+>  ex) garbage collecter의 등장. 직접 메모리 관리가 필요한 경우가 줄었다.
+>
+>
+>- 유망한 영역
+>
+>  - 메타버스: 하드웨어와 소프트웨어가 함께 발전 중
+>  - 블록체인: 메타버스 환경에서의 NFT나 화폐기술
+>  - AI, Bigdata: 업무의 페러다임을 바꿈
+
+
+### dotfiles [-]
+
+_dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개발/생산 환경을 구축할 수 있다._
+
+> [!td]
+> 아래 살펴보고 나도 제대로 관리해보자.
+>
+> [better way to manage dot files](https://www.youtube.com/watch?v=tBoLDpTWVOM)
+> [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
+> [secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
+
+
+### 개발 환경
+
+#### Operating System
+
+[만자로 시스템 복사(이사)하기](/Programing/concepts_and_tools/concepts/linux/만자로_시스템_복사하기)
+
+#### Post
+
+[vim을 왜 쓸까?](/Programing/posts/vim을_왜_쓸까?)
+[gitsigns.nvim plugin에 이슈 남기기](/Programing/posts/gitsigns.nvim_plugin에_이슈_남기기)
+[nvim 플러그인에 이슈 남기기](/Programing/posts/nvim_플러그인에_이슈_남기기)
+[오픈소스에 난생처음 PR 날리기](/Programing/posts/오픈소스에_난생처음_PR_날리기)
+
+### 개발 학습 [-]
+
+_프로덕션에 가까운 프로젝트들을 보면서 배우는 것이 중요하다._
+_"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 마스토돈, nodejs는 미스키, 파이썬은 bookwyrm"_
+
+#### Linux
+
+[linux `$HOME` path](/Programing/concepts_and_tools/concepts/linux/home_path)
+[systemd](/Programing/concepts_and_tools/concepts/linux/systemd)
+
+#### Languages
+
+[Javascript](/Area/개발_학습/Languages/Javascript) [-]
+[Dart](/Area/개발_학습/Languages/Dart) [-]
+[Python](/Area/개발_학습/Languages/Python)
+
+#### Database
+
+[관계형 데이터베스의 종류](/Programing/concepts_and_tools/concepts/database/relational_database/relational_database의_종류.md)
+[기본개념 및 키워드](/Programing/concepts_and_tools/concepts/database/relational_database/기본개념_및_키워드.md)
+[SQL 기본개념, Attribute Type, Key Constraints](/Programing/concepts_and_tools/concepts/database/relational_database/SQL_기본개념,_Attribute_Type,_Key_Constraints.md)
+[SQL query](/Programing/concepts_and_tools/concepts/database/relational_database/SQL_query.md)
+[SQL에서 NULL의 의미](/Programing/concepts_and_tools/concepts/database/relational_database/SQL에서_NULL의_의미.md)
+[SQL과 JOIN](/Programing/concepts_and_tools/concepts/database/relational_database/SQL과_JOIN.md)
+[SQL과 정렬 및 통계](/Programing/concepts_and_tools/concepts/database/relational_database/SQL과_정렬_및_통계.md)
+[데이터베이스 트랜잭션, ACID](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_트랜잭션,_ACID.md)
+[데이터베이스 설계-정규화](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_설계-정규화.md)
+[데이터베이스 설계-DB index](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_설계-DB_index.md)
+[데이터베이스 설계-파티셔닝, 샤딩, 레플리케이션](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_설계-파티셔닝,_샤딩,_레플리케이션.md)
+[데이터베이스 성능 최적화-서버 리소스 활용](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_성능_최적화-서버_리소스_활용.md)
+[데이터베이스 성능 최적화-DB connection pool](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_성능_최적화-DB_connection_pool.md)
+[RDB vs NoSQL](/Programing/concepts_and_tools/concepts/database/relational_database/RDB_vs_NoSQL.md)
+
+> [!rf]
+> [강의 재생목록](https://www.youtube.com/playlist?list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe)
+
+#### 문제 해결: 미결
+
+[docker named volume with NFS protocol](/Programing/problem_solving/docker_named_volume_through_NFS_protocol)
+
+#### 문제 해결: 해결
+
+[domain status: clientHold](/Programing/problem_solving/domain_status:_clientHold)
+[프로세스 조회 및 종료](/Programing/problem_solving/프로세스_조회_및_종료)
+
+#### Post
+
+[I just wanted to deploy my code!](/Programing/posts/I_just_wanted_to_deploy_my_code!)
+[what is chatGPT](/Programing/posts/what_is_chatGPT)
+
+
+
+> [!rf]
+>
+>- etc
+>  [부트캠프 팀 과제 커밋 히스토리 보는게 도움될듯](https://github.com/boostcampwm-2022)
+>  [7 Habits For Effective Text Editing](https://www.youtube.com/watch?v=eX9m3g5J-XA)
+>  [bash-shell, sed, awk, make, macro: 한글 가이드 문서](https://mug896.github.io/bash-shell/bug_reports.html)
+>
+>- backend course
+>  [web-course](https://www.boot.dev/tracks/backend)
+>  [github](https://github.com/bootdotdev/curriculum)
+>
+>- 시간 죽이는 개발자 게임
+>  [ 알고리즘 게임: CodinGame](https://www.codingame.com/training)
+>  [CSS 게임: Css Diner](https://flukeout.github.io/)
+>
+>
+>- 알고리즘
+>
+>  1. 근데 알고리즘도 뭐 그렇게 어렵지는 않고, 아래에서 크게 벗어나지는 않더라구요.
+>    - 문법 숙지 -> 브루트포스 -> 백트래킹 -> 자료구조 공부(STL) -> DFS -> BFS -> 다익스트라 -> 유니온파인드 -> MST
+>     (이후)
+>    - 정렬
+>    - 이분탐색
+>    - 그리디
+>    - 기본적인 DP
+>    - 비트마스킹
+>    - 유클리드호제법
+>    - 에라토스테네스의 체
+>
+>  2. 저희 회사도 막 신박한 희안한 알고리즘 가져와서 풀어야되는걸 내기보다는 알고리즘을 제대로 이해했는지, 제약사항이 주어졌을 때 어떻게 개선할 수 있고 얼마나 개선됐는지 설명할 수 있는지 이런걸 봐요. Big O 노테이션으로다가.
+>  3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
+>
+>- 따라하기
+>  [chrome todo extension in JS](https://www.youtube.com/watch?v=ny-L_KLrKIU)
+>
+>- 개발 일반
+>  [The twelve-factor app](https://12factor.net/)
+>  [Harvard CS 50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
+>  [파이썬 버전이 달라지며 뭐가 바뀌었나?](https://www.youtube.com/watch?v=XnfsucgWApE)
+>  [천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
+>
+>- 잘 정리된 튜토리얼들, `TS`, `python` 등 간단한 주제별로 있다.
+>  [tutorials: English](https://www.squash.io/tutorials/)
+>  [tutorials: Korean](https://www.joinc.co.kr/w/architecture)
+>  [30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
+>
+>- big data
+>  [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
+>  [**유료강의:** 빅데이터 파이프라인 마스터; 성공을 위한 도구와 기술](https://www.inflearn.com/course/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EB%A7%88%EC%8A%A4%ED%84%B0?inst=dcf981c7&utm_source=instructor&utm_medium=referral&utm_campaign=inflearn_%ED%8A%B8%EB%9E%98%ED%94%BD_promotion-link)
+>  [빅데이터 플랫폼 특론: play-list](https://www.youtube.com/playlist?list=PLCsebpDZm0n6HYSDaNxKQYrNrD4Xk9meX)
+>  [하둡 분산파일 시스템 구축: play-list](https://www.youtube.com/watch?v=g6xIMSYjh0w&list=PLY-_9hx4ldZwYOjtfRT0MV2k9JcnTUYW2)
+>
+>- docker, k8s
+>  [docker, k8s, microservcie](https://www.youtube.com/watch?v=xdqOxF2JqwU)
+>  [best k8s tool](https://www.youtube.com/watch?v=R0HlJsugOAE)
+>  [develop in kub, not in docker-compose](https://www.youtube.com/watch?v=RTo9Pvo_yiY)
+>  [docker network extra usuage](https://www.youtube.com/watch?v=bKFMS5C4CG0)
+>  [kub network](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html)
+
+
+### 구독 서비스 관리
+
+#### 개발
+
+- openAI: gpt
+- anthropic: claude.ai
+- figma
+
+- AWS API Gateway
+
+
+### 좋은 가족, 좋은 친구 되기
+
+#### 선물 하고싶은 것들
+
+[좋은 가족, 좋은 친구 되기](/Life/좋은_가족,_좋은_친구_되기/index.md)
+
+
+
+### 글쓰기
+
+- 유투브(노트 생성)
+  > [!ye] 대단해
+  >
+  > - 이 사람은 구독하고 잘 봐야겠다.
+  > - 심지어 투자도 하고싶다.
+  > [사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
+
+
+[수필](/Life/수필/index.md)
+  > [!ye] 우리는 상대방을 눈앞에 두고도 그 실체를 보지 못한다. 단지, 내 방식대로 이해한 허상을 바라볼 뿐이다.
+  >
+  > 자주 이 사실을 잊고, _"너 나를 그렇게 생각한거야?"_라고 묻게 된다.
+  >
+  > 그래서 상대가 나를, 내가 상대를 오해하고 있지 않은지 자주 확인해볼 필요가 있다.
+  >
+  > _"너 (이 부분에 대해) 내가 어떻게 생각하고 있다고 생각해?"_
+  >
+  > 또한 내가 누군가를, 누군가 나를 평가 또는 판단 할 때 그것이 상대의 실체가 아닌 이해의 허상이라는 것을 유념하자.
+
+  [살아오면서 겪어본 어려운 문제에 대하여](살아오면서_겪어본_어려운_문제에_대하여)
+  >내가 겪은 가장 어려운 문제는, '어떻게 살아야 하는가'라는 질문에 답을 찾는 일이었다.
+  >
+  >최근 우테코에 지원하려고 시도했는데, 지원서의 작성 항목에 '겪어본 어려운 문제'가 있었다. 흔하다면 흔한 질문인데, 금방 대답이 나오지 않았다. 내가 쉬운 선택만 해왔나? 아니면 능력이 좋아서 매사 잘 해내고 이겨냈나? 그렇지는 않았다.
+  >
+  >오히려 중구난방으로 살다보니 매번 새로운 난관에 부딪혔고, 기대한 만큼의 성과를 얻는게 드물었다. 선택과 집중을 못했을 수도 있고, 때때로 결단력이 부족했을 수도 있다. 관심 가진 것들에 실력도, 재능도 부족했을지 모른다. 노력이 부족했을 수도 있다. 꾸준함도 부족했을 수도 있다.
+  >
+  >그래도 나는 좌절하지 않았다.
+  >
+  >내가 워낙 긍정적이라서? 그런 측면도 분명 있다. 최악의 경우를 떠올려보고도 감당 가능하다면, 나는 곧잘 태평해진다. 하지만 그보다 더 큰 이유는, 내가 사실은 그 어느것에서도 실패했다고 여기지 않기 때문이다.
+  >
+  >나는 20살에 벌써 얕은 판단력으로 대학을 내팽개쳤다. 니체가 말하는 '낙타'처럼 살아왔는데, 갑자기 '사자'처럼 살기 시작했다. '원래 세상이 그렇다'같은 모든 종류의 신호를 의심하기 시작했고, 의견을 동냥하든 찍어먹어보든 스스로 판단을 내리기 시작했다. 더 나은 미래에 대한 희망을 지켜내는 것 부터, 삶의 의미를 찾아내는 것까지 20대 중반이 되어서야 마쳤다. 그제서야 군대도 갔다.
+  >
+  >사정이 이렇다 보니 사회인으로서 본격적으로 시작한 것은 비교적 늦은 것 같다. 현실 세계에서, 사람들과 사회에 기여하는 능력이란건 튼튼하고 건강한 마음과 완전히 일치하지는 않기 때문에 고전을 면치 못하고 있다. 그러나 왕도는 없다. 최선을 다해서 똑똑하게, 열심히 일하고 공부하는 것 뿐이다.
+  >
+  >
+  >그래서 내가 겪은 가장 어려운 문제는, '어떻게 살아야 하는가'라는 질문에 답을 찾는 일이었다. 스무살의 나에게는 그 때 그것이 가장 중요한 문제였고, 그 결과로 지금 갖가지 어려움 속에서도 흔들림 없이 살아가고 있다.
+  >
+  >
+  >_이건 너무 짧고 생략된 버전이다. 과정에 구체적으로 어떤 일들이 있었는지, 당시 가장 고민했던 점은 무엇인지 개괄적으로 작성해주면 좋겠다._
+
+
+- 레퍼런스 모음(노트 생성)
+  - 레퍼런스에도 반드시 내 생각을 덧붙이자.
+
+  > [!ye] 허준이 교수, 졸업식 축사
+  >
+  > 이제 본격적으로 어른입니다. 실패를 두려워하지 말고 도전하라. 편안하고 안전한 길을 거부하라. 타협하지 말고 자신의 진짜 꿈을 쫓아라. 모두 좋은 조언이고 사회의 입장에서는 특히나 유용한 말입니다만, 개인의 입장은 다를 수 있음을 여러분은 이미 고민해 봤습니다. 제로섬 상대평가의 몇 가지 통명스러운 기준을 따른다면, 일부만이 예외적으로 성공할 것입니다.
+  >
+  > 여러 변덕스러운 우연이, 지쳐버린 타인이, 그리고 누구보다 자신이 자신에게 모질게 굴 수 있으니 마음 단단히 먹기 바랍니다. 나는 커서 어떻게 살까, 오래된 질문을 오늘부터의 매일이 대답해줍니다.
+  >
+  > 취업 준비, 결혼 준비, 육아 교육 승진 은퇴 노후 준비를 거쳐 어디 병원 그럴듯한 일인실에서 사망하기 위한 준비에 산만해지지 않기를 바랍니다. 무례와 혐오와 경쟁과 분열과 비교와 나태와 허무의 달콤함에 길들지 말길, 의미와 무의미의 온갖 폭력을 이겨내고 하루하루를 온전히 경험하길, 그 끝에서 오래 기다리고 있는 낯선 나를 아무 아쉬움 없이 맞이하길 바랍니다.
+
+
+- 어휘력(노트 생성)
+
+- 표현력(노트 생성)
+
+
+> [!rf]
+>
+> [온라인 글쓰기 1편: 좋은 **질문**하기](https://github.com/WieeRd/questionable/blob/master/i18n/ko.md#%EA%B0%84%EB%8B%A8-%EC%9A%94%EC%95%BD)
+> [온라인 글쓰기 2편: 좋은 **답변**하기](https://edykim.com/ko/post/tech-has-a-toxic-tone-problem-lets-fix-it/)
+
+
+
+### 운동
+
+[운동](/Life/운동/index.md)
+
+### 차량 관리
+
+[Car](/Life/car/index.md)
+
+### 민주 시민의 책임
+
+[민주 시민의 책임과 권한](/Life/democratic_citizen/index.md)
 
 
 ## Resource
 
-### Project Idea
+### 디자인
 
+**구입하자**
 
-## Archive
+- 피그마 스타일 가이드
+  [소개](https://www.youtube.com/watch?v=fFNeuHAL3-E)
+  [스타일 가이드 소개](https://www.youtube.com/watch?v=_7wO8CZEwBw)
+  [구매링크](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbEJHSVk3LU5Qc2JLeVFwLXNQa1ZHSnBDcTBmQXxBQ3Jtc0trRkV1S0lGZnlfZjJnME1fdmh6eWdXLWRjVXZvS2FJMU52WHhONVFKcEhxSG5CeFM2VTdTV05fY3VhbVBDSnJmSUdheVp2SHlyLVlkaE85M1pDc2NiTGNRYURGY1BZTVdwdXpOZDlKRUVpX1h2TWY0aw&q=https%3A%2F%2Fwww.sixshop.com%2Fmadia%2Fproduct%2Fuiux_Styleguide_2)
 
-[칭찬 수집기 개발](/Project/진행중/칭찬_수집기/index.md)
+- 학습
+  [css 학습 채널](https://www.youtube.com/@lundeveloper)
 
+  [!re] ai 붐 이후 많이 바뀌었을텐데, 현시점에도 의미있는 근본적인 내용인지 판단 필요
+  [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
+  [youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
+  [youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
 
-## 1. 프로그래밍 [-]
+### command history
 
-[ Problem Solving](/Programing/problem_solving/index.md) [-]
-[ Post](/Programing/posts/index.md)
-[ Workflow](/Programing/workflows/index.md) [-]
-[ Concept & Tool](/Programing/concepts_and_tools/index.md)
+- etc
+  [ command history](/Cheat_Sheet/command_history)
 
-### 1.1 개발환경 [-]
+- system configs
+  [ System configs](/Cheat_Sheet/System_configs)
 
-[ Document](/Programing/tools/documentation/index.md) [-]
-[ Git](/Programing/tools/git_and_github/index.md)
-[ Vim](/Programing/tools/vim/index.md)
-[ System admin](/Programing/tools/system_admin/index.md)
-[ shell script](/Programing/tools/shell_script/index.md)
-[ browser](/Programing/tools/browser/index.md)
-[ AI](/Programing/tools/AI/index.md)
+- file share
+  [ file share & control](/Cheat_Sheet/file_share_&_control)
 
+### 유용한 무료 api
 
+- 영영사전:
 
-## 2. Project [-]
+  발음, 예문, 동의어, 반의어 등 다양한 정보를 제공한다.
+  ['darkness' 사전 검색 요청](https://api.dictionaryapi.dev/api/v2/entries/en/darkness)
 
-_"더 열심히 해"_ from.고은상
+### 학습법
 
-### 2.1 떠오르는 아이디어
+- 무언가를 배우는 방법
+
+  > 1. 공부 하려는 주제에 대해 조사한다.
+  > 2. 설명을 적어 본다. 가상의 10살 어린이를 앞에 두고.
+  > 3. 잘 모르는 부분, 지나치게 복잡한 부분(전문용어를 사용했다던가)을 찾는다.
+  > 4. `3.`에서 찾은 내용을 더 쉽고 단순하게 설명하기 위해 추가적으로 조사한다.
+
+### 아무거나 아이디어
 
 > [!ye] 독서모임
 >
@@ -137,184 +420,122 @@ _"더 열심히 해"_ from.고은상
 > - 마케팅
 
 
-### 2.2. 구체화된 아이디어 [-]
+### 구체화된 프로젝트 아이디어
 
-[ anki-diary](/Project/ideas/anki-diary) [-]
+[ anki-diary](/Project/ideas/anki-diary)
 [ 충북프로메이케센터 홈페이지 리뉴얼](/Project/ideas/충북프로메이케센터_홈페이지_리뉴얼)
 
-### 2.3. 진행중 [-]
+### 영화
 
-[견적서 관리](/Project/진행중/견적서_관리/index.md) [-]
+#### 보고싶은
 
-### 2.4. 종료
+| 제목                   | 감독         |
+|------------------------|--------------|
+| Cool World             | Ralph Bakshi |
+| 흔들리는 도쿄          | 봉준호       |
+| 해리 프리그의 비밀전쟁 |              |
+| 감자심포니             |              |
 
-[2025 우테코](2025_우테코)
+#### 관심 인물
 
+- 곤 사토시
 
-## 3. Life [-]
-
-> [!gr] 무언가를 배우는 방법
->
-> 1. 공부 하려는 주제에 대해 조사한다.
-> 2. 설명을 적어 본다. 가상의 10살 어린이를 앞에 두고.
-> 3. 잘 모르는 부분, 지나치게 복잡한 부분(전문용어를 사용했다던가)을 찾는다.
-> 4. `3.`에서 찾은 내용을 더 쉽고 단순하게 설명하기 위해 추가적으로 조사한다.
-
-
-[ 수필](/Life/수필/index.md)
-[ 놀자](/Life/play/index.md)
-[ Car](/Life/car/index.md)
-[ 민주 시민의 책임과 권한](/Life/democratic_citizen/index.md) [-]
-[ 좋은 가족, 좋은 친구 되기](/Life/좋은_가족,_좋은_친구_되기/index.md)
-
-[ 운동](/Life/운동/index.md)
+```txt
+지나가다 글남기네요 .. 곤사토시라는 감독을 평가할때 호소다마모루같은 감독을 일본에서 국민애니감독으로 치켜세우지만 진짜 최고의 감독은 곤사토시였다라고 생각될정도로 그가남긴 작품들이 가진 영상미 음악 스토리 작화 편집까지 뭐하나 빠지지않고 지적유희를 주었던 감독이었지요
 
 
-## Cheat Sheet
-
-[ command history](/Cheat_Sheet/command_history)
-[ awesome API](/Cheat_Sheet/awesome_API)
-[ Hardware](/Cheat_Sheet/hardware_manage)
-[ System configs](/Cheat_Sheet/System_configs)
-[ file share & control](/Cheat_Sheet/file_share_&_control)
+그중 곤사토시의 상상력과 그가 말하고자하는 메세지들이 가장 장 표현된것중 하나인 tv애니시리즈로 나왔던 망상대리인 이었습니다 파프리카에서도 양면성을 말하지만 망상대리인에서도 양면성 군중심리 인간이 가진 독특한 심리를 너무나도 잘풀어내던 감독이었죠 가장 현실감을 잘표현하던 감독이라는 칭호또한 그가 가진 가장큰 능력이었기때문이었을겁니다
 
 
-## Read & Watch: Dev [-]
-
-- backend course
-  - [web-course](https://www.boot.dev/tracks/backend)
-  - [github](https://github.com/bootdotdev/curriculum/issues/5)
+곤사토시 작품들이 호불호가 갈리는 이유또한 알게모르게 철학이 난무하기때문일겁니다 하지만 이것을 이해만 할수있다면 정말로 신세계를 경험하게되는 경험을 하게되기도하죠
 
 
-- 시간 죽이기 게임
-
-  [ 알고리즘 게임: CodinGame](https://www.codingame.com/training)
-  [CSS 게임: Css Diner](https://flukeout.github.io/)
-
-- 알고리즘
-
-  1. 근데 알고리즘도 뭐 그렇게 어렵지는 않고, 아래에서 크게 벗어나지는 않더라구요.
-    - 문법 숙지 -> 브루트포스 -> 백트래킹 -> 자료구조 공부(STL) -> DFS -> BFS -> 다익스트라 -> 유니온파인드 -> MST
-     (이후)
-    - 정렬
-    - 이분탐색
-    - 그리디
-    - 기본적인 DP
-    - 비트마스킹
-    - 유클리드호제법
-    - 에라토스테네스의 체
-
-  2. 저희 회사도 막 신박한 희안한 알고리즘 가져와서 풀어야되는걸 내기보다는 알고리즘을 제대로 이해했는지, 제약사항이 주어졌을 때 어떻게 개선할 수 있고 얼마나 개선됐는지 설명할 수 있는지 이런걸 봐요. Big O 노테이션으로다가.
-  3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
+곤사토시가 어려운 작품만 만든것은 아닙니다 크리스마스에 기적을 만날 확률 같은 작품들도있기에 한번쯤 곤사토시 작품들을 찾아보는것을 꼭 추천합니다
 
 
-- 프로덕션에 가까운 프로젝트들을 보면서 배우는 것이 중요하다.
-  "Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 마스토돈, nodejs는 미스키, 파이썬은 bookwyrm"
+작품 목록 남깁니다~메모리즈 부터 오하요까지는 감상할수있습니다~
 
-- 따라하기
-  [chrome todo extension in JS](https://www.youtube.com/watch?v=ny-L_KLrKIU)
 
-- 개발 일반
-  [The twelve-factor app](https://12factor.net/)
-  [Harvard CS 50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
-  [파이썬 버전이 달라지며 뭐가 바뀌었나?](https://www.youtube.com/watch?v=XnfsucgWApE)
-  [천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
+<노인 Z>(老人Z, Roujin Z, 일본, 1991, 애니메이션, 레이아웃/원화)
+<월드 아파트먼트 호러>(ワールドアパートメントホラー, World Apartment Horror, 일본, 1991, 애니메이션, 원안)
+<조조의 기묘한 모험>(ジョジョの奇妙な冒険, JoJo's Bizarre Adventure, 일본, 1994, 애니메이션, 원화/시나리오/콘티)
+<메모리즈>(メモリーズ, Memories, 일본, 1995, 옴니버스 애니메이션, 각본/콘티)
+<퍼펙트 블루>(PERFECT BLUE, Perfect Blue, 일본, 1997, 애니메이션)
+<천년여우>(千年女優, Millennium Actress, 일본, 2001, 애니메이션)
+<크리스마스에 기적을 만날 확률>(東京ゴッドファーザーズ, Tokyo Godfathers, 일본, 2003, 애니메이션)
+<망상대리인>(妄想代理人, Paranoia Agent, 일본, 2004, 애니메이션)
+<파프리카>(パプリカ, Paprika, 일본, 2006, 애니메이션)
+<오하요>(オハヨウ, Good Morning, 일본, 2007, 단편 애니메이션)
+<꿈꾸는 기계>(夢みる機械, Dreaming Machine, 일본, 미완성, 애니메이션)
+```
 
-- 잘 정리된 튜토리얼들, `TS`, `python` 등 간단한 주제별로 있다.
-  [tutorials: English](https://www.squash.io/tutorials/)
-  [tutorials: Korean](https://www.joinc.co.kr/w/architecture)
-  [30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
 
-- big data
-  [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
-  [**유료강의:** 빅데이터 파이프라인 마스터; 성공을 위한 도구와 기술](https://www.inflearn.com/course/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EB%A7%88%EC%8A%A4%ED%84%B0?inst=dcf981c7&utm_source=instructor&utm_medium=referral&utm_campaign=inflearn_%ED%8A%B8%EB%9E%98%ED%94%BD_promotion-link)
-  [빅데이터 플랫폼 특론: play-list](https://www.youtube.com/playlist?list=PLCsebpDZm0n6HYSDaNxKQYrNrD4Xk9meX)
-  [하둡 분산파일 시스템 구축: play-list](https://www.youtube.com/watch?v=g6xIMSYjh0w&list=PLY-_9hx4ldZwYOjtfRT0MV2k9JcnTUYW2)
+### 냠냠
 
-- docker, k8s
-  [docker, k8s, microservcie](https://www.youtube.com/watch?v=xdqOxF2JqwU)
-  [best k8s tool](https://www.youtube.com/watch?v=R0HlJsugOAE)
-  [develop in kub, not in docker-compose](https://www.youtube.com/watch?v=RTo9Pvo_yiY)
-  [docker network extra usuage](https://www.youtube.com/watch?v=bKFMS5C4CG0)
-  [kub network](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html)
+#### 가고싶은 식당
 
-- 생산성
-  [From note-taking to note-making](https://nesslabs.com/from-note-taking-to-note-making)
-  [The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
-  [7 Habits For Effective Text Editing](https://www.youtube.com/watch?v=eX9m3g5J-XA)
-  [터미널 색 구성 '과학적'으로 조리하기](https://c.innori.com/155)
-  [한글 가이드 문서: bash-shell, sed, awk, make, macro](https://mug896.github.io/bash-shell/bug_reports.html)
-  [온라인 글쓰기 1편: 좋은 **질문**하기](https://github.com/WieeRd/questionable/blob/master/i18n/ko.md#%EA%B0%84%EB%8B%A8-%EC%9A%94%EC%95%BD)
-  [온라인 글쓰기 2편: 좋은 **답변**하기](https://edykim.com/ko/post/tech-has-a-toxic-tone-problem-lets-fix-it/)
-  [지식근로자의 생산성](https://www.joinc.co.kr/w/knowledge-workder-productivity)
+  - 냉동숙성회 무한리필
 
-- visual design:
-  [css 학습 채널](https://www.youtube.com/@lundeveloper)
+    > 59,000 / 1인
+    > 상호 : 스이센 광교
+    > 주소 : 경기 수원시 영통구 이의동 1305-1
+    > 전화번호 : 0507-1337-0525
+    > [네이버플레이스](https://naver.me/GoDDD2wY)
+    >
+    > [빙결회 온라인 구매 링크](https://naver.me/G7VVmy7s)
+    >
+    > *예약은 10석까지, 나머지 8석은 오시는 순서대로 식사 가능합니다.
+    >
+    > 사장님의 저서
+    > [‘주문하신 인생 한 그릇 나왔습니다‘ 책 구매 링크](https://buly.kr/Csi4fo7)
 
-  > [!re] ai 붐 이후 많이 바뀌었을텐데, 현시점에도 의미있는 근본적인 내용인지 판단 필요
-  >   [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
-  >   [youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
-  >   [youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
 
-- etc
-  [better way to manage dot files](https://www.youtube.com/watch?v=tBoLDpTWVOM)
-  [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
-  [메이커스페이스 웹사이트 우수사례](https://hanyang3d.kr/)
-  [secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
-  [e-commerce example site](https://contents.clayful.store/)
-  [부트캠프 팀 과제 커밋 히스토리 보는게 도움될듯](https://github.com/boostcampwm-2022)
-,.
+### 국내 여행
 
-## Read & Watch: other [-]
+#### 수영 스팟
 
-- etc
-  [커뮤니티 구축 방법론](https://www.jianyang.co.kr/p/7-feat?utm_source=publication-search)
-  [건전지 사용 제품을 충전지 방식으로 개조하기](https://www.youtube.com/watch?v=-zltotyU1Ek)
+  - 충북 제천시 백운면 애련로 855
+
+
+### 음악
+
+- 최유리, 숲
+
+### etc
+
+[건전지 사용 제품을 충전지 방식으로 개조하기](https://www.youtube.com/watch?v=-zltotyU1Ek)
+[커뮤니티 구축 방법론](https://www.jianyang.co.kr/p/7-feat?utm_source=publication-search)
+[better way to manage dot files](https://www.youtube.com/watch?v=tBoLDpTWVOM)
+[self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
+[e-commerce example site](https://contents.clayful.store/)
+
+
+## Archive
+
+[칭찬 수집기 개발](/Project/진행중/칭찬_수집기/index.md)
+[2025 우테코 지원](2025_우테코)
+
+
+
+## 1. 프로그래밍 [-]
+
+[ Workflow](/Programing/workflows/index.md) [-]
+[ Concept & Tool](/Programing/concepts_and_tools/index.md)
+
+### 1.1 개발환경 [-]
+
+[ Document](/Programing/tools/documentation/index.md) [-]
+[ Git](/Programing/tools/git_and_github/index.md)
+[ Vim](/Programing/tools/vim/index.md)
+[ System admin](/Programing/tools/system_admin/index.md)
+[ shell script](/Programing/tools/shell_script/index.md)
+[ browser](/Programing/tools/browser/index.md)
+[ AI](/Programing/tools/AI/index.md)
+
+
+
+
+
 
 
 ## 4. Scratch
-
-[퀄리티 좋은 유투버: 세상만사](https://www.youtube.com/watch?v=LlYzkt2m8NY)
-
-
-
-
-> [!ye] 허준이 교수, 졸업식 축사
->
-> 이제 본격적으로 어른입니다. 실패를 두려워하지 말고 도전하라. 편안하고 안전한 길을 거부하라. 타협하지 말고 자신의 진짜 꿈을 쫓아라. 모두 좋은 조언이고 사회의 입장에서는 특히나 유용한 말입니다만, 개인의 입장은 다를 수 있음을 여러분은 이미 고민해 봤습니다. 제로섬 상대평가의 몇 가지 통명스러운 기준을 따른다면, 일부만이 예외적으로 성공할 것입니다.
->
-> 여러 변덕스러운 우연이, 지쳐버린 타인이, 그리고 누구보다 자신이 자신에게 모질게 굴 수 있으니 마음 단단히 먹기 바랍니다. 나는 커서 어떻게 살까, 오래된 질문을 오늘부터의 매일이 대답해줍니다.
->
-> 취업 준비, 결혼 준비, 육아 교육 승진 은퇴 노후 준비를 거쳐 어디 병원 그럴듯한 일인실에서 사망하기 위한 준비에 산만해지지 않기를 바랍니다. 무례와 혐오와 경쟁과 분열과 비교와 나태와 허무의 달콤함에 길들지 말길, 의미와 무의미의 온갖 폭력을 이겨내고 하루하루를 온전히 경험하길, 그 끝에서 오래 기다리고 있는 낯선 나를 아무 아쉬움 없이 맞이하길 바랍니다.
-
-
-
-> [!ye] 대단해
->
-> - 이 사람은 구독하고 잘 봐야겠다.
-> - 심지어 투자도 하고싶다.
-> [사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
-
-
-> [!ye] 우리는 상대방을 눈앞에 두고도 그 실체를 보지 못한다. 단지, 내 방식대로 이해한 허상을 바라볼 뿐이다.
->
-> 자주 이 사실을 잊고, _"너 나를 그렇게 생각한거야?"_라고 묻게 된다.
->
-> 그래서 상대가 나를, 내가 상대를 오해하고 있지 않은지 자주 확인해볼 필요가 있다.
->
-> _"너 (이 부분에 대해) 내가 어떻게 생각하고 있다고 생각해?"_
->
-> 또한 내가 누군가를, 누군가 나를 평가 또는 판단 할 때 그것이 상대의 실체가 아닌 이해의 허상이라는 것을 유념하자.
-
-
-**BETTER READ IT**
-[arch wiki python](https://wiki.archlinux.org/title/Python#Package_management)
-
-- 구입하자
-
-[소개](https://www.youtube.com/watch?v=fFNeuHAL3-E)
-[스타일 가이드 소개](https://www.youtube.com/watch?v=_7wO8CZEwBw)
-[구매링크](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbEJHSVk3LU5Qc2JLeVFwLXNQa1ZHSnBDcTBmQXxBQ3Jtc0trRkV1S0lGZnlfZjJnME1fdmh6eWdXLWRjVXZvS2FJMU52WHhONVFKcEhxSG5CeFM2VTdTV05fY3VhbVBDSnJmSUdheVp2SHlyLVlkaE85M1pDc2NiTGNRYURGY1BZTVdwdXpOZDlKRUVpX1h2TWY0aw&q=https%3A%2F%2Fwww.sixshop.com%2Fmadia%2Fproduct%2Fuiux_Styleguide_2)
-
-- 영화, 감자심포니
-- 최유리, 숲

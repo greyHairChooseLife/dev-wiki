@@ -19,6 +19,3 @@ volumes:
       device: ":/CBPROMAKER4/sy/docker-volumes/patent/v2"
 ```
 
-`$ docker compose up`
-
-컨테이너에 접속해서 연결된 path에서 read, write 모두 잘 동작하는지 확인한다.

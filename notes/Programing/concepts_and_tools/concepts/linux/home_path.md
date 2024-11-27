@@ -73,6 +73,7 @@ _($HOME/ 하위에 존재하니 당연한가?)_
    - ~/.local/etc
    - ~/.local/lib
 
+
 ## 2. XDG Base Directory Specification
 
 위의 내용은

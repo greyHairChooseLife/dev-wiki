@@ -112,3 +112,25 @@ magick input.jpg -resize 50% output.jpg
 ### 내 ip 확인, my ip
 
 `curl ifconfig.me`
+
+### 쌍모니터(가로 + 세로)
+
+```bash
+# 때때로 display가 hdmi-2~3등 다른 이름으로 잡힐 수 있다. 이러면 xrandr로 확인해서 잡아 넣어주자.
+# 보통 껏다키면 실행하는데, 상기 이유로 auto-start로 등록해두진 않았다.
+
+mons -e left && xrandr --output HDMI-1 --rotate left
+```
+
+
+### 사운드카드 서비스 재시작
+
+```bash
+systemctl --user restart pulseaudio
+
+# Or with administrative (root) privileges,
+# restart PulseAudio system-wide
+sudo systemctl restart pulseaudio
+```
+
+
