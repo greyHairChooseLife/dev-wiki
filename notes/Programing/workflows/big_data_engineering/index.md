@@ -10,33 +10,43 @@
 
 1. Storage
 
-    a. single machine 접근법
-        - 원본파일은 zip파일로 보관
-        - 데이터 정규화를 거쳐 RDBMS에 저장
+   - single machine 접근법
+     - 원본파일은 zip파일로 보관
+     - 데이터 정규화를 거쳐 RDBMS에 저장
 
-    b. cluster 접근법
-        - `apache hadoop`의 **HDFS**를 활용
+   - cluster 접근법
+     - `apache hadoop`의 **HDFS**를 활용
 
 2. Processing
 
-    a. Loading & Parsing
-        - `fetch` for JSON
-        - `csv-parse` for CSV
-        * `d3.js`도 사용 가능
+   - Loading & Parsing
+     - `fetch` for JSON
+     - `csv-parse` for CSV
+     - `d3.js`도 사용 가능
 
-    b. Filtering & Transforming
-        - 전체 데이터에서 필요한 데이터만 추출
-        - `Array.filter`, `Array.map` 등 활용
+   - Filtering & Transforming
+     - 전체 데이터에서 필요한 데이터만 추출
+     - `Array.filter`, `Array.map` 등 활용
 
-    c. Aggregating
-        - 전체 데이터를 종합하여 하나의 값으로 요약
-        - `Array.reduce`, `Array.forEach` 등 활용
-        - [Danfo.js](/Programing/workflows/big_data_engineering/danfoJs.md)
+    - Aggregating
+      - 전체 데이터를 종합하여 하나의 값으로 요약
+      - `Array.reduce`, `Array.forEach` 등 활용
+      - Danfo.js
+        > [!bl] 알아두기
+        >
+        > `Danfo.js`는 `pandas`의 `JavaScript` 버전이다.
+        > Typescript를 완전히 지원한다.
+        > Streaming을 지원한다.
 
-    d. Visualization
-        1. [d3.js](https://d3js.org/)
-            - 데이터 시각화 라이브러리
-            - loader, parser 등도 수행
+        > [!rf]
+        >
+        > [github](https://github.com/javascriptdata/danfojs)
+        > [official manual](https://danfo.jsdata.org/getting-started)
+
+    - Visualization
+      - [d3.js](https://d3js.org/)
+        - 데이터 시각화 라이브러리
+        - loader, parser 등도 수행
 
 3. Data Deployment
 

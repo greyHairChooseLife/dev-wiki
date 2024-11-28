@@ -1,8 +1,6 @@
----
-hide:
-title: 'css frameworks'
-date: 2024-03-27
----
+# 󰏢 design
+
+
 
 ### 가벼운게 최고
 
@@ -38,3 +36,12 @@ date: 2024-03-27
 그림은 그림으로 봐야지.
 
 뭣보다 그 고유명사들을 외우고 있어야 하는거 자체가 싫다.
+
+
+### 애니메이션
+
+웬만한 에니매이션은 [여기서](https://animista.net/) 쉽게 구현할 수 있다.
+
+> [!rf]
+>
+> [위 사이트 소개 영상](https://www.youtube.com/watch?v=OWaHfpHxgb8)

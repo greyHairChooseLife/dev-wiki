@@ -18,6 +18,11 @@ _"더 열심히 해"_ from.고은상
 > - 최초 설계가 잘못되었는데, 설계 부터 다시 하기엔 당장 시급한 일이 있다.
 
 
+### 결혼에 확신을 갖는 방법 찾기
+
+호호호
+
+
 ## Area
 
 ### 생산성을 기르자
@@ -28,36 +33,54 @@ _"더 열심히 해"_ from.고은상
 > [지식근로자의 생산성](https://www.joinc.co.kr/w/knowledge-workder-productivity)
 
 
-#### 노트 정정리 방법
+> [!ye] 나의 성과를 측정/평가 하자
+>
+> - 생산적인 **기간**을 보내기 위해서는...
+>
+>   1. **나를 평가하는 사람**의 기준을 명확하게 인지해야 한다.
+>   2. **나 스스로**의 기준이 명확하게 있어야한다.(즉, 나의 목표 부터가 명확해야 한다.)
+>
+> - 생산적인 **하루**를 보내기 위해서는...
+>
+>   1. 큰 일을 작은 일로 나눈다.
+>   2. 완료의 기준을 명확히 한다.
+>   3. 코딩도 마찬가지다.
+
+
+#### Note Making
 
 > [!rf]
 >
 > [From note-taking to note-making](https://nesslabs.com/from-note-taking-to-note-making)
 
 
-- PARA 메모법
+[ Document](/Programing/tools/documentation/index.md) [-]
 
-  _실행도를 기준으로 노트를 분류하는 기법. 주제별로 나누는 것이 아니다._
 
-  >- Project:
-  >  - **지금 가장 전념**하는 것
-  >  - 기간/목표가 명확함. 즉, 끝이 있음
-  >  - ex) 이사하기, 직장 취업하기, 책 쓰기
-  >
-  >- Area:
-  >  - **끝이 없고, 꾸준히** 해 나가는 것
-  >  - 나의 책임이나 역할이 있음
-  >  - ex) 운동, 독서, 프로그래밍 실력 향상
-  >
-  >- Resource:
-  >  - 관심 분야 정보
-  >  - 내 **책임은 없음**
-  >  - ex) 창업, 종교, 예술, 춤추는법 등
-  >
-  >- Archive:
-  >  - 위의 세 가지에 속하지 않는 것
-  >  - 종료/중단된 프로젝트
-  >  - 책임이 사라진 영역, 관심이 사라진 자원
+> [!ye] PARA 메모법
+>
+>  _실행도를 기준으로 노트를 분류하는 기법. 주제별로 나누는 것이 아니다._
+>
+> - Project:
+>   - **지금 가장 전념**하는 것
+>   - 기간/목표가 명확함. 즉, 끝이 있음
+>   - ex) 이사하기, 직장 취업하기, 책 쓰기
+>
+> - Area:
+>   - **끝이 없고, 꾸준히** 해 나가는 것
+>   - 나의 책임이나 역할이 있음
+>   - ex) 운동, 독서, 프로그래밍 실력 향상
+>
+> - Resource:
+>   - 관심 분야 정보
+>   - 내 **책임은 없음**
+>   - ex) 창업, 종교, 예술, 춤추는법 등
+>
+> - Archive:
+>   - 위의 세 가지에 속하지 않는 것
+>   - 종료/중단된 프로젝트
+>   - 책임이 사라진 영역, 관심이 사라진 자원
+
 
 #### Post
 
@@ -85,7 +108,11 @@ _"더 열심히 해"_ from.고은상
 >  - AI, Bigdata: 업무의 페러다임을 바꿈
 
 
-### dotfiles [-]
+
+
+### 개발 환경
+
+#### dotfiles [-]
 
 _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개발/생산 환경을 구축할 수 있다._
 
@@ -96,14 +123,23 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 > [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
 > [secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
 
+#### Command History
 
-### 개발 환경
+[command history](/Cheat_Sheet/command_history)
+
+#### Remote System
+
+[file share & control](/Cheat_Sheet/file_share_&_control)
+[nfs 프로토콜, 디렉토리 공유하기](/Programing/workflows/서버관리/nfs로_디렉토리_공유하기)
+[SSH protocol](/Programing/workflows/서버관리/SSH)
+[rclone으로 클라우드 스토리지 서비스 동기화](/Programing/workflows/cloud_storage/rclone으로_클라우드_스토리지_서비스_동기화)
 
 #### Operating System
 
 [만자로 시스템 복사(이사)하기](/Programing/concepts_and_tools/concepts/linux/만자로_시스템_복사하기)
 [sysz](/Programing/tools/system_admin/sysz.md): `systemctl`을 편리하게!
-
+[System configs](/Cheat_Sheet/System_configs)
+[부팅디스크 만들기](/Area/개발_환경/Operating_System/부팅디스크_만들기)
 
 > [!ye] 리눅스 종합 system configurations 관리 툴(아직 한창 개발중):
 >
@@ -123,6 +159,28 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 > weston --backend=x11-backend.so
 > ```
 
+#### Vim
+
+[Vim](/Programing/tools/vim/index.md)
+
+#### Git & Github
+
+[Git](/Programing/tools/git_and_github/index.md)
+
+#### Browser
+
+[browser](/Programing/tools/browser/index.md)
+  > rave browser
+
+#### AI
+
+[AI](/Programing/tools/AI/index.md)
+  > aider
+
+#### Tools
+
+[bore](/Programing/concepts_and_tools/tools/bore.md):
+  simple tcp tunnel CLI. make localhost to public server
 
 
 #### Post
@@ -133,7 +191,7 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 [오픈소스에 난생처음 PR 날리기](/Programing/posts/오픈소스에_난생처음_PR_날리기)
 
 
-### 개발 학습 [-]
+### 개발 역량 [-]
 
 _프로덕션에 가까운 프로젝트들을 보면서 배우는 것이 중요하다._
 _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 마스토돈, nodejs는 미스키, 파이썬은 bookwyrm"_
@@ -142,7 +200,7 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 [linux `$HOME` path](/Programing/concepts_and_tools/concepts/linux/home_path)
 [systemd](/Programing/concepts_and_tools/concepts/linux/systemd)
-[what is shell?](/Area/개발_학습/Linux/what_is_shell)
+[what is shell?](/Area/개발_역량/Linux/what_is_shell)
 
 #### Container
 
@@ -152,18 +210,63 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 #### Web Dev
 
 [static website vs dynamic website](/Programing/concepts_and_tools/concepts/web_dev/static_website_vs_dynamic_website)
+[architecture](/Area/개발_역량/Web_Dev/architecture)
+[design](/Area/개발_역량/Web_Dev/design)
+
+
+#### CI CD
+
+[!ye] 배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요소이다. 요구사항을 파악하고 빠르게 반영하기도 바쁜데, 배포가 매끄럽지 못해서 턱턱 막힌다면 진짜 갑갑하다.
+
+> [!ye] single container SPA
+>
+> [실습 github](https://github.com/study-and-trial/static-site)
+>
+> - 파이프라인 구성요소
+>   - dev 서버
+>   - github-action runner 서버
+>   - container (image)registry
+>   - 배포 서버
+>
+> - 작업 순서
+>   1. 개발 진행
+>   2. github push 또는 pr merge에 따라 runner 실행(적절한 방식을 runner의 트리거로 설정한다.)
+>   3. runner server(github 또는 self-hosted)에서 runner 실행:
+>      1. container (image)registry 로그인
+>      2. 컨테이너 이미지 빌드, 레지스트리에 push
+>      3. 배포서버에 ssh 접속하여 이미지 pull, 컨테이너 재시작
 
 #### Languages
 
-[Javascript](/Area/개발_학습/Languages/Javascript) [-]
-[Dart](/Area/개발_학습/Languages/Dart) [-]
-[Python](/Area/개발_학습/Languages/Python)
+[Javascript](/Area/개발_역량/Languages/Javascript) [-]
+[Dart](/Area/개발_역량/Languages/Dart) [-]
+[Python](/Area/개발_역량/Languages/Python)
 
+#### Web Scraping
+
+> [!lg]웹 접근성 기반 선택자를 활용하자
+>
+> - 접근성 기반 선택자 사용의 실제 예시
+>
+>   예를 들어, 다음과 같은 HTML 코드가 있을 때:
+>
+>   html
+>   코드 복사
+>   <button aria-label="Download">Download</button>
+>   이 버튼을 선택하려면 다음과 같은 선택자를 사용할 수 있습니다:
+>
+>   javascript
+>   코드 복사
+>   document.querySelector('button[aria-label="Download"]');
+>   이 선택자는 aria-label 속성에 "Download"가 설정된 모든 버튼을 선택합니다. 버튼의 클래스나 ID가 변경되더라도 이 선택자는 유지될 가능성이 큽니다.
+>
+>   접근성 기반 선택자는 웹 스크래핑, 자동화 테스트, UI 테스트 등에서 안정적으로 사용할 수 있는 강력한 도구입니다.
 
 #### Big Data
 
 [Keywords](/Area/개발_학습/Big_Data/Keywords)
 [Apache arrow](/Area/개발_학습/Big_Data/Apache_arrow)
+[Big Data Engineering](/Programing/workflows/big_data_engineering/index.md)
 
 #### Database
 
@@ -371,7 +474,9 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 ## Resource
 
-### 디자인
+### Design
+
+#### Tools
 
 **구입하자**
 
@@ -380,24 +485,71 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
   [스타일 가이드 소개](https://www.youtube.com/watch?v=_7wO8CZEwBw)
   [구매링크](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbEJHSVk3LU5Qc2JLeVFwLXNQa1ZHSnBDcTBmQXxBQ3Jtc0trRkV1S0lGZnlfZjJnME1fdmh6eWdXLWRjVXZvS2FJMU52WHhONVFKcEhxSG5CeFM2VTdTV05fY3VhbVBDSnJmSUdheVp2SHlyLVlkaE85M1pDc2NiTGNRYURGY1BZTVdwdXpOZDlKRUVpX1h2TWY0aw&q=https%3A%2F%2Fwww.sixshop.com%2Fmadia%2Fproduct%2Fuiux_Styleguide_2)
 
-- 학습
-  [css 학습 채널](https://www.youtube.com/@lundeveloper)
+#### 웹 개발에 자주쓰이는 해상도
 
-  [!re] ai 붐 이후 많이 바뀌었을텐데, 현시점에도 의미있는 근본적인 내용인지 판단 필요
-  [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
-  [youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
-  [youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
+- desktop _(1920 x 1080)_
 
-### command history
+  - 일명 FHD(Full High Definition)라고 불리는 해상도
+  - 24인치 데스크탑, 보편적인 모니터 크기의 해상도
+  - XD 나 figma 에서 작업시 뷰포트는 1053px
+  - 브라우저의 상단 부분의 URL 과, 북마크 등의 높이값을 빼고 작업을 한다. viewport는 약, 1053px 정도로 설정
+  - **다만,** 배경 등 레이아웃 요소들을 1920기준으로 하되, 본문 등 실제 내용은 1000px정도로 작업
 
-- etc
-  [ command history](/Cheat_Sheet/command_history)
 
-- system configs
-  [ System configs](/Cheat_Sheet/System_configs)
+- laptop _(1536 x 864)_
 
-- file share
-  [ file share & control](/Cheat_Sheet/file_share_&_control)
+  - FHD 노트북의 해상도
+  - 1920 x 1080에 125% 배율을 적용한 해상도
+  - 노트북 폰트 사이즈 기본 세팅이 125%로 되어 있는경우가 대부분
+  - 브라우저의 상단 부분의 URL 과, 북마크 등의 높이값을 빼면 viewport는 약, 845px 정도로 설정
+
+
+- tablet _(1024 x 768)_
+
+  - 스마트폰 기기의 해상도는 너무 다양하기 때문에 모든 기준을 맞추지는 못함
+  - 일반적 표현되는 해상도 기준에 맞춰 "media" 테그를 활용하여 반응형 웹으로 제작
+
+
+- mobile _(375 x 667)_
+
+  - 375 x 667 해상도는 iPhone 6, 7, 8, X 등의 기본 해상도
+
+
+> [!ye] 해상도에 맞게 미디어 쿼리 작성 방법 예시
+>
+> _1920px은 기본값으로 별도의 미디어 쿼리 설정 없이 사용_
+>
+> ```css
+> p{
+>     font-size: 1.2rem;
+> }
+> @media (max-width: 1536px) {
+>     p{
+>         font-size:1rem;
+>     }
+> }
+> /* 1280 ~ 1536 해상도 부터 body의 font-size가 1.2rem  */
+> @media (max-width: 1280px) {
+>     p{
+>         font-size:0.8rem;
+>     }
+> }
+> @media (max-width: 1023px) {
+> }
+> @media (max-width: 766px) {
+> }
+> ```
+
+#### Reference
+
+[css 학습 채널](https://www.youtube.com/@lundeveloper)
+[youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
+[youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
+[youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
+
+[!re] ai 붐 이후 많이 바뀌었을텐데, 현시점에도 의미있는 근본적인 내용인지 판단 필요
+
+
 
 ### 유용한 무료 api
 
@@ -561,28 +713,5 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 ## Archive
 
 [칭찬 수집기 개발](/Project/진행중/칭찬_수집기/index.md)
-[2025 우테코 지원](2025_우테코)
-
-
-
-
-## 1. 프로그래밍 [-]
-
-[ Workflow](/Programing/workflows/index.md) [-]
-
-### 1.1 개발환경 [-]
-
-[ Document](/Programing/tools/documentation/index.md) [-]
-[ Git](/Programing/tools/git_and_github/index.md)
-[ Vim](/Programing/tools/vim/index.md)
-[ browser](/Programing/tools/browser/index.md)
-[ AI](/Programing/tools/AI/index.md)
-
-
-
-
-
-
-
-
+[2025 우테코 지원](/Archive/2025_우테코_지원)
 

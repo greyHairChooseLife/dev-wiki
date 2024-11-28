@@ -2,8 +2,6 @@
 
 
 
-## 커맨드라인
-
 
 ### 여러 필드중 하나를 선택하고, 그 다음 커맨드의 인자로 넘기기
 
@@ -17,6 +15,7 @@ command1 | awk '{print $1}' | xargs command2
 # 예시
 gh gist list | awk '{print $1}' | xargs gh gist view
 ```
+
 
 
 ### awk
