@@ -213,6 +213,10 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 [architecture](/Area/개발_역량/Web_Dev/architecture)
 [design](/Area/개발_역량/Web_Dev/design)
 
+#### Cloud Computing
+
+[AWS](/Area/개발_역량/Cloud_Computing/AWS)
+
 
 #### CI CD
 
