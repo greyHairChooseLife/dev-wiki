@@ -381,11 +381,15 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 #### 개발
 
-- openAI: gpt
-- anthropic: claude.ai
-- figma
+- subscribe
+  - github copilot: $100/Y
+  - openAI: gpt: $20/M
+  - figma: $15/M
 
-- AWS API Gateway
+- API
+  - anthropic: claude.ai
+
+- AWS
 
 
 ### 좋은 가족, 좋은 친구 되기
