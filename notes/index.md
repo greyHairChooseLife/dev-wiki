@@ -25,6 +25,28 @@ _"더 열심히 해"_ from.고은상
 
 ## Area
 
+### 오픈소스 기여 [-]
+
+
+#### neovim 내장 플러그인 tohtml.vim [-]
+
+- 발단
+
+  `render-markdown.nvim`으로 렌더링(하이라이팅) 된 것을 있는 그대로 pdf 또는 이미지로 출력하고싶었다. `TOhtml` 명령을 이용해보란 조언을 얻었다.(vim.kr 디스코드 채널)
+
+  그런데 vimwiki에서 당장 TOhtml 해보면 에러가 발생하는거다. 이것에 대해 대화하다가 아래와같은 조언을 얻었다.
+
+  ```txt
+  tohtml이 루아로 변환된지 오래되지 않아서 어쩌면 네오빔 업스트림에 기여하실수도있어요
+  버그 고치신다면 리뷰하고 받아주실거같아요
+  html 나온거에서 </pre> 에 해당하는 부분
+  그 부분 계산하다가 태그가 안맞아서 뻗은거네요
+  <pre> .. </pre> 사이에 태그가 뭔가 빠졌다는건데
+  ```
+
+  [tohtml.vim](https://github.com/neovim/neovim/blob/3d3a99e69cda365cae9ad65831712301807a772b/runtime/lua/tohtml.lua)
+
+
 ### 생산성을 기르자
 
 > [!rf]
