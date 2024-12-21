@@ -17,7 +17,6 @@ _"더 열심히 해"_ from.고은상
 > - 최초 설계가 잘못되었는데, 설계 부터 다시 하기엔 당장 시급한 일이 있다.
 
 
-감자
 
 ### 결혼에 확신을 갖는 방법 찾기
 
@@ -191,6 +190,16 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 >
 
 [alacritty](/Programing/tools/terminal_emulator/alacritty.md)
+
+- korean input
+  https://www.nemonein.xyz/2023/04/7763/
+
+https://www.youtube.com/watch?v=CtLzkom7tgw
+https://www.youtube.com/watch?v=FWGMne_rGHk
+https://www.youtube.com/watch?v=y6XCebnB9gs
+https://www.youtube.com/watch?v=DzNmUNvnB04
+
+
 
 
 #### Vim
@@ -957,6 +966,7 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 [better way to manage dot files](https://www.youtube.com/watch?v=tBoLDpTWVOM)
 [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
 [e-commerce example site](https://contents.clayful.store/)
+[good programmer](https://parksb.github.io/article/32.html)
 
 
 ## Archive
