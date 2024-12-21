@@ -7,7 +7,6 @@ _이 위키의 목적은 기록하여 (나중에)필요시 되찾아보기 위�
 
 _"더 열심히 해"_ from.고은상
 
-
 ## Project
 
 ### 프로그래밍
@@ -18,12 +17,14 @@ _"더 열심히 해"_ from.고은상
 > - 최초 설계가 잘못되었는데, 설계 부터 다시 하기엔 당장 시급한 일이 있다.
 
 
+감자
+
 ### 결혼에 확신을 갖는 방법 찾기
 
 호호호
 
 
-## Area
+## Area [-]
 
 ### 오픈소스 기여 [-]
 
@@ -181,6 +182,17 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 > weston --backend=x11-backend.so
 > ```
 
+
+#### Terminal Emulator
+
+> [!lg] Log 2024-12-20
+>
+> urxvt
+>
+
+[alacritty](/Programing/tools/terminal_emulator/alacritty.md)
+
+
 #### Vim
 
 [Vim](/Programing/tools/vim/index.md)
@@ -192,7 +204,7 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 #### Browser
 
 [browser](/Programing/tools/browser/index.md)
-  > rave browser
+  > brave browser
 
 #### AI
 
@@ -229,11 +241,179 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 [docker](/Programing/concepts_and_tools/tools/docker.md):
 [HUB: kubernetes](/Programing/concepts_and_tools/tools/kubernetes/index.md):
 
-#### Web Dev
+#### Web Dev [-]
 
 [static website vs dynamic website](/Programing/concepts_and_tools/concepts/web_dev/static_website_vs_dynamic_website)
 [architecture](/Area/개발_역량/Web_Dev/architecture)
 [design](/Area/개발_역량/Web_Dev/design)
+
+[-] 제대로 된 에러핸들링 전략이 있어야겠다.
+> `try ... catch ...` 구문은 연쇄적으로 에러를 추적한다. cascade error handling이라고 부를 수 있겠다.
+> 따라서 (바깥쪽)가장 먼저 에러를 이르킨 지점부터 (안쪽)가장 깊은 지점까지 단계별로 에러를 추적하며 에러메시지가 누적 로깅 된다.
+> 이때 어떻게 연쇄적으로 throw시키고, 어떤 에러객체를 전달할지 정해진 전략이 필요하다.
+
+
+- HTTP 상태코드
+  | code | 이름                  | 설명                                           |
+  |------|-----------------------|------------------------------------------------|
+  | 401  | Unauthorized          | 인증이 필요하거나 실패했을 때.                 |
+  | 403  | Forbidden             | 인증은 되었지만, 자원에 접근할 권한이 없을 때. |
+  | 500  | Internal Server Error | 서버 내부 문제.                                |
+
+
+[x] `DB<->백엔드<->프론트`, 세 단위에서 데이터가 오갈 때 snake_case, camelCase 변환 전략(DB에서는 snake_case, 백/프론트에서는 camelCase를 쓰는 경우)
+> [-] 자세한 예시나 사례가 있으면 좋겠다. 특정 프로젝트와 관계 없이 적용 가능할 것
+>
+> 1. 백엔드에서 변환
+>    - 장점: 프론트엔드 단순화, 일관된 API 응답.
+>    - 단점: 백엔드 처리 부담 증가, 클라이언트 유연성 감소.
+>    - 적합: 단일 클라이언트, 간단한 구조.
+>
+> 2. 프론트엔드에서 변환
+>    - 장점: 백엔드 단순화, 클라이언트 제어 용이.
+>    - 단점: 프론트엔드 복잡성 증가, 반복 변환 필요.
+>    - 적합: 다수의 클라이언트, 클라이언트별 포맷 다양.
+>
+> 3. 중간 계층에서 변환
+>    - 장점: 백엔드와 프론트엔드 부담 분산, 명확한 역할 분리.
+>    - 단점: 중간 계층 유지보수 필요, 간단한 구조에선 오히려 복잡.
+>    - 적합: API 게이트웨이, 대규모 시스템.
+>
+> - **권장 방식**
+>
+>   - 단일 클라이언트: 백엔드에서 변환.
+>   - 다수 클라이언트: 프론트엔드에서 변환.
+>   - 중간 계층이 있다면 변환 책임을 중간 계층에 위임.
+>
+> - 유틸 함수 예시
+>   ```typescript
+>   // Utility function to convert snake_case keys to camelCase
+>   export function convertToCamelCase<T>(obj: any): T {
+>     if (obj === null || typeof obj !== 'object') {
+>       return obj;
+>     }
+>
+>     if (obj instanceof Date) {
+>       return obj as T;
+>     }
+>
+>     if (Array.isArray(obj)) {
+>       return obj.map((item) => convertToCamelCase(item)) as T;
+>     }
+>
+>     return Object.entries(obj).reduce((acc, [key, value]) => {
+>       const camelCaseKey = key.replace(/_([a-z])/g, (_, letter) =>
+>         letter.toUpperCase(),
+>       );
+>       acc[camelCaseKey] = convertToCamelCase(value);
+>       return acc;
+>     }, {} as Record<string, unknown>) as T;
+>   }
+>
+>   // Utility function to convert an array of database results to camelCase
+>   export function convertResultsToCamelCase<T>(results: any[]): T[] {
+>     if (!Array.isArray(results)) {
+>       throw new Error('Input must be an array.');
+>     }
+>     return results.map((result) => convertToCamelCase<T>(result));
+>   }
+>   ```
+>
+> - 함수 활용
+>
+>   ```typescript
+>   ## File Path: src/controllers/communityPostController.ts, 141-193
+>   // 게시글 상세 조회
+>   export const getCommunityPostById = async (req: Request, res: Response) => {
+>     try {
+>       const { postId } = req.params;
+>
+>       const [postResult]: [RowDataPacket[], any] = await database.query(
+>         `SELECT
+>           p.post_id,
+>           p.title,
+>           p.content,
+>           p.author_id,
+>           p.created_at,
+>           p.updated_at,
+>           s.status,
+>           s.reason
+>         FROM community_post_table p
+>         LEFT JOIN community_post_status_table s ON p.post_id = s.post_id
+>         WHERE p.post_id = ?`,
+>         [postId],
+>       );
+>
+>       const [attachments]: [RowDataPacket[], any] = await database.query(
+>         'SELECT * FROM community_attachment_table WHERE post_id = ?',
+>         [postId],
+>       );
+>
+>       const [comments]: [RowDataPacket[], any] = await database.query(
+>         `SELECT
+>           c.comment_id,
+>           c.content,
+>           c.author_id,
+>           c.created_at,
+>           u.name as author_name
+>         FROM community_comment_table c
+>         LEFT JOIN user_mapping_table u ON c.author_id = u.user_id
+>         WHERE c.post_id = ?`,
+>         [postId],
+>       );
+>
+>       if ((postResult as any).length === 0) {
+>         res.status(404).json({ message: '게시글을 찾을 수 없습니다' });
+>       }
+>
+>       res.json({
+>         ...convertToCamelCase(postResult),
+>         attachments: convertResultsToCamelCase(attachments),
+>         comments: convertResultsToCamelCase(comments),
+>       });
+>     } catch (error) {
+>       console.error('게시글 상세 조회 오류:', error);
+>       res.status(500).json({ message: '게시글 상세 조회 중 오류 발생' });
+>     }
+>   };
+>   ```
+
+
+> [!td]2024-12-05
+> [-] What is preflight request? 비표준 http 헤더를 사용하는 경우 보안을 위해 미리 요청을 보내본다는데... 이와 관련된 캐싱 정책도 개발자가 고려해야할 상항이다. 관련된 내용을 자세히 알아두자.
+>  󱞪
+
+> [!td]2024-12-06
+> [-] typescript+express 서버에서 컨트롤러를 만들 때, early return으로 res객체를 보낼 때가 있다. 뭔가 에러가 있다거나 경우에 따라 다른 응답을 보내야 할 때다. 근데 해당 컨트롤러의 마지막까지 실행되지 않고 응답한다면, 이후의 코드는 실행되지 않도록 return 해줘야한다. 근데 이게 `res.status().json()` 자체를 리턴하는것과 이후 void를 리턴하는 것에 차이가 있다.(당연하다..) 근데 문제는 이게 다르다는게 아니라 일관되지 않다는거다. `return res.status().json()`을 하면 에러가 날 때가 있고, 아닐때가 있다. typescript의 기본 request, response객체 타입에 어긋난게 에러의 원인이라는데, 에러의 원인과는 별개로 왜 일관되지 않은 결과가 나타나는가?
+>  󱞪
+> ```typescript
+> export const getFileSignedUrl = async (req: AuthRequest, res: Response) => {
+>   try {
+>     // 인증 확인
+>     if (!req.userInfo) {
+>       res.status(401).json({ message: '인증되지 않은 사용자입니다.' });
+>       return;
+>     }
+>
+>     const fileKey = decodeURIComponent(req.params.fileKey);
+>
+>     if (!fileKey) {
+>       res.status(400).json({ message: '파일 키가 필요합니다' });
+>       return;
+>     }
+>
+>     // 파일 존재 여부 및 접근 권한 확인 로직 추가 필요
+>     const presignedUrl = await awsS3Service.getPresignedFileUrl(fileKey);
+>
+>     res.json({ presignedUrl });
+>   } catch (error) {
+>     console.error('파일 서명 URL 생성 오류:', error);
+>     res.status(500).json({
+>       message: '파일 URL 생성 중 알 수 없는 오류가 발생했습니다.',
+>     });
+>   }
+> };
+> ```
 
 #### Cloud Computing
 
@@ -262,7 +442,7 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 >      2. 컨테이너 이미지 빌드, 레지스트리에 push
 >      3. 배포서버에 ssh 접속하여 이미지 pull, 컨테이너 재시작
 
-#### Languages
+#### Languages [-]
 
 [Javascript](/Area/개발_역량/Languages/Javascript) [-]
 [Dart](/Area/개발_역량/Languages/Dart) [-]
@@ -294,7 +474,7 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 [Apache arrow](/Area/개발_학습/Big_Data/Apache_arrow)
 [Big Data Engineering](/Programing/workflows/big_data_engineering/index.md)
 
-#### Database
+#### Database [-]
 
 [관계형 데이터베스의 종류](/Programing/concepts_and_tools/concepts/database/relational_database/relational_database의_종류.md)
 [기본개념 및 키워드](/Programing/concepts_and_tools/concepts/database/relational_database/기본개념_및_키워드.md)
@@ -397,6 +577,8 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
   [초보자를 위한 게임개발 총론](https://gpgstudy.com/gpgiki/%EC%B4%88%EB%B3%B4%EC%9E%90_Faq)
   [flutter game dev Big series](https://www.youtube.com/watch?v=Kwn1eHZP3C4&ab_channel=Spellthorn)
   [flutter game dev Small series](https://www.youtube.com/watch?v=wUf3UytV4wQ&ab_channel=TreyCodes)
+  [게임 개발자의 고민](https://www.youtube.com/watch?v=Zpdtg9dtNOg)
+
 
 
 ### 구독 서비스 관리
@@ -414,11 +596,40 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 - AWS
 
 
-### 좋은 가족, 좋은 친구 되기
+### 좋은 가족, 좋은 친구, 멋진 인간 되기
 
 #### 선물 하고싶은 것들
 
 [좋은 가족, 좋은 친구 되기](/Life/좋은_가족,_좋은_친구_되기/index.md)
+
+
+#### 고마운 마음
+
+- 충북Pro메이커센터
+
+  - 박지원 과장님
+    : 2024-09-06, 고향에 부모님께서 농사 지으시는 패션후르츠 청을 선물해주셨다. 아주 맛있었다.
+  - 김이영 연구원님
+    : 2024-11-20, 서울에 출장 다녀오면서 특이한 베이글을 사 주셨다. 이런건 처음 먹어봤는데, 신기하고 맛있었다.
+  - 이중원 박사님
+    : 2024-12-05, 점심 식사를 같이 했는데, 사창시장에서 맛있는 국밥을 사주시고 사색말차에서 커피까지 사 주셨다. 내가 맛있다고 한 것을 본인도 맛있다고 해 주셔서 감사했다.
+  - 곽준구 팀장님
+    : 2024-12-11, 철야 근무하다가 아침에 깜빡 잠에 들었는데 일어나보니 곽팀장님이 들깨칼국수를 내것까지 시켜주셨다. 컨디션이 별로라 입맛이 없긴 했지만 덕분에 며칠만에 제대로 된 식사를 했다. 내게 해주시는 걱정과 관심에 감사했다.
+    : 2024-12-17, 센터 사업비중 회의비가 좀 남아서 (센터)식구들끼리 맛있는 점심을 드시기로 했나보다. 그런데 역시나 우리 팀장님이 나를 데려가고자 아주 적극적으로 나서주셨다. 좀 한가했다면 갔을텐데... 평소의 게으름이나 센터에 크게 기여하지 못함이 후회됐다. 한다고 하긴 했는데... 이렇게 부족한데도 참 고맙게 대해주신다.
+  - 류재윤 연구원님
+    : 2024-12-17, 센터 사업비중 회의비가 좀 남아서 (센터)식구들끼리 맛있는 점심을 드시기로 했나보다. 내가 똑부러지게 사양하지 않자 민망해서 그런가보다 생각하셨나, 같이 가자고 인사해주셨다. 재윤 선생님과 나는 별다른 교류는 물론 대화도 얼마 못해봤는데, 과하지 않을 만큼 나에게 예의바르게 대해주신다. 감사드린다.
+
+
+#### 다른 입장을 이해해 보기
+
+
+- 여성의 이해
+
+  - 생리통 체험
+    : 허리에 두르고 체험해보는 도구가 있다고 한다. 수십년간, 매 달, 때와 장소를 가리지 않는 것을 유념하자.
+
+  - 산통 체험
+    : 산모의 진통이 얼마나 힘들고 고통스러운지 체험 해 볼 수 있다.
 
 
 
@@ -670,6 +881,9 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 | 흔들리는 도쿄          | 봉준호       |
 | 해리 프리그의 비밀전쟁 |              |
 | 감자심포니             |              |
+| 버팔로 66              |              |
+| Big Night, 1996        |              |
+
 
 #### 관심 인물
 
