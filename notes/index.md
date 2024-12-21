@@ -145,6 +145,9 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 > [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
 > [secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
 
+about stow
+
+
 #### Command History
 
 [command history](/Cheat_Sheet/command_history)
@@ -214,6 +217,10 @@ https://www.youtube.com/watch?v=DzNmUNvnB04
 
 [browser](/Programing/tools/browser/index.md)
   > brave browser
+
+- extension
+  https://github.com/glacambre/firenvim
+  https://github.com/dlvhdr/diffnav
 
 #### AI
 
