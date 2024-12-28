@@ -207,19 +207,27 @@ https://www.youtube.com/watch?v=DzNmUNvnB04
 
 
 
-#### Vim
+#### Vim [-]
 
 [Vim](/Programing/tools/vim/index.md)
 
-coc to somewhere and so on ...
+[-]
+- coc to native LSP
 
-https://www.youtube.com/watch?v=lwMEKstov4o
+  https://www.youtube.com/watch?v=-qg6o0Fpd5U
 
-https://www.youtube.com/watch?v=u6S71cpMfw8&t=35s
-https://www.youtube.com/watch?v=M8YrfquecWc
-https://www.youtube.com/watch?v=aOMs7M3z4ws
-https://www.youtube.com/watch?v=XEOxO2VpTOc
-https://www.youtube.com/watch?v=-qg6o0Fpd5U
+https://www.reddit.com/r/neovim/comments/18hzcok/most_straightforward_way_to_setup_lsp/
+https://www.reddit.com/r/neovim/comments/1fcu79p/does_anyone_have_a_config_with_every_lsp_setup/
+
+
+[-]
+https://patrick-f.tistory.com/36
+
+
+[-]
+- avante issu
+  https://github.com/yetone/avante.nvim/commit/be92be6
+  https://github.com/yetone/avante.nvim/commit/78dd9b0
 
 
 #### Git & Github
@@ -542,7 +550,6 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 [I just wanted to deploy my code!](/Programing/posts/I_just_wanted_to_deploy_my_code!)
 [what is chatGPT](/Programing/posts/what_is_chatGPT)
 
-
 #### Reference
 
 - etc
@@ -672,7 +679,13 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
   > [사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
 
 
-#### 댓글
+#### 댓글 [-]
+
+
+> [!lg] Log 2024-12-27
+>
+> [조건을 안보기 시작한 IT 업계](https://www.youtube.com/watch?v=M8oj2ZIoYbY) [-]
+
 
 > [!lg] Log 2024-12-23
 >
