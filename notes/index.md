@@ -211,24 +211,11 @@ https://www.youtube.com/watch?v=DzNmUNvnB04
 
 [Vim](/Programing/tools/vim/index.md)
 
-[-]
-- coc to native LSP
-
-  https://www.youtube.com/watch?v=-qg6o0Fpd5U
-
-https://www.reddit.com/r/neovim/comments/18hzcok/most_straightforward_way_to_setup_lsp/
-https://www.reddit.com/r/neovim/comments/1fcu79p/does_anyone_have_a_config_with_every_lsp_setup/
+[-] 터미널에서 뭔가 입력하다가 v눌러서 vim모드 켜면 editor가 나온다. 이것의 용도는 뭘까?
 
 
-[-]
-https://patrick-f.tistory.com/36
-
-
-[-]
-- avante issu
-  https://github.com/yetone/avante.nvim/commit/be92be6
-  https://github.com/yetone/avante.nvim/commit/78dd9b0
-
+[-] terminal config
+  [sourec](https://www.youtube.com/watch?v=-qg6o0Fpd5U)
 
 #### Git & Github
 
