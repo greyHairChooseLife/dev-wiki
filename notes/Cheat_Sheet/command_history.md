@@ -2,6 +2,7 @@
 
 
 
+## ETC
 
 ### 여러 필드중 하나를 선택하고, 그 다음 커맨드의 인자로 넘기기
 
@@ -108,10 +109,6 @@ magick input.jpg -resize 50% output.jpg
 - Acending : {'n', 'v'} `:sort`
 - Decending: {'n', 'v'} `:sort!`
 
-### 내 ip 확인, my ip
-
-`curl ifconfig.me`
-
 ### 쌍모니터(가로 + 세로)
 
 ```bash
@@ -130,6 +127,31 @@ systemctl --user restart pulseaudio
 # Or with administrative (root) privileges,
 # restart PulseAudio system-wide
 sudo systemctl restart pulseaudio
+```
+
+
+## network
+
+### 내 ip 확인, my ip
+
+```bash
+curl ifconfig.me
+```
+
+### wifi 관리
+
+- 서비스명: `NetworkManager`
+- `nmcli` 또는 `nmtui`
+
+```
+# 활성화 연결 확인
+nmcli connection show
+
+# wifi 네트워크 검색
+nmcli device wifi list
+
+# wifi 연결(이미 접속 정보가 저장되어 있을 경우 password 생략 가능)
+nmcli device wifi connect <SSID> password <password>
 ```
 
 
