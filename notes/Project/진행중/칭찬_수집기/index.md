@@ -93,6 +93,7 @@ async function appendSheetData(newData: string[][]) {
 ### 3. GitHub Pages로 배포
 
 #### `vite.config.js` 파일에서 `base` 경로 설정:
+
 GitHub Pages는 정적 파일을 서빙하므로 배포 시 베이스 경로를 설정해야 합니다.
 ```javascript
 export default {
@@ -101,6 +102,7 @@ export default {
 ```
 
 #### 프로젝트를 GitHub Pages로 배포:
+
 ```bash
 npm run build
 git add dist -f

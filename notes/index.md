@@ -1,29 +1,11 @@
 #  DEV WIKI
 
 
-
 _이 위키의 목적은 기록하여 (나중에)필요시 되찾아보기 위함이다.
 누군가에게 뽐내기 위한 용도가 아니다._
 
 _"더 열심히 해"_ from.고은상
 
-https://www.youtube.com/watch?v=cQUh651LMj8
-https://www.youtube.com/watch?v=WCGQPKdd6s0
-https://www.youtube.com/watch?v=UcK6lDcL8fU
-https://www.youtube.com/watch?v=FwH2S_oNRk8
-https://www.youtube.com/watch?v=RdyfT2dbt78
-https://www.youtube.com/watch?v=82UUYNEu2iM
-https://www.reddit.com/r/neovim/comments/1fcu79p/does_anyone_have_a_config_with_every_lsp_setup/
-https://www.reddit.com/r/neovim/comments/1fcu79p/does_anyone_have_a_config_with_every_lsp_setup/
-https://www.youtube.com/results?search_query=tmux+%EB%A6%AC%EB%B7%B0
-https://www.youtube.com/watch?v=iTyjTM4Gujg
-https://www.youtube.com/watch?v=VMdSJ8d5Aos
-https://www.youtube.com/watch?v=wNkpA66hzFA
-https://github.com/andrewberty/telescope-themes
-https://github.com/nvim-telescope/telescope-ui-select.nvim
-https://www.google.com/search?q=telescope%20ui%20select
-https://www.reddit.com/r/neovim/comments/wsgshl/suitnvim_a_plugin_to_enhance_the_default/
-https://www.youtube.com/watch?v=xdXE1tOT-qg
 
 
 ## Project
