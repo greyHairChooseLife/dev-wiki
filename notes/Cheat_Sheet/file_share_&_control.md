@@ -1,7 +1,37 @@
 # file transfer
 
 
-## SCP
+## magic-wormhole
+
+_양쪽 시스템에 모두 설치해야하는 것 외엔, 간편하고 훨씬 좋은듯?_
+
+[repo](https://github.com/magic-wormhole/magic-wormhole)
+
+- 보내기
+
+  ```bash
+  wormhole send <file path>
+
+  # 출력 예시
+  # [me@my-computer]$ wormhole send ~/file.txt
+  # Sending 365.4 kB file named 'file.txt'
+  # Wormhole code is: 1-retraction-sentence
+  # On the other computer, please run:
+  #
+  # wormhole receive 1-retraction-sentence
+  ```
+
+- 받기
+
+  ```bash
+  wormhole receive <code>
+  ```
+
+
+## deprecated
+
+
+### SCP
 
   ```bash
   scp <object file path> <target system user>@<target system IP>:<target system path>
@@ -15,7 +45,7 @@
 > 디렉토리 자체를 옮기술도 있다.
 
 
-## RSYNC
+### RSYNC
 
 
 [!re] rsync를 사용하더라도 보안을 위해 protocol은 ssh를 사용한다.
@@ -49,13 +79,3 @@ _(순서만 반대로)_
   ```bash
   rsync -az -e "ssh -i ~/.ssh/<SSH-키> -p <포트번호>" <user>@<host>:<path from> <path to>
   ```
-
-
-
-## history
-
-
-rsync -az ./KR*.json sy@10.71.126.200:/home/sy/Working/patent/detail-docker/inputs
-rsync -az index.js sy@10.71.126.200:/home/sy/Working/patent/detail-docker
-rsync -az /home/sy/cbpromaker/미래창업연구소/patent/scrappers/query_detail/src/grepData.js sy@10.71.126.200:/home/sy/Working/patent/detail-docker/src/
-rsync -az /home/sy/cbpromaker/미래창업연구소/patent/scrappers/query_detail/index.js sy@10.71.126.200:/home/sy/Working/patent/detail-docker

@@ -130,6 +130,13 @@ sudo systemctl restart pulseaudio
 ```
 
 
+### man to txt
+
+```bash
+$ man <command> | col -b > filename.txt
+```
+
+
 ## network
 
 ### 내 ip 확인, my ip
