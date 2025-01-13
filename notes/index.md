@@ -1,7 +1,7 @@
 #  DEV WIKI
 
 
-_이 위키의 목적은 기록하여 (나중에)필요시 되찾아보기 위함이다.
+_이 위키의 목적은 기록하여 필요시 되찾아보기 위함이다.
 누군가에게 뽐내기 위한 용도가 아니다._
 
 _"더 열심히 해"_ from.고은상
@@ -55,7 +55,6 @@ _"더 열심히 해"_ from.고은상
 ## Area [-]
 
 ### 오픈소스 기여 [-]
-
 
 #### neovim 내장 플러그인 tohtml.vim [-]
 
@@ -167,14 +166,9 @@ _"더 열심히 해"_ from.고은상
 
 _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개발/생산 환경을 구축할 수 있다._
 
-> [!td]
-> 아래 살펴보고 나도 제대로 관리해보자.
->
-> [better way to manage dot files](https://www.youtube.com/watch?v=tBoLDpTWVOM)
-> [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
-> [secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
+[GNU stow](2.Area/개발환경/stow/index.md)
 
-about stow
+
 
 
 #### Command History
@@ -188,7 +182,7 @@ about stow
 [SSH protocol](/Programing/workflows/서버관리/SSH)
 [rclone으로 클라우드 스토리지 서비스 동기화](/Programing/workflows/cloud_storage/rclone으로_클라우드_스토리지_서비스_동기화)
 
-#### Operating System
+#### Operating System [-]
 
 [만자로 시스템 복사(이사)하기](/Programing/concepts_and_tools/concepts/linux/만자로_시스템_복사하기)
 [sysz](/Programing/tools/system_admin/sysz.md): `systemctl`을 편리하게!
@@ -196,6 +190,7 @@ about stow
 [부팅디스크 만들기](/Area/개발_환경/Operating_System/부팅디스크_만들기)
 [xdg-open 관리](/Area/개발_환경/Operating_System/xdg-open_관리)
 
+[Operating_System](2.Area/개발환경/Operating_System/index.md) [-]
 
 > [!ye] 리눅스 종합 system configurations 관리 툴(아직 한창 개발중):
 >
@@ -216,37 +211,66 @@ about stow
 > ```
 
 
-#### Terminal Emulator
+#### tmux Multiplexer
+
+
+- **플러그인**
+  _vim 생태계와 상당히 비슷하다. 오픈소스 플러그인이 공유되고, 직접 만들고 배포 할 수도 있는 것이 매우 닮았다.
+  TPM이란 플러그인 매니저가 별도로 있는것도 마찬가지다._
+
+  - tmux 서버 자체를 저장하고 불러오는 기능
+
+    서버를 저장하지 않아도 기본적으로 서버의 모든 세션이 유지된다. 서버(프로세스)를 종료하지만 않는다면 말이다.
+    근데 컴퓨터를 껏다 켤 때도 있으니까 프로세스의 상태를 저장할 필요가 있다.
+
+    ```tmux
+    set -g @plugin 'tmux-plugins/tmux-resurrect'
+    set -g @plugin 'tmux-plugins/tmux-continuum'  # tmux-resurrect를 자동화
+    ```
+
+    > [!ye] 기본적으로는 last saved envrionment를 불러오는데symlink를 수정해서 바꿔줄수도 있다.
+    >
+    > [ref](https://github.com/tmux-plugins/tmux-resurrect/blob/master/docs/restoring_previously_saved_environment.md)
+    >
+    > - make sure you start this with a "fresh" tmux instance
+    >   `$ cd ~/.tmux/resurrect/`
+    > - locate the save file you'd like to use for restore (file names have a timestamp)
+    > - symlink the last file to the desired save file: $ ln -sf <file_name> last
+    >   _`-f` 옵션을 사용하  기존 last에 해당하는 심볼릭 링크 파일을 삭제한다. 아니면 에러 발생_
+    > - do a restore with tmux-resurrect key: prefix + Ctrl-r
+
+
+#### Terminal & Shell
 
 > [!lg] Log 2024-12-20
 >
-> urxvt
->
+> 굿바이 urxvt... 비로소 현대적인 terminal emulator로 옮겼다. 이제는 필요성을 느끼는 것이다!
 
-[alacritty](/Programing/tools/terminal_emulator/alacritty.md)
 
-- korean input
-  https://www.nemonein.xyz/2023/04/7763/
+[alacritty config](/Programing/tools/terminal_emulator/alacritty.md)
 
-https://www.youtube.com/watch?v=CtLzkom7tgw
-https://www.youtube.com/watch?v=FWGMne_rGHk
-https://www.youtube.com/watch?v=y6XCebnB9gs
-https://www.youtube.com/watch?v=DzNmUNvnB04
+[bash](2.Area/개발환경/bash/index.md)
 
 
 
 
-#### Vim [-]
+
+
+
+#### Vim
 
 [Vim](/Programing/tools/vim/index.md)
 
 
-[-] terminal config
-  [sourec](https://www.youtube.com/watch?v=-qg6o0Fpd5U)
 
 #### Git & Github
 
 [Git](/Programing/tools/git_and_github/index.md)
+
+
+- `gh dash`
+
+  PR 및 issue 관련 `gh cli plugin`이다. 엄청 좋다!
 
 #### Browser
 
@@ -267,10 +291,24 @@ https://www.youtube.com/watch?v=EUXISw6wtuo
 [-] aider + deepseek v3
 [-] avante + deepseek v3
 
-#### Tools
+#### Etc [-]
 
 [bore](/Programing/concepts_and_tools/tools/bore.md):
   simple tcp tunnel CLI. make localhost to public server
+
+
+> [!td]2025-01-10 secrete 관리
+> [-]
+>  󱞪
+> [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
+> [secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
+
+
+- [visidata](https://www.visidata.org/)
+  : csv, sql 등 cli에서 데이터를 시각화하고 편집할 수 있는 툴
+
+- [navi](https://github.com/denisidoro/navi)
+  : cli 명령어를 미리 입력해두고 편하게 불러와서 사용
 
 
 #### Post
@@ -696,7 +734,6 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
   > - 이 사람은 구독하고 잘 봐야겠다.
   > - 심지어 투자도 하고싶다.
   > [사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
-
 
 #### 댓글 [-]
 
