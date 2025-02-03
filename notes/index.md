@@ -6,6 +6,28 @@ _이 위키의 목적은 기록하여 필요시 되찾아보기 위함이다.
 
 _"더 열심히 해"_ from.고은상
 
+> [!gr] temp session
+
+
+
+- aider neovim plugins
+  https://github.com/GeorgesAlkhouri/nvim-aider
+  https://github.com/aweis89/aider.nvim
+
+- improve avante
+  https://www.youtube.com/watch?v=BEjO6AZdh6M
+  https://github.com/yetone/avante.nvim/wiki/Recipe-and-Tricks
+    - make frequntly used things as shortcut
+  https://github.com/yetone/avante.nvim/discussions
+
+- etc
+https://www.youtube.com/watch?v=xxL-UOuEVNs
+https://www.youtube.com/watch?v=7Qk9-6zPbOM
+https://www.youtube.com/watch?v=Z5uBcczJxUY
+
+- new fun/useful application
+https://github.com/KRTirtho/spotube?tab=readme-ov-file#click-to-show--servicespackageplugin-credits
+https://github.com/FreeTubeApp/FreeTube
 
 
 ## Project
@@ -29,21 +51,14 @@ _"더 열심히 해"_ from.고은상
   - 태훈이형 한번 보고 오기
   - 친구들
 
+- [션 유투브](https://www.youtube.com/watch?v=OQgTlHMNbOA)
+
 ### 이사 준비 to 우정한사랑
 
-- 시설 점검
-- 물품 구입
-- 짐 옮기기
-  - 작은 짐들(옷가지 등)
-  - 김치냉장고
 
-- 관리비 관리
-  - 미납 내역 정리
-  - 자동이체 신청
-  - 점검표
+[우정한사랑 이사](1.Project/우정한사랑_이사/index.md)
 
-- 차량 정리
-  - 지하 1층 -> 지하 2층
+
 
 #### 사이즈
 
@@ -53,6 +68,23 @@ _"더 열심히 해"_ from.고은상
 
 
 ## Area [-]
+
+### 일 하는 자세
+
+_순서가 중요하다._
+
+  1. 모든 지시사항을 의심해라. 이상한 부분은 없는지. 똑똑하고 신뢰할만한 사람의 지시일수록 더 의심해라.
+  2. 부품이든 프로세스든 최소화해라. '혹시나?'같은 생각은 너무 편리하다.
+  3. 최적화, 단순화 해라. 특히, 이것이 세번째 규칙인 이유는 똑똑한 엔지니어들이 딱히 쓸모없는 것을
+     최적화하는 실수를 범하기 때문이다.
+  4. 개발/생산 사이클을 빠르게 해라.
+  5. 이 모든 과정을 최대한 자동화 해라.
+
+
+ _예술가인 동시에 과학자가 되어야 한다. 이미 정해진 레시피를 무시하고 모든것을 처음부터 이해하려고
+ 하면 아무것도 해낼 수 없다. 한편 본질을 이해하지 않고 아무 생각 없이 레시피만 따라 한다면, 잘못된
+ 제품을 만들게 된다._
+
 
 ### 오픈소스 기여 [-]
 
@@ -175,6 +207,49 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 
 [command history](/Cheat_Sheet/command_history)
 
+[-] bluetooth 문제를 해결하며...
+
+> 갑자기 블루투스가 안됐다. systemctrl에서 bluetooth.service는 running 상태로 잘 확인 됐다.
+> 근데 bluetoothctl에서 확인해보니 "org.bluez.Error.NotReady" 이러면서 connect도 안되고 scan도 안된다.
+> 그래서 검색해보니 뭔 soft block 되었는지 확인하란다.
+> https://unix.stackexchange.com/questions/508221/bluetooth-service-running-but-bluetoothctl-says-org-bluez-error-notready
+>
+> ```
+> ~$ rfkill list
+> 0: ideapad_wlan: Wireless LAN
+> 	Soft blocked: no
+> 	Hard blocked: no
+> 1: ideapad_bluetooth: Bluetooth
+> 	Soft blocked: yes
+> 	Hard blocked: no
+> 2: ideapad_3g: Wireless WAN
+> 	Soft blocked: no
+> 	Hard blocked: no
+> 3: phy0: Wireless LAN
+> 	Soft blocked: no
+> 	Hard blocked: no
+> 4: hci0: Bluetooth
+> 	Soft blocked: yes
+> 	Hard blocked: no
+>
+> ~$ rfkill unblock all
+> ```
+>
+> 이렇게 하니 잘 된다. 이게 뭘까? 한번 알아보자.
+>
+>
+> [!re] 다만...
+>
+> 아래처럼 `Failed to connect: org.bluez.Error.Failed br-connection-page-timeout`같은 에러
+> 메시지가 나올 땐 안통하는 방법이다... 일단은 그냥 재부팅 하자.
+>
+> ```
+> [HHKB-Hybrid_1]# connect EC:2C:73:72:19:01
+> Attempting to connect to EC:2C:73:72:19:01
+> [HHKB-Hybrid_1]# Failed to connect: org.bluez.Error.Failed br-connection-page-timeout
+> ```
+
+
 #### Remote System
 
 [file share & control](/Cheat_Sheet/file_share_&_control)
@@ -257,9 +332,11 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 
 
 
-#### Vim
+#### Vim [-]
 
 [Vim](/Programing/tools/vim/index.md)
+
+[-] Lazyvim에서 권장하는 plugin groups 둘러보기 (AI는 별도 진행)
 
 
 
@@ -281,15 +358,21 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
   https://github.com/glacambre/firenvim
   https://github.com/dlvhdr/diffnav
 
-#### AI
+#### AI [-]
 
-[AI](/Programing/tools/AI/index.md)
-  > aider
+- codecompanion.nvim
+  : zed ai를 표방한다는데, 'cursor AI' 스타일보다 vim스럽긴 하다고 생각한다. 그러나 ai의 활용 면에서
+  나는 cursor AI 스타일을 선호한다.
 
-https://www.youtube.com/watch?v=EUXISw6wtuo
 
-[-] aider + deepseek v3
-[-] avante + deepseek v3
+- aider(CLI tool)
+  - [aider](/Programing/tools/AI/aider/index.md)
+  - [aider with Claude sonet VS Deepseekv 3](https://www.youtube.com/watch?v=EUXISw6wtuo)
+  - [-] deepseek 통합
+
+- avante.nvim
+  - [-] deepseek 통합
+
 
 #### Etc [-]
 
@@ -1012,6 +1095,20 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 > - 정적인 질문지와 답변을 제공하는 것이 아니라, 사용자와의 상호작용을 통해 맞춤형 진단을 제공할 수 있다.
 
 
+> [!ye] "시끄러운 목소리"가 주목받는 "댓글" 시스템 개선안
+>
+> - 기존 시스템 분석
+>   - 사람들은 보통 타인의 댓글을 보고 나서 자기 댓글을 쓴다.
+>   - 이 과정에서 자신의 생각이 오염될 수 있다.
+>   - 사회적 동물인 우리는 여론을 무시할 수 없기 때문이다.
+>   - 한편, 우리는 '주관'이 중요하다 여기면서도 '사람들'의 생각은 어떠한지 궁금해한다.
+>
+> - 개선안
+>   - 남들이 쓴 댓글을 보려면 반드시 자신의 댓글을 써야 한다.
+>   - 작성된 댓글들의 내용을 분석하여 여론을 분석 결과를 제공한다.
+
+
+
 ### 구체화된 프로젝트 아이디어
 
 [ anki-diary](/Project/ideas/anki-diary)
@@ -1110,4 +1207,3 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 [칭찬 수집기 개발](/Project/진행중/칭찬_수집기/index.md)
 [2025 우테코 지원](/Archive/2025_우테코_지원)
-
