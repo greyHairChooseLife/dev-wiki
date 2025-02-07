@@ -20,7 +20,7 @@
 >
 > [css 따위 안쓰는 사나이클럽, 코딩애플](https://www.youtube.com/watch?v=T3lEM26r_2s)
 
-### why not Tailwind?
+### why not Tailwind? [-]
 
 난 한번도 안써봤다. 근데 딱봐도 뭔 css를 덕지덕지 붙여놨더라.
 
@@ -36,6 +36,9 @@
 그림은 그림으로 봐야지.
 
 뭣보다 그 고유명사들을 외우고 있어야 하는거 자체가 싫다.
+
+
+[-] [tailwind 4.0이 매우 좋아졌다](https://www.youtube.com/watch?v=2Q7x3LNZPJs)
 
 
 ### 애니메이션

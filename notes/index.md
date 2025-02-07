@@ -14,19 +14,8 @@ _"더 열심히 해"_ from.고은상
   https://github.com/GeorgesAlkhouri/nvim-aider
   https://github.com/aweis89/aider.nvim
 
-- improve avante
-  https://github.com/yetone/avante.nvim/wiki/Recipe-and-Tricks
-    - make frequntly used things as shortcut
-  https://github.com/yetone/avante.nvim/discussions
-
 - etc
 https://www.youtube.com/watch?v=xxL-UOuEVNs
-https://www.youtube.com/watch?v=7Qk9-6zPbOM
-https://www.youtube.com/watch?v=Z5uBcczJxUY
-https://www.youtube.com/watch?v=2Q7x3LNZPJs
-
-https://www.youtube.com/watch?v=hKfcZCH1QrM Music
-https://www.youtube.com/watch?v=jmjLLNYVJwU 5
 
 - new fun/useful application
 https://github.com/KRTirtho/spotube?tab=readme-ov-file#click-to-show--servicespackageplugin-credits
@@ -34,7 +23,6 @@ https://github.com/FreeTubeApp/FreeTube
 
 - check this python project
 https://github.com/dahuilangda/stapep_package
-
 
 
 ## Project
@@ -432,6 +420,8 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 [docker](/Programing/concepts_and_tools/tools/docker.md):
 [HUB: kubernetes](/Programing/concepts_and_tools/tools/kubernetes/index.md):
 
+[-] [from docker to open-source](https://www.youtube.com/watch?v=Z5uBcczJxUY)
+
 #### Web Dev [-]
 
 [static website vs dynamic website](/Programing/concepts_and_tools/concepts/web_dev/static_website_vs_dynamic_website)
@@ -827,6 +817,35 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 
 ### 글쓰기
+
+
+> [!lg] Log 2025-02-07
+>
+> [송길영×김영한, 고졸 개발자→배민 기술이사→1타강사 커리어 리뷰](https://www.youtube.com/watch?v=jmjLLNYVJwU)
+>
+> - 왜 봤는가?
+>   : 나 또한 고졸이라서 그렇기도 하고, 송길영이란 사람도 그럴듯해 보이는 인터뷰를 여럿 진행한 것을
+>   기억하고 있다. 솔직히 그의 이야기를 자세히 들어본 적 없지만, 아마도 이유는 있을 법 했다.
+>
+> - 보고나서
+>   : 5분 정도의 짧은 영상이고, 별 내용이 없다. 송영길님의 콘텐츠 홍보차 편집된 클립 영상인듯 하다.
+>   '호명사회'라는 책을 최근에 썼다면서 "사람들이 내 이름을 불러주기까지 오래 걸린다."는 식의
+>   화두를 던지고, 또 어려운 시기의 어려움을 극복하던 심정에 대해 질문도 하는데 그다지 흥미를
+>   이르키지는 않는다.
+
+> [!lg] Log 2025-02-07
+>
+> [게임 개발자 생존기 ep.17 - 개발자가 극복하면 성공하는 3가지 필수 자세](https://www.youtube.com/watch?v=7Qk9-6zPbOM)
+>
+> - 왜 봤는가?
+>   : 퇴사/게임개발/생존/태도, 이런 단어들이 모두 내가 좋아하는 것들이라 그렇다.
+>
+> - 보고나서
+>   : 주제가 영상콘텐츠 자체는 아닌 유투버라 그런지 메시지가 다소 중구난방이다. 3가지 태도는 다음의
+>   상황에 적절히 대응하는 것을 말하는 듯 하다. '피드백 / 버그 / 예상을 뛰어넘는 작업량'에 각각
+>   '피드백이 있다는 사실에 감사하기', '치명적 버그 발생하지 않도록 꼼꼼히 하기', '데드라인을
+>   촉박하게 세우기' 정도인 듯 하다. 게임 개발이라도 할 것이 아니라면 피해야 할 유투버인듯 하다.
+
 
 - 유투브(노트 생성)
   > [!ye] 대단해
