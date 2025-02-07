@@ -15,7 +15,6 @@ _"더 열심히 해"_ from.고은상
   https://github.com/aweis89/aider.nvim
 
 - improve avante
-  https://www.youtube.com/watch?v=BEjO6AZdh6M
   https://github.com/yetone/avante.nvim/wiki/Recipe-and-Tricks
     - make frequntly used things as shortcut
   https://github.com/yetone/avante.nvim/discussions
@@ -24,10 +23,18 @@ _"더 열심히 해"_ from.고은상
 https://www.youtube.com/watch?v=xxL-UOuEVNs
 https://www.youtube.com/watch?v=7Qk9-6zPbOM
 https://www.youtube.com/watch?v=Z5uBcczJxUY
+https://www.youtube.com/watch?v=2Q7x3LNZPJs
+
+https://www.youtube.com/watch?v=hKfcZCH1QrM Music
+https://www.youtube.com/watch?v=jmjLLNYVJwU 5
 
 - new fun/useful application
 https://github.com/KRTirtho/spotube?tab=readme-ov-file#click-to-show--servicespackageplugin-credits
 https://github.com/FreeTubeApp/FreeTube
+
+- check this python project
+https://github.com/dahuilangda/stapep_package
+
 
 
 ## Project
@@ -360,18 +367,25 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 
 #### AI [-]
 
-- codecompanion.nvim
-  : zed ai를 표방한다는데, 'cursor AI' 스타일보다 vim스럽긴 하다고 생각한다. 그러나 ai의 활용 면에서
-  나는 cursor AI 스타일을 선호한다.
+- 사용중
 
+  - aider(CLI tool)
+    - [aider](/Programing/tools/AI/aider/index.md)
+    - [aider with Claude sonet VS Deepseekv 3](https://www.youtube.com/watch?v=EUXISw6wtuo)
+    - [-] deepseek 통합
 
-- aider(CLI tool)
-  - [aider](/Programing/tools/AI/aider/index.md)
-  - [aider with Claude sonet VS Deepseekv 3](https://www.youtube.com/watch?v=EUXISw6wtuo)
-  - [-] deepseek 통합
+  - avante.nvim
+    - [-] deepseek 통합
 
-- avante.nvim
-  - [-] deepseek 통합
+- 관심
+
+  - devin(commercial) & [devica(open-source)](https://github.com/stitionai/devika/discussions)
+    : agent-like
+    [-] 둘러보기
+
+  - codecompanion.nvim
+    : zed ai를 표방한다는데, 'cursor AI' 스타일보다 vim스럽긴 하다고 생각한다. 그러나 ai의 활용 면에서
+    나는 cursor AI 스타일을 선호한다.
 
 
 #### Etc [-]
