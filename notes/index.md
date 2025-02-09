@@ -21,8 +21,7 @@ https://www.youtube.com/watch?v=xxL-UOuEVNs
 https://github.com/KRTirtho/spotube?tab=readme-ov-file#click-to-show--servicespackageplugin-credits
 https://github.com/FreeTubeApp/FreeTube
 
-- check this python project
-https://github.com/dahuilangda/stapep_package
+
 
 
 ## Project
