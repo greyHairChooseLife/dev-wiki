@@ -159,6 +159,9 @@ nmcli device wifi list
 
 # wifi 연결(이미 접속 정보가 저장되어 있을 경우 password 생략 가능)
 nmcli device wifi connect <SSID> password <password>
+
+# 비밀번호 확인
+nmcli -s -g 802-11-wireless-security.psk connection show <SSID>
 ```
 
 
