@@ -648,6 +648,9 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 >
 >   접근성 기반 선택자는 웹 스크래핑, 자동화 테스트, UI 테스트 등에서 안정적으로 사용할 수 있는 강력한 도구입니다.
 
+
+[Scrape Anything with DeepSeek V3 + Scraping Tool Integration (CHEAP & EASY)](https://www.youtube.com/watch?v=WkLdLJJzV1k&t=27s)
+
 #### Big Data
 
 [Keywords](/Area/개발_학습/Big_Data/Keywords)
@@ -1233,6 +1236,12 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
 [e-commerce example site](https://contents.clayful.store/)
 [good programmer](https://parksb.github.io/article/32.html)
+
+
+### 연구용 ai
+
+- ResearchRabbit: 관련 논문을 찾아주고, 관계도를 시각적으로 표현해줌
+
 
 
 ## Archive
