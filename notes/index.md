@@ -6,68 +6,6 @@ _이 위키의 목적은 기록하여 필요시 되찾아보기 위함이다.
 
 _"더 열심히 해"_ from.고은상
 
-> [!gr] temp session
-
-- aider로 분석한 stapep 툴셋 (임시 저장)
-```txt
- 2 프로젝트 사용 방식
-   setup.py와 패키징 구조로 보아 라이브러리 형태로 설치해 사용하도록
-   설계됐습니다. 사용 방법 예시:
-
-
- pip install .
- # 설치 후 Python에서
- from stapep.structure import Structure
-
-
- 3 패키징 메타데이터 상세
-   stapep.egg-info/ 내용 분석:
-
- • PKG-INFO: 패키지 이름/버전/저자 등 기본 정보
- • requires.txt: 의존성 패키지 목록(openmm, pandas 등)
- • SOURCES.txt: 패키지에 포함된 모든 소스 파일 리스트
- • top_level.txt: 최상위 모듈 정보(stapep)
-
- 4 템플릿 개념 설명
-   generate_template.py에서 생성하는 템플릿은 Amber MD 포맷의 파라미터
-   파일입니다. 예시:
-
- • Aib(2-아미노이소부티릭산)의 경우:
-
-    # templates/AIB/
-    ├── AIB.prepin  # 아미노산 구조
-    └── frcmod.AIB  # force field 파라미터
-
-
- 5 코어 코드 세부 분석
-
-
- stapep/
- ├─  esmfold.py           # ESMFold API 연동 (메타의 단백질 구조 예측 AI)
- ├─  filter.py           # CD-HIT을 이용한 서열 필터링(클러스터링)
- ├─  generate_covalent_template.py  # 공유 결합 스테이플 생성용 AMBER 템플릿
- ├─  generate_template.py # 비표준 아미노산에 대한 LEaP 입력 자동 생성
- ├─  molecular_dynamics.py# OpenMM 기반 MD 엔진 (3000줄 이상의 핵심 코드)
- ├─  structure.py        # 최상위 구조 생성 API (모델러/ESMFold/Amber 조정)
- ├─  utils.py            # 유틸리티 함수(결과 파일 파싱, 시각화 등)
- ├─  models/             # H2O permeability 예측 LightGBM 모델
- ├─  templates/          # 사전 정의된 8종 스테이플 템플릿 저장소
-
-
-<핵심 vs 보조 요소>
-
- • 핵심 모듈: structure.py, molecular_dynamics.py, templates/
- • 보조 모듈: generate_*.py(템플릿 생성기), filter.py(데이터 전처리)
- • 의존성 강한 요소: utils.py(다른 모든 모듈이 의존), models/(ML 예측 필수)
- • 확장 포인트: templates/ 디렉토리에 새 폴더 추가하면 자동으로 비표준 아미노산
-   지원 확장 가능
-
-```
-
-
-
-
-
 
 ## Project
 
