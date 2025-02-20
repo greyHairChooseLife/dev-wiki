@@ -6,6 +6,10 @@ _이 위키의 목적은 기록하여 필요시 되찾아보기 위함이다.
 
 _"더 열심히 해"_ from.고은상
 
+
+https://www.youtube.com/watch?v=J4QsQy6rD5Y
+https://www.youtube.com/watch?v=d46kVXe_XFM
+
 https://grok.com/chat/3ab57d0c-cc9c-40f7-b0ab-95f227bc2a6a?referrer=website
 
 ## Project
