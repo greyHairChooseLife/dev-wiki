@@ -81,6 +81,7 @@ https://console.x.ai/team/e94c7710-82fd-4792-bf86-63c8f68dbe1e/models?cluster=us
 
 - [이혼하지 않고 평생 갈 사람인지 알아보는 방법 (김선희 원장)](https://www.youtube.com/watch?v=MF9xdIj3EFo)
 - [상대가 얼마나 괜찮은 사람인지 알 수 있는 한가지 방법 (문요한 원장)](https://www.youtube.com/watch?v=ST_eGUUu2tE)
+- [36살에 혼자 살기를 포기한 이유](https://www.youtube.com/watch?v=n-FD0fHSBg4)
 
 
 ### 이사 준비 to 우정한사랑
