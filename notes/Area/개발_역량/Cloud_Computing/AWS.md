@@ -6,6 +6,15 @@
 > [AWS 강의실](https://www.youtube.com/@AWSClassroom)
 
 
+## 비용 개선
+
+> [!rf]
+> [코딩애플 - aws 쓰지 마세요](https://www.youtube.com/watch?v=xUKudCftBCw)
+
+
+
+## 기능
+
 ### AWS-SDK
 
 _AWS의 다양한 서비스에 접근할 수 있는 API를 제공한다._

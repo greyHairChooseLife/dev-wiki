@@ -37,6 +37,16 @@ ex)
 docker cp index.js ps2:/usr/src/app/index.js
 ```
 
+- 볼륨 위치 얻기
+```
+docker inspect --format "{{range .Mounts}}{{.Source}}{{end}}" stapep-gpu
+```
+
+- docker-compose.yml 위치 얻기
+```
+docker inspect --format '{{index .Config.Labels "com.docker.compose.project.config_files"}}' stapep-gpu
+```
+
 
 ### image convert
 
@@ -136,6 +146,12 @@ sudo systemctl restart pulseaudio
 $ man <command> | col -b > filename.txt
 ```
 
+
+### 특정 파일 찾아서 삭제
+
+```bash
+find . -type f ! \( -name "*.png" -o -name "*.pdb" \) -delete
+```
 
 ## network
 
