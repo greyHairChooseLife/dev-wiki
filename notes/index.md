@@ -6,6 +6,9 @@ _이 위키의 목적은 기록하여 필요시 되찾아보기 위함이다.
 
 _"더 열심히 해"_ from.고은상
 
+https://github.com/ruicsh/nvim-config
+https://github.com/jellydn/my-nvim-ide
+
 
 https://www.youtube.com/watch?v=J4QsQy6rD5Y
 https://www.youtube.com/watch?v=d46kVXe_XFM
