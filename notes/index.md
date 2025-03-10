@@ -11,6 +11,21 @@ _"더 열심히 해"_ from.고은상
 > - https://github.com/jellydn/my-nvim-ide
 
 
+> [!lg] Log 2025-03-10
+>
+> https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat
+> https://github.com/marketplace?type=apps&copilot_app=true
+> https://github.com/settings/installations/62281654
+> https://www.reddit.com/r/neovim/comments/1cuzrlw/how_do_you_use_your_copilot/
+> https://www.reddit.com/r/neovim/comments/1hwzy77/best_ai_copilot_workflows/
+> https://www.reddit.com/r/neovim/comments/1ijnsgv/github_copilot_new_tab_completions_cursoresque/
+> https://www.reddit.com/r/neovim/comments/1hg6thh/what_are_your_accept_keymaps_for_nvimcmp_and/
+> https://www.reddit.com/r/neovim/comments/1ienqcz/copilot_alternative/
+> https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice#demo
+> https://www.youtube.com/watch?v=bLoO0FSXncg&list=RDOnEjLykUs9E&index=27
+
+
+
 https://www.youtube.com/watch?v=J4QsQy6rD5Y
 https://www.youtube.com/watch?v=d46kVXe_XFM
 
