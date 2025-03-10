@@ -153,6 +153,7 @@ $ man <command> | col -b > filename.txt
 find . -type f ! \( -name "*.png" -o -name "*.pdb" \) -delete
 ```
 
+
 ## network
 
 ### 내 ip 확인, my ip
@@ -180,4 +181,34 @@ nmcli device wifi connect <SSID> password <password>
 nmcli -s -g 802-11-wireless-security.psk connection show <SSID>
 ```
 
+
+## directory & file
+
+### 두 디렉토리가 완전히 일치하는지 비교
+
+| 명령                                          | 설명                                          | 특성              |
+|-----------------------------------------------|-----------------------------------------------|-------------------|
+| `rsync -av --dry-run /source/ /destination/`  | 수정 날짜 & 크기 기준 비교                    | 빠름, 정확도 낮음 |
+| `rsync -avc --dry-run /source/ /destination/` | `-c` 옵션은 파일 내용을 체크섬(해시)으로 비교 | 느림, 정확도 높음 |
+
+- 출력이 없으면 두 디렉토리는 완전히 동일함.
+
+
+## git & gh-cli
+
+### organization 관련
+
+```bash
+# 모든 organization 조회
+gh org list
+
+# 특정 organization의 repository 조회
+gh repo list ORG_NAME --limit 100
+```
+
+ex)
+```bash
+gh repo list trainspotting-big-data-projects --limit 100
+gh repo list trainspotting-big-data-projects --limit 100 --json name,description,visibility | jq '.[]'
+```
 

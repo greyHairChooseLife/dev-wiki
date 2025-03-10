@@ -1,2 +1,0 @@
-# 󰏢 awesome command history
-
