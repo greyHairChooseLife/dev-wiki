@@ -156,10 +156,15 @@ find . -type f ! \( -name "*.png" -o -name "*.pdb" \) -delete
 
 ## network
 
-### 내 ip 확인, my ip
+### lookup ip
 
 ```bash
+# 내부
+hostname -i | awk '{print $1}'
+
+# 외부
 curl ifconfig.me
+
 ```
 
 ### wifi 관리

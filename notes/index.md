@@ -10,6 +10,11 @@ _"더 열심히 해"_ from.고은상
 > - https://github.com/ruicsh/nvim-config
 > - https://github.com/jellydn/my-nvim-ide
 
+> docker
+>
+> https://www.youtube.com/watch?v=bKFMS5C4CG0
+> https://www.youtube.com/watch?v=7CrcY_bWGl0
+
 
 > [!lg] Log 2025-03-10
 >
@@ -1363,6 +1368,26 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 [e-commerce example site](https://contents.clayful.store/)
 [good programmer](https://parksb.github.io/article/32.html)
 
+> [강력추천! 영상 크리에이터라면 꼭 알아야 할 7가지 웹사이트]([https://www.youtube.com/watch?v=yYwJI9y_arE)
+>
+> ===Timestamps ===
+> 00:00 인트로
+> 00:23 레퍼런스 사이트1
+> 01:12 레퍼런스 사이트2
+> 02:02 레퍼런스 사이트3
+> 02:22 레퍼런스 사이트4
+> 02:49 레퍼런스 사이트5
+> 03:22 레퍼런스 사이트6
+> 03:56 레퍼런스 사이트7
+> 03:56 아웃트로
+>
+> ▶레퍼런스 사이트 링크들 입니다.
+> https://eyecannndy.com/
+> https://kive.ai/discover
+> https://film-grab.com/
+> https://shot.cafe/
+> https://www.cosmos.so/
+> nytimes.com/column/anatomy-of-a-scene
 
 ### 연구용 ai
 
