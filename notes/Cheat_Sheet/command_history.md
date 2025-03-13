@@ -217,3 +217,32 @@ gh repo list trainspotting-big-data-projects --limit 100
 gh repo list trainspotting-big-data-projects --limit 100 --json name,description,visibility | jq '.[]'
 ```
 
+
+### git tag
+
+- CRUD
+
+  | 명령어                                   | 설명                                    | 주된 사용 목적                      | 예시                                            |
+  |------------------------------------------|-----------------------------------------|-------------------------------------|-------------------------------------------------|
+  | `git tag`                                | 로컬 태그 목록 조회                     | 생성된 태그 확인                    | `git tag`                                       |
+  | `git show <태그이름>`                      | 태그 상세 정보 확인                     | 태그가 붙은 커밋 및 설명 확인       | `git show v1.0.0`                               |
+  | `git tag -a <태그이름> -m "설명"`          | 주석이 포함된 태그 추가 (Annotated)     | 버전 관리 및 부연 설명 포함         | `git tag -a v1.0.0 -m "First release"`          |
+  | `git tag -a <태그이름> <커밋해시> -m "설명"` | 특정 커밋에 태그 추가                   | 과거 커밋이나 특정 커밋에 태그 지정 | `git tag -a v1.0.0 3f2e9b4 -m "Stable release"` |
+  | `git tag -d <태그이름>`                    | 로컬에서 태그 삭제                      | 불필요한 태그 제거                  | `git tag -d v1.0.0`                             |
+  | `git push origin <태그이름>`               | 특정 태그를 원격 저장소로 푸시          | 선택된 태그만 업로드                | `git push origin v1.0.0`                        |
+  | `git push origin --tags`                 | 모든 태그를 원격 저장소로 푸시          | 한 번에 전체 태그 업로드            | `git push origin --tags`                        |
+  | `git push origin --delete <태그이름>`      | 원격 저장소에서 태그 삭제               | 잘못된 태그 제거                    | `git push origin --delete v1.0.0`               |
+
+
+- Read 특화
+
+  | 명령어 | 설명 | 주요 사용 목적 | 예시 |
+  |--------|----------------------------------|------------------------------|------|
+  | `git tag -l` | 모든 태그를 리스트 형식으로 출력 | 태그 목록 조회 | `git tag -l` |
+  | `git tag -l "v1.*"` | 특정 패턴(`v1.*`)을 포함한 태그만 출력 | 원하는 태그만 필터링 | `git tag -l "release-*"` |
+  | `git tag -n` | 모든 태그 + 주석(설명) 한 줄 출력 | 태그 목록과 요약 확인 | `git tag -n` |
+  | `git tag -n 5` | 모든 태그 + 주석 5줄까지 출력 | 긴 주석 포함한 태그 확인 | `git tag -n 5` |
+  | `git tag -l -n` | 모든 태그 + 주석(설명) 한 줄 출력 | 태그 목록 + 주석 확인 | `git tag -l -n` |
+  | `git tag -l -n 3` | 모든 태그 + 주석 3줄까지 출력 | 긴 주석 포함 태그 필터링 | `git tag -l -n 3` |
+  | `git tag -l -n "v1.*"` | `v1.*`으로 시작하는 태그 + 주석(1줄) 출력 | 특정 태그 패턴 + 주석 조회 | `git tag -l -n "release-*"` |
+  | `git tag -l -n 5 "v1.*"` | `v1.*`으로 시작하는 태그 + 주석 5줄 출력 | 특정 태그 패턴 + 긴 주석 조회 | `git tag -l -n 5 "release-*"` |
