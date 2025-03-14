@@ -111,7 +111,7 @@ https://console.x.ai/team/e94c7710-82fd-4792-bf86-63c8f68dbe1e/models?cluster=us
 ### 이사 준비 to 우정한사랑
 
 
-[우정한사랑 이사](1.Project/우정한사랑_이사/index.md)
+[우정한사랑 이사](/1.Project/우정한사랑_이사/index.md)
 
 
 
@@ -1118,8 +1118,6 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 #### Tools
 
-**구입하자**
-
 - 피그마 스타일 가이드
   [소개](https://www.youtube.com/watch?v=fFNeuHAL3-E)
   [스타일 가이드 소개](https://www.youtube.com/watch?v=_7wO8CZEwBw)
@@ -1374,7 +1372,7 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 > [강력추천! 영상 크리에이터라면 꼭 알아야 할 7가지 웹사이트]([https://www.youtube.com/watch?v=yYwJI9y_arE)
 >
-> ===Timestamps ===
+> === Timestamps ===
 > 00:00 인트로
 > 00:23 레퍼런스 사이트1
 > 01:12 레퍼런스 사이트2
