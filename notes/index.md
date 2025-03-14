@@ -362,6 +362,10 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 [부팅디스크 만들기](/Area/개발_환경/Operating_System/부팅디스크_만들기)
 [xdg-open 관리](/Area/개발_환경/Operating_System/xdg-open_관리)
 
+[Manage Packages](/Area/개발_환경/Operating_System/Manage_Packages)
+
+
+
 [Operating_System](2.Area/개발환경/Operating_System/index.md) [-]
 
 > [!ye] 리눅스 종합 system configurations 관리 툴(아직 한창 개발중):
