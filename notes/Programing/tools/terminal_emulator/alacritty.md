@@ -1,7 +1,15 @@
 # 󰏢 alacritty
 
-# NOTE: https://alacritty.org/config-alacritty.html
 
+
+> [!lg] Log 2024-12-20
+> 굿바이 urxvt... 비로소 현대적인 terminal emulator로 옮겼다. 이제는 필요성을 느끼는 것이다!
+
+
+> [!rf]
+> https://alacritty.org/config-alacritty.html
+
+```toml
 [general]
   import = [ "~/.config/alacritty/themes/themes/enfocado_dark.toml" ]
 
@@ -49,3 +57,4 @@
   binding = { key = "u", mods = "Alt" }
 
   regex = "(https://|http://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
+```

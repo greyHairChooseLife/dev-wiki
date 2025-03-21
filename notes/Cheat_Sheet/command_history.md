@@ -2,6 +2,100 @@
 
 
 
+## network
+
+### lookup ip
+
+```bash
+# 내부
+hostname -i | awk '{print $1}'
+
+# 외부
+curl ifconfig.me
+
+```
+
+### wifi 관리
+
+- 서비스명: `NetworkManager`
+- `nmcli` 또는 `nmtui`
+
+```
+# 활성화 연결 확인
+nmcli connection show
+
+# wifi 네트워크 검색
+nmcli device wifi list
+
+# wifi 연결(이미 접속 정보가 저장되어 있을 경우 password 생략 가능)
+nmcli device wifi connect <SSID> password <password>
+
+# 비밀번호 확인
+nmcli -s -g 802-11-wireless-security.psk connection show <SSID>
+```
+
+
+## directory & file
+
+### 두 디렉토리가 완전히 일치하는지 비교
+
+| 명령                                          | 설명                                          | 특성              |
+|-----------------------------------------------|-----------------------------------------------|-------------------|
+| `rsync -av --dry-run /source/ /destination/`  | 수정 날짜 & 크기 기준 비교                    | 빠름, 정확도 낮음 |
+| `rsync -avc --dry-run /source/ /destination/` | `-c` 옵션은 파일 내용을 체크섬(해시)으로 비교 | 느림, 정확도 높음 |
+
+- 출력이 없으면 두 디렉토리는 완전히 동일함.
+
+
+## git & gh-cli
+
+### organization 관련
+
+```bash
+# 모든 organization 조회
+gh org list
+
+# 특정 organization의 repository 조회
+gh repo list ORG_NAME --limit 100
+```
+
+ex)
+```bash
+gh repo list trainspotting-big-data-projects --limit 100
+gh repo list trainspotting-big-data-projects --limit 100 --json name,description,visibility | jq '.[]'
+```
+
+
+### git tag
+
+- CRUD
+
+  | 명령어                                   | 설명                                    | 주된 사용 목적                      | 예시                                            |
+  |------------------------------------------|-----------------------------------------|-------------------------------------|-------------------------------------------------|
+  | `git tag`                                | 로컬 태그 목록 조회                     | 생성된 태그 확인                    | `git tag`                                       |
+  | `git show <태그이름>`                      | 태그 상세 정보 확인                     | 태그가 붙은 커밋 및 설명 확인       | `git show v1.0.0`                               |
+  | `git tag -a <태그이름> -m "설명"`          | 주석이 포함된 태그 추가 (Annotated)     | 버전 관리 및 부연 설명 포함         | `git tag -a v1.0.0 -m "First release"`          |
+  | `git tag -a <태그이름> <커밋해시> -m "설명"` | 특정 커밋에 태그 추가                   | 과거 커밋이나 특정 커밋에 태그 지정 | `git tag -a v1.0.0 3f2e9b4 -m "Stable release"` |
+  | `git tag -d <태그이름>`                    | 로컬에서 태그 삭제                      | 불필요한 태그 제거                  | `git tag -d v1.0.0`                             |
+  | `git push origin <태그이름>`               | 특정 태그를 원격 저장소로 푸시          | 선택된 태그만 업로드                | `git push origin v1.0.0`                        |
+  | `git push origin --tags`                 | 모든 태그를 원격 저장소로 푸시          | 한 번에 전체 태그 업로드            | `git push origin --tags`                        |
+  | `git push origin --delete <태그이름>`      | 원격 저장소에서 태그 삭제               | 잘못된 태그 제거                    | `git push origin --delete v1.0.0`               |
+
+
+- Read 특화
+
+  | 명령어 | 설명 | 주요 사용 목적 | 예시 |
+  |--------|----------------------------------|------------------------------|------|
+  | `git tag -l` | 모든 태그를 리스트 형식으로 출력 | 태그 목록 조회 | `git tag -l` |
+  | `git tag -l "v1.*"` | 특정 패턴(`v1.*`)을 포함한 태그만 출력 | 원하는 태그만 필터링 | `git tag -l "release-*"` |
+  | `git tag -n` | 모든 태그 + 주석(설명) 한 줄 출력 | 태그 목록과 요약 확인 | `git tag -n` |
+  | `git tag -n 5` | 모든 태그 + 주석 5줄까지 출력 | 긴 주석 포함한 태그 확인 | `git tag -n 5` |
+  | `git tag -l -n` | 모든 태그 + 주석(설명) 한 줄 출력 | 태그 목록 + 주석 확인 | `git tag -l -n` |
+  | `git tag -l -n 3` | 모든 태그 + 주석 3줄까지 출력 | 긴 주석 포함 태그 필터링 | `git tag -l -n 3` |
+  | `git tag -l -n "v1.*"` | `v1.*`으로 시작하는 태그 + 주석(1줄) 출력 | 특정 태그 패턴 + 주석 조회 | `git tag -l -n "release-*"` |
+  | `git tag -l -n 5 "v1.*"` | `v1.*`으로 시작하는 태그 + 주석 5줄 출력 | 특정 태그 패턴 + 긴 주석 조회 | `git tag -l -n 5 "release-*"` |
+
+
 ## ETC
 
 ### 여러 필드중 하나를 선택하고, 그 다음 커맨드의 인자로 넘기기
@@ -154,95 +248,3 @@ find . -type f ! \( -name "*.png" -o -name "*.pdb" \) -delete
 ```
 
 
-## network
-
-### lookup ip
-
-```bash
-# 내부
-hostname -i | awk '{print $1}'
-
-# 외부
-curl ifconfig.me
-
-```
-
-### wifi 관리
-
-- 서비스명: `NetworkManager`
-- `nmcli` 또는 `nmtui`
-
-```
-# 활성화 연결 확인
-nmcli connection show
-
-# wifi 네트워크 검색
-nmcli device wifi list
-
-# wifi 연결(이미 접속 정보가 저장되어 있을 경우 password 생략 가능)
-nmcli device wifi connect <SSID> password <password>
-
-# 비밀번호 확인
-nmcli -s -g 802-11-wireless-security.psk connection show <SSID>
-```
-
-
-## directory & file
-
-### 두 디렉토리가 완전히 일치하는지 비교
-
-| 명령                                          | 설명                                          | 특성              |
-|-----------------------------------------------|-----------------------------------------------|-------------------|
-| `rsync -av --dry-run /source/ /destination/`  | 수정 날짜 & 크기 기준 비교                    | 빠름, 정확도 낮음 |
-| `rsync -avc --dry-run /source/ /destination/` | `-c` 옵션은 파일 내용을 체크섬(해시)으로 비교 | 느림, 정확도 높음 |
-
-- 출력이 없으면 두 디렉토리는 완전히 동일함.
-
-
-## git & gh-cli
-
-### organization 관련
-
-```bash
-# 모든 organization 조회
-gh org list
-
-# 특정 organization의 repository 조회
-gh repo list ORG_NAME --limit 100
-```
-
-ex)
-```bash
-gh repo list trainspotting-big-data-projects --limit 100
-gh repo list trainspotting-big-data-projects --limit 100 --json name,description,visibility | jq '.[]'
-```
-
-
-### git tag
-
-- CRUD
-
-  | 명령어                                   | 설명                                    | 주된 사용 목적                      | 예시                                            |
-  |------------------------------------------|-----------------------------------------|-------------------------------------|-------------------------------------------------|
-  | `git tag`                                | 로컬 태그 목록 조회                     | 생성된 태그 확인                    | `git tag`                                       |
-  | `git show <태그이름>`                      | 태그 상세 정보 확인                     | 태그가 붙은 커밋 및 설명 확인       | `git show v1.0.0`                               |
-  | `git tag -a <태그이름> -m "설명"`          | 주석이 포함된 태그 추가 (Annotated)     | 버전 관리 및 부연 설명 포함         | `git tag -a v1.0.0 -m "First release"`          |
-  | `git tag -a <태그이름> <커밋해시> -m "설명"` | 특정 커밋에 태그 추가                   | 과거 커밋이나 특정 커밋에 태그 지정 | `git tag -a v1.0.0 3f2e9b4 -m "Stable release"` |
-  | `git tag -d <태그이름>`                    | 로컬에서 태그 삭제                      | 불필요한 태그 제거                  | `git tag -d v1.0.0`                             |
-  | `git push origin <태그이름>`               | 특정 태그를 원격 저장소로 푸시          | 선택된 태그만 업로드                | `git push origin v1.0.0`                        |
-  | `git push origin --tags`                 | 모든 태그를 원격 저장소로 푸시          | 한 번에 전체 태그 업로드            | `git push origin --tags`                        |
-  | `git push origin --delete <태그이름>`      | 원격 저장소에서 태그 삭제               | 잘못된 태그 제거                    | `git push origin --delete v1.0.0`               |
-
-
-- Read 특화
-
-  | 명령어 | 설명 | 주요 사용 목적 | 예시 |
-  |--------|----------------------------------|------------------------------|------|
-  | `git tag -l` | 모든 태그를 리스트 형식으로 출력 | 태그 목록 조회 | `git tag -l` |
-  | `git tag -l "v1.*"` | 특정 패턴(`v1.*`)을 포함한 태그만 출력 | 원하는 태그만 필터링 | `git tag -l "release-*"` |
-  | `git tag -n` | 모든 태그 + 주석(설명) 한 줄 출력 | 태그 목록과 요약 확인 | `git tag -n` |
-  | `git tag -n 5` | 모든 태그 + 주석 5줄까지 출력 | 긴 주석 포함한 태그 확인 | `git tag -n 5` |
-  | `git tag -l -n` | 모든 태그 + 주석(설명) 한 줄 출력 | 태그 목록 + 주석 확인 | `git tag -l -n` |
-  | `git tag -l -n 3` | 모든 태그 + 주석 3줄까지 출력 | 긴 주석 포함 태그 필터링 | `git tag -l -n 3` |
-  | `git tag -l -n "v1.*"` | `v1.*`으로 시작하는 태그 + 주석(1줄) 출력 | 특정 태그 패턴 + 주석 조회 | `git tag -l -n "release-*"` |
-  | `git tag -l -n 5 "v1.*"` | `v1.*`으로 시작하는 태그 + 주석 5줄 출력 | 특정 태그 패턴 + 긴 주석 조회 | `git tag -l -n 5 "release-*"` |

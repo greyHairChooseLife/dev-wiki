@@ -38,7 +38,7 @@
 
 
 [-] hadoop
-[-]kafka
-[-]parquet
-[-]big data pipeline
-[-]pandas
+[-] kafka
+[-] parquet
+[-] big data pipeline
+[-] pandas

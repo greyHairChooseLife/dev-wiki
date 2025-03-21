@@ -1,4 +1,4 @@
-# 󰏢 Operating System
+# 󰏢 Booting
 
 
 > [!td]2025-01-13

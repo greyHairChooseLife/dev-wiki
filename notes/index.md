@@ -1,311 +1,214 @@
 #  DEV WIKI
 
 
-_이 위키의 목적은 기록하여 필요시 되찾아보기 위함이다.
-누군가에게 뽐내기 위한 용도가 아니다._
+> _이 위키의 목적은 기록하여 필요시 되찾아보기 위함이다.
+> 누군가에게 뽐내기 위한 용도가 아니다._
 
-_"더 열심히 해"_ from.고은상
 
-> nvim ref
-> - https://github.com/ruicsh/nvim-config
-> - https://github.com/jellydn/my-nvim-ide
+> _"더 열심히 해"_ from.고은상
 
-> docker
+
+> _프로덕션에 가까운 프로젝트들을 보면서 배우는 것이 중요하다._
+> _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 마스토돈, nodejs는 미스키, 파이썬은 bookwyrm"_
+
+
+> _Make note? Do PARA!_
 >
-> https://www.youtube.com/watch?v=bKFMS5C4CG0
-> https://www.youtube.com/watch?v=7CrcY_bWGl0
-
-
-> [!lg] Log 2025-03-10
+> PARA 메모법:_실행도를 기준으로 노트를 분류하는 기법. 주제별로 나누는 것이 아니다._
 >
-> https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat
-> https://github.com/marketplace?type=apps&copilot_app=true
-> https://github.com/settings/installations/62281654
-> https://www.reddit.com/r/neovim/comments/1cuzrlw/how_do_you_use_your_copilot/
-> https://www.reddit.com/r/neovim/comments/1hwzy77/best_ai_copilot_workflows/
-> https://www.reddit.com/r/neovim/comments/1ijnsgv/github_copilot_new_tab_completions_cursoresque/
-> https://www.reddit.com/r/neovim/comments/1hg6thh/what_are_your_accept_keymaps_for_nvimcmp_and/
-> https://www.reddit.com/r/neovim/comments/1ienqcz/copilot_alternative/
-> https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice#demo
-> https://www.youtube.com/watch?v=bLoO0FSXncg&list=RDOnEjLykUs9E&index=27
+>   - Project:
+>     - **지금 가장 전념**하는 것
+>     - 기간/목표가 명확함. 즉, 끝이 있음
+>     - ex) 이사하기, 직장 취업하기, 책 쓰기
+>
+>   - Area:
+>     - **끝이 없고, 꾸준히** 해 나가는 것
+>     - 나의 책임이나 역할이 있음
+>     - ex) 운동, 독서, 프로그래밍 실력 향상
+>
+>   - Resource:
+>     - 관심 분야 정보
+>     - 내 **책임은 없음**
+>     - ex) 창업, 종교, 예술, 춤추는법 등
+>
+>   - Archive:
+>     - 위의 세 가지에 속하지 않는 것
+>     - 종료/중단된 프로젝트
+>     - 책임이 사라진 영역, 관심이 사라진 자원
 
 
 
-https://www.youtube.com/watch?v=J4QsQy6rD5Y
-https://www.youtube.com/watch?v=d46kVXe_XFM
+[temp](temp)
 
-https://grok.com/chat/3ab57d0c-cc9c-40f7-b0ab-95f227bc2a6a?referrer=website
-https://console.x.ai/team/e94c7710-82fd-4792-bf86-63c8f68dbe1e/models?cluster=us-east-1
 
 ## Project
 
-### CBPM 견적서 관리 웹앱 개발
 
-[CBPM 견적서 관리 웹앱 개발](/Project/CBPM_견적서_관리_웹앱_개발)
+[CBPM 견적서 관리 웹앱 개발](/Project/CBPM_견적서_관리_웹앱_개발/index.md)
 
-#### 목표
+[결혼에 확신을 갖는 방법 찾기](/Project/결혼에_확신을_갖는_방법_찾기/index.md)
 
-- CBPM 식구들에게 감사의 마음을 담아서 선물하기
-- (영업)전용 도구 개발로 얼마나 일이 수월해질 수 있는지 느낄 수 있게하기
+[성금 엄마아빠집 리모델링](/Project/성금_엄마아빠집_리모델링/index.md)
 
 
-#### 계획
-
-[x] 기획 회의 w/곽준구 팀장님
-[x] 아키텍쳐 설계
-[c] 당장 개발
-
-> [!lg] Log 2024-11-10
->
-> 설계 실패, 아키텍쳐부터 다시해야 한다.
-
-> [!re] 일시 중단
->
-> 마감이 코앞인 일들부터 책임지자.
+[만다라트](/Project/만다라트/index.md)
+  - 2차전에 돌입했다.
 
 
-[-] 시간 비용 설계(목표/계획)
-[-] 아키텍쳐 설계
-
-
-### 결혼에 확신을 갖는 방법 찾기
-
-- 결혼고사 다 풀기
-
-- 주변 의견 듣기
-  - 우리 가족들
-  - 친척들
-  - 태훈이형 한번 보고 오기
-  - 친구들
-
-
-> - [잼뱅TV - 남자들이 반드시 걸러야 하는 여자 기준과 최악의 여자 특징 남녀 모두 반드시 참고!!](https://www.youtube.com/watch?v=mQ-MyG34GZc)
->
-> 나는 이런 제목이 싫다. 이런 제목으로 기획된 컨텐츠는 십중팔구 질이 낮은 컨텐츠이다. 그러나
-> 잼뱅TV라는 채널의 유투버는 내가 좋은 사람이라고 생각한 사람이다. 그래서 한번 봤다.
->
-> 게스트로 출연해준 사람은 상당히 전문성 있어보인다. 부부 상담 전문가인가 본데, 말하는 모양새와
-> 내용에 내공이 느껴진다. 공감가는 부분도 많구나 싶다.
->
-> 걸러야 할 남자/여자라는 표현 자체가 싫으니, 내가 돼야/만나야 할 사람의 특징으로 적어 봐야겠다.
->
-> - 자식으로써 부모를 무서워하지 않는 사람.
-> - 정서가 닮은 사람을 만나자. '넘치는 사랑을 받으며 살아온 사람', '다소 긴장되었던 사람', '다소
->   방치되었던 사람' 등, 이것들 중 어느 것이 좋다기보다도 그 경험과 대처하는/받아들이는 태도가
->   유사한 사람.
-> - 독립적인 사람. 경제적이든 정서적이든 독립하기위한 노력으로 자기객관화가 된다.
-> - 인생 한방이라며, 헛물 켜지 말고 성실하고 꾸준하게 살자.
-> - **가장 중요한 것으로,** 나에게는 내가 있다는 사실을 기억하자. 스스로를 소중히 하는 사람이 되고,
->   그런 사람을 만나자.
-
-
-- [션 유투브](https://www.youtube.com/watch?v=OQgTlHMNbOA)
-- [애니메이션, 20분](https://www.youtube.com/watch?v=wfqmTtaLnME)
-
-
-- [이혼하지 않고 평생 갈 사람인지 알아보는 방법 (김선희 원장)](https://www.youtube.com/watch?v=MF9xdIj3EFo)
-- [상대가 얼마나 괜찮은 사람인지 알 수 있는 한가지 방법 (문요한 원장)](https://www.youtube.com/watch?v=ST_eGUUu2tE)
-- [36살에 혼자 살기를 포기한 이유](https://www.youtube.com/watch?v=n-FD0fHSBg4)
-
-
-### 이사 준비 to 우정한사랑
-
-
-[우정한사랑 이사](/1.Project/우정한사랑_이사/index.md)
+- 차량 관리
+  - 코란도 엔진오일
+  - 경비 아저씨가 나 대신 ..
+  - 관련해서 스트레스를 준 아저씨가 있다. 골프장 아저씨
 
 
 
-#### 사이즈
+- neovim `tohtml.vim` 개선
 
-- 출입문: 800
-- 싱크대~벽 사이: 1,500
-
-
-### 성금 엄마아빠집 리모델링 [-]
-
-> [!lg] Log 2025-02-07
-> 엄마가 부탁하셨다. 30여년 만에 장판, 벽지, 셰시를 바꾸는 리모델링을 해야겠으니 방법을 좀
-> 구해보라신다. 또한 때가 되면 여러가지로 나서달라는 말씀이셨을거다.
->
-> 자식, 손자 손녀들이 집에 올 때 걱정없이 편하게 와서 지내다 갈 수 있기를 바라는 마음이라신다. 3년
-> 동안 적금도 부으셨단다. 이런 멋쟁이가 있나!
-
-
-#### 리모델링 범위
-
-- 주소: 충북 단양군 성금리
-- 면적: 25평 남짓
-
-- 도배
-- 장판
-- 셰시
-- 큰 방 보일러
-
-
-#### 작업방식 [-]
-
-- 소요 기간/시간
-- 거주자가 준비할 것들
-- 거주자가 협조할 것들
-
-- 일은 어떻게 진행되는지
-  - 견적, 견적 비용, 계약, 선금/잔금, 자재 선택, (만약의)사후관리
-
-
-#### 견적(비용) [-]
-
-
-> [-] 연락해보기
->
-> - 삼부자 장식/대배/하수고/도배/장판 전문 시공
->   - 010-9416-6997
->   - 043-266-8836
->   - 부영아파트 어머님 소개 _(사무실 미화 어머님이 소개해주셨다.)_
-
+  > `render-markdown.nvim`으로 렌더링(하이라이팅) 된 것을 있는 그대로 pdf 또는 이미지로 출력하고싶었다.
+  > `TOhtml` 명령을 이용해보란 조언을 얻었다.(vim.kr 디스코드 채널)
+  >
+  > 그런데 vimwiki에서 당장 TOhtml 해보면 에러가 발생하는거다. 이것에 대해 대화하다가 아래와같은 조언을
+  > 얻었다.
+  >
+  > ```txt
+  > tohtml이 루아로 변환된지 오래되지 않아서 어쩌면 네오빔 업스트림에 기여하실수도있어요
+  > 버그 고치신다면 리뷰하고 받아주실거같아요
+  > html 나온거에서 </pre> 에 해당하는 부분
+  > 그 부분 계산하다가 태그가 안맞아서 뻗은거네요
+  > <pre> .. </pre> 사이에 태그가 뭔가 빠졌다는건데
+  > ```
+  >
+  > [tohtml.vim](https://github.com/neovim/neovim/blob/3d3a99e69cda365cae9ad65831712301807a772b/runtime/lua/tohtml.lua)
 
 
 ## Area [-]
 
-### 일 하는 자세
-
-_순서가 중요하다._
-
-  1. 모든 지시사항을 의심해라. 이상한 부분은 없는지. 똑똑하고 신뢰할만한 사람의 지시일수록 더 의심해라.
-  2. 부품이든 프로세스든 최소화해라. '혹시나?'같은 생각은 너무 편리하다.
-  3. 최적화, 단순화 해라. 특히, 이것이 세번째 규칙인 이유는 똑똑한 엔지니어들이 딱히 쓸모없는 것을
-     최적화하는 실수를 범하기 때문이다.
-  4. 개발/생산 사이클을 빠르게 해라.
-  5. 이 모든 과정을 최대한 자동화 해라.
-
-
- _예술가인 동시에 과학자가 되어야 한다. 이미 정해진 레시피를 무시하고 모든것을 처음부터 이해하려고
- 하면 아무것도 해낼 수 없다. 한편 본질을 이해하지 않고 아무 생각 없이 레시피만 따라 한다면, 잘못된
- 제품을 만들게 된다._
-
-
-### 오픈소스 기여 [-]
-
-#### neovim 내장 플러그인 tohtml.vim [-]
-
-- 발단
-
-  `render-markdown.nvim`으로 렌더링(하이라이팅) 된 것을 있는 그대로 pdf 또는 이미지로 출력하고싶었다. `TOhtml` 명령을 이용해보란 조언을 얻었다.(vim.kr 디스코드 채널)
-
-  그런데 vimwiki에서 당장 TOhtml 해보면 에러가 발생하는거다. 이것에 대해 대화하다가 아래와같은 조언을 얻었다.
-
-  ```txt
-  tohtml이 루아로 변환된지 오래되지 않아서 어쩌면 네오빔 업스트림에 기여하실수도있어요
-  버그 고치신다면 리뷰하고 받아주실거같아요
-  html 나온거에서 </pre> 에 해당하는 부분
-  그 부분 계산하다가 태그가 안맞아서 뻗은거네요
-  <pre> .. </pre> 사이에 태그가 뭔가 빠졌다는건데
-  ```
-
-  [tohtml.vim](https://github.com/neovim/neovim/blob/3d3a99e69cda365cae9ad65831712301807a772b/runtime/lua/tohtml.lua)
-
-
-### 생산성을 기르자
-
-> [!rf]
->
-> [The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
-> [지식근로자의 생산성](https://www.joinc.co.kr/w/knowledge-workder-productivity)
-
-
-> [!ye] 나의 성과를 측정/평가 하자
->
-> - 생산적인 **기간**을 보내기 위해서는...
->
->   1. **나를 평가하는 사람**의 기준을 명확하게 인지해야 한다.
->   2. **나 스스로**의 기준이 명확하게 있어야한다.(즉, 나의 목표 부터가 명확해야 한다.)
->
-> - 생산적인 **하루**를 보내기 위해서는...
->
->   1. 큰 일을 작은 일로 나눈다.
->   2. 완료의 기준을 명확히 한다.
->   3. 코딩도 마찬가지다.
-
-
-#### Note Making
-
-> [!rf]
->
-> [From note-taking to note-making](https://nesslabs.com/from-note-taking-to-note-making)
-
-
-[ Document](/Programing/tools/documentation/index.md) [-]
-
-
-> [!ye] PARA 메모법
->
->  _실행도를 기준으로 노트를 분류하는 기법. 주제별로 나누는 것이 아니다._
->
-> - Project:
->   - **지금 가장 전념**하는 것
->   - 기간/목표가 명확함. 즉, 끝이 있음
->   - ex) 이사하기, 직장 취업하기, 책 쓰기
->
-> - Area:
->   - **끝이 없고, 꾸준히** 해 나가는 것
->   - 나의 책임이나 역할이 있음
->   - ex) 운동, 독서, 프로그래밍 실력 향상
->
-> - Resource:
->   - 관심 분야 정보
->   - 내 **책임은 없음**
->   - ex) 창업, 종교, 예술, 춤추는법 등
->
-> - Archive:
->   - 위의 세 가지에 속하지 않는 것
->   - 종료/중단된 프로젝트
->   - 책임이 사라진 영역, 관심이 사라진 자원
-
-
-#### Post
-
-[개발자로서 어떻게 살아남을까?](개발자로서_어떻게_살아남을까?)
-
->[lg] 2024-09-09
->
->
->  > [!rf] 아래 영상들을 보고서...
->  >
->  > [개발자는 어떻게 살아남을까](https://www.youtube.com/watch?v=U55ex_ga7_k)
->  > [개발자는 어떻게 살아남을까](https://www.youtube.com/watch?v=M2T-4SoLY-0)
->
->
->- 쉽게 변하지 않는 본질적인 것들에 집중하자.
->
->  ex) 과거 Hadoop/Hbase같은걸 세팅하려면 몇달이 걸렸다. 지금은 즉시 사용할 수 있는 SaaS가 있다.
->  ex) garbage collecter의 등장. 직접 메모리 관리가 필요한 경우가 줄었다.
->
->
->- 유망한 영역
->
->  - 메타버스: 하드웨어와 소프트웨어가 함께 발전 중
->  - 블록체인: 메타버스 환경에서의 NFT나 화폐기술
->  - AI, Bigdata: 업무의 페러다임을 바꿈
-
-
-
-
 ### 개발 환경 [-]
 
-#### dotfiles [-]
+#### 살아남는 개발자는 무엇이 다른가?
 
-_dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개발/생산 환경을 구축할 수 있다._
-
-[GNU stow](2.Area/개발환경/stow/index.md)
-
-
+- 쉽게 변하지 않는 것들에 집중하자
+- 시키는 대로 하기 전에 의심해라. 정말로 필요한 과정/단계/방법인가? 똑똑하고 신뢰할만한 사람일수록
+- recipe를 존중하되, 본질을 반드시 이해해라
 
 
-#### Command History
+##### TODO
+
+[The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
+[지식근로자의 생산성](https://www.joinc.co.kr/w/knowledge-workder-productivity)
+
+##### READ
+
+[개발자 중 누가 살아 남을까? 생존을 위해 반드시 생각해야 할 점](/AREA/개발_역량/살아남는_개발자는_무엇이_다른가?/READ/개발자_중_누가_살아_남을까?_생존을_위해_반드시_생각해야_할_점)
+[개발자가 앞으로 꼭 공부해야하는 분야](/AREA/개발_역량/살아남는_개발자는_무엇이_다른가?/READ/개발자가_앞으로_꼭_공부해야하는_분야)
+[일론의 5단계 법칙](/AREA/개발_역량/살아남는_개발자는_무엇이_다른가?/READ/일론의_5단계_법칙)
+[일류와 이류의 차이 (반도체 전설 짐켈러)](/AREA/개발_역량/살아남는_개발자는_무엇이_다른가?/READ/일류와_이류의_차이_(반도체_전설_짐켈러))
+
+
+#### 구독 서비스 관리
+
+- subscribe
+  - github copilot: $100/Y
+  - openAI: gpt: $20/M
+  - figma: $15/M
+
+- API
+  - anthropic: claude.ai
+
+- AWS
+
+
+#### Note Making [-]
+
+[Job-wiki 작성법](/Area/개발_역량/Note_Making/Job-wiki_작성법)
+
+> [!INFO]
+>
+> [vim-wiki cheet-sheet](https://gist.github.com/drkarl/4c503bccb62558dc85e8b1bc0f29e9cb)
+> [design reference](https://mkaz.blog/)
+> - 현재 디렉토리 내의 파일명에 공백이 있을 때, 공백을 '_'(under-bar)로 변경하기
+>   ```bash
+>   for file in *\ *; do mv "$file" "${file// /_}"; done
+>   ```
+
+
+##### TODO
+
+[포프TV - 노트 정리 & 회사 문서화 & 프로젝트 관리, 이거면 충분!](https://www.youtube.com/watch?v=iE7N5RlM13E)
+
+#### Remote Work
+
+[file share & control](/Cheat_Sheet/file_share_&_control)
+[nfs 프로토콜, 디렉토리 공유하기](/Programing/workflows/서버관리/nfs로_디렉토리_공유하기)
+[SSH protocol](/Programing/workflows/서버관리/SSH)
+[rclone으로 클라우드 스토리지 서비스 동기화](/Programing/workflows/cloud_storage/rclone으로_클라우드_스토리지_서비스_동기화)
+
+#### Operating System [-]
+
+##### 설치/복제 [-]
+
+[부팅디스크 만들기](/Area/개발_환경/Operating_System/부팅디스크_만들기)
+[만자로 시스템 복사(이사)하기](/Area/개발_역량/Linux_&_Shell/만자로_시스템_복사하기)
+[Booting process](2.Area/개발환경/Operating_System/index.md) [-]
+
+##### 서비스 관리
+
+[systemd](/Area/개발_역량/Linux_&_Shell/systemd)
+[sysz](/Programing/tools/system_admin/sysz.md)
+[x11 세션에서 wayland 세션을 실행할 수 있다.(session in session)](x11_세션에서_wayland_세션을_실행할_수_있다.(session_in_session))
+
+##### system Packages/Apps
+
+[package manager](/Area/개발_환경/Operating_System/Manage_Packages)
+[mimeapps](/Cheat_Sheet/System_configs)
+[xdg-open](/Area/개발_환경/Operating_System/xdg-open_관리)
+
+##### Shell & Terminal & Editor [-]
 
 [command history](/Cheat_Sheet/command_history)
+[what is shell?](/Area/개발_역량/Linux_&_Shell/what_is_shell)
+[Vim](/Programing/tools/vim/index.md)
+[Git](/Programing/tools/git_and_github/index.md)
+[alacritty config](/Programing/tools/terminal_emulator/alacritty.md)
+[bash](2.Area/개발환경/bash/index.md)
+[tmux](/Area/개발_환경/Operating_System/tmux)
+
+
+[-] 공부하자
+[bash-shell, sed, awk, make, macro: 한글 가이드 문서](https://mug896.github.io/bash-shell/bug_reports.html)
+
+[-]
+[visidata](https://www.visidata.org/)
+- csv, sql 등 cli에서 데이터를 시각화하고 편집할 수 있는 툴
+
+[-]
+[navi](https://github.com/denisidoro/navi)
+- cli 명령어를 미리 입력해두고 편하게 불러와서 사용
+
+
+##### secretes 관리 [-]
+
+[-]
+[self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
+[secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
+
+
+##### etc
+
+[`$HOME` path](/Area/개발_역량/Linux_&_Shell/home_path)
+[GNU stow](2.Area/개발환경/stow/index.md)
+[bore](/Programing/concepts_and_tools/tools/bore.md)
+  - simple tcp tunnel CLI. make localhost to public server
+  - 이거 활용하면 SSH로 작업중인 서버의 개발서버를 원격지에서 접속해볼 수 있겠다.
+    - 근데 어차피 hot-reloading 안되니 소용없나?
+
+
+
+
+
+##### TODO
 
 [-] bluetooth 문제를 해결하며...
-
 > 갑자기 블루투스가 안됐다. systemctrl에서 bluetooth.service는 running 상태로 잘 확인 됐다.
 > 근데 bluetoothctl에서 확인해보니 "org.bluez.Error.NotReady" 이러면서 connect도 안되고 scan도 안된다.
 > 그래서 검색해보니 뭔 soft block 되었는지 확인하란다.
@@ -347,367 +250,152 @@ _dotfiles만 제대로 관리하면 하드웨어가 바뀌어도 빠르게 개�
 > ```
 
 
-#### Remote System
-
-[file share & control](/Cheat_Sheet/file_share_&_control)
-[nfs 프로토콜, 디렉토리 공유하기](/Programing/workflows/서버관리/nfs로_디렉토리_공유하기)
-[SSH protocol](/Programing/workflows/서버관리/SSH)
-[rclone으로 클라우드 스토리지 서비스 동기화](/Programing/workflows/cloud_storage/rclone으로_클라우드_스토리지_서비스_동기화)
-
-#### Operating System [-]
-
-[만자로 시스템 복사(이사)하기](/Programing/concepts_and_tools/concepts/linux/만자로_시스템_복사하기)
-[sysz](/Programing/tools/system_admin/sysz.md): `systemctl`을 편리하게!
-[System configs](/Cheat_Sheet/System_configs)
-[부팅디스크 만들기](/Area/개발_환경/Operating_System/부팅디스크_만들기)
-[xdg-open 관리](/Area/개발_환경/Operating_System/xdg-open_관리)
-
-[Manage Packages](/Area/개발_환경/Operating_System/Manage_Packages)
-
-
-
-[Operating_System](2.Area/개발환경/Operating_System/index.md) [-]
-
-> [!ye] 리눅스 종합 system configurations 관리 툴(아직 한창 개발중):
->
-> [제작자 소개](https://www.youtube.com/watch?v=Zt0HnIMbzZQ)
-> [github](https://github.com/ChrisTitusTech/linutil)
-
-
-> [!ye] x11 세션에서 wayland 세션을 실행할 수 있다.(session in session)
->
-> weston DE를 활용해서 가능한데,
->
-> ```bash
-> # weston 설치
-> sudo pacman -S weston
->
-> # background 실행
-> weston --backend=x11-backend.so
-> ```
-
-
-#### tmux Multiplexer
-
-
-- **플러그인**
-  _vim 생태계와 상당히 비슷하다. 오픈소스 플러그인이 공유되고, 직접 만들고 배포 할 수도 있는 것이 매우 닮았다.
-  TPM이란 플러그인 매니저가 별도로 있는것도 마찬가지다._
-
-  - tmux 서버 자체를 저장하고 불러오는 기능
-
-    서버를 저장하지 않아도 기본적으로 서버의 모든 세션이 유지된다. 서버(프로세스)를 종료하지만 않는다면 말이다.
-    근데 컴퓨터를 껏다 켤 때도 있으니까 프로세스의 상태를 저장할 필요가 있다.
-
-    ```tmux
-    set -g @plugin 'tmux-plugins/tmux-resurrect'
-    set -g @plugin 'tmux-plugins/tmux-continuum'  # tmux-resurrect를 자동화
-    ```
-
-    > [!ye] 기본적으로는 last saved envrionment를 불러오는데symlink를 수정해서 바꿔줄수도 있다.
-    >
-    > [ref](https://github.com/tmux-plugins/tmux-resurrect/blob/master/docs/restoring_previously_saved_environment.md)
-    >
-    > - make sure you start this with a "fresh" tmux instance
-    >   `$ cd ~/.tmux/resurrect/`
-    > - locate the save file you'd like to use for restore (file names have a timestamp)
-    > - symlink the last file to the desired save file: $ ln -sf <file_name> last
-    >   _`-f` 옵션을 사용하  기존 last에 해당하는 심볼릭 링크 파일을 삭제한다. 아니면 에러 발생_
-    > - do a restore with tmux-resurrect key: prefix + Ctrl-r
-
-
-#### Terminal & Shell
-
-> [!lg] Log 2024-12-20
->
-> 굿바이 urxvt... 비로소 현대적인 terminal emulator로 옮겼다. 이제는 필요성을 느끼는 것이다!
-
-
-[alacritty config](/Programing/tools/terminal_emulator/alacritty.md)
-
-[bash](2.Area/개발환경/bash/index.md)
 
 
 
 
-
-
-
-#### Vim [-]
-
-[Vim](/Programing/tools/vim/index.md)
-
-[-] Lazyvim에서 권장하는 plugin groups 둘러보기 (AI는 별도 진행)
-
-
-
-#### Git & Github
-
-[Git](/Programing/tools/git_and_github/index.md)
-
-
-- `gh dash`
-
-  PR 및 issue 관련 `gh cli plugin`이다. 엄청 좋다!
-
-#### Browser
-
-[browser](/Programing/tools/browser/index.md)
-  > brave browser
-
-- extension
-  https://github.com/glacambre/firenvim
-  https://github.com/dlvhdr/diffnav
 
 #### AI [-]
 
-- 사용중
 
-  - aider(CLI tool)
-    - [aider](/Programing/tools/AI/aider/index.md)
-    - [aider with Claude sonet VS Deepseekv 3](https://www.youtube.com/watch?v=EUXISw6wtuo)
-    - [-] deepseek 통합
-
-  - avante.nvim
-    - [-] deepseek 통합
-
-- 관심
-
-  - devin(commercial) & [devica(open-source)](https://github.com/stitionai/devika/discussions)
-    : agent-like
-    [-] 둘러보기
-
-  - codecompanion.nvim
-    : zed ai를 표방한다는데, 'cursor AI' 스타일보다 vim스럽긴 하다고 생각한다. 그러나 ai의 활용 면에서
-    나는 cursor AI 스타일을 선호한다.
+[-]
+[“AI는 없는 인간만의 뭐가 있다? 그런 말 하는 사람 다 밀려났다.” (장강명 작가)](https://www.youtube.com/watch?v=bBaTc1JE42w)
 
 
-#### Python 생태계
+##### 사용중
 
-[Python 생태계](/Area/개발_환경/Python_생태계/index.md)
+- [aider](/Area/개발_환경/AI/aider)
+- avante.nvim
+- github copilot with ChatCopilot.nvim
+- chatGPT web UI
 
+> [!lg] Log 2025-03-19
+>
+> avante.nvim vs ChatCopilot.nvim?
+> : AI api provider에 직접 접근하냐, github에서 랩핑해서 배포하는걸 사용하냐의 차이
+> 비용적으로는 copilot이 우위가 있으나 성능은 또 모르겠다. 일단은 지켜보는 수밖에?
 
-#### Etc [-]
+##### 관심
 
-[bore](/Programing/concepts_and_tools/tools/bore.md):
-  simple tcp tunnel CLI. make localhost to public server
+- devin(commercial) & [devica(open-source)](https://github.com/stitionai/devika/discussions)
+  : agent-like
 
+- codecompanion.nvim
+  : zed ai를 표방한다는데, 'cursor AI' 스타일보다 vim스럽긴 하다고 생각한다. 그러나 ai의
+  활용 면에서 나는 cursor AI 스타일을 선호한다.
 
-> [!td]2025-01-10 secrete 관리
-> [-]
->  󱞪
-> [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
-> [secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
+##### ETC
 
-
-- [visidata](https://www.visidata.org/)
-  : csv, sql 등 cli에서 데이터를 시각화하고 편집할 수 있는 툴
-
-- [navi](https://github.com/denisidoro/navi)
-  : cli 명령어를 미리 입력해두고 편하게 불러와서 사용
-
-
-#### Post
-
-[vim을 왜 쓸까?](/Programing/posts/vim을_왜_쓸까?)
-[gitsigns.nvim plugin에 이슈 남기기](/Programing/posts/gitsigns.nvim_plugin에_이슈_남기기)
-[nvim 플러그인에 이슈 남기기](/Programing/posts/nvim_플러그인에_이슈_남기기)
-[오픈소스에 난생처음 PR 날리기](/Programing/posts/오픈소스에_난생처음_PR_날리기)
+[what is chatGPT?](/Area/개발_환경/AI/what_is_chatGPT?)
 
 
-### 개발 역량 [-]
+#### 알고리즘
 
-_프로덕션에 가까운 프로젝트들을 보면서 배우는 것이 중요하다._
-_"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 마스토돈, nodejs는 미스키, 파이썬은 bookwyrm"_
+[알고리즘 게임: CodinGame](https://www.codingame.com/training)
 
-#### Linux
+- 가이드라인 (discord에서 주워들었다.)
 
-[linux `$HOME` path](/Programing/concepts_and_tools/concepts/linux/home_path)
-[systemd](/Programing/concepts_and_tools/concepts/linux/systemd)
-[what is shell?](/Area/개발_역량/Linux/what_is_shell)
+  ```txt
+  1. 근데 알고리즘도 뭐 그렇게 어렵지는 않고, 아래에서 크게 벗어나지는 않더라구요.
+     - 문법 숙지 -> 브루트포스 -> 백트래킹 -> 자료구조 공부(STL) -> DFS -> BFS -> 다익스트라 ->
+       유니온파인드 -> MST (이후)
+     - 정렬
+     - 이분탐색
+     - 그리디
+     - 기본적인 DP
+     - 비트마스킹
+     - 유클리드호제법
+     - 에라토스테네스의 체
 
-#### Container
+  2. 저희 회사도 막 신박한 희안한 알고리즘 가져와서 풀어야되는걸 내기보다는 알고리즘을 제대로
+     이해했는지, 제약사항이 주어졌을 때 어떻게 개선할 수 있고 얼마나 개선됐는지 설명할 수 있는지 이런걸
+     봐요. Big O 노테이션으로다가.
 
-[docker](/Programing/concepts_and_tools/tools/docker.md):
-[HUB: kubernetes](/Programing/concepts_and_tools/tools/kubernetes/index.md):
+  3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
+  ```
 
-[-] [from docker to open-source](https://www.youtube.com/watch?v=Z5uBcczJxUY)
+#### Skills
 
-#### Web Dev [-]
+##### Container
 
-[static website vs dynamic website](/Programing/concepts_and_tools/concepts/web_dev/static_website_vs_dynamic_website)
-[architecture](/Area/개발_역량/Web_Dev/architecture)
+[docker](/Area/개발_역량/Container/docker)
+
+[HUB: kubernetes](/Programing/concepts_and_tools/tools/kubernetes/index.md)
+
+[-]
+[from docker to open-source](https://www.youtube.com/watch?v=Z5uBcczJxUY)
+
+##### Web Dev [-]
+
+[static vs dynamic website](/Area/개발_역량/Web_Dev/static_website_vs_dynamic_website)
 [design](/Area/개발_역량/Web_Dev/design)
 
-[-] 제대로 된 에러핸들링 전략이 있어야겠다.
-> `try ... catch ...` 구문은 연쇄적으로 에러를 추적한다. cascade error handling이라고 부를 수 있겠다.
-> 따라서 (바깥쪽)가장 먼저 에러를 이르킨 지점부터 (안쪽)가장 깊은 지점까지 단계별로 에러를 추적하며 에러메시지가 누적 로깅 된다.
-> 이때 어떻게 연쇄적으로 throw시키고, 어떤 에러객체를 전달할지 정해진 전략이 필요하다.
+
+[-]
+[천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
+
+[-]
+- 제대로 된 에러핸들링 전략이 있어야겠다.
+
+  `try ... catch ...` 구문은 연쇄적으로 에러를 추적한다. cascade error handling이라고 부를 수 있겠다.
+  따라서 (바깥쪽)가장 먼저 에러를 이르킨 지점부터 (안쪽)가장 깊은 지점까지 단계별로 에러를 추적하며
+  에러메시지가 누적 로깅 된다. 이때 어떻게 연쇄적으로 throw시키고, 어떤 에러객체를 전달할지 정해진
+  전략이 필요하다.
+
+  - HTTP 상태코드
+    | code | 이름                  | 설명                                           |
+    |------|-----------------------|------------------------------------------------|
+    | 401  | Unauthorized          | 인증이 필요하거나 실패했을 때.                 |
+    | 403  | Forbidden             | 인증은 되었지만, 자원에 접근할 권한이 없을 때. |
+    | 500  | Internal Server Error | 서버 내부 문제.                                |
+
+[-] 2024-12-05
+- What is preflight request?
+
+  비표준 http 헤더를 사용하는 경우 보안을 위해 미리 요청을 보내본다는데... 이와 관련된 캐싱 정책도
+  개발자가 고려해야할 상항이다. 관련된 내용을 자세히 알아두자.
+
+[-] 2024-12-06
+- typescript+express 서버에서 컨트롤러를 만들 때, early return으로 res객체를 보낼 때가 있다. 뭔가
+에러가 있다거나 경우에 따라 다른 응답을 보내야 할 때다. 근데 해당 컨트롤러의 마지막까지 실행되지
+않고 응답한다면, 이후의 코드는 실행되지 않도록 return 해줘야한다. 근데 이게 `res.status().json()`
+자체를 리턴하는것과 이후 void를 리턴하는 것에 차이가 있다.(당연하다..) 근데 문제는 이게 다르다는게
+아니라 일관되지 않다는거다. `return res.status().json()`을 하면 에러가 날 때가 있고, 아닐때가 있다.
+typescript의 기본 request, response객체 타입에 어긋난게 에러의 원인이라는데, 에러의 원인과는 별개로
+왜 일관되지 않은 결과가 나타나는가?
+
+  - 사례
+    ```typescript
+    export const getFileSignedUrl = async (req: AuthRequest, res: Response) => {
+      try {
+        // 인증 확인
+        if (!req.userInfo) {
+          res.status(401).json({ message: '인증되지 않은 사용자입니다.' });
+          return;
+        }
+
+        const fileKey = decodeURIComponent(req.params.fileKey);
+
+        if (!fileKey) {
+          res.status(400).json({ message: '파일 키가 필요합니다' });
+          return;
+        }
+
+        // 파일 존재 여부 및 접근 권한 확인 로직 추가 필요
+        const presignedUrl = await awsS3Service.getPresignedFileUrl(fileKey);
+
+        res.json({ presignedUrl });
+      } catch (error) {
+        console.error('파일 서명 URL 생성 오류:', error);
+        res.status(500).json({
+          message: '파일 URL 생성 중 알 수 없는 오류가 발생했습니다.',
+        });
+      }
+    };
+    ```
 
 
-- HTTP 상태코드
-  | code | 이름                  | 설명                                           |
-  |------|-----------------------|------------------------------------------------|
-  | 401  | Unauthorized          | 인증이 필요하거나 실패했을 때.                 |
-  | 403  | Forbidden             | 인증은 되었지만, 자원에 접근할 권한이 없을 때. |
-  | 500  | Internal Server Error | 서버 내부 문제.                                |
-
-
-[x] `DB<->백엔드<->프론트`, 세 단위에서 데이터가 오갈 때 snake_case, camelCase 변환 전략(DB에서는 snake_case, 백/프론트에서는 camelCase를 쓰는 경우)
-> [-] 자세한 예시나 사례가 있으면 좋겠다. 특정 프로젝트와 관계 없이 적용 가능할 것
->
-> 1. 백엔드에서 변환
->    - 장점: 프론트엔드 단순화, 일관된 API 응답.
->    - 단점: 백엔드 처리 부담 증가, 클라이언트 유연성 감소.
->    - 적합: 단일 클라이언트, 간단한 구조.
->
-> 2. 프론트엔드에서 변환
->    - 장점: 백엔드 단순화, 클라이언트 제어 용이.
->    - 단점: 프론트엔드 복잡성 증가, 반복 변환 필요.
->    - 적합: 다수의 클라이언트, 클라이언트별 포맷 다양.
->
-> 3. 중간 계층에서 변환
->    - 장점: 백엔드와 프론트엔드 부담 분산, 명확한 역할 분리.
->    - 단점: 중간 계층 유지보수 필요, 간단한 구조에선 오히려 복잡.
->    - 적합: API 게이트웨이, 대규모 시스템.
->
-> - **권장 방식**
->
->   - 단일 클라이언트: 백엔드에서 변환.
->   - 다수 클라이언트: 프론트엔드에서 변환.
->   - 중간 계층이 있다면 변환 책임을 중간 계층에 위임.
->
-> - 유틸 함수 예시
->   ```typescript
->   // Utility function to convert snake_case keys to camelCase
->   export function convertToCamelCase<T>(obj: any): T {
->     if (obj === null || typeof obj !== 'object') {
->       return obj;
->     }
->
->     if (obj instanceof Date) {
->       return obj as T;
->     }
->
->     if (Array.isArray(obj)) {
->       return obj.map((item) => convertToCamelCase(item)) as T;
->     }
->
->     return Object.entries(obj).reduce((acc, [key, value]) => {
->       const camelCaseKey = key.replace(/_([a-z])/g, (_, letter) =>
->         letter.toUpperCase(),
->       );
->       acc[camelCaseKey] = convertToCamelCase(value);
->       return acc;
->     }, {} as Record<string, unknown>) as T;
->   }
->
->   // Utility function to convert an array of database results to camelCase
->   export function convertResultsToCamelCase<T>(results: any[]): T[] {
->     if (!Array.isArray(results)) {
->       throw new Error('Input must be an array.');
->     }
->     return results.map((result) => convertToCamelCase<T>(result));
->   }
->   ```
->
-> - 함수 활용
->
->   ```typescript
->   ## File Path: src/controllers/communityPostController.ts, 141-193
->   // 게시글 상세 조회
->   export const getCommunityPostById = async (req: Request, res: Response) => {
->     try {
->       const { postId } = req.params;
->
->       const [postResult]: [RowDataPacket[], any] = await database.query(
->         `SELECT
->           p.post_id,
->           p.title,
->           p.content,
->           p.author_id,
->           p.created_at,
->           p.updated_at,
->           s.status,
->           s.reason
->         FROM community_post_table p
->         LEFT JOIN community_post_status_table s ON p.post_id = s.post_id
->         WHERE p.post_id = ?`,
->         [postId],
->       );
->
->       const [attachments]: [RowDataPacket[], any] = await database.query(
->         'SELECT * FROM community_attachment_table WHERE post_id = ?',
->         [postId],
->       );
->
->       const [comments]: [RowDataPacket[], any] = await database.query(
->         `SELECT
->           c.comment_id,
->           c.content,
->           c.author_id,
->           c.created_at,
->           u.name as author_name
->         FROM community_comment_table c
->         LEFT JOIN user_mapping_table u ON c.author_id = u.user_id
->         WHERE c.post_id = ?`,
->         [postId],
->       );
->
->       if ((postResult as any).length === 0) {
->         res.status(404).json({ message: '게시글을 찾을 수 없습니다' });
->       }
->
->       res.json({
->         ...convertToCamelCase(postResult),
->         attachments: convertResultsToCamelCase(attachments),
->         comments: convertResultsToCamelCase(comments),
->       });
->     } catch (error) {
->       console.error('게시글 상세 조회 오류:', error);
->       res.status(500).json({ message: '게시글 상세 조회 중 오류 발생' });
->     }
->   };
->   ```
-
-
-> [!td]2024-12-05
-> [-] What is preflight request? 비표준 http 헤더를 사용하는 경우 보안을 위해 미리 요청을 보내본다는데... 이와 관련된 캐싱 정책도 개발자가 고려해야할 상항이다. 관련된 내용을 자세히 알아두자.
->  󱞪
-
-> [!td]2024-12-06
-> [-] typescript+express 서버에서 컨트롤러를 만들 때, early return으로 res객체를 보낼 때가 있다. 뭔가 에러가 있다거나 경우에 따라 다른 응답을 보내야 할 때다. 근데 해당 컨트롤러의 마지막까지 실행되지 않고 응답한다면, 이후의 코드는 실행되지 않도록 return 해줘야한다. 근데 이게 `res.status().json()` 자체를 리턴하는것과 이후 void를 리턴하는 것에 차이가 있다.(당연하다..) 근데 문제는 이게 다르다는게 아니라 일관되지 않다는거다. `return res.status().json()`을 하면 에러가 날 때가 있고, 아닐때가 있다. typescript의 기본 request, response객체 타입에 어긋난게 에러의 원인이라는데, 에러의 원인과는 별개로 왜 일관되지 않은 결과가 나타나는가?
->  󱞪
-> ```typescript
-> export const getFileSignedUrl = async (req: AuthRequest, res: Response) => {
->   try {
->     // 인증 확인
->     if (!req.userInfo) {
->       res.status(401).json({ message: '인증되지 않은 사용자입니다.' });
->       return;
->     }
->
->     const fileKey = decodeURIComponent(req.params.fileKey);
->
->     if (!fileKey) {
->       res.status(400).json({ message: '파일 키가 필요합니다' });
->       return;
->     }
->
->     // 파일 존재 여부 및 접근 권한 확인 로직 추가 필요
->     const presignedUrl = await awsS3Service.getPresignedFileUrl(fileKey);
->
->     res.json({ presignedUrl });
->   } catch (error) {
->     console.error('파일 서명 URL 생성 오류:', error);
->     res.status(500).json({
->       message: '파일 URL 생성 중 알 수 없는 오류가 발생했습니다.',
->     });
->   }
-> };
-> ```
-
-#### Chrome Extension
+##### Chrome Extension
 
 > [!lg] Log 2025-02-27
 > surfingkeys라는걸 잘 쓰고있었는데, 최근 업데이트 후 문제가 생겨서 직접 버전을 다운그레이드
@@ -723,393 +411,173 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 > 이런식으로 직접 빌드한 도구를 사용하면 더 간결하게 이것저것 만들 수 있겠다.
 
 
-#### Cloud Computing
+> [!rf]
+> [따라하기: chrome todo extension in JS](https://www.youtube.com/watch?v=ny-L_KLrKIU)
+
+##### Cloud Computing
 
 [AWS](/Area/개발_역량/Cloud_Computing/AWS)
 
+##### CI CD
 
-#### CI CD
+_배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요소이다. 요구사항을 파악하고
+빠르게 반영하기도 바쁜데, 배포가 매끄럽지 못해서 턱턱 막힌다면 진짜 갑갑하다._
 
-[!ye] 배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요소이다. 요구사항을 파악하고 빠르게 반영하기도 바쁜데, 배포가 매끄럽지 못해서 턱턱 막힌다면 진짜 갑갑하다.
+[single container SPA](/Area/개발_역량/CI_CD/single_container_SPA)
 
-> [!ye] single container SPA
->
-> [실습 github](https://github.com/study-and-trial/static-site)
->
-> - 파이프라인 구성요소
->   - dev 서버
->   - github-action runner 서버
->   - container (image)registry
->   - 배포 서버
->
-> - 작업 순서
->   1. 개발 진행
->   2. github push 또는 pr merge에 따라 runner 실행(적절한 방식을 runner의 트리거로 설정한다.)
->   3. runner server(github 또는 self-hosted)에서 runner 실행:
->      1. container (image)registry 로그인
->      2. 컨테이너 이미지 빌드, 레지스트리에 push
->      3. 배포서버에 ssh 접속하여 이미지 pull, 컨테이너 재시작
-
-#### Languages [-]
+##### Languages [-]
 
 [Javascript](/Area/개발_역량/Languages/Javascript) [-]
 [Dart](/Area/개발_역량/Languages/Dart)
-[Python](/Area/개발_역량/Languages/Python)
 
-#### Web Scraping
+- Python
+  [기본개념](/Area/개발_역량/Languages/Python)
+  [격리된 가상환경으로 개발 시작하기](/Area/개발_환경/Python/격리된_가상환경으로_개발_시작하기)
 
-> [!lg]웹 접근성 기반 선택자를 활용하자
->
-> - 접근성 기반 선택자 사용의 실제 예시
->
->   예를 들어, 다음과 같은 HTML 코드가 있을 때:
->
->   html
->   코드 복사
->   <button aria-label="Download">Download</button>
->   이 버튼을 선택하려면 다음과 같은 선택자를 사용할 수 있습니다:
->
->   javascript
->   코드 복사
->   document.querySelector('button[aria-label="Download"]');
->   이 선택자는 aria-label 속성에 "Download"가 설정된 모든 버튼을 선택합니다. 버튼의 클래스나 ID가 변경되더라도 이 선택자는 유지될 가능성이 큽니다.
->
->   접근성 기반 선택자는 웹 스크래핑, 자동화 테스트, UI 테스트 등에서 안정적으로 사용할 수 있는 강력한 도구입니다.
+    > [!INFO]
+    >
+    > 파이썬은 널리 이용되는 만큼 생태계가 복잡하다. 따라서 아래 두가지가 중요하다.
+    >   - 의존성 관리를 잘 해줘야한다.
+    >   - 시스템 패키지를 해치지 않도록 주의해야한다.
+    >
+    > 따라서 나는 가상환경의 확실한 격리를 컨테이너를 활용하여 시도한다.
 
+##### Web Scraping
 
+[general tips](/Area/개발_역량/Web_Scraping/general_tips)
+
+[-]
 [Scrape Anything with DeepSeek V3 + Scraping Tool Integration (CHEAP & EASY)](https://www.youtube.com/watch?v=WkLdLJJzV1k&t=27s)
 
-#### Big Data
 
-[Keywords](/Area/개발_학습/Big_Data/Keywords)
-[Apache arrow](/Area/개발_학습/Big_Data/Apache_arrow)
-[Big Data Engineering](/Programing/workflows/big_data_engineering/index.md)
+##### Big Data
 
-#### Database [-]
-
-[관계형 데이터베스의 종류](/Programing/concepts_and_tools/concepts/database/relational_database/relational_database의_종류.md)
-[기본개념 및 키워드](/Programing/concepts_and_tools/concepts/database/relational_database/기본개념_및_키워드.md)
-[SQL 기본개념, Attribute Type, Key Constraints](/Programing/concepts_and_tools/concepts/database/relational_database/SQL_기본개념,_Attribute_Type,_Key_Constraints.md)
-[SQL query](/Programing/concepts_and_tools/concepts/database/relational_database/SQL_query.md)
-[SQL에서 NULL의 의미](/Programing/concepts_and_tools/concepts/database/relational_database/SQL에서_NULL의_의미.md)
-[SQL과 JOIN](/Programing/concepts_and_tools/concepts/database/relational_database/SQL과_JOIN.md)
-[SQL과 정렬 및 통계](/Programing/concepts_and_tools/concepts/database/relational_database/SQL과_정렬_및_통계.md)
-[데이터베이스 트랜잭션, ACID](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_트랜잭션,_ACID.md)
-[데이터베이스 설계-정규화](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_설계-정규화.md)
-[데이터베이스 설계-DB index](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_설계-DB_index.md)
-[데이터베이스 설계-파티셔닝, 샤딩, 레플리케이션](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_설계-파티셔닝,_샤딩,_레플리케이션.md)
-[데이터베이스 성능 최적화-서버 리소스 활용](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_성능_최적화-서버_리소스_활용.md)
-[데이터베이스 성능 최적화-DB connection pool](/Programing/concepts_and_tools/concepts/database/relational_database/데이터베이스_성능_최적화-DB_connection_pool.md)
-[RDB vs NoSQL](/Programing/concepts_and_tools/concepts/database/relational_database/RDB_vs_NoSQL.md)
+[Keywords](/Area/개발_역량/Big_Data/Keywords)
 
 > [!rf]
-> [강의 재생목록](https://www.youtube.com/playlist?list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe)
+>
+> [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
+> [빅데이터 플랫폼 특론: play-list](https://www.youtube.com/playlist?list=PLCsebpDZm0n6HYSDaNxKQYrNrD4Xk9meX)
+> [하둡 분산파일 시스템 구축: play-list](https://www.youtube.com/watch?v=g6xIMSYjh0w&list=PLY-_9hx4ldZwYOjtfRT0MV2k9JcnTUYW2)
+
+##### Database [-]
+
+- RDBMS
+  > [!rf]
+  > [강의 재생목록](https://www.youtube.com/playlist?list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe)
+
+  [관계형 데이터베스의 종류](/Area/개발_역량/Database/RDBMS/관계형_데이터베스의_종류)
+  [기본개념 및 키워드](/Area/개발_역량/Database/RDBMS/기본개념_및_키워드)
+  [SQL 기본개념, Attribute Type, Key Constraints](/Area/개발_역량/Database/RDBMS/SQL_기본개념,_Attribute_Type,_Key_Constraints)
+  [SQL query](/Area/개발_역량/Database/RDBMS/SQL_query)
+  [SQL에서 NULL의 의미](/Area/개발_역량/Database/RDBMS/SQL에서_NULL의_의미)
+  [SQL과 JOIN](/Area/개발_역량/Database/RDBMS/SQL과_JOIN)
+  [SQL과 정렬 및 통계](/Area/개발_역량/Database/RDBMS/SQL과_정렬_및_통계)
+  [데이터베이스 트랜잭션, ACID](/Area/개발_역량/Database/RDBMS/데이터베이스_트랜잭션,_ACID)
+  [데이터베이스 설계-정규화](/Area/개발_역량/Database/RDBMS/데이터베이스_설계-정규화)
+  [데이터베이스 설계-DB index](/Area/개발_역량/Database/RDBMS/데이터베이스_설계-DB_index)
+  [데이터베이스 설계-파티셔닝, 샤딩, 레플리케이션](/Area/개발_역량/Database/RDBMS/데이터베이스_설계-파티셔닝,_샤딩,_레플리케이션)
+  [데이터베이스 성능 최적화-서버 리소스 활용](/Area/개발_역량/Database/RDBMS/데이터베이스_성능_최적화-서버_리소스_활용)
+  [데이터베이스 성능 최적화-DB connection pool](/Area/개발_역량/Database/RDBMS/데이터베이스_성능_최적화-DB_connection_pool)
+  [RDB vs NoSQL](/Area/개발_역량/Database/RDBMS/RDB_vs_NoSQL)
+
+- ETC
+  [snake_case to camelCase](/Area/개발_역량/Database/ETC/snake_case_to_camelCase)
 
 
-[-] [SQL에서 stored Function 및 stored Procedure](/Programing/concepts_and_tools/draft/SQL에서_stored_Function_및_stored_Procedure)
-[-] [draft/SQL concurrency control, 트랜잭션의 Isolation 보장하기](/Programing/concepts_and_tools/draft/SQL_concurrency_control,_트랜잭션의_Isolation_보장하기)
+[-]
+- SQL concurrency control, 트랜잭션의 Isolation 보장하기
+  : serial schedule만 사용한다면 데이터 일관성을 해칠일은 없겠지만 성능 이슈가 있다.
+    big data를 다룬다면 성능을 위해 none-serial schedule을 실행할 수 있도록 반드시 익혀두자.
+    > [!rf]
+    > [개념 강의](https://www.youtube.com/watch?v=DwRN24nWbEc&list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe&index=15)
 
 
-#### 문제 해결: 미결
 
-[docker named volume with NFS protocol](/Programing/problem_solving/docker_named_volume_through_NFS_protocol)
 
-#### 문제 해결: 해결
+#### 오답노트
 
-[domain status: clientHold](/Programing/problem_solving/domain_status:_clientHold)
-[프로세스 조회 및 종료](/Programing/problem_solving/프로세스_조회_및_종료)
+##### 미결
 
-#### Post
+[docker named volume with NFS protocol](/Area/개발_역량/오답노트/docker_named_volume_with_NFS_protocol)
 
-[I just wanted to deploy my code!](/Programing/posts/I_just_wanted_to_deploy_my_code!)
-[what is chatGPT](/Programing/posts/what_is_chatGPT)
+##### 해결
 
-#### Reference
+[domain status: clientHold](/Area/개발_역량/오답노트/domain_status:_clientHold)
+[프로세스 조회 및 종료](/Area/개발_역량/오답노트/프로세스_조회_및_종료)
 
-- etc
-  [부트캠프 팀 과제 커밋 히스토리 보는게 도움될듯](https://github.com/boostcampwm-2022)
+#### REFERENCE
+
+- ETC
   [7 Habits For Effective Text Editing](https://www.youtube.com/watch?v=eX9m3g5J-XA)
-  [bash-shell, sed, awk, make, macro: 한글 가이드 문서](https://mug896.github.io/bash-shell/bug_reports.html)
+  [양질의 블로그](https://www.joinc.co.kr/w/architecture)
+  [`TS`, `python` 등 다양한 주제 튜토리얼](https://www.squash.io/tutorials/)
+  [The twelve-factor app](https://12factor.net/)
+  [Harvard CS 50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
 
 - backend course
   [web-course](https://www.boot.dev/tracks/backend)
   [github](https://github.com/bootdotdev/curriculum)
 
-- 시간 죽이는 개발자 게임
-  [ 알고리즘 게임: CodinGame](https://www.codingame.com/training)
-  [CSS 게임: Css Diner](https://flukeout.github.io/)
-
-
-- 알고리즘
-
-  1. 근데 알고리즘도 뭐 그렇게 어렵지는 않고, 아래에서 크게 벗어나지는 않더라구요.
-    - 문법 숙지 -> 브루트포스 -> 백트래킹 -> 자료구조 공부(STL) -> DFS -> BFS -> 다익스트라 -> 유니온파인드 -> MST
-     (이후)
-    - 정렬
-    - 이분탐색
-    - 그리디
-    - 기본적인 DP
-    - 비트마스킹
-    - 유클리드호제법
-    - 에라토스테네스의 체
-
-  2. 저희 회사도 막 신박한 희안한 알고리즘 가져와서 풀어야되는걸 내기보다는 알고리즘을 제대로 이해했는지, 제약사항이 주어졌을 때 어떻게 개선할 수 있고 얼마나 개선됐는지 설명할 수 있는지 이런걸 봐요. Big O 노테이션으로다가.
-  3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
-
-- 따라하기
-  [chrome todo extension in JS](https://www.youtube.com/watch?v=ny-L_KLrKIU)
-
-- 개발 일반
-  [The twelve-factor app](https://12factor.net/)
-  [Harvard CS 50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
-  [파이썬 버전이 달라지며 뭐가 바뀌었나?](https://www.youtube.com/watch?v=XnfsucgWApE)
-  [천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
-
-- 잘 정리된 튜토리얼들, `TS`, `python` 등 간단한 주제별로 있다.
-  [tutorials: English](https://www.squash.io/tutorials/)
-  [tutorials: Korean](https://www.joinc.co.kr/w/architecture)
-  [30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python)
-
-- big data
-  [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
-  [**유료강의:** 빅데이터 파이프라인 마스터; 성공을 위한 도구와 기술](https://www.inflearn.com/course/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EB%A7%88%EC%8A%A4%ED%84%B0?inst=dcf981c7&utm_source=instructor&utm_medium=referral&utm_campaign=inflearn_%ED%8A%B8%EB%9E%98%ED%94%BD_promotion-link)
-  [빅데이터 플랫폼 특론: play-list](https://www.youtube.com/playlist?list=PLCsebpDZm0n6HYSDaNxKQYrNrD4Xk9meX)
-  [하둡 분산파일 시스템 구축: play-list](https://www.youtube.com/watch?v=g6xIMSYjh0w&list=PLY-_9hx4ldZwYOjtfRT0MV2k9JcnTUYW2)
-
-- docker, k8s
-  [docker, k8s, microservcie](https://www.youtube.com/watch?v=xdqOxF2JqwU)
-  [best k8s tool](https://www.youtube.com/watch?v=R0HlJsugOAE)
-  [develop in kub, not in docker-compose](https://www.youtube.com/watch?v=RTo9Pvo_yiY)
-  [docker network extra usuage](https://www.youtube.com/watch?v=bKFMS5C4CG0)
-  [kub network](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html)
-
-- 게임 개발
-  [초보자를 위한 게임개발 총론](https://gpgstudy.com/gpgiki/%EC%B4%88%EB%B3%B4%EC%9E%90_Faq)
-  [flutter game dev Big series](https://www.youtube.com/watch?v=Kwn1eHZP3C4&ab_channel=Spellthorn)
-  [flutter game dev Small series](https://www.youtube.com/watch?v=wUf3UytV4wQ&ab_channel=TreyCodes)
-  [게임 개발자의 고민](https://www.youtube.com/watch?v=Zpdtg9dtNOg)
-
-
-
-### 구독 서비스 관리
-
-#### 개발
-
-- subscribe
-  - github copilot: $100/Y
-  - openAI: gpt: $20/M
-  - figma: $15/M
-
-- API
-  - anthropic: claude.ai
-
-- AWS
 
 
 ### 좋은 가족, 좋은 친구, 멋진 인간 되기
 
-#### 선물 하고싶은 것들
-
-[좋은 가족, 좋은 친구 되기](/Life/좋은_가족,_좋은_친구_되기/index.md)
-
-
-#### 고마운 마음
-
-- 충북Pro메이커센터
-
-  - 박지원 과장님
-    - 2024-09-06, 고향에 부모님께서 농사 지으시는 패션후르츠 청을 선물해주셨다. 아주 맛있었다.
-  - 김이영 연구원님
-    - 2024-11-20, 서울에 출장 다녀오면서 특이한 베이글을 사 주셨다. 이런건 처음 먹어봤는데, 신기하고 맛있었다.
-  - 이중원 박사님
-    - 2024-12-05, 점심 식사를 같이 했는데, 사창시장에서 맛있는 국밥을 사주시고 사색말차에서 커피까지 사 주셨다. 내가 맛있다고 한 것을 본인도 맛있다고 해 주셔서 감사했다.
-  - 곽준구 팀장님
-    - 2024-12-11, 철야 근무하다가 아침에 깜빡 잠에 들었는데 일어나보니 곽팀장님이 들깨칼국수를 내것까지 시켜주셨다. 컨디션이 별로라 입맛이 없긴 했지만 덕분에 며칠만에 제대로 된 식사를 했다. 내게 해주시는 걱정과 관심에 감사했다.
-    - 2024-12-17, 센터 사업비중 회의비가 좀 남아서 (센터)식구들끼리 맛있는 점심을 드시기로 했나보다. 그런데 역시나 우리 팀장님이 나를 데려가고자 아주 적극적으로 나서주셨다. 좀 한가했다면 갔을텐데... 평소의 게으름이나 센터에 크게 기여하지 못함이 후회됐다. 한다고 하긴 했는데... 이렇게 부족한데도 참 고맙게 대해주신다.
-  - 류재윤 연구원님
-    - 2024-12-17, 센터 사업비중 회의비가 좀 남아서 (센터)식구들끼리 맛있는 점심을 드시기로 했나보다. 내가 똑부러지게 사양하지 않자 민망해서 그런가보다 생각하셨나, 같이 가자고 인사해주셨다. 재윤 선생님과 나는 별다른 교류는 물론 대화도 얼마 못해봤는데, 과하지 않을 만큼 나에게 예의바르게 대해주신다. 감사드린다.
-  - 경환쌤
-    - 2025-01-14, 사이다 사서 한잔 떠주셨다. 난 안좋아하지만 감사했다. 우리가 막 친하고 익숙한 사이는 아니다보니, 아마도 '상연쌤도 챙겨드려야겠지?'라고 고민하셨을텐데 그 마음이 예쁘다.
-  - 메이커센터 미화 어머님
-    - 2025-02-26, 아침 일찍 7시 반쯤 출근했는데 복도에서 봬서 인사를 드렸다. 갑자기 나를 탕비실로
-      잡아 이끄시더니 '차한자 하러 가는거잖냐, 본인도 아침 먹어야한다' 하신다. 깜짝 데이트에 구운
-      고구마도 얻어먹고 직접 담근 김치도 얻어먹었다. 까다로운 내 입맛에도 맛있었다. 일흔 두살로 우리
-      아빠보다 한살 어리신데, 젊어서부터 시댁의 엄청난 양의 제사 따위를 도맡으시고, 나이 드셔서는
-      편찮으신 남편분을 돌보면서도 미화 일을 하시고 또 블루베리 농사까지 지으신다. 여전히 젊고
-      건강해 보이신다. 나도 당신같은 강인한 사람이 되고싶고, 또 그런 사람을 만나 결혼하고싶다고
-      말씀드렸다.
-
-
-#### 다른 입장을 이해해 보기
-
-
-- 여성의 이해
-
-  - 생리통 체험
-    : 허리에 두르고 체험해보는 도구가 있다고 한다. 수십년간, 매 달, 때와 장소를 가리지 않는 것을 유념하자.
-
-  - 산통 체험
-    : 산모의 진통이 얼마나 힘들고 고통스러운지 체험 해 볼 수 있다.
-
+[선물 하고싶은 것](/Life/좋은_가족,_좋은_친구_되기/index.md)
+[감사한 마음](감사한_마음)
+[다른 입장을 이해해 보기](다른_입장을_이해해_보기)
 
 
 ### 글쓰기
 
+#### 뭐든지
 
-> [!lg] Log 2025-02-07
->
-> [송길영×김영한, 고졸 개발자→배민 기술이사→1타강사 커리어 리뷰](https://www.youtube.com/watch?v=jmjLLNYVJwU)
->
-> - 왜 봤는가?
->   : 나 또한 고졸이라서 그렇기도 하고, 송길영이란 사람도 그럴듯해 보이는 인터뷰를 여럿 진행한 것을
->   기억하고 있다. 솔직히 그의 이야기를 자세히 들어본 적 없지만, 아마도 이유는 있을 법 했다.
->
-> - 보고나서
->   : 5분 정도의 짧은 영상이고, 별 내용이 없다. 송영길님의 콘텐츠 홍보차 편집된 클립 영상인듯 하다.
->   '호명사회'라는 책을 최근에 썼다면서 "사람들이 내 이름을 불러주기까지 오래 걸린다."는 식의
->   화두를 던지고, 또 어려운 시기의 어려움을 극복하던 심정에 대해 질문도 하는데 그다지 흥미를
->   이르키지는 않는다.
+[대학교를 중퇴한 이유가 뭔가요?](/Life/수필/대학교를_중퇴한_이유가_뭔가요?)
+[10시 이후로는 언어정보의 input을 제한한다.](/Life/수필/10시_이후로는_언어정보의_input을_제한한다.)
+[vim을 왜 쓸까?](/Programing/posts/vim을_왜_쓸까?)
+[gitsigns.nvim plugin에 이슈 남기기](/Programing/posts/gitsigns.nvim_plugin에_이슈_남기기)
+[nvim 플러그인에 이슈 남기기](/Programing/posts/nvim_플러그인에_이슈_남기기)
+[오픈소스에 난생처음 PR 날리기](/Programing/posts/오픈소스에_난생처음_PR_날리기)
+[우리는 상대방을 눈앞에 두고도 그 실체를 보지 못한다. 단지, 내 방식대로 이해한 허상을 바라볼 뿐이다.](우리는_상대방을_눈앞에_두고도_그_실체를_보지_못한다._단지,_내_방식대로_이해한_허상을_바라볼_뿐이다.)
+[살아오면서 겪어본 어려운 문제에 대하여](살아오면서_겪어본_어려운_문제에_대하여)
 
-> [!lg] Log 2025-02-07
->
-> [게임 개발자 생존기 ep.17 - 개발자가 극복하면 성공하는 3가지 필수 자세](https://www.youtube.com/watch?v=7Qk9-6zPbOM)
->
-> - 왜 봤는가?
->   : 퇴사/게임개발/생존/태도, 이런 단어들이 모두 내가 좋아하는 것들이라 그렇다.
->
-> - 보고나서
->   : 주제가 영상콘텐츠 자체는 아닌 유투버라 그런지 메시지가 다소 중구난방이다. 3가지 태도는 다음의
->   상황에 적절히 대응하는 것을 말하는 듯 하다. '피드백 / 버그 / 예상을 뛰어넘는 작업량'에 각각
->   '피드백이 있다는 사실에 감사하기', '치명적 버그 발생하지 않도록 꼼꼼히 하기', '데드라인을
->   촉박하게 세우기' 정도인 듯 하다. 게임 개발이라도 할 것이 아니라면 피해야 할 유투버인듯 하다.
+#### 유투브 시청
+
+['아들 학폭' 복수 나선 아빠, 판사도 "그럴 만했네.." 무죄 (2024.12.21/MBC뉴스)]('아들_학폭'_복수_나선_아빠,_판사도_"그럴_만했네.."_무죄_(2024.12.21/MBC뉴스))
 
 
-- 유투브(노트 생성)
-  > [!ye] 대단해
-  >
-  > - 이 사람은 구독하고 잘 봐야겠다.
-  > - 심지어 투자도 하고싶다.
-  > [사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
+[-]
+[사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
+- 이 사람은 구독하고 잘 봐야겠다.
+- 심지어 투자를 하고싶은 마음까지 들게 만든다.
 
-#### 댓글 [-]
-
-
-> [!lg] Log 2024-12-27
->
-> [조건을 안보기 시작한 IT 업계](https://www.youtube.com/watch?v=M8oj2ZIoYbY) [-]
+[-]
+[조건을 안보기 시작한 IT 업계](https://www.youtube.com/watch?v=M8oj2ZIoYbY)
 
 
-> [!lg] Log 2024-12-23
->
-> ['아들 학폭' 복수 나선 아빠, 판사도 "그럴 만했네.." 무죄 (2024.12.21/MBC뉴스)](https://www.youtube.com/watch?v=3e16wUKZyyM&lc=UgwfCMih8Va62vGvzgV4AaABAg.ACNNBoHtCiAACO2urOFLL6)
->
-> ```
-> @luxferrer9853
-> 이걸 고소한거죠? 가해자 부모들이?...
-> 그부모아 그자식이네요ㅋㅋ 쌤통이다
-> ```
->
-> ```
-> @bluerain2094
-> 가해자 부모들이 고소한게 아님 같은반 남학생들이 폭력행위를 했다고 해서 A,,B,,C,,D    ..애들이름까고 유인물 붙였는데 한 아이는 가담자가 아니었음 그 아이는 죄없이 학폭가해자로 알려지게 되어 명예훼손죄로 고소한거임 그냥 선의의 피해자가 된것..너는 아니었냐 나는 몰랐네 미안
-> 이게 잘 된 판결임?
-> ```
->
-> ```
-> @greyhairchooselife
->  @bluerain2094  님 말도 일리가 있지만 그냥 피해자가 된거지 (뉴스에서 나온 내용대로라면)선의의 피해자가 된건 아님. 또한, 너는 아니었냐 나는 몰랐네도 아님(1:41 참고).
->
-> 더불어 제가 무고(?)당한 당사자라면 방관자로서의 부끄러움과 큰 피해를 입은 아이와 부모에 대한 안타까움으로 차마 명예훼손 고소같은건 생각 못했을것 같아요.
-> ```
->
-> ```
-> @박영민-s3j
->  @greyhairchooselife  무고당했으면서도 참아야된다는 건 무슨 발상인거임. 피해자는 겨우 초등생이라서 성인인 피해 부모의 마음이 어떻든 그걸 받아줄 이유가 없음. 유인물 유포한 피해자의 아버지를 봐주라는 말은 너무 이기적인 생각이지. 님은 오직 성인 관점으로만 접근하니 문제가 생기는 거
-> ```
->
-> ```
-> @greyhairchooselife
->  @박영민-s3j  듣고보니 님 말씀처럼 제가 성인의 관점으로만 접근하긴 했네요. 저도 초딩인 시절이 있었는데, 저 아이는 어땠을까 충분히 생각해보지 않았던 것 같아요.
->
-> 다만, (기사에 나오듯) 저 명예훼손 혐의에 무죄가 선고된 것은 정당하며, 저라면 관련된 고소는 생각도 못하겠다는 제 의견을 '무고를당했으면서도 참아야된다'는 취지로 이해하신건 오해이십니다. 혐의가 있던 (학폭)피해자 부모는 '무고'하지 않았습니다. 제가 "무고(?)"와 같은 표현을 사용한 것은, 나름대로 '가해자가 아닌것으로 밝혀진 쪽'의 억울함에 공감을 나타내는 표현이었습니다.
->
-> (이후에 틀린 것으로 밝혀진 내용을) 유포한 피해자의 아버지를 봐줘야 하는 이유는, 유포 시점에 담임 교사로부터 '같은반 모든 학생이 학폭을 저질러 사과했다'는 말을 듣고 행동한 점이 주요한 것(1:18)으로 저는 이해했습니다. 그리고 저는 이것이 합당해 보입니다. 혐의가 있던 사람의 속사정에 대한 공감(관점에 따라 박영민님이 표현하신 '이기심')은 완전히 배제하고도 말입니다.
->
->
-> 사족을 붙이자면, 저는 학교 현장의 학폭위나 법에 대하여 잘 몰라서 이 사건이 고소건인지 고발건인지 모르겠습니다. 그러나 그 주체가 오해 받은 초등학생의 부모이든 교육현장의 합리적 절차를 수호하는 어떤 집단이든, 우리 사회가 신뢰를 바탕으로 조금 더 너그러워질 수 있다는 바람에 댓글을 썼습니다. 설령 이번 고소 또는 고발 건에서 혐의자가 유죄를 받을만큼 부당항 행동을 하였다 해도, 상대방의 마음을 깊이 헤아려 본다면 유죄 판결로 회복되는 명예는 제 눈엔 초라해보일 뿐입니다. 자라나는 아이들에게 법리적 실리 또는 합리보다는 신뢰와 사랑을 가르쳐야 않겠습니까.
-> ```
+#### REFERENCE
+
+[글쓰기 레퍼런스 모음](글쓰기_레퍼런스)
 
 
 
 
-[수필](/Life/수필/index.md)
-  > [!ye] 우리는 상대방을 눈앞에 두고도 그 실체를 보지 못한다. 단지, 내 방식대로 이해한 허상을 바라볼 뿐이다.
-  >
-  > 자주 이 사실을 잊고, _"너 나를 그렇게 생각한거야?"_라고 묻게 된다.
-  >
-  > 그래서 상대가 나를, 내가 상대를 오해하고 있지 않은지 자주 확인해볼 필요가 있다.
-  >
-  > _"너 (이 부분에 대해) 내가 어떻게 생각하고 있다고 생각해?"_
-  >
-  > 또한 내가 누군가를, 누군가 나를 평가 또는 판단 할 때 그것이 상대의 실체가 아닌 이해의 허상이라는 것을 유념하자.
+### 나를 사랑하기
 
-  [살아오면서 겪어본 어려운 문제에 대하여](살아오면서_겪어본_어려운_문제에_대하여)
-  >내가 겪은 가장 어려운 문제는, '어떻게 살아야 하는가'라는 질문에 답을 찾는 일이었다.
-  >
-  >최근 우테코에 지원하려고 시도했는데, 지원서의 작성 항목에 '겪어본 어려운 문제'가 있었다. 흔하다면 흔한 질문인데, 금방 대답이 나오지 않았다. 내가 쉬운 선택만 해왔나? 아니면 능력이 좋아서 매사 잘 해내고 이겨냈나? 그렇지는 않았다.
-  >
-  >오히려 중구난방으로 살다보니 매번 새로운 난관에 부딪혔고, 기대한 만큼의 성과를 얻는게 드물었다. 선택과 집중을 못했을 수도 있고, 때때로 결단력이 부족했을 수도 있다. 관심 가진 것들에 실력도, 재능도 부족했을지 모른다. 노력이 부족했을 수도 있다. 꾸준함도 부족했을 수도 있다.
-  >
-  >그래도 나는 좌절하지 않았다.
-  >
-  >내가 워낙 긍정적이라서? 그런 측면도 분명 있다. 최악의 경우를 떠올려보고도 감당 가능하다면, 나는 곧잘 태평해진다. 하지만 그보다 더 큰 이유는, 내가 사실은 그 어느것에서도 실패했다고 여기지 않기 때문이다.
-  >
-  >나는 20살에 벌써 얕은 판단력으로 대학을 내팽개쳤다. 니체가 말하는 '낙타'처럼 살아왔는데, 갑자기 '사자'처럼 살기 시작했다. '원래 세상이 그렇다'같은 모든 종류의 신호를 의심하기 시작했고, 의견을 동냥하든 찍어먹어보든 스스로 판단을 내리기 시작했다. 더 나은 미래에 대한 희망을 지켜내는 것 부터, 삶의 의미를 찾아내는 것까지 20대 중반이 되어서야 마쳤다. 그제서야 군대도 갔다.
-  >
-  >사정이 이렇다 보니 사회인으로서 본격적으로 시작한 것은 비교적 늦은 것 같다. 현실 세계에서, 사람들과 사회에 기여하는 능력이란건 튼튼하고 건강한 마음과 완전히 일치하지는 않기 때문에 고전을 면치 못하고 있다. 그러나 왕도는 없다. 최선을 다해서 똑똑하게, 열심히 일하고 공부하는 것 뿐이다.
-  >
-  >
-  >그래서 내가 겪은 가장 어려운 문제는, '어떻게 살아야 하는가'라는 질문에 답을 찾는 일이었다. 스무살의 나에게는 그 때 그것이 가장 중요한 문제였고, 그 결과로 지금 갖가지 어려움 속에서도 흔들림 없이 살아가고 있다.
-  >
-  >
-  >_이건 너무 짧고 생략된 버전이다. 과정에 구체적으로 어떤 일들이 있었는지, 당시 가장 고민했던 점은 무엇인지 개괄적으로 작성해주면 좋겠다._
+#### 운동
 
-
-- 레퍼런스 모음(노트 생성)
-  - 레퍼런스에도 반드시 내 생각을 덧붙이자.
-
-  > [!ye] 허준이 교수, 졸업식 축사
-  >
-  > 이제 본격적으로 어른입니다. 실패를 두려워하지 말고 도전하라. 편안하고 안전한 길을 거부하라. 타협하지 말고 자신의 진짜 꿈을 쫓아라. 모두 좋은 조언이고 사회의 입장에서는 특히나 유용한 말입니다만, 개인의 입장은 다를 수 있음을 여러분은 이미 고민해 봤습니다. 제로섬 상대평가의 몇 가지 통명스러운 기준을 따른다면, 일부만이 예외적으로 성공할 것입니다.
-  >
-  > 여러 변덕스러운 우연이, 지쳐버린 타인이, 그리고 누구보다 자신이 자신에게 모질게 굴 수 있으니 마음 단단히 먹기 바랍니다. 나는 커서 어떻게 살까, 오래된 질문을 오늘부터의 매일이 대답해줍니다.
-  >
-  > 취업 준비, 결혼 준비, 육아 교육 승진 은퇴 노후 준비를 거쳐 어디 병원 그럴듯한 일인실에서 사망하기 위한 준비에 산만해지지 않기를 바랍니다. 무례와 혐오와 경쟁과 분열과 비교와 나태와 허무의 달콤함에 길들지 말길, 의미와 무의미의 온갖 폭력을 이겨내고 하루하루를 온전히 경험하길, 그 끝에서 오래 기다리고 있는 낯선 나를 아무 아쉬움 없이 맞이하길 바랍니다.
-
-
-- 어휘력(노트 생성)
-
-- 표현력(노트 생성)
-
-
-> [!rf]
->
-> [온라인 글쓰기 1편: 좋은 **질문**하기](https://github.com/WieeRd/questionable/blob/master/i18n/ko.md#%EA%B0%84%EB%8B%A8-%EC%9A%94%EC%95%BD)
-> [온라인 글쓰기 2편: 좋은 **답변**하기](https://edykim.com/ko/post/tech-has-a-toxic-tone-problem-lets-fix-it/)
-
-
-
-### 운동
-
-[운동](/Life/운동/index.md)
+[어깨+덤벨](https://youtube.com/shorts/rYiAk3zY5-0?si=F6K7vnZNwltDYwMh)
 
 ### 차량 관리
 
 [Car](/Life/car/index.md)
 
-### 민주 시민의 책임
+### 민주 시민의 책임&권한&상식
 
-[민주 시민의 책임과 권한](/Life/democratic_citizen/index.md)
+[세금 납부](/Life/democratic_citizen/index.md)
+[각종 서류](각종_서류)
+
+
 
 
 ## Resource
@@ -1210,9 +678,8 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 > [!ye] 독서모임
 >
 > - 모두 다 읽어오는것은 아니고, 책 소개를 보고, 듣고 자세히 이야기 나누고 싶은 사람들이 모이는것.
-> - 참가비가 있다. 그러나 이것은 일종의 펀딩이다.
->   따라서 동일 기간 host로 참여하고 싶은 사람들끼리 경쟁을 벌이는 것이 아니다. 충분한 대기열이 발생하면
->   펀딩에 성공할 뿐이다.
+> - 참가비가 있다. 그러나 이것은 일종의 펀딩이다. 따라서 동일 기간 host로 참여하고 싶은 사람들끼리
+>   경쟁을 벌이는 것이 아니다. 충분한 대기열이 발생하면 펀딩에 성공할 뿐이다.
 
 > [!ye] 조직문화를 판매한다. 그것을 뒷받침 할 수 있는 system과 합쳐서.
 >
@@ -1223,7 +690,10 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 >   내가 겪었던 어려움은,
 >
 >   1. 실무자인 내가 모르는 사이에 결정된 사안들이 자꾸만 나타나는것. 그리고 그것이 늦게 알려지는것.
->   2. (레퍼런스가 없을 수록)어떤 일들은 명확하게 역할이나 권한을 사전 정의 및 분배하기 어렵다. 그래서 진행하면서 눈치봐가며 하게되는데, "1.번"의 문제가 일어나면 그 선이 그어지는거다. 이게 차라리 한번 정해지면 그에 맞춰서 일하면 되는데, 이랬다가 저랬다가 바뀌니까 어느장단에 춤을 출지 너무 어려운거다.
+>   2. (레퍼런스가 없을 수록)어떤 일들은 명확하게 역할이나 권한을 사전 정의 및 분배하기 어렵다.
+>      그래서 진행하면서 눈치봐가며 하게되는데, "1.번"의 문제가 일어나면 그 선이 그어지는거다. 이게
+>      차라리 한번 정해지면 그에 맞춰서 일하면 되는데, 이랬다가 저랬다가 바뀌니까 어느장단에 춤을
+>      출지 너무 어려운거다.
 >
 > - How to: milestone이라고 부른 것을 공유하는 방식으로
 >
@@ -1235,9 +705,11 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 > [!ye] 메뉴얼 수행 추적기
 >
-> 1. 처음 생각은 workflow를 추적 할 수 있는 앱이었다. 관리자가 정의하고 실무자가 수행 기록을 남기는 것.
-> 2. 근데 workflow는 너무 범위가 넓다. 수행하는 사람의 이해도나 유연함에 따라 결과물이 달라질 여지가 크다. 소비자들이 일관된 효용을 얻기가 매우 힘들것이다.
-> 3. 그래서, 사용자들이 고민의 여지가 없이 상명하복을 따르되, 중간에 실수가 없고 일정에 지연이 없도록만 도와줄 수 있는 **메뉴얼로 범위를 한정** 시켜 보자.
+> 1. 처음 생각은 workflow를 추적 하는 앱이었다. 관리자가 정의하고 실무자가 수행 기록을 남기는 것.
+> 2. 근데 workflow는 너무 범위가 넓다. 수행하는 사람의 이해도나 유연함에 따라 결과물이 달라질 여지가
+>    크다. 소비자들이 일관된 효용을 얻기가 매우 힘들것이다.
+> 3. 그래서, 사용자들이 고민의 여지가 없이 상명하복을 따르되, 중간에 실수가 없고 일정에 지연이
+>    없도록만 도와줄 수 있는 **메뉴얼로 범위를 한정** 시켜 보자.
 
 
 > [!ye] 어떤거 만들어볼만한지는 awesome-selfhosted에 적당히 괜찮은 주제들이 있어요
@@ -1294,40 +766,47 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 | 감자심포니             |              |
 | 버팔로 66              |              |
 | Big Night, 1996        |              |
-
+| 도그빌                 |              |
 
 #### 관심 인물
 
 - 곤 사토시
 
-```txt
-지나가다 글남기네요 .. 곤사토시라는 감독을 평가할때 호소다마모루같은 감독을 일본에서 국민애니감독으로 치켜세우지만 진짜 최고의 감독은 곤사토시였다라고 생각될정도로 그가남긴 작품들이 가진 영상미 음악 스토리 작화 편집까지 뭐하나 빠지지않고 지적유희를 주었던 감독이었지요
+  ```txt
+  지나가다 글남기네요 .. 곤사토시라는 감독을 평가할때 호소다마모루같은 감독을 일본에서
+  국민애니감독으로 치켜세우지만 진짜 최고의 감독은 곤사토시였다라고 생각될정도로 그가남긴 작품들이
+  가진 영상미 음악 스토리 작화 편집까지 뭐하나 빠지지않고 지적유희를 주었던 감독이었지요
 
 
-그중 곤사토시의 상상력과 그가 말하고자하는 메세지들이 가장 장 표현된것중 하나인 tv애니시리즈로 나왔던 망상대리인 이었습니다 파프리카에서도 양면성을 말하지만 망상대리인에서도 양면성 군중심리 인간이 가진 독특한 심리를 너무나도 잘풀어내던 감독이었죠 가장 현실감을 잘표현하던 감독이라는 칭호또한 그가 가진 가장큰 능력이었기때문이었을겁니다
+  그중 곤사토시의 상상력과 그가 말하고자하는 메세지들이 가장 장 표현된것중 하나인 tv애니시리즈로
+  나왔던 망상대리인 이었습니다 파프리카에서도 양면성을 말하지만 망상대리인에서도 양면성 군중심리
+  인간이 가진 독특한 심리를 너무나도 잘풀어내던 감독이었죠 가장 현실감을 잘표현하던 감독이라는
+  칭호또한 그가 가진 가장큰 능력이었기때문이었을겁니다
 
 
-곤사토시 작품들이 호불호가 갈리는 이유또한 알게모르게 철학이 난무하기때문일겁니다 하지만 이것을 이해만 할수있다면 정말로 신세계를 경험하게되는 경험을 하게되기도하죠
+  곤사토시 작품들이 호불호가 갈리는 이유또한 알게모르게 철학이 난무하기때문일겁니다 하지만 이것을
+  이해만 할수있다면 정말로 신세계를 경험하게되는 경험을 하게되기도하죠
 
 
-곤사토시가 어려운 작품만 만든것은 아닙니다 크리스마스에 기적을 만날 확률 같은 작품들도있기에 한번쯤 곤사토시 작품들을 찾아보는것을 꼭 추천합니다
+  곤사토시가 어려운 작품만 만든것은 아닙니다 크리스마스에 기적을 만날 확률 같은 작품들도있기에
+  한번쯤 곤사토시 작품들을 찾아보는것을 꼭 추천합니다
 
 
-작품 목록 남깁니다~메모리즈 부터 오하요까지는 감상할수있습니다~
+  작품 목록 남깁니다~메모리즈 부터 오하요까지는 감상할수있습니다~
 
 
-<노인 Z>(老人Z, Roujin Z, 일본, 1991, 애니메이션, 레이아웃/원화)
-<월드 아파트먼트 호러>(ワールドアパートメントホラー, World Apartment Horror, 일본, 1991, 애니메이션, 원안)
-<조조의 기묘한 모험>(ジョジョの奇妙な冒険, JoJo's Bizarre Adventure, 일본, 1994, 애니메이션, 원화/시나리오/콘티)
-<메모리즈>(メモリーズ, Memories, 일본, 1995, 옴니버스 애니메이션, 각본/콘티)
-<퍼펙트 블루>(PERFECT BLUE, Perfect Blue, 일본, 1997, 애니메이션)
-<천년여우>(千年女優, Millennium Actress, 일본, 2001, 애니메이션)
-<크리스마스에 기적을 만날 확률>(東京ゴッドファーザーズ, Tokyo Godfathers, 일본, 2003, 애니메이션)
-<망상대리인>(妄想代理人, Paranoia Agent, 일본, 2004, 애니메이션)
-<파프리카>(パプリカ, Paprika, 일본, 2006, 애니메이션)
-<오하요>(オハヨウ, Good Morning, 일본, 2007, 단편 애니메이션)
-<꿈꾸는 기계>(夢みる機械, Dreaming Machine, 일본, 미완성, 애니메이션)
-```
+  <노인 Z>(老人Z, Roujin Z, 일본, 1991, 애니메이션, 레이아웃/원화)
+  <월드 아파트먼트 호러>(ワールドアパートメントホラー, World Apartment Horror, 일본, 1991, 애니메이션, 원안)
+  <조조의 기묘한 모험>(ジョジョの奇妙な冒険, JoJo's Bizarre Adventure, 일본, 1994, 애니메이션, 원화/시나리오/콘티)
+  <메모리즈>(メモリーズ, Memories, 일본, 1995, 옴니버스 애니메이션, 각본/콘티)
+  <퍼펙트 블루>(PERFECT BLUE, Perfect Blue, 일본, 1997, 애니메이션)
+  <천년여우>(千年女優, Millennium Actress, 일본, 2001, 애니메이션)
+  <크리스마스에 기적을 만날 확률>(東京ゴッドファーザーズ, Tokyo Godfathers, 일본, 2003, 애니메이션)
+  <망상대리인>(妄想代理人, Paranoia Agent, 일본, 2004, 애니메이션)
+  <파프리카>(パプリカ, Paprika, 일본, 2006, 애니메이션)
+  <오하요>(オハヨウ, Good Morning, 일본, 2007, 단편 애니메이션)
+  <꿈꾸는 기계>(夢みる機械, Dreaming Machine, 일본, 미완성, 애니메이션)
+  ```
 
 
 ### 냠냠
@@ -1401,3 +880,5 @@ _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 �
 
 [칭찬 수집기 개발](/Project/진행중/칭찬_수집기/index.md)
 [2025 우테코 지원](/Archive/2025_우테코_지원)
+[우정한사랑 이사](/Archive/우정한사랑_이사/index.md)
+[gatsby로 블로그](/Archive/gatsby로_블로그/index.md)
