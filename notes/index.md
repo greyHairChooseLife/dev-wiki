@@ -564,6 +564,9 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 
 ### 나를 사랑하기
 
+#### 식사
+
+
 #### 운동
 
 [어깨+덤벨](https://youtube.com/shorts/rYiAk3zY5-0?si=F6K7vnZNwltDYwMh)
