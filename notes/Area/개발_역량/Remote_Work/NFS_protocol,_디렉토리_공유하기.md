@@ -1,4 +1,5 @@
-# 󰏢 nfs로 디렉토리 공유하기
+# 󰏢 NFS protocol, 디렉토리 공유하기
+
 
 
 network file system의 약자다. 이 역시 server-client 방식이다.

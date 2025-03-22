@@ -55,11 +55,12 @@
   - 2차전에 돌입했다.
 
 
+### 대기
+
 - 차량 관리
   - 코란도 엔진오일
   - 경비 아저씨가 나 대신 ..
   - 관련해서 스트레스를 준 아저씨가 있다. 골프장 아저씨
-
 
 
 - neovim `tohtml.vim` 개선
@@ -85,37 +86,33 @@
 
 ### 개발 환경 [-]
 
-#### 살아남는 개발자는 무엇이 다른가?
+#### 살아남는 개발자는 무엇이 다른가? [-]
 
-- 쉽게 변하지 않는 것들에 집중하자
-- 시키는 대로 하기 전에 의심해라. 정말로 필요한 과정/단계/방법인가? 똑똑하고 신뢰할만한 사람일수록
-- recipe를 존중하되, 본질을 반드시 이해해라
+> - 쉽게 변하지 않는 것들에 집중하자
+> - 시키는 대로 하기 전에 의심해라. 정말로 필요한 과정/단계/방법인가? 똑똑하고 신뢰할만한 사람일수록
+> - recipe를 존중하되, 본질을 반드시 이해해라
+
+[개발자 중 누가 살아 남을까? 생존을 위해 반드시 생각해야 할 점](/Area/개발_환경/살아남는_개발자는_무엇이_다른가?/개발자_중_누가_살아_남을까?_생존을_위해_반드시_생각해야_할_점)
+[개발자가 앞으로 꼭 공부해야하는 분야](/Area/개발_환경/살아남는_개발자는_무엇이_다른가?/개발자가_앞으로_꼭_공부해야하는_분야)
+[일론의 5단계 법칙](/Area/개발_환경/살아남는_개발자는_무엇이_다른가?/일론의_5단계_법칙)
+[일류와 이류의 차이 (반도체 전설 짐켈러)](/Area/개발_환경/살아남는_개발자는_무엇이_다른가?/일류와_이류의_차이_(반도체_전설_짐켈러))
 
 
-##### TODO
-
+[-]
 [The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
+
+[-]
 [지식근로자의 생산성](https://www.joinc.co.kr/w/knowledge-workder-productivity)
-
-##### READ
-
-[개발자 중 누가 살아 남을까? 생존을 위해 반드시 생각해야 할 점](/AREA/개발_역량/살아남는_개발자는_무엇이_다른가?/READ/개발자_중_누가_살아_남을까?_생존을_위해_반드시_생각해야_할_점)
-[개발자가 앞으로 꼭 공부해야하는 분야](/AREA/개발_역량/살아남는_개발자는_무엇이_다른가?/READ/개발자가_앞으로_꼭_공부해야하는_분야)
-[일론의 5단계 법칙](/AREA/개발_역량/살아남는_개발자는_무엇이_다른가?/READ/일론의_5단계_법칙)
-[일류와 이류의 차이 (반도체 전설 짐켈러)](/AREA/개발_역량/살아남는_개발자는_무엇이_다른가?/READ/일류와_이류의_차이_(반도체_전설_짐켈러))
 
 
 #### 구독 서비스 관리
 
-- subscribe
-  - github copilot: $100/Y
-  - openAI: gpt: $20/M
-  - figma: $15/M
-
-- API
-  - anthropic: claude.ai
-
-- AWS
+| Category     | Service        | Cost      |
+|--------------|----------------|-----------|
+| Subscription | GitHub Copilot | $100/Y    |
+|              | OpenAI GPT     | $20/M     |
+|              | Figma          | $15/M     |
+| API          | Anthropic      | claude.ai |
 
 
 #### Note Making [-]
@@ -132,30 +129,77 @@
 >   ```
 
 
-##### TODO
-
+[-]
 [포프TV - 노트 정리 & 회사 문서화 & 프로젝트 관리, 이거면 충분!](https://www.youtube.com/watch?v=iE7N5RlM13E)
 
 #### Remote Work
 
-[file share & control](/Cheat_Sheet/file_share_&_control)
-[nfs 프로토콜, 디렉토리 공유하기](/Programing/workflows/서버관리/nfs로_디렉토리_공유하기)
-[SSH protocol](/Programing/workflows/서버관리/SSH)
-[rclone으로 클라우드 스토리지 서비스 동기화](/Programing/workflows/cloud_storage/rclone으로_클라우드_스토리지_서비스_동기화)
+[file share](/Area/개발_역량/Remote_Work/file_share)
+[NFS protocol, 디렉토리 공유하기](/Area/개발_역량/Remote_Work/NFS_protocol,_디렉토리_공유하기)
+[SSH protocol](/Area/개발_역량/Remote_Work/SSH_protocol)
+[rclone으로 클라우드 스토리지 서비스 동기화](/Area/개발_역량/Remote_Work/rclone으로_클라우드_스토리지_서비스_동기화)
 
 #### Operating System [-]
 
-##### 설치/복제 [-]
+##### 설치&복제 [-]
 
-[부팅디스크 만들기](/Area/개발_환경/Operating_System/부팅디스크_만들기)
-[만자로 시스템 복사(이사)하기](/Area/개발_역량/Linux_&_Shell/만자로_시스템_복사하기)
-[Booting process](2.Area/개발환경/Operating_System/index.md) [-]
+[/Area/개발_환경/Operating_System/설치&복제/부팅디스크 만들기](/Area/개발_환경/Operating_System/설치&복제/부팅디스크_만들기)
+[/Area/개발_환경/Operating_System/설치&복제/만자로 시스템 복사(이사)하기](/Area/개발_환경/Operating_System/설치&복제/만자로_시스템_복사(이사)하기)
+[/Area/개발_환경/Operating_System/설치&복제/Booting process](/Area/개발_환경/Operating_System/설치&복제/Booting_process)
 
-##### 서비스 관리
+  [-]
+  [How Does Linux Boot Process Work?](https://www.youtube.com/watch?v=XpFsMB6FoOs)
+
+
+
+
+##### 서비스 관리 [-]
 
 [systemd](/Area/개발_역량/Linux_&_Shell/systemd)
 [sysz](/Programing/tools/system_admin/sysz.md)
 [x11 세션에서 wayland 세션을 실행할 수 있다.(session in session)](x11_세션에서_wayland_세션을_실행할_수_있다.(session_in_session))
+
+
+[-] bluetooth 문제를 해결하며...
+> 갑자기 블루투스가 안됐다. systemctrl에서 bluetooth.service는 running 상태로 잘 확인 됐다.
+> 근데 bluetoothctl에서 확인해보니 "org.bluez.Error.NotReady" 이러면서 connect도 안되고 scan도 안된다.
+> 그래서 검색해보니 뭔 soft block 되었는지 확인하란다.
+> https://unix.stackexchange.com/questions/508221/bluetooth-service-running-but-bluetoothctl-says-org-bluez-error-notready
+>
+> ```
+> ~$ rfkill list
+> 0: ideapad_wlan: Wireless LAN
+> 	Soft blocked: no
+> 	Hard blocked: no
+> 1: ideapad_bluetooth: Bluetooth
+> 	Soft blocked: yes
+> 	Hard blocked: no
+> 2: ideapad_3g: Wireless WAN
+> 	Soft blocked: no
+> 	Hard blocked: no
+> 3: phy0: Wireless LAN
+> 	Soft blocked: no
+> 	Hard blocked: no
+> 4: hci0: Bluetooth
+> 	Soft blocked: yes
+> 	Hard blocked: no
+>
+> ~$ rfkill unblock all
+> ```
+>
+> 이렇게 하니 잘 된다. 이게 뭘까? 한번 알아보자.
+>
+>
+> [!re] 다만...
+>
+> 아래처럼 `Failed to connect: org.bluez.Error.Failed br-connection-page-timeout`같은 에러
+> 메시지가 나올 땐 안통하는 방법이다... 일단은 그냥 재부팅 하자.
+>
+> ```
+> [HHKB-Hybrid_1]# connect EC:2C:73:72:19:01
+> Attempting to connect to EC:2C:73:72:19:01
+> [HHKB-Hybrid_1]# Failed to connect: org.bluez.Error.Failed br-connection-page-timeout
+> ```
 
 ##### system Packages/Apps
 
@@ -203,57 +247,9 @@
     - 근데 어차피 hot-reloading 안되니 소용없나?
 
 
+#### Skills [-]
 
-
-
-##### TODO
-
-[-] bluetooth 문제를 해결하며...
-> 갑자기 블루투스가 안됐다. systemctrl에서 bluetooth.service는 running 상태로 잘 확인 됐다.
-> 근데 bluetoothctl에서 확인해보니 "org.bluez.Error.NotReady" 이러면서 connect도 안되고 scan도 안된다.
-> 그래서 검색해보니 뭔 soft block 되었는지 확인하란다.
-> https://unix.stackexchange.com/questions/508221/bluetooth-service-running-but-bluetoothctl-says-org-bluez-error-notready
->
-> ```
-> ~$ rfkill list
-> 0: ideapad_wlan: Wireless LAN
-> 	Soft blocked: no
-> 	Hard blocked: no
-> 1: ideapad_bluetooth: Bluetooth
-> 	Soft blocked: yes
-> 	Hard blocked: no
-> 2: ideapad_3g: Wireless WAN
-> 	Soft blocked: no
-> 	Hard blocked: no
-> 3: phy0: Wireless LAN
-> 	Soft blocked: no
-> 	Hard blocked: no
-> 4: hci0: Bluetooth
-> 	Soft blocked: yes
-> 	Hard blocked: no
->
-> ~$ rfkill unblock all
-> ```
->
-> 이렇게 하니 잘 된다. 이게 뭘까? 한번 알아보자.
->
->
-> [!re] 다만...
->
-> 아래처럼 `Failed to connect: org.bluez.Error.Failed br-connection-page-timeout`같은 에러
-> 메시지가 나올 땐 안통하는 방법이다... 일단은 그냥 재부팅 하자.
->
-> ```
-> [HHKB-Hybrid_1]# connect EC:2C:73:72:19:01
-> Attempting to connect to EC:2C:73:72:19:01
-> [HHKB-Hybrid_1]# Failed to connect: org.bluez.Error.Failed br-connection-page-timeout
-> ```
-
-
-
-
-
-
+[index.md](Area/개발_환경/Skills/index.md)
 
 #### AI [-]
 
@@ -314,197 +310,15 @@
   3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
   ```
 
-#### Skills
-
-##### Container
-
-[docker](/Area/개발_역량/Container/docker)
-
-[HUB: kubernetes](/Programing/concepts_and_tools/tools/kubernetes/index.md)
-
-[-]
-[from docker to open-source](https://www.youtube.com/watch?v=Z5uBcczJxUY)
-
-##### Web Dev [-]
-
-[static vs dynamic website](/Area/개발_역량/Web_Dev/static_website_vs_dynamic_website)
-[design](/Area/개발_역량/Web_Dev/design)
-
-
-[-]
-[천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
-
-[-]
-- 제대로 된 에러핸들링 전략이 있어야겠다.
-
-  `try ... catch ...` 구문은 연쇄적으로 에러를 추적한다. cascade error handling이라고 부를 수 있겠다.
-  따라서 (바깥쪽)가장 먼저 에러를 이르킨 지점부터 (안쪽)가장 깊은 지점까지 단계별로 에러를 추적하며
-  에러메시지가 누적 로깅 된다. 이때 어떻게 연쇄적으로 throw시키고, 어떤 에러객체를 전달할지 정해진
-  전략이 필요하다.
-
-  - HTTP 상태코드
-    | code | 이름                  | 설명                                           |
-    |------|-----------------------|------------------------------------------------|
-    | 401  | Unauthorized          | 인증이 필요하거나 실패했을 때.                 |
-    | 403  | Forbidden             | 인증은 되었지만, 자원에 접근할 권한이 없을 때. |
-    | 500  | Internal Server Error | 서버 내부 문제.                                |
-
-[-] 2024-12-05
-- What is preflight request?
-
-  비표준 http 헤더를 사용하는 경우 보안을 위해 미리 요청을 보내본다는데... 이와 관련된 캐싱 정책도
-  개발자가 고려해야할 상항이다. 관련된 내용을 자세히 알아두자.
-
-[-] 2024-12-06
-- typescript+express 서버에서 컨트롤러를 만들 때, early return으로 res객체를 보낼 때가 있다. 뭔가
-에러가 있다거나 경우에 따라 다른 응답을 보내야 할 때다. 근데 해당 컨트롤러의 마지막까지 실행되지
-않고 응답한다면, 이후의 코드는 실행되지 않도록 return 해줘야한다. 근데 이게 `res.status().json()`
-자체를 리턴하는것과 이후 void를 리턴하는 것에 차이가 있다.(당연하다..) 근데 문제는 이게 다르다는게
-아니라 일관되지 않다는거다. `return res.status().json()`을 하면 에러가 날 때가 있고, 아닐때가 있다.
-typescript의 기본 request, response객체 타입에 어긋난게 에러의 원인이라는데, 에러의 원인과는 별개로
-왜 일관되지 않은 결과가 나타나는가?
-
-  - 사례
-    ```typescript
-    export const getFileSignedUrl = async (req: AuthRequest, res: Response) => {
-      try {
-        // 인증 확인
-        if (!req.userInfo) {
-          res.status(401).json({ message: '인증되지 않은 사용자입니다.' });
-          return;
-        }
-
-        const fileKey = decodeURIComponent(req.params.fileKey);
-
-        if (!fileKey) {
-          res.status(400).json({ message: '파일 키가 필요합니다' });
-          return;
-        }
-
-        // 파일 존재 여부 및 접근 권한 확인 로직 추가 필요
-        const presignedUrl = await awsS3Service.getPresignedFileUrl(fileKey);
-
-        res.json({ presignedUrl });
-      } catch (error) {
-        console.error('파일 서명 URL 생성 오류:', error);
-        res.status(500).json({
-          message: '파일 URL 생성 중 알 수 없는 오류가 발생했습니다.',
-        });
-      }
-    };
-    ```
-
-
-##### Chrome Extension
-
-> [!lg] Log 2025-02-27
-> surfingkeys라는걸 잘 쓰고있었는데, 최근 업데이트 후 문제가 생겨서 직접 버전을 다운그레이드
-> 해야했다.
->
-> [관련 이슈](https://github.com/brookhong/Surfingkeys/issues/2244)
->
-> 타인이 배포하는 프로젝트를 내 맘대로 다운그레이드 할 수는 없고, 소스코드를 받아서 원하는 버전으로
-> checkout 한 뒤, 직접 빌드했다.(원작자가 npm 스크립트를 미리 작성해둬서 편리했다.)
->
-> 브라우저에서 제공하는 load unpacked 기능을 사용하니, 원하는대로 동작했다.
->
-> 이런식으로 직접 빌드한 도구를 사용하면 더 간결하게 이것저것 만들 수 있겠다.
-
-
-> [!rf]
-> [따라하기: chrome todo extension in JS](https://www.youtube.com/watch?v=ny-L_KLrKIU)
-
-##### Cloud Computing
-
-[AWS](/Area/개발_역량/Cloud_Computing/AWS)
-
-##### CI CD
-
-_배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요소이다. 요구사항을 파악하고
-빠르게 반영하기도 바쁜데, 배포가 매끄럽지 못해서 턱턱 막힌다면 진짜 갑갑하다._
-
-[single container SPA](/Area/개발_역량/CI_CD/single_container_SPA)
-
-##### Languages [-]
-
-[Javascript](/Area/개발_역량/Languages/Javascript) [-]
-[Dart](/Area/개발_역량/Languages/Dart)
-
-- Python
-  [기본개념](/Area/개발_역량/Languages/Python)
-  [격리된 가상환경으로 개발 시작하기](/Area/개발_환경/Python/격리된_가상환경으로_개발_시작하기)
-
-    > [!INFO]
-    >
-    > 파이썬은 널리 이용되는 만큼 생태계가 복잡하다. 따라서 아래 두가지가 중요하다.
-    >   - 의존성 관리를 잘 해줘야한다.
-    >   - 시스템 패키지를 해치지 않도록 주의해야한다.
-    >
-    > 따라서 나는 가상환경의 확실한 격리를 컨테이너를 활용하여 시도한다.
-
-##### Web Scraping
-
-[general tips](/Area/개발_역량/Web_Scraping/general_tips)
-
-[-]
-[Scrape Anything with DeepSeek V3 + Scraping Tool Integration (CHEAP & EASY)](https://www.youtube.com/watch?v=WkLdLJJzV1k&t=27s)
-
-
-##### Big Data
-
-[Keywords](/Area/개발_역량/Big_Data/Keywords)
-
-> [!rf]
->
-> [free-ebook: "Data Wrangling with JavaScript"](https://www.manning.com/books/data-wrangling-with-javascript?a_aid=datawranglingwithjavascript&a_bid=acc654f9)
-> [빅데이터 플랫폼 특론: play-list](https://www.youtube.com/playlist?list=PLCsebpDZm0n6HYSDaNxKQYrNrD4Xk9meX)
-> [하둡 분산파일 시스템 구축: play-list](https://www.youtube.com/watch?v=g6xIMSYjh0w&list=PLY-_9hx4ldZwYOjtfRT0MV2k9JcnTUYW2)
-
-##### Database [-]
-
-- RDBMS
-  > [!rf]
-  > [강의 재생목록](https://www.youtube.com/playlist?list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe)
-
-  [관계형 데이터베스의 종류](/Area/개발_역량/Database/RDBMS/관계형_데이터베스의_종류)
-  [기본개념 및 키워드](/Area/개발_역량/Database/RDBMS/기본개념_및_키워드)
-  [SQL 기본개념, Attribute Type, Key Constraints](/Area/개발_역량/Database/RDBMS/SQL_기본개념,_Attribute_Type,_Key_Constraints)
-  [SQL query](/Area/개발_역량/Database/RDBMS/SQL_query)
-  [SQL에서 NULL의 의미](/Area/개발_역량/Database/RDBMS/SQL에서_NULL의_의미)
-  [SQL과 JOIN](/Area/개발_역량/Database/RDBMS/SQL과_JOIN)
-  [SQL과 정렬 및 통계](/Area/개발_역량/Database/RDBMS/SQL과_정렬_및_통계)
-  [데이터베이스 트랜잭션, ACID](/Area/개발_역량/Database/RDBMS/데이터베이스_트랜잭션,_ACID)
-  [데이터베이스 설계-정규화](/Area/개발_역량/Database/RDBMS/데이터베이스_설계-정규화)
-  [데이터베이스 설계-DB index](/Area/개발_역량/Database/RDBMS/데이터베이스_설계-DB_index)
-  [데이터베이스 설계-파티셔닝, 샤딩, 레플리케이션](/Area/개발_역량/Database/RDBMS/데이터베이스_설계-파티셔닝,_샤딩,_레플리케이션)
-  [데이터베이스 성능 최적화-서버 리소스 활용](/Area/개발_역량/Database/RDBMS/데이터베이스_성능_최적화-서버_리소스_활용)
-  [데이터베이스 성능 최적화-DB connection pool](/Area/개발_역량/Database/RDBMS/데이터베이스_성능_최적화-DB_connection_pool)
-  [RDB vs NoSQL](/Area/개발_역량/Database/RDBMS/RDB_vs_NoSQL)
-
-- ETC
-  [snake_case to camelCase](/Area/개발_역량/Database/ETC/snake_case_to_camelCase)
-
-
-[-]
-- SQL concurrency control, 트랜잭션의 Isolation 보장하기
-  : serial schedule만 사용한다면 데이터 일관성을 해칠일은 없겠지만 성능 이슈가 있다.
-    big data를 다룬다면 성능을 위해 none-serial schedule을 실행할 수 있도록 반드시 익혀두자.
-    > [!rf]
-    > [개념 강의](https://www.youtube.com/watch?v=DwRN24nWbEc&list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe&index=15)
-
-
-
-
 #### 오답노트
 
-##### 미결
+- 미결
+  [docker named volume with NFS protocol](/Area/개발_역량/오답노트/docker_named_volume_with_NFS_protocol)
 
-[docker named volume with NFS protocol](/Area/개발_역량/오답노트/docker_named_volume_with_NFS_protocol)
 
-##### 해결
-
-[domain status: clientHold](/Area/개발_역량/오답노트/domain_status:_clientHold)
-[프로세스 조회 및 종료](/Area/개발_역량/오답노트/프로세스_조회_및_종료)
+- 해결
+  [domain status: clientHold](/Area/개발_역량/오답노트/domain_status:_clientHold)
+  [프로세스 조회 및 종료](/Area/개발_역량/오답노트/프로세스_조회_및_종료)
 
 #### REFERENCE
 
@@ -528,7 +342,7 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 [다른 입장을 이해해 보기](다른_입장을_이해해_보기)
 
 
-### 글쓰기
+### 글쓰기 [-]
 
 #### 뭐든지
 
@@ -541,7 +355,7 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 [우리는 상대방을 눈앞에 두고도 그 실체를 보지 못한다. 단지, 내 방식대로 이해한 허상을 바라볼 뿐이다.](우리는_상대방을_눈앞에_두고도_그_실체를_보지_못한다._단지,_내_방식대로_이해한_허상을_바라볼_뿐이다.)
 [살아오면서 겪어본 어려운 문제에 대하여](살아오면서_겪어본_어려운_문제에_대하여)
 
-#### 유투브 시청
+#### 유투브 시청 [-]
 
 ['아들 학폭' 복수 나선 아빠, 판사도 "그럴 만했네.." 무죄 (2024.12.21/MBC뉴스)]('아들_학폭'_복수_나선_아빠,_판사도_"그럴_만했네.."_무죄_(2024.12.21/MBC뉴스))
 
@@ -564,12 +378,21 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 
 ### 나를 사랑하기
 
-#### 식사
+- 부분 운동
+  [팔, 10m](https://www.youtube.com/watch?v=0LWGOAtgcww)
+  [가슴, 10m](https://www.youtube.com/watch?v=E7OAhVIbkbk)
+  [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
+  [어깨, 10m](https://www.youtube.com/watch?v=3smk7LGLTXE)
+  [배, 8m](https://www.youtube.com/watch?v=J90dERWZNUE)
 
+- 전신 운동
+  [전신, 12m](https://www.youtube.com/watch?v=vl4S_e_dBuk)
+  [전신, 10m](https://www.youtube.com/watch?v=8wEdqDDzHpc)
+  [전신, 8m](https://www.youtube.com/watch?v=C80QyNlAMss)
+  [전신, 7m](https://www.youtube.com/watch?v=g-nzEPqqrx8)
+  [전신, 6m](https://www.youtube.com/watch?v=LDb5Y4Ti6Bc)
+  [전신, 5m](https://www.youtube.com/watch?v=XeWwQK-I2Tg)
 
-#### 운동
-
-[어깨+덤벨](https://youtube.com/shorts/rYiAk3zY5-0?si=F6K7vnZNwltDYwMh)
 
 ### 민주 시민의 책임&권한&상식
 
@@ -579,32 +402,49 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 
 ## Resource
 
+### 프로젝트 아이디어
+
+- 단순 아이디어
+  [독서모임](프로젝트_아이디어/독서모임)
+  [조직문화를 판매한다. 그것을 뒷받침 할 수 있는 system과 합쳐서.](프로젝트_아이디어/조직문화를_판매한다._그것을_뒷받침_할_수_있는_system과_합쳐서.)
+  [메뉴얼 수행 추적기](프로젝트_아이디어/메뉴얼_수행_추적기)
+  [유아(6세 이하 초등입학 전)용 동화 읽어주고 각종 질문에 대답해주는 인형](프로젝트_아이디어/유아(6세_이하_초등입학_전)용_동화_읽어주고_각종_질문에_대답해주는_인형)
+  [정서, 심리 등 과학적 근거를 바탕으로 하는 검사 컨텐츠를 생성형 인공지능으로 서비스하기](프로젝트_아이디어/정서,_심리_등_과학적_근거를_바탕으로_하는_검사_컨텐츠를_생성형_인공지능으로_서비스하기)
+  ["시끄러운 목소리"가 주목받는 "댓글" 시스템 개선안](프로젝트_아이디어/"시끄러운_목소리"가_주목받는_"댓글"_시스템_개선안)
+
+
+- 구체화된 아이디어
+  [anki-diary](/Project/ideas/anki-diary)
+  [충북프로메이케센터 홈페이지 리뉴얼](/Project/ideas/충북프로메이케센터_홈페이지_리뉴얼)
+
+
+#### TIPS
+
+- 어떤거 만들어볼만한지는 awesome-selfhosted에 적당히 괜찮은 주제들이 있어요
+
+- 게임 아이디어
+  [요런 스타일](https://www.youtube.com/watch?v=YPowsippmRM) 좋다.
+  [로그라이크류](https://www.youtube.com/watch?v=JFAzdybohUc)도 재밌다.
+
+
 ### Design
-
-[웹 개발에 자주쓰이는 해상도](웹_개발에_자주쓰이는_해상도)
-
-#### Tools
 
 - 피그마 스타일 가이드
   [소개](https://www.youtube.com/watch?v=fFNeuHAL3-E)
   [스타일 가이드 소개](https://www.youtube.com/watch?v=_7wO8CZEwBw)
 
-#### Reference
 
-[css 학습 채널](https://www.youtube.com/@lundeveloper)
-[youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
-[youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
-[youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
-
-[!re] ai 붐 이후 많이 바뀌었을텐데, 현시점에도 의미있는 근본적인 내용인지 판단 필요
-
+- 학습
+  [css 학습 채널](https://www.youtube.com/@lundeveloper)
+  [youtube: how to design with figma? (A)](https://www.youtube.com/watch?v=6YpAl-U1ASU)
+  [youtube: how to design with figma? (B)](https://www.youtube.com/watch?v=h1gtRXskgoY)
+  [youtube: how to design with figma? (C)](https://www.youtube.com/watch?v=l3A9OcUd_Us)
 
 
 ### 유용한 무료 api
 
-- 영영사전:
-
-  발음, 예문, 동의어, 반의어 등 다양한 정보를 제공한다.
+- 영영사전
+  : 발음, 예문, 동의어, 반의어 등 다양한 정보를 제공한다.
   ['darkness' 사전 검색 요청](https://api.dictionaryapi.dev/api/v2/entries/en/darkness)
 
 ### 학습법
@@ -616,65 +456,18 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
   > 3. 잘 모르는 부분, 지나치게 복잡한 부분(전문용어를 사용했다던가)을 찾는다.
   > 4. `3.`에서 찾은 내용을 더 쉽고 단순하게 설명하기 위해 추가적으로 조사한다.
 
-### 아무거나 아이디어
+### 대중문화
 
-[독서모임](아무거나_아이디어/독서모임)
-[조직문화를 판매한다. 그것을 뒷받침 할 수 있는 system과 합쳐서.](아무거나_아이디어/조직문화를_판매한다._그것을_뒷받침_할_수_있는_system과_합쳐서.)
-[메뉴얼 수행 추적기](아무거나_아이디어/메뉴얼_수행_추적기)
-[유아(6세 이하 초등입학 전)용 동화 읽어주고 각종 질문에 대답해주는 인형](아무거나_아이디어/유아(6세_이하_초등입학_전)용_동화_읽어주고_각종_질문에_대답해주는_인형)
-[정서, 심리 등 과학적 근거를 바탕으로 하는 검사 컨텐츠를 생성형 인공지능으로 서비스하기](아무거나_아이디어/정서,_심리_등_과학적_근거를_바탕으로_하는_검사_컨텐츠를_생성형_인공지능으로_서비스하기)
-["시끄러운 목소리"가 주목받는 "댓글" 시스템 개선안](아무거나_아이디어/"시끄러운_목소리"가_주목받는_"댓글"_시스템_개선안)
+[보고싶은 영화 리스트](보고싶은_영화)
+[인물](인물)
+[음악](음악)
 
-#### TIPS
-
-- 어떤거 만들어볼만한지는 awesome-selfhosted에 적당히 괜찮은 주제들이 있어요
-
-- 게임 아이디어
-  [요런 스타일](https://www.youtube.com/watch?v=YPowsippmRM) 좋다.
-  [로그라이크류](https://www.youtube.com/watch?v=JFAzdybohUc)도 재밌다.
-
-
-### 구체화된 프로젝트 아이디어
-
-[anki-diary](/Project/ideas/anki-diary)
-[충북프로메이케센터 홈페이지 리뉴얼](/Project/ideas/충북프로메이케센터_홈페이지_리뉴얼)
-
-### 영화
-
-[보고싶은 리스트](보고싶은_리스트)
-[인물 추천](인물_추천)
-
-
-### 냠냠
-
-#### 가고싶은 식당
-
-- 냉동숙성회 무한리필
-
-  > 59,000 / 1인
-  > 상호 : 스이센 광교
-  > 주소 : 경기 수원시 영통구 이의동 1305-1
-  > 전화번호 : 0507-1337-0525
-  > [네이버플레이스](https://naver.me/GoDDD2wY)
-  >
-  > [빙결회 온라인 구매 링크](https://naver.me/G7VVmy7s)
-  >
-  > *예약은 10석까지, 나머지 8석은 오시는 순서대로 식사 가능합니다.
-  >
-  > 사장님의 저서
-  > [‘주문하신 인생 한 그릇 나왔습니다‘ 책 구매 링크](https://buly.kr/Csi4fo7)
 
 
 ### 국내 여행
 
-#### 수영 스팟
+[가고싶은 식당](여행/가고싶은_식당)
 
-- 충북 제천시 백운면 애련로 855
-
-
-### 음악
-
-- 최유리, 숲
 
 
 ### 차량 관리

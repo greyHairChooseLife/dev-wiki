@@ -1,4 +1,5 @@
-# file transfer
+# 󰏢 file share
+
 
 
 ## magic-wormhole
@@ -33,7 +34,7 @@ _양쪽 시스템에 모두 설치해야하는 것 외엔, 간편하고 훨씬 �
 
 ### SCP
 
-  ```bash
+- ```bash
   scp <object file path> <target system user>@<target system IP>:<target system path>
 
   ex)
@@ -58,7 +59,7 @@ _양쪽 시스템에 모두 설치해야하는 것 외엔, 간편하고 훨씬 �
 
 #### 내보내기
 
-  ```bash
+- ```bash
   rsync -az <path from> <user>@<host>:<path to>
 
   ex)
@@ -69,13 +70,13 @@ _양쪽 시스템에 모두 설치해야하는 것 외엔, 간편하고 훨씬 �
 
 _(순서만 반대로)_
 
-  ```bash
+- ```bash
   rsync -az <user>@<host>:<path from> <path to>
   ```
 
 
 보통은 password접근을 막아놓기 때문에 ssh key를 전달해야한다. rsync에는 직접적으로 사용할수는 없고 아래처럼 `-e` 옵션으로 rsync가 사용할 ssh명령 자체를 전달해야한다.
 
-  ```bash
+- ```bash
   rsync -az -e "ssh -i ~/.ssh/<SSH-키> -p <포트번호>" <user>@<host>:<path from> <path to>
   ```

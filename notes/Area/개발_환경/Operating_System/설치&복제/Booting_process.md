@@ -1,12 +1,10 @@
-# 󰏢 Booting
-
+# 󰏢 Booting process
 
 > [!td]2025-01-13
 > [-] 보고 정리하기... [How Does Linux Boot Process Work?](https://www.youtube.com/watch?v=XpFsMB6FoOs)
 >  󱞪
 
 
-## booting up
 
 > [!lg] Log 2025-01-13
 >
