@@ -447,9 +447,8 @@
 
 ## Archive
 
-[칭찬 수집기 개발](/Project/진행중/칭찬_수집기/index.md) [-]
-
 - Project
+  [칭찬 수집기 개발](/Archive/Project/칭찬_수집기)
   [2025 우테코 지원](/Archive/Project/2025_우테코_지원)
   [우정한사랑 이사](/Archive/Project/우정한사랑_이사)
   [gatsby로 블로그](/Archive/Project/gatsby로_블로그/index.md)
