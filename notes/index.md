@@ -54,8 +54,7 @@
 [만다라트](/Project/만다라트/index.md)
   - 2차전에 돌입했다.
 
-
-### 대기
+### Pending
 
 - 차량 관리
   - 코란도 엔진오일
@@ -84,7 +83,7 @@
 
 ## Area [-]
 
-### 개발 환경 [-]
+### Programming [-]
 
 #### 살아남는 개발자는 무엇이 다른가? [-]
 
@@ -92,10 +91,10 @@
 > - 시키는 대로 하기 전에 의심해라. 정말로 필요한 과정/단계/방법인가? 똑똑하고 신뢰할만한 사람일수록
 > - recipe를 존중하되, 본질을 반드시 이해해라
 
-[개발자 중 누가 살아 남을까? 생존을 위해 반드시 생각해야 할 점](/Area/개발_환경/살아남는_개발자는_무엇이_다른가?/개발자_중_누가_살아_남을까?_생존을_위해_반드시_생각해야_할_점)
-[개발자가 앞으로 꼭 공부해야하는 분야](/Area/개발_환경/살아남는_개발자는_무엇이_다른가?/개발자가_앞으로_꼭_공부해야하는_분야)
-[일론의 5단계 법칙](/Area/개발_환경/살아남는_개발자는_무엇이_다른가?/일론의_5단계_법칙)
-[일류와 이류의 차이 (반도체 전설 짐켈러)](/Area/개발_환경/살아남는_개발자는_무엇이_다른가?/일류와_이류의_차이_(반도체_전설_짐켈러))
+[개발자 중 누가 살아 남을까? 생존을 위해 반드시 생각해야 할 점](/Area/Programming/살아남는_개발자는_무엇이_다른가?/개발자_중_누가_살아_남을까?_생존을_위해_반드시_생각해야_할_점)
+[개발자가 앞으로 꼭 공부해야하는 분야](/Area/Programming/살아남는_개발자는_무엇이_다른가?/개발자가_앞으로_꼭_공부해야하는_분야)
+[일론의 5단계 법칙](/Area/Programming/살아남는_개발자는_무엇이_다른가?/일론의_5단계_법칙)
+[일류와 이류의 차이 (반도체 전설 짐켈러)](/Area/Programming/살아남는_개발자는_무엇이_다른가?/일류와_이류의_차이_(반도체_전설_짐켈러))
 
 
 [-]
@@ -117,7 +116,7 @@
 
 #### Note Making [-]
 
-[Job-wiki 작성법](/Area/개발_역량/Note_Making/Job-wiki_작성법)
+[Job-wiki 작성법](/Area/Programming/Note_Making/Job-wiki_작성법)
 
 > [!INFO]
 >
@@ -134,18 +133,18 @@
 
 #### Remote Work
 
-[file share](/Area/개발_역량/Remote_Work/file_share)
-[NFS protocol, 디렉토리 공유하기](/Area/개발_역량/Remote_Work/NFS_protocol,_디렉토리_공유하기)
-[SSH protocol](/Area/개발_역량/Remote_Work/SSH_protocol)
-[rclone으로 클라우드 스토리지 서비스 동기화](/Area/개발_역량/Remote_Work/rclone으로_클라우드_스토리지_서비스_동기화)
+[file share](/Area/Programming/Remote_Work/file_share)
+[NFS protocol, 디렉토리 공유하기](/Area/Programming/Remote_Work/NFS_protocol,_디렉토리_공유하기)
+[SSH protocol](/Area/Programming/Remote_Work/SSH_protocol)
+[rclone으로 클라우드 스토리지 서비스 동기화](/Area/Programming/Remote_Work/rclone으로_클라우드_스토리지_서비스_동기화)
 
 #### Operating System [-]
 
 ##### 설치&복제 [-]
 
-[/Area/개발_환경/Operating_System/설치&복제/부팅디스크 만들기](/Area/개발_환경/Operating_System/설치&복제/부팅디스크_만들기)
-[/Area/개발_환경/Operating_System/설치&복제/만자로 시스템 복사(이사)하기](/Area/개발_환경/Operating_System/설치&복제/만자로_시스템_복사(이사)하기)
-[/Area/개발_환경/Operating_System/설치&복제/Booting process](/Area/개발_환경/Operating_System/설치&복제/Booting_process)
+[부팅디스크 만들기](/Area/Programming/Operating_System/설치&복제/부팅디스크_만들기)
+[만자로 시스템 복사(이사)하기](/Area/Programming/Operating_System/설치&복제/만자로_시스템_복사)
+[Booting process](/Area/Programming/Operating_System/설치&복제/Booting_process)
 
   [-]
   [How Does Linux Boot Process Work?](https://www.youtube.com/watch?v=XpFsMB6FoOs)
@@ -155,9 +154,9 @@
 
 ##### 서비스 관리 [-]
 
-[systemd](/Area/개발_역량/Linux_&_Shell/systemd)
-[sysz](/Programing/tools/system_admin/sysz.md)
-[x11 세션에서 wayland 세션을 실행할 수 있다.(session in session)](x11_세션에서_wayland_세션을_실행할_수_있다.(session_in_session))
+[systemd](/Area/Programming/Operating_System/서비스_관리/systemd)
+[sysz](/Area/Programming/Operating_System/서비스_관리/sysz)
+[x11 세션에서 wayland 세션을 실행할 수 있다.-AKA session in session](/Area/Programming/Operating_System/서비스_관리/x11_세션에서_wayland_세션을_실행할_수_있다.-AKA_session_in_session)
 
 
 [-] bluetooth 문제를 해결하며...
@@ -201,21 +200,22 @@
 > [HHKB-Hybrid_1]# Failed to connect: org.bluez.Error.Failed br-connection-page-timeout
 > ```
 
-##### system Packages/Apps
+##### system Packages & Apps
 
-[package manager](/Area/개발_환경/Operating_System/Manage_Packages)
-[mimeapps](/Cheat_Sheet/System_configs)
-[xdg-open](/Area/개발_환경/Operating_System/xdg-open_관리)
+[package manager](/Area/Programming/Operating_System/system_Packages_&_Apps/package_manager)
+[mimeapps](/Area/Programming/Operating_System/system_Packages_&_Apps/mimeapps)
+[xdg-open](/Area/Programming/Operating_System/system_Packages_&_Apps/xdg-open)
+
 
 ##### Shell & Terminal & Editor [-]
 
-[command history](/Cheat_Sheet/command_history)
-[what is shell?](/Area/개발_역량/Linux_&_Shell/what_is_shell)
-[Vim](/Programing/tools/vim/index.md)
-[Git](/Programing/tools/git_and_github/index.md)
-[alacritty config](/Programing/tools/terminal_emulator/alacritty.md)
-[bash](2.Area/개발환경/bash/index.md)
-[tmux](/Area/개발_환경/Operating_System/tmux)
+[command history](/Area/Programming/Operating_System/Shell_&_Terminal_&_Editor/command_history)
+[what is shell?](/Area/Programming/Operating_System/Shell_&_Terminal_&_Editor/what_is_shell?)
+[Vim](/Area/Programming/Operating_System/Shell_&_Terminal_&_Editor/Vim)
+[Git](/Area/Programming/Operating_System/Shell_&_Terminal_&_Editor/Git)
+[alacritty config](/Area/Programming/Operating_System/Shell_&_Terminal_&_Editor/alacritty_config)
+[bash](/Area/Programming/Operating_System/Shell_&_Terminal_&_Editor/bash)
+[tmux](/Area/Programming/Operating_System/Shell_&_Terminal_&_Editor/tmux)
 
 
 [-] 공부하자
@@ -239,9 +239,9 @@
 
 ##### etc
 
-[`$HOME` path](/Area/개발_역량/Linux_&_Shell/home_path)
-[GNU stow](2.Area/개발환경/stow/index.md)
-[bore](/Programing/concepts_and_tools/tools/bore.md)
+[`HOME` path](/Area/Programming/Operating_System/etc/HOME_path)
+[GNU stow](/Area/Programming/Operating_System/etc/GNU_stow)
+[bore](/Area/Programming/Operating_System/etc/bore)
   - simple tcp tunnel CLI. make localhost to public server
   - 이거 활용하면 SSH로 작업중인 서버의 개발서버를 원격지에서 접속해볼 수 있겠다.
     - 근데 어차피 hot-reloading 안되니 소용없나?
@@ -249,7 +249,27 @@
 
 #### Skills [-]
 
-[index.md](Area/개발_환경/Skills/index.md)
+[HUB: Skills](/Area/Programming/Skills/index.md)
+
+#### Experience [-]
+
+##### Architecture [-]
+
+[-]
+내가 그동안 설계한 것들 정리해두면 좋겠다.
+
+
+##### Debugging
+
+- 미결
+  [docker named volume with NFS protocol](/Area/Programming/Experience/Debugging/docker_named_volume_with_NFS_protocol)
+
+
+- 해결
+  [domain status: clientHold](/Area/Programming/Experience/Debugging/domain_status:_clientHold)
+  [프로세스 조회 및 종료](/Area/Programming/Experience/Debugging/프로세스_조회_및_종료)
+
+
 
 #### AI [-]
 
@@ -258,31 +278,28 @@
 [“AI는 없는 인간만의 뭐가 있다? 그런 말 하는 사람 다 밀려났다.” (장강명 작가)](https://www.youtube.com/watch?v=bBaTc1JE42w)
 
 
-##### 사용중
+- 사용중
+  [aider](/Area/Programming/AI/aider)
+  - avante.nvim
+  - github copilot with ChatCopilot.nvim
+  - chatGPT web UI
+  - > [!lg] Log 2025-03-19
+    >
+    > avante.nvim vs ChatCopilot.nvim?
+    > : AI api provider에 직접 접근하냐, github에서 랩핑해서 배포하는걸 사용하냐의 차이
+    > 비용적으로는 copilot이 우위가 있으나 성능은 또 모르겠다. 일단은 지켜보는 수밖에?
 
-- [aider](/Area/개발_환경/AI/aider)
-- avante.nvim
-- github copilot with ChatCopilot.nvim
-- chatGPT web UI
 
-> [!lg] Log 2025-03-19
->
-> avante.nvim vs ChatCopilot.nvim?
-> : AI api provider에 직접 접근하냐, github에서 랩핑해서 배포하는걸 사용하냐의 차이
-> 비용적으로는 copilot이 우위가 있으나 성능은 또 모르겠다. 일단은 지켜보는 수밖에?
+- 관심
+  - devin(commercial) & [devica(open-source)](https://github.com/stitionai/devika/discussions)
+    : agent-like
+  - codecompanion.nvim
+    : zed ai를 표방한다는데, 'cursor AI' 스타일보다 vim스럽긴 하다고 생각한다. 그러나 ai의
+    활용 면에서 나는 cursor AI 스타일을 선호한다.
 
-##### 관심
 
-- devin(commercial) & [devica(open-source)](https://github.com/stitionai/devika/discussions)
-  : agent-like
-
-- codecompanion.nvim
-  : zed ai를 표방한다는데, 'cursor AI' 스타일보다 vim스럽긴 하다고 생각한다. 그러나 ai의
-  활용 면에서 나는 cursor AI 스타일을 선호한다.
-
-##### ETC
-
-[what is chatGPT?](/Area/개발_환경/AI/what_is_chatGPT?)
+- ETC
+  [what is chatGPT?](/Area/Programming/AI/what_is_chatGPT?)
 
 
 #### 알고리즘
@@ -310,16 +327,6 @@
   3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
   ```
 
-#### 오답노트
-
-- 미결
-  [docker named volume with NFS protocol](/Area/개발_역량/오답노트/docker_named_volume_with_NFS_protocol)
-
-
-- 해결
-  [domain status: clientHold](/Area/개발_역량/오답노트/domain_status:_clientHold)
-  [프로세스 조회 및 종료](/Area/개발_역량/오답노트/프로세스_조회_및_종료)
-
 #### REFERENCE
 
 - ETC
@@ -335,29 +342,35 @@
 
 
 
-### 좋은 가족, 좋은 친구, 멋진 인간 되기
+### 좋은 가족, 좋은 친구, 멋진 인간 하기
 
-[선물 하고싶은 것](/Life/좋은_가족,_좋은_친구_되기/index.md)
-[감사한 마음](감사한_마음)
-[다른 입장을 이해해 보기](다른_입장을_이해해_보기)
+[선물 하고싶은 것](/Area/좋은_가족,_좋은_친구,_멋진_인간_하기/선물_하고싶은_것)
+[감사한 마음](/Area/좋은_가족,_좋은_친구,_멋진_인간_하기/감사한_마음)
+[다른 입장을 이해해 보기](/Area/좋은_가족,_좋은_친구,_멋진_인간_하기/다른_입장을_이해해_보기)
+
 
 
 ### 글쓰기 [-]
 
+
+[글쓰기 레퍼런스 모음](/Area/글쓰기/뭐든지/글쓰기_레퍼런스_모음)
+
+
 #### 뭐든지
 
-[대학교를 중퇴한 이유가 뭔가요?](/Life/수필/대학교를_중퇴한_이유가_뭔가요?)
-[10시 이후로는 언어정보의 input을 제한한다.](/Life/수필/10시_이후로는_언어정보의_input을_제한한다.)
-[vim을 왜 쓸까?](/Programing/posts/vim을_왜_쓸까?)
-[gitsigns.nvim plugin에 이슈 남기기](/Programing/posts/gitsigns.nvim_plugin에_이슈_남기기)
-[nvim 플러그인에 이슈 남기기](/Programing/posts/nvim_플러그인에_이슈_남기기)
-[오픈소스에 난생처음 PR 날리기](/Programing/posts/오픈소스에_난생처음_PR_날리기)
-[우리는 상대방을 눈앞에 두고도 그 실체를 보지 못한다. 단지, 내 방식대로 이해한 허상을 바라볼 뿐이다.](우리는_상대방을_눈앞에_두고도_그_실체를_보지_못한다._단지,_내_방식대로_이해한_허상을_바라볼_뿐이다.)
-[살아오면서 겪어본 어려운 문제에 대하여](살아오면서_겪어본_어려운_문제에_대하여)
+[대학교를 중퇴한 이유가 뭔가요?](/Area/글쓰기/뭐든지/대학교를_중퇴한_이유가_뭔가요?)
+[10시 이후로는 언어정보의 input을 제한한다.](/Area/글쓰기/뭐든지/10시_이후로는_언어정보의_input을_제한한다.)
+[vim을 왜 쓸까?](/Area/글쓰기/뭐든지/vim을_왜_쓸까?)
+[gitsigns.nvim plugin에 이슈 남기기](/Area/글쓰기/뭐든지/gitsigns.nvim_plugin에_이슈_남기기)
+[nvim 플러그인에 이슈 남기기](/Area/글쓰기/뭐든지/nvim_플러그인에_이슈_남기기)
+[오픈소스에 난생처음 PR 날리기](/Area/글쓰기/뭐든지/오픈소스에_난생처음_PR_날리기)
+[우리는 상대방을 눈앞에 두고도 그 실체를 보지 못한다. 단지, 내 방식대로 이해한 허상을 바라볼 뿐이다.](/Area/글쓰기/뭐든지/우리는_상대방을_눈앞에_두고도_그_실체를_보지_못한다._단지,_내_방식대로_이해한_허상을_바라볼_뿐이다.)
+[살아오면서 겪어본 어려운 문제에 대하여](/Area/글쓰기/뭐든지/살아오면서_겪어본_어려운_문제에_대하여)
+
 
 #### 유투브 시청 [-]
 
-['아들 학폭' 복수 나선 아빠, 판사도 "그럴 만했네.." 무죄 (2024.12.21/MBC뉴스)]('아들_학폭'_복수_나선_아빠,_판사도_"그럴_만했네.."_무죄_(2024.12.21/MBC뉴스))
+['아들 학폭' 복수 나선 아빠, 판사도 "그럴 만했네.." 무죄 (2024.12.21/MBC뉴스)](/Area/글쓰기/유투브_시청/'아들_학폭'_복수_나선_아빠,_판사도_"그럴_만했네.."_무죄)
 
 
 [-]
@@ -369,14 +382,9 @@
 [조건을 안보기 시작한 IT 업계](https://www.youtube.com/watch?v=M8oj2ZIoYbY)
 
 
-#### REFERENCE
-
-[글쓰기 레퍼런스 모음](글쓰기_레퍼런스)
-
-
-
-
 ### 나를 사랑하기
+
+#### 운동
 
 - 부분 운동
   [팔, 10m](https://www.youtube.com/watch?v=0LWGOAtgcww)
@@ -394,10 +402,10 @@
   [전신, 5m](https://www.youtube.com/watch?v=XeWwQK-I2Tg)
 
 
-### 민주 시민의 책임&권한&상식
+### 민주 시민의 책임 & 권한 & 상식 [-]
 
-[세금 납부](/Life/democratic_citizen/index.md)
-[각종 서류](각종_서류)
+[세금 납부](/Area/민주_시민의_책임_&_권한_&_상식/세금_납부) [-]
+[각종 서류](/Area/민주_시민의_책임_&_권한_&_상식/각종_서류)
 
 
 ## Resource
@@ -405,17 +413,17 @@
 ### 프로젝트 아이디어
 
 - 단순 아이디어
-  [독서모임](프로젝트_아이디어/독서모임)
-  [조직문화를 판매한다. 그것을 뒷받침 할 수 있는 system과 합쳐서.](프로젝트_아이디어/조직문화를_판매한다._그것을_뒷받침_할_수_있는_system과_합쳐서.)
-  [메뉴얼 수행 추적기](프로젝트_아이디어/메뉴얼_수행_추적기)
-  [유아(6세 이하 초등입학 전)용 동화 읽어주고 각종 질문에 대답해주는 인형](프로젝트_아이디어/유아(6세_이하_초등입학_전)용_동화_읽어주고_각종_질문에_대답해주는_인형)
-  [정서, 심리 등 과학적 근거를 바탕으로 하는 검사 컨텐츠를 생성형 인공지능으로 서비스하기](프로젝트_아이디어/정서,_심리_등_과학적_근거를_바탕으로_하는_검사_컨텐츠를_생성형_인공지능으로_서비스하기)
-  ["시끄러운 목소리"가 주목받는 "댓글" 시스템 개선안](프로젝트_아이디어/"시끄러운_목소리"가_주목받는_"댓글"_시스템_개선안)
+  [독서모임](/Resource/프로젝트_아이디어/독서모임)
+  [조직문화를 판매한다. 그것을 뒷받침 할 수 있는 system과 합쳐서.](/Resource/프로젝트_아이디어/조직문화를_판매한다._그것을_뒷받침_할_수_있는_system과_합쳐서.)
+  [메뉴얼 수행 추적기](/Resource/프로젝트_아이디어/메뉴얼_수행_추적기)
+  [유아(6세 이하 초등입학 전)용 동화 읽어주고 각종 질문에 대답해주는 인형](/Resource/프로젝트_아이디어/유아(6세_이하_초등입학_전)용_동화_읽어주고_각종_질문에_대답해주는_인형)
+  [정서, 심리 등 과학적 근거를 바탕으로 하는 검사 컨텐츠를 생성형 인공지능으로 서비스하기](/Resource/프로젝트_아이디어/정서,_심리_등_과학적_근거를_바탕으로_하는_검사_컨텐츠를_생성형_인공지능으로_서비스하기)
+  ["시끄러운 목소리"가 주목받는 "댓글" 시스템 개선안](/Resource/프로젝트_아이디어/"시끄러운_목소리"가_주목받는_"댓글"_시스템_개선안)
 
 
 - 구체화된 아이디어
-  [anki-diary](/Project/ideas/anki-diary)
-  [충북프로메이케센터 홈페이지 리뉴얼](/Project/ideas/충북프로메이케센터_홈페이지_리뉴얼)
+  [anki-diary](/Resource/프로젝트_아이디어/anki-diary)
+  [충북프로메이케센터 홈페이지 리뉴얼](/Resource/프로젝트_아이디어/충북프로메이케센터_홈페이지_리뉴얼)
 
 
 #### TIPS
@@ -458,15 +466,15 @@
 
 ### 대중문화
 
-[보고싶은 영화 리스트](보고싶은_영화)
-[인물](인물)
-[음악](음악)
+[보고싶은 영화 리스트](/Resource/대중문화/보고싶은_영화)
+[인물](/Resource/대중문화/인물)
+[음악](/Resource/대중문화/음악)
 
 
 
-### 국내 여행
+### 여행
 
-[가고싶은 식당](여행/가고싶은_식당)
+[가고싶은 식당](/Resource/여행/가고싶은_식당)
 
 
 
@@ -485,8 +493,8 @@
 
 [비용 기록](/Resource/차량_관리/비용_기록)
 [베터리 자가교체](/Resource/차량_관리/베터리_자가교체)
-[정기검사지연 과태료와 운행정지명령](/Life/car/정기검사지연_과태료와_운행정지명령.md)
-[청주시의 미세먼지 비상저감조치](/Life/car/청주시의_미세먼지_비상저감조치.md)
+[정기검사지연 과태료와 운행정지명령](/Resource/차량_관리/정기검사지연_과태료와_운행정지명령)
+[청주시의 미세먼지 비상저감조치](/Resource/차량_관리/청주시의_미세먼지_비상저감조치)
 
 
 
@@ -527,6 +535,6 @@
 ## Archive
 
 [칭찬 수집기 개발](/Project/진행중/칭찬_수집기/index.md)
-[2025 우테코 지원](/Archive/2025_우테코_지원)
-[우정한사랑 이사](/Archive/우정한사랑_이사/index.md)
+[2025 우테코 지원](/Archive/Project/2025_우테코_지원)
+[우정한사랑 이사](/Archive/Project/우정한사랑_이사)
 [gatsby로 블로그](/Archive/gatsby로_블로그/index.md)
