@@ -38,7 +38,6 @@
 
 
 
-
 ## Project
 
 
@@ -125,9 +124,6 @@
 >   for file in *\ *; do mv "$file" "${file// /_}"; done
 >   ```
 
-
-[-]
-[포프TV - 노트 정리 & 회사 문서화 & 프로젝트 관리, 이거면 충분!](https://www.youtube.com/watch?v=iE7N5RlM13E)
 
 #### Remote Work
 
