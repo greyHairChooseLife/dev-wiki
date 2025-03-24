@@ -37,6 +37,10 @@
 >     - 책임이 사라진 영역, 관심이 사라진 자원
 
 
+[-]
+플러그인의 특정 커밋을 확인하는 워크플로우 관련
+https://github.com/folke/lazy.nvim/issues/1327
+
 
 ## Project
 
@@ -298,7 +302,7 @@
 - 부분 운동
   [팔, 10m](https://www.youtube.com/watch?v=0LWGOAtgcww)
   [가슴, 10m](https://www.youtube.com/watch?v=E7OAhVIbkbk)
-  [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
+  1, [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
   [어깨, 10m](https://www.youtube.com/watch?v=3smk7LGLTXE)
   [배, 8m](https://www.youtube.com/watch?v=J90dERWZNUE)
 
@@ -308,7 +312,7 @@
   [전신, 8m](https://www.youtube.com/watch?v=C80QyNlAMss)
   [전신, 7m](https://www.youtube.com/watch?v=g-nzEPqqrx8)
   [전신, 6m](https://www.youtube.com/watch?v=LDb5Y4Ti6Bc)
-  [전신, 5m](https://www.youtube.com/watch?v=XeWwQK-I2Tg)
+  1, [전신, 5m](https://www.youtube.com/watch?v=XeWwQK-I2Tg)
 
 
 ### 민주 시민의 책임 & 권한 & 상식 [-]
@@ -364,6 +368,20 @@
   : 발음, 예문, 동의어, 반의어 등 다양한 정보를 제공한다.
   ['darkness' 사전 검색 요청](https://api.dictionaryapi.dev/api/v2/entries/en/darkness)
 
+
+### 지능
+
+지능은 다양한 요소로 구성된다.
+
+- 정서
+  - 자기 불안을 다스리는 능력
+
+- 사회성
+  - 사고의 유연성
+  - 추론 능력
+  - 문제 해결력
+
+
 ### 학습법
 
 - 무언가를 배우는 방법
@@ -372,6 +390,7 @@
   > 2. 설명을 적어 본다. 가상의 10살 어린이를 앞에 두고.
   > 3. 잘 모르는 부분, 지나치게 복잡한 부분(전문용어를 사용했다던가)을 찾는다.
   > 4. `3.`에서 찾은 내용을 더 쉽고 단순하게 설명하기 위해 추가적으로 조사한다.
+
 
 ### 대중문화
 

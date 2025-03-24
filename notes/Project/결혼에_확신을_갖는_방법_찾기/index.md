@@ -53,7 +53,7 @@
 
 
 [-]
-  [션 유투브](https://www.youtube.com/watch?v=OQgTlHMNbOA)
+  [이게 확인되는 순간 꼭 결혼하세요 (유부남들의 솔직 조언) - 션 유투브](https://www.youtube.com/watch?v=OQgTlHMNbOA)
   [애니메이션, 20분](https://www.youtube.com/watch?v=wfqmTtaLnME)
   [이혼하지 않고 평생 갈 사람인지 알아보는 방법 (김선희 원장)](https://www.youtube.com/watch?v=MF9xdIj3EFo)
   [상대가 얼마나 괜찮은 사람인지 알 수 있는 한가지 방법 (문요한 원장)](https://www.youtube.com/watch?v=ST_eGUUu2tE)
