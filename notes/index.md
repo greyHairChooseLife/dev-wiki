@@ -38,9 +38,9 @@
 
 
 [-]
-플러그인의 특정 커밋을 확인하는 워크플로우 관련
-https://github.com/folke/lazy.nvim/issues/1327
-
+https://www.youtube.com/watch?v=veAe2OtUgkY
+https://www.youtube.com/watch?v=OElI_q4qDF0
+https://www.youtube.com/watch?v=k7ouok3qks0
 
 ## Project
 
