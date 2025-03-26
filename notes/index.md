@@ -39,9 +39,14 @@
 >     - 종료/중단된 프로젝트
 >     - 책임이 사라진 영역, 관심이 사라진 자원
 
+[-]
+https://github.com/jmacadie/telescope-hierarchy.nvim
+https://www.reddit.com/r/neovim/comments/1h25lal/what_are_your_favorite_underappreciated_neovim/
+https://github.com/rachartier/tiny-inline-diagnostic.nvim
+https://github.com/Wansmer/treesj
+https://www.google.com/search?q=codecompanion%20vs%20avante%20vs%20copilotchat
 
 [-]
-https://www.youtube.com/watch?v=veAe2OtUgkY
 https://www.youtube.com/watch?v=OElI_q4qDF0
 https://www.youtube.com/watch?v=k7ouok3qks0
 
