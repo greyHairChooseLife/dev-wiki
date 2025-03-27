@@ -46,6 +46,8 @@ https://github.com/rachartier/tiny-inline-diagnostic.nvim
 https://github.com/Wansmer/treesj
 https://www.google.com/search?q=codecompanion%20vs%20avante%20vs%20copilotchat
 
+& devdocs.nvim
+
 [-]
 https://www.youtube.com/watch?v=OElI_q4qDF0
 https://www.youtube.com/watch?v=k7ouok3qks0
