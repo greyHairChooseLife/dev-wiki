@@ -45,8 +45,11 @@ https://www.reddit.com/r/neovim/comments/1h25lal/what_are_your_favorite_underapp
 https://github.com/rachartier/tiny-inline-diagnostic.nvim
 https://github.com/Wansmer/treesj
 https://www.google.com/search?q=codecompanion%20vs%20avante%20vs%20copilotchat
+https://github.com/AndreM222/copilot-lualine
+https://github.com/mikavilpas/yazi.nvim
 
 & devdocs.nvim
+& don't use copilot anymore, just supermaven
 
 [-]
 https://www.youtube.com/watch?v=OElI_q4qDF0
@@ -61,9 +64,11 @@ https://www.youtube.com/watch?v=k7ouok3qks0
 
 [성금 엄마아빠집 리모델링](/Project/성금_엄마아빠집_리모델링/index.md)
 
-
 [만다라트](/Project/만다라트/index.md)
   - 2차전에 돌입했다.
+
+[anthropic API & avante.nvim problem](/Project/anthropic_API_&_avante.nvim_problem)
+
 
 ### Pending
 
@@ -439,6 +444,11 @@ https://www.youtube.com/watch?v=k7ouok3qks0
 
 
 ### etc
+
+[주방기구: 스사모 통즈 구입](/Resource/etc/주방기구:_스사모_통즈_구입)
+
+
+### REFERENCES
 
 [건전지 사용 제품을 충전지 방식으로 개조하기](https://www.youtube.com/watch?v=-zltotyU1Ek)
 [커뮤니티 구축 방법론](https://www.jianyang.co.kr/p/7-feat?utm_source=publication-search)
