@@ -326,7 +326,7 @@ https://www.youtube.com/watch?v=k7ouok3qks0
   [전신, 10m](https://www.youtube.com/watch?v=8wEdqDDzHpc)
   [전신, 8m](https://www.youtube.com/watch?v=C80QyNlAMss)
   [전신, 7m](https://www.youtube.com/watch?v=g-nzEPqqrx8)
-  [전신, 6m](https://www.youtube.com/watch?v=LDb5Y4Ti6Bc)
+  1, [전신, 6m](https://www.youtube.com/watch?v=LDb5Y4Ti6Bc)
   1, [전신, 5m](https://www.youtube.com/watch?v=XeWwQK-I2Tg)
 
 
