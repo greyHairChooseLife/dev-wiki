@@ -315,7 +315,9 @@ https://www.youtube.com/watch?v=k7ouok3qks0
 #### 운동
 
 - 부분 운동
-  [팔, 10m](https://www.youtube.com/watch?v=0LWGOAtgcww)
+  1, [팔 이두, 10m](https://www.youtube.com/watch?v=BfZw0qMoa1A)
+  [팔 삼두, 10m](https://www.youtube.com/watch?v=DqnWLrrO0xY)
+  [팔 전완, 10m](https://www.youtube.com/watch?v=EpCKQsydB2s)
   [가슴, 10m](https://www.youtube.com/watch?v=E7OAhVIbkbk)
   1, [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
   [어깨, 10m](https://www.youtube.com/watch?v=3smk7LGLTXE)
