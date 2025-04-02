@@ -249,3 +249,8 @@ find . -type f ! \( -name "*.png" -o -name "*.pdb" \) -delete
 ```
 
 
+### csv 파일에서 원하는 column만 취하기
+
+```bash
+csvcut -c artist_name,track_name your_file.csv
+```
