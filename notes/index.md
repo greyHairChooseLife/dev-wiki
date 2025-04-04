@@ -54,6 +54,8 @@ https://github.com/mikavilpas/yazi.nvim
 [-]
 https://www.youtube.com/watch?v=OElI_q4qDF0
 https://www.youtube.com/watch?v=k7ouok3qks0
+https://www.youtube.com/watch?v=XcLkGT5pe2w
+https://www.youtube.com/watch?v=20GQNkZpe-U
 
 ## Project
 
@@ -299,7 +301,7 @@ https://www.youtube.com/watch?v=k7ouok3qks0
 #### 유투브 시청 [-]
 
 ['아들 학폭' 복수 나선 아빠, 판사도 "그럴 만했네.." 무죄 (2024.12.21/MBC뉴스)](/Area/글쓰기/유투브_시청/'아들_학폭'_복수_나선_아빠,_판사도_"그럴_만했네.."_무죄)
-
+[연금개혁으로 꿀빨았다는 50대, 과연 안 억울할까? (변명)](/Area/글쓰기/유투브_시청/연금개혁으로_꿀빨았다는_50대,_과연_안_억울할까?_(변명))
 
 [-]
 [사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
