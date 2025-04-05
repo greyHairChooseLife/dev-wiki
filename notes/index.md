@@ -58,100 +58,7 @@ https://www.youtube.com/watch?v=OElI_q4qDF0
 https://www.youtube.com/watch?v=k7ouok3qks0
 https://www.youtube.com/watch?v=XcLkGT5pe2w
 https://www.youtube.com/watch?v=20GQNkZpe-U
-
-## tmp
-
-
-### global
-
-- vimwiki, 저장 시 공백 모두 제거하는 autocmd 제거
-
-
-- 블록 지정한 요소로 바로 커밋 메시지 쏴버리는 함수 및 키맵도 만들자.
-
-- block 지정한 코드라인을 현재 cwd에서 실행하는 기능.  현재도 `,cr` 및 `,ccr`로
-  하고있지만, 불완전한 기능이고 또 즉시 실행 및 현재 위치에 결과 로드 등도
-  필요하다.
-  - 관련된 플러그인도 있을만한데?
-  - normal 모드에서 현재 라인을 실행
-
-
-- local-note에서 project-note는 각 레포지토리에 저장하도록 하자.
-
-- visual-block 시 status line에 `N-lines (startLN - endLN)` 표시하기
-
-- vimwiki(markdown)에서 text-object 지정하는거 예외로 만든 keymap은 쓸모 없는듯 하다. 제거하자. `ex> viw`
-
-- 나의 ui select는 너무 못생겼다.
-
-### codecompanion
-
-- 배경색
-- 질문 단위로 코드 folding
-- lualine에 로딩 표시
-- _system prompt에 보면 답변의 마지막에 추가적인 도움을 제안하는데, 이부분을 적절히 포맷팅하는게 좋을듯._
-
-
-- workflow?
-- default shash command 정리(필요없는거 많다. file은 variable이랑 겹치기도 한다.)
-- context 잘 전달하기 (file, buffer, 각 단위에서 부분, visual_selected, sharing/pin/watch)
-  - visual block에서 채팅 버퍼를 열면 해당 부분이 context로 들어간다.
-
-#### local
-
-1. default-prompt_library: slash_command 지정된 것 쓸데없는것들 제거
-2. better_commit: slash_command를 prompt로 바꾸기
-3. review_commit: prompt만들기
-3. review_commit_deep: prompt만들기
-
-4. global-note에 있는 것들 격파
-5. 다른 사람들의 사용 사례 보기
-
-
-#### whichkey
-
-- basic
-  - new chat
-    - set name of chat
-  - open previouse chat: select from list
-  - focus last chat
-  - toggle last chat
-
-- prompt_library
-  - 어떤 애들은 `vim.ui.input` 또는 `vim.ui.select`를 받는다.
-
-
-
-
-#### slash_command vs variable vs tools vs prompt_library
-
-- tools: **comming soon...**
-
-- variable: static 요소들 alias 지정
-
-- slash_command: context 정의용으로만 사용하자. 적어도 variable보다는 쓸모가 있다.
-  - /workspace 활용하는 방법만 좀 익혀두고, 토큰량 고려해 항상 pin하거나 watch하면 괜찮을듯
-    - vectorcode plugin 설치
-  - file, buffer, fetch
-
-- prompt_library: 미리 정의된 프롬프트, file, url 참조 가능
-  - which-key 단축키로 지정해서 사용하기 용이함 `ex> Codecompanion.prompt("my-prompt")`
-  - 필요시 slash_command에 등록할 수도 있음(**별도로 slash command를 만들 필요가 없다!**)
-  - inline에서 처리될수도 있고, chat으로 갈수도 있다.
-  - 기본제공되는것을 없앨수는 없는 모양이다. 어차피 프롬프트는 keymap으로 만 활용하니 상관 없다.
-
-
-
-#### render-markdown
-
-html코드도 포맷팅
-
-<url>
-<buffer>
-<file>
-
-
-
+https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_software_engineer/
 
 ## Project
 
@@ -414,7 +321,7 @@ html코드도 포맷팅
 
 - 부분 운동
   1, [팔 이두, 10m](https://www.youtube.com/watch?v=BfZw0qMoa1A)
-  [팔 삼두, 10m](https://www.youtube.com/watch?v=DqnWLrrO0xY)
+  1, [팔 삼두, 10m](https://www.youtube.com/watch?v=DqnWLrrO0xY)
   [팔 전완, 10m](https://www.youtube.com/watch?v=EpCKQsydB2s)
   [가슴, 10m](https://www.youtube.com/watch?v=E7OAhVIbkbk)
   1, [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
