@@ -361,6 +361,8 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
   - 생성된 윈도우에서 파일명에 커서를 두고 열면 최근 윈도우의 우측에 다시 윈도우 생성
 
 
+- 스타크래프트 ai 어시스턴트
+  게임 프로세스 및 메모리를 분석해서 의사결정 등에 음성으로 도움을 준다.
 
 
 
