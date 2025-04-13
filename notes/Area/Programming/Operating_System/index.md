@@ -1,16 +1,16 @@
 # 󰏢 index
 
 
-## 설치&복제 [-]
+## 설치&복제 [-] 
 
 [부팅디스크 만들기](/Area/Programming/Operating_System/설치&복제/부팅디스크_만들기)
 [만자로 시스템 복사(이사)하기](/Area/Programming/Operating_System/설치&복제/만자로_시스템_복사)
 [Booting process](/Area/Programming/Operating_System/설치&복제/Booting_process)
-  > [-]
+  > [-] 
   > [How Does Linux Boot Process Work?](https://www.youtube.com/watch?v=XpFsMB6FoOs)
 
 
-## 서비스 관리 [-]
+## 서비스 관리 [-] 
 
 [systemd](/Area/Programming/Operating_System/서비스_관리/systemd)
 [sysz](/Area/Programming/Operating_System/서비스_관리/sysz)
@@ -65,7 +65,7 @@
 [xdg-open](/Area/Programming/Operating_System/system_Packages_&_Apps/xdg-open)
 
 
-## Shell & Terminal & Editor [-]
+## Shell & Terminal & Editor [-] 
 
 [command history](/Area/Programming/Operating_System/Shell_&_Terminal_&_Editor/command_history)
 [what is shell?](/Area/Programming/Operating_System/Shell_&_Terminal_&_Editor/what_is_shell?)
@@ -80,18 +80,18 @@
 [-] 공부하자
 [bash-shell, sed, awk, make, macro: 한글 가이드 문서](https://mug896.github.io/bash-shell/bug_reports.html)
 
-[-]
+[-] 
 [visidata](https://www.visidata.org/)
 - csv, sql 등 cli에서 데이터를 시각화하고 편집할 수 있는 툴
 
-[-]
+[-] 
 [navi](https://github.com/denisidoro/navi)
 - cli 명령어를 미리 입력해두고 편하게 불러와서 사용
 
 
-## secretes 관리 [-]
+## secretes 관리 [-] 
 
-[-]
+[-] 
 [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
 [secure auth for everything](https://www.youtube.com/watch?v=N5unsATNpJk)
 

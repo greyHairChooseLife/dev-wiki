@@ -2,26 +2,26 @@
 
 
 
-## Container [-]
+## Container [-] 
 
 [docker](/Area/Programming/Skills/Container/docker)
 [HUB: kubernetes](/Area/Programming/Skills/Container/kubernetes/index)
 
 
-[-]
+[-] 
 [from docker to open-source](https://www.youtube.com/watch?v=Z5uBcczJxUY)
 
 
-## Web Dev [-]
+## Web Dev [-] 
 
 [static vs dynamic website](/Area/Programming/Skills/Web_Dev/static_vs_dynamic_website)
 [design](/Area/Programming/Skills/Web_Dev/design)
 
 
-[-]
+[-] 
 [천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
 
-[-]
+[-] 
 - 제대로 된 에러핸들링 전략이 있어야겠다.
 
   `try ... catch ...` 구문은 연쇄적으로 에러를 추적한다. cascade error handling이라고 부를 수 있겠다.
@@ -115,9 +115,9 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 [single container SPA](/Area/Programming/Skills/CI_CD/single_container_SPA)
 
 
-## Languages [-]
+## Languages [-] 
 
-[Javascript](/Area/Programming/Skills/Languages/Javascript) [-]
+[Javascript](/Area/Programming/Skills/Languages/Javascript) [-] 
 [Typescript](/Area/Programming/Skills/Languages/Typescript)
 [Dart](/Area/Programming/Skills/Languages/Dart)
 
@@ -135,12 +135,12 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
   > 따라서 나는 가상환경의 확실한 격리를 컨테이너를 활용하여 시도한다.
 
 
-## Web Scraping [-]
+## Web Scraping [-] 
 
 [general tips](/Area/Programming/Skills/Web_Scraping/general_tips)
 
 
-[-]
+[-] 
 [Scrape Anything with DeepSeek V3 + Scraping Tool Integration (CHEAP & EASY)](https://www.youtube.com/watch?v=WkLdLJJzV1k&t=27s)
 
 
@@ -156,7 +156,7 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 
 
 
-## Database [-]
+## Database [-] 
 
 ### RDBMS
 
@@ -179,7 +179,7 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 [RDB vs NoSQL](/Area/Programming/Skills/Database/RDBMS/RDB_vs_NoSQL)
 
 
-[-]
+[-] 
 - SQL concurrency control, 트랜잭션의 Isolation 보장하기
   : serial schedule만 사용한다면 데이터 일관성을 해칠일은 없겠지만 성능 이슈가 있다.
     big data를 다룬다면 성능을 위해 none-serial schedule을 실행할 수 있도록 반드시 익혀두자.
@@ -190,3 +190,13 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 ### ETC
 
 [snake_case to camelCase](/Area/Programming/Skills/Database/ETC/snake_case_to_camelCase)
+
+
+## Network
+
+### proxy server
+
+
+[(ssh 등)원격지의 프로세스의 네트워크 요청을 로컬 환경의 네트워크 인터페이스로 날리기](/Area/Programming/Skills/Network/proxy_server/원격지의_프로세스의_네트워크_요청을_로컬_환경의_네트워크_인터페이스로_날리기)
+- nginx:
+  웹서버의 기능을 하는 만큼 들어오는 요청들을 적제 적소의 endpoint로 뿌려줄 수 있다.

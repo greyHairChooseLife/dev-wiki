@@ -39,7 +39,7 @@
 >     - 종료/중단된 프로젝트
 >     - 책임이 사라진 영역, 관심이 사라진 자원
 
-[-]
+[-] 
 https://github.com/jmacadie/telescope-hierarchy.nvim
 https://www.reddit.com/r/neovim/comments/1h25lal/what_are_your_favorite_underappreciated_neovim/
 https://github.com/rachartier/tiny-inline-diagnostic.nvim
@@ -53,7 +53,7 @@ https://github.com/mikavilpas/yazi.nvim
 
 
 
-[-]
+[-] 
 https://www.youtube.com/watch?v=OElI_q4qDF0
 https://www.youtube.com/watch?v=k7ouok3qks0
 https://www.youtube.com/watch?v=XcLkGT5pe2w
@@ -102,11 +102,11 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
   > [tohtml.vim](https://github.com/neovim/neovim/blob/3d3a99e69cda365cae9ad65831712301807a772b/runtime/lua/tohtml.lua)
 
 
-## Area [-]
+## Area [-] 
 
-### Programming [-]
+### Programming [-] 
 
-#### 살아남는 개발자는 무엇이 다른가? [-]
+#### 살아남는 개발자는 무엇이 다른가? [-] 
 
 > - 쉽게 변하지 않는 것들에 집중하자
 > - 시키는 대로 하기 전에 의심해라. 정말로 필요한 과정/단계/방법인가? 똑똑하고 신뢰할만한 사람일수록
@@ -118,10 +118,10 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 [일류와 이류의 차이 (반도체 전설 짐켈러)](/Area/Programming/살아남는_개발자는_무엇이_다른가?/일류와_이류의_차이_(반도체_전설_짐켈러))
 
 
-[-]
+[-] 
 [The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
 
-[-]
+[-] 
 [지식근로자의 생산성](https://www.joinc.co.kr/w/knowledge-workder-productivity)
 
 
@@ -135,7 +135,7 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 | API          | Anthropic      | claude.ai |
 
 
-#### Note Making [-]
+#### Note Making [-] 
 
 [Job-wiki 작성법](/Area/Programming/Note_Making/Job-wiki_작성법)
 
@@ -156,7 +156,7 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 [SSH protocol](/Area/Programming/Remote_Work/SSH_protocol)
 [rclone으로 클라우드 스토리지 서비스 동기화](/Area/Programming/Remote_Work/rclone으로_클라우드_스토리지_서비스_동기화)
 
-#### Operating System [-]
+#### Operating System [-] 
 
 [HUB: Operating System](/Area/Programming//Operating_System/index.md)
 
@@ -167,25 +167,26 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 5. secretes 관리
 6. etc
 
-#### Skills [-]
+#### Skills [-] 
 
 [HUB: Skills](/Area/Programming/Skills/index.md)
 
-1. Container
-2. Web Dev
-3. Chrome Extension
-4. Cloud Computing
-5. CI CD
-6. Languages
-7. Web Scraping
-8. Big Data
-9. Database
+- Container
+- Web Dev
+- Chrome Extension
+- Cloud Computing
+- CI CD
+- Languages
+- Web Scraping
+- Big Data
+- Database
+- Network
 
-#### Experience [-]
+#### Experience [-] 
 
-##### Architecture [-]
+##### Architecture [-] 
 
-[-]
+[-] 
 내가 그동안 설계한 것들 정리해두면 좋겠다.
 
 
@@ -207,10 +208,10 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 [오픈소스에 난생처음 PR 날리기](/Area/Programming/Experience/etc/오픈소스에_난생처음_PR_날리기)
 
 
-#### AI [-]
+#### AI [-] 
 
 
-[-]
+[-] 
 [“AI는 없는 인간만의 뭐가 있다? 그런 말 하는 사람 다 밀려났다.” (장강명 작가)](https://www.youtube.com/watch?v=bBaTc1JE42w)
 
 
@@ -286,7 +287,7 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 
 
 
-### 글쓰기 [-]
+### 글쓰기 [-] 
 
 > [!rf]
 >
@@ -301,17 +302,17 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 [살아오면서 겪어본 어려운 문제에 대하여](/Area/글쓰기/뭐든지/살아오면서_겪어본_어려운_문제에_대하여)
 
 
-#### 유투브 시청 [-]
+#### 유투브 시청 [-] 
 
 ['아들 학폭' 복수 나선 아빠, 판사도 "그럴 만했네.." 무죄 (2024.12.21/MBC뉴스)](/Area/글쓰기/유투브_시청/'아들_학폭'_복수_나선_아빠,_판사도_"그럴_만했네.."_무죄)
 [연금개혁으로 꿀빨았다는 50대, 과연 안 억울할까? (변명)](/Area/글쓰기/유투브_시청/연금개혁으로_꿀빨았다는_50대,_과연_안_억울할까?_(변명))
 
-[-]
+[-] 
 [사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
 - 이 사람은 구독하고 잘 봐야겠다.
 - 심지어 투자를 하고싶은 마음까지 들게 만든다.
 
-[-]
+[-] 
 [조건을 안보기 시작한 IT 업계](https://www.youtube.com/watch?v=M8oj2ZIoYbY)
 
 
@@ -336,9 +337,9 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
   1, [전신, 5m](https://www.youtube.com/watch?v=XeWwQK-I2Tg)
 
 
-### 민주 시민의 책임 & 권한 & 상식 [-]
+### 민주 시민의 책임 & 권한 & 상식 [-] 
 
-[세금 납부](/Area/민주_시민의_책임_&_권한_&_상식/세금_납부) [-]
+[세금 납부](/Area/민주_시민의_책임_&_권한_&_상식/세금_납부) [-] 
 [각종 서류](/Area/민주_시민의_책임_&_권한_&_상식/각종_서류)
 
 
