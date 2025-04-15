@@ -74,6 +74,11 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 
 [anthropic API & avante.nvim problem](/Project/anthropic_API_&_avante.nvim_problem)
 
+- gemini 2.5 pro api setting [-] 
+
+- "[chatbot ui](https://github.com/mckaywrigley/chatbot-ui) + API" vs "provided things" [-] 
+[API1](https://aistudio.google.com/app/apikey)
+[API2](https://ai.google.dev/gemini-api/docs/api-key)
 
 ### Pending
 
