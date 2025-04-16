@@ -1,6 +1,10 @@
 #  DEV WIKI
 
 
+https://jungle.krafton.com/apply/step1
+https://www.youtube.com/watch?v=JdZWGCVLztc
+
+
 -  내 두번째 번호 010 3039 7704
 
 
