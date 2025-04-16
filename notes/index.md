@@ -23,25 +23,25 @@ https://www.youtube.com/watch?v=JdZWGCVLztc
 >
 > PARA 메모법:_실행도를 기준으로 노트를 분류하는 기법. 주제별로 나누는 것이 아니다._
 >
->   - Project:
->     - **지금 가장 전념**하는 것
->     - 기간/목표가 명확함. 즉, 끝이 있음
->     - ex) 이사하기, 직장 취업하기, 책 쓰기
->
->   - Area:
->     - **끝이 없고, 꾸준히** 해 나가는 것
->     - 나의 책임이나 역할이 있음
->     - ex) 운동, 독서, 프로그래밍 실력 향상
->
->   - Resource:
->     - 관심 분야 정보
->     - 내 **책임은 없음**
->     - ex) 창업, 종교, 예술, 춤추는법 등
->
->   - Archive:
->     - 위의 세 가지에 속하지 않는 것
->     - 종료/중단된 프로젝트
->     - 책임이 사라진 영역, 관심이 사라진 자원
+> > - Project:
+> >   - **지금 가장 전념**하는 것
+> >   - 기간/목표가 명확함. 즉, 끝이 있음
+> >   - ex) 이사하기, 직장 취업하기, 책 쓰기
+> >  
+> > - Area:
+> >   - **끝이 없고, 꾸준히** 해 나가는 것
+> >   - 나의 책임이나 역할이 있음
+> >   - ex) 운동, 독서, 프로그래밍 실력 향상
+> >
+> > - Resource:
+> >   - 관심 분야 정보
+> >   - 내 **책임은 없음**
+> >   - ex) 창업, 종교, 예술, 춤추는법 등
+> >
+> > - Archive:
+> >   - 위의 세 가지에 속하지 않는 것
+> >   - 종료/중단된 프로젝트
+> >   - 책임이 사라진 영역, 관심이 사라진 자원
 
 [-] 
 https://github.com/jmacadie/telescope-hierarchy.nvim
@@ -340,8 +340,8 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 - 전신 운동
   [전신, 12m](https://www.youtube.com/watch?v=vl4S_e_dBuk)
   [전신, 10m](https://www.youtube.com/watch?v=8wEdqDDzHpc)
-  [전신, 8m](https://www.youtube.com/watch?v=C80QyNlAMss)
-  , [전신, 7m](https://www.youtube.com/watch?v=g-nzEPqqrx8)
+  1, [전신, 8m](https://www.youtube.com/watch?v=C80QyNlAMss)
+  1, [전신, 7m](https://www.youtube.com/watch?v=g-nzEPqqrx8)
   1, [전신, 6m](https://www.youtube.com/watch?v=LDb5Y4Ti6Bc)
   1, [전신, 5m](https://www.youtube.com/watch?v=XeWwQK-I2Tg)
 
