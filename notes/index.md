@@ -110,6 +110,9 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
   >
   > [tohtml.vim](https://github.com/neovim/neovim/blob/3d3a99e69cda365cae9ad65831712301807a772b/runtime/lua/tohtml.lua)
 
+- 생활법률상식사전
+  : 책인데, 이런거 온라인으로 접할 수 있다면 좋을것 같다.
+
 
 ## Area [-] 
 
@@ -361,12 +364,10 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 #### 운동
 
 - 부분 운동
-  1, [팔 이두, 10m](https://www.youtube.com/watch?v=BfZw0qMoa1A)
+  2, [팔 이두, 10m](https://www.youtube.com/watch?v=BfZw0qMoa1A)
   1, [팔 삼두, 10m](https://www.youtube.com/watch?v=DqnWLrrO0xY)
-  [가슴, 10m](https://www.youtube.com/watch?v=E7OAhVIbkbk)
   2, [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
   1, [어깨, 10m](https://www.youtube.com/watch?v=Lts-ddUgSFQ)
-  [배, 8m](https://www.youtube.com/watch?v=J90dERWZNUE)
 
 - 전신 운동
   [전신, 12m](https://www.youtube.com/watch?v=vl4S_e_dBuk)

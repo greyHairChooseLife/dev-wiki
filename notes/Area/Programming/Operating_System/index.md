@@ -1,4 +1,4 @@
-# 󰏢 index
+# 󰏢 injex
 
 
 ## 설치&복제 [-] 
@@ -104,5 +104,6 @@
   - simple tcp tunnel CLI. make localhost to public server
   - 이거 활용하면 SSH로 작업중인 서버의 개발서버를 원격지에서 접속해볼 수 있겠다.
     - 근데 어차피 hot-reloading 안되니 소용없나?
-
-
+!
+!
+[talon: speach to text](/Area/Programming/Operating_System/etc/talon)
