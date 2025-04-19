@@ -4,6 +4,7 @@
 https://jungle.krafton.com/apply/step1
 https://www.youtube.com/watch?v=JdZWGCVLztc
 
+Quin https://www.youtube.com/watch?v=RuyVBSZnQoY
 
 -  내 두번째 번호 010 3039 7704
 
