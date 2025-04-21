@@ -6,6 +6,26 @@ https://www.youtube.com/watch?v=JdZWGCVLztc
 
 Quin https://www.youtube.com/watch?v=RuyVBSZnQoY
 
+
+https://www.youtube.com/watch?v=QKf7DUhWUE0
+https://www.youtube.com/watch?v=do1aS_1WRHI
+https://www.youtube.com/watch?v=vGkGgVLGaUc
+https://www.youtube.com/watch?v=RuyVBSZnQoY
+https://www.youtube.com/watch?v=YA9icWWSDZY
+https://jungle.krafton.com/apply/info?pop=login&rtnPage=%2Fapply%2Fstep1
+https://www.youtube.com/watch?v=w4JSdpd3dOQ
+https://www.youtube.com/watch?v=ekIT7n4xiQY
+https://www.youtube.com/watch?v=IL2ur4_qMTk
+https://www.youtube.com/watch?v=p_pOIvXFDXQ
+https://www.youtube.com/watch?v=3wk45Ow3m3M
+https://www.youtube.com/watch?v=yD3SnuU6Pd8
+https://www.youtube.com/watch?v=G8jrAA2bPnA
+https://www.youtube.com/watch?v=yD3SnuU6Pd8
+https://chatgpt.com/?temporary-chat=true&model=gpt-4o
+
+
+
+
 -  내 두번째 번호 010 3039 7704
 
 
@@ -93,26 +113,14 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
   - 관련해서 스트레스를 준 아저씨가 있다. 골프장 아저씨
 
 
-- neovim `tohtml.vim` 개선
-
-  > `render-markdown.nvim`으로 렌더링(하이라이팅) 된 것을 있는 그대로 pdf 또는 이미지로 출력하고싶었다.
-  > `TOhtml` 명령을 이용해보란 조언을 얻었다.(vim.kr 디스코드 채널)
-  >
-  > 그런데 vimwiki에서 당장 TOhtml 해보면 에러가 발생하는거다. 이것에 대해 대화하다가 아래와같은 조언을
-  > 얻었다.
-  >
-  > ```txt
-  > tohtml이 루아로 변환된지 오래되지 않아서 어쩌면 네오빔 업스트림에 기여하실수도있어요
-  > 버그 고치신다면 리뷰하고 받아주실거같아요
-  > html 나온거에서 </pre> 에 해당하는 부분
-  > 그 부분 계산하다가 태그가 안맞아서 뻗은거네요
-  > <pre> .. </pre> 사이에 태그가 뭔가 빠졌다는건데
-  > ```
-  >
-  > [tohtml.vim](https://github.com/neovim/neovim/blob/3d3a99e69cda365cae9ad65831712301807a772b/runtime/lua/tohtml.lua)
 
 - 생활법률상식사전
   : 책인데, 이런거 온라인으로 접할 수 있다면 좋을것 같다.
+
+
+- 크롬 확장프로그램
+  : surfingkey의 경량 버전으로, 일반인도 쉽고 유용하게 사용할 수 있도록. 특히 이미지 다운로드 등
+  편리할듯
 
 
 ## Area [-] 
