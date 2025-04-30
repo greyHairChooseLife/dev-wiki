@@ -85,8 +85,18 @@ https://www.youtube.com/watch?v=XcLkGT5pe2w
 https://www.youtube.com/watch?v=20GQNkZpe-U
 https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_software_engineer/
 
+
+
+- 알파스캔 모니터 I2477FWQ
+  - 어뎁터 공식: 33,000원
+  - 규격: 12V 3.75A (외경:5.5 / 내경:2.5)
+
+
+
+
 ## Project
 
+[크래프톤 정글 지원하기](/Project/크래프톤_정글_지원하기)
 
 [CBPM 견적서 관리 웹앱 개발](/Project/CBPM_견적서_관리_웹앱_개발/index.md)
 
@@ -119,8 +129,10 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 
 
 - 크롬 확장프로그램
-  : surfingkey의 경량 버전으로, 일반인도 쉽고 유용하게 사용할 수 있도록. 특히 이미지 다운로드 등
-  편리할듯
+  - surfingkey의 경량 버전으로, 일반인도 쉽고 유용하게 사용할 수 있도록. 특히 이미지 다운로드 등
+    편리할듯
+  - AI가 현재 방문한 웹사이트의 ui를 매번 완전히 바꿔주는것도 괜찮을듯? 광고를 없앤다던지,
+    집중하고싶은것에만 집중한다던지, 색상을 관리해준다던지 등
 
 
 ## Area [-] 
@@ -374,13 +386,13 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 
 - 부분 운동
   2, [팔 이두, 10m](https://www.youtube.com/watch?v=BfZw0qMoa1A)
-  1, [팔 삼두, 10m](https://www.youtube.com/watch?v=DqnWLrrO0xY)
+  2, [팔 삼두, 10m](https://www.youtube.com/watch?v=DqnWLrrO0xY)
   2, [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
-  1, [어깨, 10m](https://www.youtube.com/watch?v=Lts-ddUgSFQ)
+  2, [어깨, 10m](https://www.youtube.com/watch?v=Lts-ddUgSFQ)
 
 - 전신 운동
   [전신, 12m](https://www.youtube.com/watch?v=vl4S_e_dBuk)
-  [전신, 10m](https://www.youtube.com/watch?v=8wEdqDDzHpc)
+  1, [전신, 10m](https://www.youtube.com/watch?v=8wEdqDDzHpc)
   1, [전신, 8m](https://www.youtube.com/watch?v=C80QyNlAMss)
   1, [전신, 7m](https://www.youtube.com/watch?v=g-nzEPqqrx8)
   1, [전신, 6m](https://www.youtube.com/watch?v=LDb5Y4Ti6Bc)
