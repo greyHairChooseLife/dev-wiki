@@ -23,7 +23,8 @@ https://www.youtube.com/watch?v=G8jrAA2bPnA
 https://www.youtube.com/watch?v=yD3SnuU6Pd8
 https://chatgpt.com/?temporary-chat=true&model=gpt-4o
 
-
+- 영어공부
+https://www.youtube.com/watch?v=A3X-n6bwVa0
 
 
 -  내 두번째 번호 010 3039 7704
