@@ -9,6 +9,7 @@
   > [-] 
   > [How Does Linux Boot Process Work?](https://www.youtube.com/watch?v=XpFsMB6FoOs)
 
+[Arch linux](/Area/Programming/Operating_System/설치&복제/arch_linux)
 
 ## 서비스 관리 [-] 
 

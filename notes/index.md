@@ -1,32 +1,6 @@
 #  DEV WIKI
 
 
-https://jungle.krafton.com/apply/step1
-https://www.youtube.com/watch?v=JdZWGCVLztc
-
-Quin https://www.youtube.com/watch?v=RuyVBSZnQoY
-
-
-https://www.youtube.com/watch?v=QKf7DUhWUE0
-https://www.youtube.com/watch?v=do1aS_1WRHI
-https://www.youtube.com/watch?v=vGkGgVLGaUc
-https://www.youtube.com/watch?v=RuyVBSZnQoY
-https://www.youtube.com/watch?v=YA9icWWSDZY
-https://jungle.krafton.com/apply/info?pop=login&rtnPage=%2Fapply%2Fstep1
-https://www.youtube.com/watch?v=w4JSdpd3dOQ
-https://www.youtube.com/watch?v=ekIT7n4xiQY
-https://www.youtube.com/watch?v=IL2ur4_qMTk
-https://www.youtube.com/watch?v=p_pOIvXFDXQ
-https://www.youtube.com/watch?v=3wk45Ow3m3M
-https://www.youtube.com/watch?v=yD3SnuU6Pd8
-https://www.youtube.com/watch?v=G8jrAA2bPnA
-https://www.youtube.com/watch?v=yD3SnuU6Pd8
-https://chatgpt.com/?temporary-chat=true&model=gpt-4o
-
-- 영어공부
-https://www.youtube.com/watch?v=A3X-n6bwVa0
-
-
 -  내 두번째 번호 010 3039 7704
 
 
@@ -65,27 +39,6 @@ https://www.youtube.com/watch?v=A3X-n6bwVa0
 > >   - 종료/중단된 프로젝트
 > >   - 책임이 사라진 영역, 관심이 사라진 자원
 
-[-] 
-https://github.com/jmacadie/telescope-hierarchy.nvim
-https://www.reddit.com/r/neovim/comments/1h25lal/what_are_your_favorite_underappreciated_neovim/
-https://github.com/rachartier/tiny-inline-diagnostic.nvim
-https://github.com/Wansmer/treesj
-https://www.google.com/search?q=codecompanion%20vs%20avante%20vs%20copilotchat
-https://github.com/AndreM222/copilot-lualine
-https://github.com/mikavilpas/yazi.nvim
-
-& devdocs.nvim
-& don't use copilot anymore, just supermaven
-
-
-
-[-] 
-https://www.youtube.com/watch?v=OElI_q4qDF0
-https://www.youtube.com/watch?v=k7ouok3qks0
-https://www.youtube.com/watch?v=XcLkGT5pe2w
-https://www.youtube.com/watch?v=20GQNkZpe-U
-https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_software_engineer/
-
 
 
 - 알파스캔 모니터 I2477FWQ
@@ -94,10 +47,7 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 
 
 
-
 ## Project
-
-[크래프톤 정글 지원하기](/Project/크래프톤_정글_지원하기)
 
 [CBPM 견적서 관리 웹앱 개발](/Project/CBPM_견적서_관리_웹앱_개발/index.md)
 
@@ -136,7 +86,7 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
     집중하고싶은것에만 집중한다던지, 색상을 관리해준다던지 등
 
 
-## Area [-] 
+## Area  [-] 
 
 ### Programming [-] 
 
@@ -276,32 +226,60 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 #### AI [-] 
 
 
-[-] 
-[“AI는 없는 인간만의 뭐가 있다? 그런 말 하는 사람 다 밀려났다.” (장강명 작가)](https://www.youtube.com/watch?v=bBaTc1JE42w)
+> [!lg] Log 2025-05-18
+>  
+> 통상 2가지 작업을 한다.
+>
+>   - 설득/보고를 위한 탐색 => research
+>   - 소프트웨어 결과물 => code
+>
+> 각각의 목적에 맞는 파이프라인이 있으면 좋다.
 
 
-- 사용중
-  [aider](/Area/Programming/AI/aider)
-  - avante.nvim
+> [!rf]
+>
+> [“AI는 없는 인간만의 뭐가 있다? 그런 말 하는 사람 다 밀려났다.” (장강명 작가)](https://www.youtube.com/watch?v=bBaTc1JE42w)
+> [대기업 AI 개발자 되는 방법부터 하는 일까지! 3명의 현직자가 다 알려드립니다ㅣGPU 최적화, LangChain, RAG, Kubernetes](https://www.youtube.com/watch?v=MWsOZ2IhtiU&pp=0gcJCY0JAYcqIYzv)
+
+
+##### research
+
+- 탐색 및 심층 이해
+
+  1. 프롬프트 생성: [maskara.ai](https://www.maskara.ai/)
+  2. 기초조사 및 출처 얻기: [perplexity.ai](https://www.perplexity.ai/)
+  3. 출처 정보를 탐색: [notebooklm.google.com](https://notebooklm.google.com/)
+
+
+- 데이터에서 인사이트 도출: [storytell.ai](https://storytell.ai/)
+
+
+- 데이터베이스 설계: [database.build](https://database.build/)
+
+  - 어떤 논리를 위해 어떤 데이터가 수집되어야 하는가? 
+  - 어떤 서비스를 진행하는데 통상 어떤 데이터를 수집하는가?
+
+
+##### code
+
+- Current
+  [aider](/Area/Programming/AI/code/aider)
   - github copilot with ChatCopilot.nvim
   - chatGPT web UI
-  - > [!lg] Log 2025-03-19
-    >
-    > avante.nvim vs ChatCopilot.nvim?
-    > : AI api provider에 직접 접근하냐, github에서 랩핑해서 배포하는걸 사용하냐의 차이
-    > 비용적으로는 copilot이 우위가 있으나 성능은 또 모르겠다. 일단은 지켜보는 수밖에?
+  - codecompanion.nvim
 
 
-- 관심
+- Interesting
   - devin(commercial) & [devica(open-source)](https://github.com/stitionai/devika/discussions)
     : agent-like
-  - codecompanion.nvim
-    : zed ai를 표방한다는데, 'cursor AI' 스타일보다 vim스럽긴 하다고 생각한다. 그러나 ai의
-    활용 면에서 나는 cursor AI 스타일을 선호한다.
 
+- Abandoned
+  - avante.nvim
 
-- ETC
-  [what is chatGPT?](/Area/Programming/AI/what_is_chatGPT?)
+##### etc
+
+[개념정리: what is chatGPT?](/Area/Programming/AI/etc/what_is_chatGPT?)
+[블로그 읽기: You are using Cursor AI incorrectly... 09 Feb 2025](/Area/Programming/AI/etc/블로그_읽기:_You_are_using_Cursor_AI_incorrectly..._09_Feb_2025)
 
 
 #### 알고리즘
@@ -383,21 +361,30 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
 
 ### 나를 사랑하기
 
+
 #### 운동
 
 - 부분 운동
-  2, [팔 이두, 10m](https://www.youtube.com/watch?v=BfZw0qMoa1A)
-  2, [팔 삼두, 10m](https://www.youtube.com/watch?v=DqnWLrrO0xY)
-  2, [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
-  2, [어깨, 10m](https://www.youtube.com/watch?v=Lts-ddUgSFQ)
+  1/ 2, [팔 이두, 10m](https://www.youtube.com/watch?v=BfZw0qMoa1A)
+  0/ 2, [팔 삼두, 10m](https://www.youtube.com/watch?v=DqnWLrrO0xY)
+  0/ 2, [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
+  0/ 2, [어깨, 10m](https://www.youtube.com/watch?v=Lts-ddUgSFQ)
 
 - 전신 운동
-  [전신, 12m](https://www.youtube.com/watch?v=vl4S_e_dBuk)
-  1, [전신, 10m](https://www.youtube.com/watch?v=8wEdqDDzHpc)
-  1, [전신, 8m](https://www.youtube.com/watch?v=C80QyNlAMss)
-  1, [전신, 7m](https://www.youtube.com/watch?v=g-nzEPqqrx8)
-  1, [전신, 6m](https://www.youtube.com/watch?v=LDb5Y4Ti6Bc)
-  1, [전신, 5m](https://www.youtube.com/watch?v=XeWwQK-I2Tg)
+  0/ 0, [전신, 12m](https://www.youtube.com/watch?v=vl4S_e_dBuk)
+  0/ 1, [전신, 10m](https://www.youtube.com/watch?v=8wEdqDDzHpc)
+  0/ 1, [전신, 8m](https://www.youtube.com/watch?v=C80QyNlAMss)
+  0/ 1, [전신, 7m](https://www.youtube.com/watch?v=g-nzEPqqrx8)
+  0/ 1, [전신, 6m](https://www.youtube.com/watch?v=LDb5Y4Ti6Bc)
+  0/ 1, [전신, 5m](https://www.youtube.com/watch?v=XeWwQK-I2Tg)
+
+#### 영어
+
+[오답노트](/Area/나를_사랑하기/English_오답노트)
+
+> [!rf]
+>
+> [이렇게 공부했더니 통역사가 되었습니다.](https://www.youtube.com/watch?v=A3X-n6bwVa0)
 
 
 ### 민주 시민의 책임 & 권한 & 상식 [-] 
@@ -580,3 +567,4 @@ https://www.reddit.com/r/neovim/comments/1jrpbi9/talk_with_lazar_nikolov_softwar
   [우정한사랑 이사](/Archive/Project/우정한사랑_이사)
   [gatsby로 블로그](/Archive/Project/gatsby로_블로그/index.md)
   [경주 골든 페스티벌](/Archive/Project/경주_골든_페스티벌)
+  [크래프톤 정글 지원하기](/Archive/Project/크래프톤_정글_지원하기)

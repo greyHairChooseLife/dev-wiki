@@ -1,17 +1,16 @@
 # 󰏢 aider
 
 
+## vim 통합
 
-### vim 통합
-
-#### 플러그인
+### 플러그인
 
 https://github.com/GeorgesAlkhouri/nvim-aider?tab=readme-ov-file
 
 - 이 밖에도 최소 2개 플러그인 있다.
 
 
-### slash 커맨드
+## slash 커맨드
 
 _주요 커맨드만 모았으며, 전체 리스트는 [공식문서](https://aider.chat/docs/usage/commands.html) 확인_
 
