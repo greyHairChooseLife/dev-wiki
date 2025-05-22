@@ -280,7 +280,7 @@
 
 [개념정리: what is chatGPT?](/Area/Programming/AI/etc/what_is_chatGPT?)
 [블로그 읽기: You are using Cursor AI incorrectly... 09 Feb 2025](/Area/Programming/AI/etc/블로그_읽기:_You_are_using_Cursor_AI_incorrectly..._09_Feb_2025)
-
+[유투브 시청: AI로 아마존 코딩 테스트 뚫고, 36일 만에 13억 매출을 만든 21살 | Cluely, Chungin (Roy) Lee](/Area/Programming/AI/etc/유투브_시청:_AI로_아마존_코딩_테스트_뚫고,_36일_만에_13억_매출을_만든_21살_|_Cluely,_Chungin_(Roy)_Lee)
 
 #### 알고리즘
 
