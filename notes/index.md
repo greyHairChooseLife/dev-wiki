@@ -368,7 +368,7 @@
   1/ 2, [팔 이두, 10m](https://www.youtube.com/watch?v=BfZw0qMoa1A)
   0/ 2, [팔 삼두, 10m](https://www.youtube.com/watch?v=DqnWLrrO0xY)
   0/ 2, [등, 10m](https://www.youtube.com/watch?v=BGd4sKOcl5I)
-  0/ 2, [어깨, 10m](https://www.youtube.com/watch?v=Lts-ddUgSFQ)
+  1/ 2, [어깨, 10m](https://www.youtube.com/watch?v=Lts-ddUgSFQ)
 
 - 전신 운동
   0/ 0, [전신, 12m](https://www.youtube.com/watch?v=vl4S_e_dBuk)
