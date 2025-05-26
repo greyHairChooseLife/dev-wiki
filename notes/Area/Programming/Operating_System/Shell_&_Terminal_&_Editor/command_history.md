@@ -222,6 +222,7 @@ magick input.jpg -resize 50% output.jpg
 
 # mons -e left && xrandr --output HDMI-1 --rotate left
 mons -e left && xrandr --output HDMI-0 --rotate left
+mons -e left && xrandr --output HDMI-5 --rotate normal --output HDMI-4 --rotate left
 ```
 
 
