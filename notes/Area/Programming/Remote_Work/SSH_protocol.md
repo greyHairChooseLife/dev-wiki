@@ -47,16 +47,23 @@ ssh -i <사용할_키> -p <포트번호> <user>@<host>
 
 ## 비밀번호 없이 ssh 연결하기
 
+> The process:
+> 
+> 1. **Client**: Generate SSH key pair (`ssh-keygen`)
+> 2. **Client → Server**: Transfer the public key to the server
+> 3. **Server**: Add the client's public key to `~/.ssh/authorized_keys`
+
 접속하려는 서버측에 ~/.ssh/authorized_keys 파일에 클라이언트 측의 공개키를 등록하면 비밀번호 없이 ssh 접속이 가능하다.
 
 1. 클라이언트에서 `ssh-keygen -t rsa`로 ssh 키를 생성한다.
    기본 세팅 그대로 해도 좋다.
 
-2. 생성된 `.pub` 퍼블릭 키를 서버의 auth key로 등록한다.
-   직접 갖다 복붙해도 되지만, `ssh-copy-id` 명령어를 사용하면 편리하다.
+2. 생성된 `.pub` 퍼블릭 키를 서버의  `~/.ssh/authorized_keys`로 등록한다.
+
+   또는 `ssh-copy-id` 명령을 이용해 client측에서 서버의 `~/.ssh/authorized_keys`에 등록 해준다.
 
    ```bash
-   ssh-copy-id -i ~/.ssh/id_rsa.pub <user>@<host>
+   ssh-copy-id -i ~/.ssh/cbpm_desktop.pub <user>@<host>
    ```
 
 > [!re] 특이사항
