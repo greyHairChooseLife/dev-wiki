@@ -1,14 +1,21 @@
 #  DEV WIKI
 
 
+
 -  내 두번째 번호 010 3039 7704
 
 
 > _이 위키의 목적은 기록하여 필요시 되찾아보기 위함이다.
 > 누군가에게 뽐내기 위한 용도가 아니다._
 
-
 > _"더 열심히 해"_ from.고은상
+
+> _"자기 극복에 대한 야생적 본능"_
+>
+> _"자신의 쾌락에 대한 진정한 자유와 통제,
+>  나는 나를 강화하는 쾌락을 추구하고 있는가? 아니면 나를 유순하고 의존적으로 유지하는 쾌락을 추구하고 있는가?"_
+>
+> _"나는 나의 욕망의 저자인가? 아니면 단순한 소비자인가?"_
 
 
 > _프로덕션에 가까운 프로젝트들을 보면서 배우는 것이 중요하다._
@@ -221,6 +228,7 @@
 [gitsigns.nvim plugin에 이슈 남기기](/Area/Programming/Experience/etc/gitsigns.nvim_plugin에_이슈_남기기)
 [nvim 플러그인에 이슈 남기기](/Area/Programming/Experience/etc/nvim_플러그인에_이슈_남기기)
 [오픈소스에 난생처음 PR 날리기](/Area/Programming/Experience/etc/오픈소스에_난생처음_PR_날리기)
+[Arch Linux 패키지 업데이트 후 X11 문제 해결](/Area/Programming/Experience/etc/Arch_Linux_패키지_업데이트_후_X11_문제_해결)
 
 
 #### AI [-] 
