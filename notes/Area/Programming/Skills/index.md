@@ -1,6 +1,18 @@
 # 󰏢 개발 환경 - Skills
 
 
+## Architecture
+
+> **Software Design Steps**
+> 
+> 1. 요구사항 분석
+> 2. 개발 task 도출
+> 3. 구조 설계
+> 4. 기술 스택 선정
+> 5. 패턴 결정
+>
+> [ref](https://www.youtube.com/watch?v=Z4wJfDl9LtI)
+
 
 ## Container [-] 
 
@@ -17,6 +29,7 @@
 
 [static vs dynamic website](/Area/Programming/Skills/Web_Dev/static_vs_dynamic_website)
 [design](/Area/Programming/Skills/Web_Dev/design)
+[nginx + TLS with certbot](/Area/Programming/Skills/Web_Dev/nginx_+_TLS_with_certbot)
 
 
 [-] 
@@ -112,6 +125,7 @@ typescript의 기본 request, response객체 타입에 어긋난게 에러의 �
 ## Cloud Computing
 
 [AWS](/Area/Programming/Skills/Cloud_Computing/AWS)
+[Complete rclone Google Drive CLI Guide](/Area/Programming/Skills/Cloud_Computing/Complete_rclone_Google_Drive_CLI_Guide)
 
 
 ## CI CD
@@ -194,6 +208,12 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
     big data를 다룬다면 성능을 위해 none-serial schedule을 실행할 수 있도록 반드시 익혀두자.
     > [!rf]
     > [개념 강의](https://www.youtube.com/watch?v=DwRN24nWbEc&list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe&index=15)
+
+
+### NoSQL
+
+[MongoDB](/Area/Programming/Skills/Database/NoSQL/MongoDB)
+
 
 
 ### ETC

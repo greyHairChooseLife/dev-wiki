@@ -10,3 +10,5 @@
 [2025-05-23_00-10](./from_codecompanion_conversation/2025-05-23_00-10)
 [2025-05-27_21-58](./from_codecompanion_conversation/2025-05-27_21-58)
 [2025-06-05_21-16](./from_codecompanion_conversation/2025-06-05_21-16)
+[2025-06-12_20-56](./from_codecompanion_conversation/2025-06-12_20-56)
+[2025-06-12_20-57](./from_codecompanion_conversation/2025-06-12_20-57)

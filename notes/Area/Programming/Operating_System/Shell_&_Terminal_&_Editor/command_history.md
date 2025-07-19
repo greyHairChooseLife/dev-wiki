@@ -31,6 +31,9 @@ nmcli device wifi list
 # wifi 연결(이미 접속 정보가 저장되어 있을 경우 password 생략 가능)
 nmcli device wifi connect <SSID> password <password>
 
+# 보안 요구사항에 따라 터미널에서도 암호화 요구하는 경우가 있다.
+nmcli device wifi connect <SSID> --ask
+
 # 비밀번호 확인
 nmcli -s -g 802-11-wireless-security.psk connection show <SSID>
 ```

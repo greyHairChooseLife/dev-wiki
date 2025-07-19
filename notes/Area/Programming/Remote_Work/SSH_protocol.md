@@ -45,6 +45,41 @@ ssh -i <사용할_키> -p <포트번호> <user>@<host>
 ```
 
 
+
+## tunneling
+
+```bash
+ssh -t -i ~/.ssh/my-key -p 22 -L 8080:localhost:80 me@123.123.123.123
+```
+
+보통 80번 포트는 기본적으로 막혀있다. 8080 등 다른걸로 뚫어서 사용하고, 필요시 로컬 시스템 내에서
+포트포워딩 하자.
+
+
+### local system port_forwarding & port_redirection
+
+- Check current setup:
+  ```bash
+  sudo iptables -t nat -L -n -v
+  ```
+
+
+
+- Add a Rule to the `OUTPUT` Chain:
+  ```bash
+  sudo iptables -t nat -A OUTPUT -p tcp --dport 80 -j REDIRECT --to-port 8080
+  ```
+  - This will redirect traffic **originating from your local machine** to port 8080.
+
+
+
+- Remove the rule which is added to the OUTPUT chain:
+  ```bash
+  sudo iptables -t nat -D OUTPUT -p tcp --dport 80 -j REDIRECT --to-port 8080
+  ```
+
+
+
 ## 비밀번호 없이 ssh 연결하기
 
 > The process:
