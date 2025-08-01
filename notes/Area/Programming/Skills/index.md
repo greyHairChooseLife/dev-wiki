@@ -31,6 +31,7 @@
 [design](/Area/Programming/Skills/Web_Dev/design)
 [nginx + TLS with certbot](/Area/Programming/Skills/Web_Dev/nginx_+_TLS_with_certbot)
 
+[Vanilla JS Web Project Workflow](/Area/Programming/Skills/Web_Dev/Vanilla_JS_Web_Project_Workflow)
 
 [-] 
 [천재들이 만든 웹의 구조는 실제로 이렇게 동작합니다.](https://www.youtube.com/watch?v=po5_T3wSPJI)
