@@ -75,6 +75,21 @@
 
 
 
+
+> **준비물**
+>
+> - 노트북 asus TUF A14 4070 (2024)
+>
+> - 옷
+>
+>   [반바지](https://www.youtube.com/watch?v=OruJkiDy4ns)
+>
+> 
+> - 바리깡
+  
+
+
+
 ## Project
 
 
