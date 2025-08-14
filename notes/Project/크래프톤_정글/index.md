@@ -36,6 +36,7 @@
 
 
 
+
 ### 내일배움카드
 
 - [x] 카드 신청
@@ -96,7 +97,7 @@
    수강신청 정정 등 진행
 
 
-## 11기 입소 준비 안내
+### 11기 입소 준비 안내 by 크래프톤
 
 
 	
@@ -136,6 +137,17 @@
       - _"추후 정보호가인 후 연락드리겠습니다."_ 라고 안내받았으니 일단 기다리면 될 일.
       - 관련 문의 02-6050-3593/3911 
 
+
+
+### 선행학습
+
+
+#### 훈련교재
+
+`[KRAFTON]` Do it! 자료구조와 함께 배우는 알고리 즘입문: 파이썬 편 / 시타바보요 / 2020
+`[KRAFTON]` Introduction to Algorithms / Thomans H. Cormen / 2024
+`[KRAFTON]` 컴퓨터시스템 / Randal E.Bryan / 2016
+`[KRAFTON]` 운영체제 아주 쉬운 세가지 이야기 (Operating systems : three easy pieces) / Remzi H.Arpaci-Dusseau/ 2020
 
 
 
