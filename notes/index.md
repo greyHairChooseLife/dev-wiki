@@ -74,23 +74,6 @@
   - 규격: 12V 3.75A (외경:5.5 / 내경:2.5)
 
 
-- e-book reader 
-  - 컬러: 이노스페이스원 지구 (JIGU) 컬러 7인치
-  - 컬러: ~오닉스 북스 GO 컬러 7인치~ 필기 x
-  - ㄱ백ghgh
-
-
-
-> **준비물**
->
-> - 노트북 asus TUF A14 4070 (2024)
->
-> - 옷
->
->   [반바지](https://www.youtube.com/watch?v=OruJkiDy4ns)
->
-> 
-> - 바리깡
   
 
 
@@ -99,6 +82,9 @@
 
 
 [대만 여행](대만_여행)
+
+
+[크래프톤 정글](/Project/크래프톤_정글/index.md)
 
 
 [CBPM 견적서 관리 웹앱 개발](/Project/CBPM_견적서_관리_웹앱_개발/index.md)
@@ -636,4 +622,3 @@
   [우정한사랑 이사](/Archive/Project/우정한사랑_이사)
   [gatsby로 블로그](/Archive/Project/gatsby로_블로그/index.md)
   [경주 골든 페스티벌](/Archive/Project/경주_골든_페스티벌)
-  [크래프톤 정글 지원하기](/Archive/Project/크래프톤_정글_지원하기)
