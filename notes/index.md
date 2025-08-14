@@ -74,6 +74,11 @@
   - 규격: 12V 3.75A (외경:5.5 / 내경:2.5)
 
 
+- e-book reader 
+  - 컬러: 이노스페이스원 지구 (JIGU) 컬러 7인치
+  - 컬러: ~오닉스 북스 GO 컬러 7인치~ 필기 x
+  - ㄱ백ghgh
+
 
 
 > **준비물**
@@ -195,6 +200,12 @@
 |              | OpenAI GPT     | $20/M     |
 |              | Figma          | $15/M     |
 | API          | Anthropic      | claude.ai |
+
+
+
+#### Hardware
+
+[사용해온 노트북](/Area/Programming/Hardware/사용해온_노트북)
 
 
 #### Note Making [-] 
