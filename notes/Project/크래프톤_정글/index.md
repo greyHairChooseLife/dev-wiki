@@ -18,15 +18,6 @@
 
 
 
-- 노트북
-
-  - [c] asus TUF A14 4070 (2024)
-  - [x] 2019 thinkpad x390 
-
-  - 보조모니터
-  - 마우스/키보드/헤드폰 등 보조 입출력 기기 연결성 확인
-
-
 - 생활용품
 
   - 옷
@@ -36,6 +27,62 @@
 
 
   - 바리깡
+
+
+
+
+#### 컴퓨터 상태 점검
+
+##### ideapad
+
+- [ ] 듀얼부팅 셋업
+  - 최소파티션 및 향후 수정 가능한가?
+
+##### x390 (당근 17만원)
+
+[Thinkpad x390 재원](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X390/ThinkPad_X390_Spec.PDF)
+
+- [x] arch linux os & env
+- [x] 입출력 장치 연결
+  - devices
+    - LAN port
+    - Displays
+    - charger
+    - keyboards
+    - mouse
+    - headphone
+    - airpod
+
+  - 구입 목록
+    - Dock
+      - [x] Thinkpad pro docking 40AH (당근에서 구매)
+
+    - 보조모니터
+      - [x] IPS / subpixel / non-glare/ FHD^ / 16"^ / c타입 출력 / 선 하나로 충전 및 화면출력
+        - 카멜 QHD 프리즘 포터블 모니터
+          - 화면크기: 40.6cm
+          - 모델명/품번: CPM1610IQ 
+
+    - AC adapter
+      - [x] 기존 65W
+      - [x] qcy 등 65W 이상 하나 더 구입
+        - Toocki GaN PPS 67W 3포트 접지형 디스플레이
+
+    - 케이블
+      - [x] 잡케이블(키보드 무선 연결 등...)
+      - [x] 키보드 연결용 마그네틱 2개
+        - 오파츠 6in1 PD100W 마그네틱 자석충전케이블 컨넥터 젠더 별도판매 아이폰 PD27W
+      - [x] 디스플레이 출력
+        - [x] HDMI 1.4^ (x390: 4K 24Hz)
+        - [x] C2C (x390: 4K 60Hz)
+          - 바라보고 더블 ㄱ자 1.0M
+          - 바라보고 더블 ㄱ자 0.5M
+        - [x] DP
+      - [x] 충전
+        - [x] c-to-c / ㄱ자 모양 / 100W (x390: 65W)
+        - [x] c-to-c 100W 기본모양 (다이소 구매)
+      - [x] LAN 선
+
 
 
 
