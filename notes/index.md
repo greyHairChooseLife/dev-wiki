@@ -1,17 +1,7 @@
 #  DEV WIKI
-모니터
-https://www.google.com/search?q=%EB%B3%B4%EC%A1%B0%EB%AA%A8%EB%8B%88%ED%84%B0+ips+&sca_esv=392931b93c8c4b33&ei=KvafaLioC4Wp1e8P0suqmAg&ved=0ahUKEwi45bSPrY6PAxWFVPUHHdKlCoMQ4dUDCBA&uact=5&oq=%EB%B3%B4%EC%A1%B0%EB%AA%A8%EB%8B%88%ED%84%B0+ips+&gs_lp=Egxnd3Mtd2l6LXNlcnAiFOuztOyhsOuqqOuLiO2EsCBpcHMgMgYQABgIGB4yBRAAGO8FMggQABiABBiiBDIFEAAY7wUyCBAAGIAEGKIEMgUQABjvBUjPT1AAWNhMcBB4AZABBJgBeqAB5BGqAQQyLjE5uAEDyAEA-AEBmAIcoAKoDKgCBcICCxAuGIAEGLEDGIMBwgIEEAAYA8ICCxAAGIAEGLEDGIMBwgIFEC4YgATCAhoQLhiABBixAxiDARiXBRjcBBjeBBjgBNgBAcICFBAAGIAEGOMEGOkEGOoCGLQC2AECwgIIEC4YgAQYsQPCAg4QLhiABBixAxjHARjRA8ICCBAAGIAEGLEDwgIXEC4YgAQYsQMYlwUY3AQY3gQY4ATYAQHCAhEQLhiABBixAxiDARjHARjRA8ICBxAuGAMY1ALCAgsQLhiDARixAxiABMICCxAuGIAEGMcBGK8BwgIaEC4YgAQYsQMYgwEYlwUY3AQY3gQY3wTYAQHCAgoQABiABBiKBRhDwgIFEAAYgATCAggQABiJBRiiBMICBBAAGB7CAgYQABgFGB6YAwe6BgYIARABGBS6BgQIAhgHkgcFMTYuMTKgB9ijAbIHBDAuMTK4B6ELwgcHMi0xNi4xMsgH5gE&sclient=gws-wiz-serp
-https://search.danawa.com/dsearch.php?query=%EB%B3%B4%EC%A1%B0%EB%AA%A8%EB%8B%88%ED%84%B0&originalQuery=%EB%B3%B4%EC%A1%B0%EB%AA%A8%EB%8B%88%ED%84%B0&checkedInfo=N&volumeType=allvs&page=1&limit=40&sort=saveDESC&list=list&boost=true&tab=main&addDelivery=N&coupangMemberSort=&simpleDescOpen=Y&attribute=936-5006-OR%2C6085-232442-AND&mode=simple&isInitTireSmartFinder=N&recommendedSort=N&defaultUICategoryCode=112757&defaultPhysicsCategoryCode=860%7C13735%7C14883%7C58970&defaultVmTab=1583&defaultVaTab=48479&isZeroPrice=Y&quickProductYN=N&priceUnitSort=N&priceUnitSortOrder=A
-https://prod.danawa.com/info/?pcode=15975230&keyword=%EB%B3%B4%EC%A1%B0%EB%AA%A8%EB%8B%88%ED%84%B0&cate=112757#bookmark_cm_opinion
-https://www.youtube.com/results?search_query=%ED%8F%AC%ED%84%B0%EB%B8%94+%EB%AA%A8%EB%8B%88%ED%84%B0
-https://www.youtube.com/watch?v=bL3Won-DjXo
-https://www.google.com/search?q=ips+%ED%8F%AC%ED%84%B0%EB%B8%94+%EB%AA%A8%EB%8B%88%ED%84%B0&oq=ips+%ED%8F%AC%ED%84%B0%EB%B8%94+%EB%AA%A8%EB%8B%88%ED%84%B0&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg90gEIMzIzMGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8
-https://www.coupang.com/np/search?component=&q=%ED%8F%AC%ED%84%B0%EB%B8%94+%EB%AA%A8%EB%8B%88%ED%84%B0+16+ips+qhd&channel=user
-https://www.coupang.com/vp/products/6996866813?itemId=17144648022
-https://www.youtube.com/results?search_query=%EC%B9%B4%EB%A9%9C+QHD+%ED%94%84%EB%A6%AC%EC%A6%98+%ED%8F%AC%ED%84%B0%EB%B8%94+%EB%AA%A8%EB%8B%88%ED%84%B0+16
-https://www.youtube.com/watch?v=Vm9RmbNg9Lc
-https://www.youtube.com/watch?v=FSupM6qcr8c
-https://www.youtube.com/watch?v=Vf4EvH9x6BE
+
+
+https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you_probably_arent_using/
 
 
 > - 배포는 어떻게 하실까요? 보통 supabase+vercel로 올리는데 더 빠르게 배포 가능한 방법이 있을까요?
@@ -384,6 +374,8 @@ https://www.youtube.com/watch?v=Vf4EvH9x6BE
 [선물 하고싶은 것](/Area/좋은_가족,_좋은_친구,_멋진_인간_하기/선물_하고싶은_것)
 [감사한 마음](/Area/좋은_가족,_좋은_친구,_멋진_인간_하기/감사한_마음)
 [다른 입장을 이해해 보기](/Area/좋은_가족,_좋은_친구,_멋진_인간_하기/다른_입장을_이해해_보기)
+
+[매형과의 대화](/Area/좋은_가족,_좋은_친구,_멋진_인간_하기/매형과의_대화)
 
 
 
