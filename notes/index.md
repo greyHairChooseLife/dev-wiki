@@ -1,6 +1,10 @@
 #  DEV WIKI
 
 
+> **learn software**
+> 
+> https://pocu.academy/ko/Courses
+
 https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you_probably_arent_using/
 
 
