@@ -1,6 +1,13 @@
 #  DEV WIKI
 
 
+
+
+
+
+
+
+
 > **learn software**
 > 
 > https://pocu.academy/ko/Courses
@@ -200,6 +207,9 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
 [사용해온 노트북](/Area/Programming/Hardware/사용해온_노트북)
 
 [주변기기](/Area/Programming/Hardware/주변기기)
+
+[docking station과 외부 모니터](/Area/Programming/Hardware/docking_station과_외부_모니터)
+
 
 
 
