@@ -486,6 +486,7 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
 - 스타크래프트 ai 어시스턴트
   게임 프로세스 및 메모리를 분석해서 의사결정 등에 음성으로 도움을 준다.
 
+- 다양한 종류의 전자잉크 제품을 만들고 싶다. 휴대폰이라던지... 
 
 
 
