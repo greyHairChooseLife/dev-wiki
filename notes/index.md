@@ -6,116 +6,31 @@
 
 
 
-
-
-> **learn software**
-> 
-> https://pocu.academy/ko/Courses
-
-https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you_probably_arent_using/
-
-
-> - 배포는 어떻게 하실까요? 보통 supabase+vercel로 올리는데 더 빠르게 배포 가능한 방법이 있을까요?
->   - js 계열이라면 vercel + supabase가 가장 낫다고 생각합니다! 저도 리액트, 스벨트 프로젝트들은 모두 버셀에 배포했었어요. 지금은 레일즈를 사용하고 DigitalOcean 같은 곳에서 가상 인스턴스에 배포하고 있어요. 레일즈에 kamal이라는 배포툴이 내장되어 있어서 쉽게 배포가 됩니다!
-
-
-
-> 태영건설       SBS
-> 
-> 유진기업(래미콘,아스콘,골재)       YTN
-> 호반건설       광주방송  서울신문, 
-> 부영주택         TV조선,인천일보
-> SG건설        강원민방   
-> SM그룹       울산방송, 
-> 중흥그룹     헤럴드경제 ( 2022년 M&A를 통해 중흥토건과 중흥건설이 대우건설 주식 총 50.75%(2조 670억)를 소유)   
-> 부원건설          중도일보    브릿지경제, 
-> 동양종합건설          영남일보 
-
-
-
-- [-] 
-> useful Rust TUI Apps. -- `aichat, bat, btm, dust, fd-find, procs, ripgrep, lsd, petname, ruff, starship, teal-deer, uv 
-
--  내 두번째 번호 010 3039 7704
-
-
-> _이 위키의 목적은 기록하여 필요시 되찾아보기 위함이다.
-> 누군가에게 뽐내기 위한 용도가 아니다._
-
-> _"더 열심히 해"_ from.고은상
-
-> _"자기 극복에 대한 야생적 본능"_
->
-> _"자신의 쾌락에 대한 진정한 자유와 통제,
->  나는 나를 강화하는 쾌락을 추구하고 있는가? 아니면 나를 유순하고 의존적으로 유지하는 쾌락을 추구하고 있는가?"_
->
-> _"나는 나의 욕망의 저자인가? 아니면 단순한 소비자인가?"_
-
-
-> _프로덕션에 가까운 프로젝트들을 보면서 배우는 것이 중요하다._
-> _"Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 마스토돈, nodejs는 미스키, 파이썬은 bookwyrm"_
-
-
-> _Make note? Do PARA!_
->
-> PARA 메모법:_실행도를 기준으로 노트를 분류하는 기법. 주제별로 나누는 것이 아니다._
->
-> > - Project:
-> >   - **지금 가장 전념**하는 것
-> >   - 기간/목표가 명확함. 즉, 끝이 있음
-> >   - ex) 이사하기, 직장 취업하기, 책 쓰기
-> >  
-> > - Area:
-> >   - **끝이 없고, 꾸준히** 해 나가는 것
-> >   - 나의 책임이나 역할이 있음
-> >   - ex) 운동, 독서, 프로그래밍 실력 향상
-> >
-> > - Resource:
-> >   - 관심 분야 정보
-> >   - 내 **책임은 없음**
-> >   - ex) 창업, 종교, 예술, 춤추는법 등
-> >
-> > - Archive:
-> >   - 위의 세 가지에 속하지 않는 것
-> >   - 종료/중단된 프로젝트
-> >   - 책임이 사라진 영역, 관심이 사라진 자원
-
-
-
-- 알파스캔 모니터 I2477FWQ
-  - 어뎁터 공식: 33,000원
-  - 규격: 12V 3.75A (외경:5.5 / 내경:2.5)
-
-
-  
-
-
-
-## Project
-
-
-[대만 여행](대만_여행)
-
+**Quick**
 
 [크래프톤 정글](/Project/크래프톤_정글/index.md)
 
 
-[CBPM 견적서 관리 웹앱 개발](/Project/CBPM_견적서_관리_웹앱_개발/index.md)
+  
+
+## Project
+
+
+
+[크래프톤 정글](/Project/크래프톤_정글/index.md)
 
 [결혼에 확신을 갖는 방법 찾기](/Project/결혼에_확신을_갖는_방법_찾기/index.md)
 
-[성금 엄마아빠집 리모델링](/Project/성금_엄마아빠집_리모델링/index.md)
-
 [만다라트](/Project/만다라트/index.md)
   - 2차전에 돌입했다.
+  
 
-[anthropic API & avante.nvim problem](/Project/anthropic_API_&_avante.nvim_problem)
 
-- gemini 2.5 pro api setting [-] 
+> [!td]
+>
+> [대만 여행](대만_여행) 후기를 10분정도 간단히 작성해보자.  -->  archive
 
-- "[chatbot ui](https://github.com/mckaywrigley/chatbot-ui) + API" vs "provided things" [-] 
-[API1](https://aistudio.google.com/app/apikey)
-[API2](https://ai.google.dev/gemini-api/docs/api-key)
+
 
 ### Pending
 
@@ -137,11 +52,34 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
     집중하고싶은것에만 집중한다던지, 색상을 관리해준다던지 등
 
 
-## Area  [-] 
+## Area
 
-### Programming [-] 
+### Programming
 
-#### 살아남는 개발자는 무엇이 다른가? [-] 
+
+> [!nt]
+>
+> 프로덕션에 가까운 프로젝트들을 보면서 배우는 것이 중요하다.
+> "Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 마스토돈, nodejs는 미스키, 파이썬은 bookwyrm"
+
+
+> [!rf]
+>
+> 
+> - backend course
+>   [web-course](https://www.boot.dev/tracks/backend)
+>   [github](https://github.com/bootdotdev/curriculum)
+> 
+> - ETC
+>   [7 Habits For Effective Text Editing](https://www.youtube.com/watch?v=eX9m3g5J-XA)
+>   [양질의 블로그](https://www.joinc.co.kr/w/architecture)
+>   [`TS`, `python` 등 다양한 주제 튜토리얼](https://www.squash.io/tutorials/)
+>   [The twelve-factor app](https://12factor.net/)
+>   [Harvard CS 50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
+>   [포큐 아카데미 - 프로그래밍 기초](https://pocu.academy/ko/Courses)
+
+
+#### 살아남는 개발자는 무엇이 다른가?
 
 > - 시키는 대로 하기 전에 의심해라. 정말로 필요한 과정/단계/방법인가? 똑똑하고
 >   신뢰할만한 사람일수록 더더욱.
@@ -210,10 +148,15 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
 
 [docking station과 외부 모니터](/Area/Programming/Hardware/docking_station과_외부_모니터)
 
+> [!nt]
+>
+> - 알파스캔 모니터 I2477FWQ
+>   - 어뎁터 공식: 33,000원
+>   - 규격: 12V 3.75A (외경:5.5 / 내경:2.5)
 
 
 
-#### Note Making [-] 
+#### Note Making
 
 [Job-wiki 작성법](/Area/Programming/Note_Making/Job-wiki_작성법)
 
@@ -234,7 +177,7 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
 [SSH protocol](/Area/Programming/Remote_Work/SSH_protocol)
 [rclone으로 클라우드 스토리지 서비스 동기화](/Area/Programming/Remote_Work/rclone으로_클라우드_스토리지_서비스_동기화)
 
-#### Operating System [-] 
+#### Operating System
 
 [HUB: Operating System](/Area/Programming//Operating_System/index.md)
 
@@ -245,7 +188,7 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
 5. secretes 관리
 6. etc
 
-#### Skills [-] 
+#### Skills
 
 [HUB: Skills](/Area/Programming/Skills/index.md)
 
@@ -260,7 +203,7 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
 - Database
 - Network
 
-#### Experience [-] 
+#### Experience
 
 ##### Architecture [-] 
 
@@ -287,7 +230,7 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
 [Arch Linux 패키지 업데이트 후 X11 문제 해결](/Area/Programming/Experience/etc/Arch_Linux_패키지_업데이트_후_X11_문제_해결)
 
 
-#### AI [-] 
+#### AI
 
 
 > [!lg] Log 2025-05-18
@@ -371,20 +314,6 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
   3. 리트코드가 신빙성 있고, medium 정도면 차고도 넘침
   ```
 
-#### REFERENCE
-
-- ETC
-  [7 Habits For Effective Text Editing](https://www.youtube.com/watch?v=eX9m3g5J-XA)
-  [양질의 블로그](https://www.joinc.co.kr/w/architecture)
-  [`TS`, `python` 등 다양한 주제 튜토리얼](https://www.squash.io/tutorials/)
-  [The twelve-factor app](https://12factor.net/)
-  [Harvard CS 50 (2023) – Full Computer Science University Course](https://www.youtube.com/watch?v=LfaMVlDaQ24)
-
-- backend course
-  [web-course](https://www.boot.dev/tracks/backend)
-  [github](https://github.com/bootdotdev/curriculum)
-
-
 
 ### 좋은 가족, 좋은 친구, 멋진 인간 하기
 
@@ -459,7 +388,7 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
 [the economist](https://www.youtube.com/watch?=hea9__pHHGQ)
 
 
-### 민주 시민의 책임 & 권한 & 상식 [-] 
+### 민주 시민의 책임 & 권한 & 상식
 
 [세금 납부](/Area/민주_시민의_책임_&_권한_&_상식/세금_납부) [-] 
 [각종 서류](/Area/민주_시민의_책임_&_권한_&_상식/각종_서류)
@@ -644,3 +573,33 @@ https://www.reddit.com/r/commandline/comments/1m95blj/hidden_git_config_gems_you
   [우정한사랑 이사](/Archive/Project/우정한사랑_이사)
   [gatsby로 블로그](/Archive/Project/gatsby로_블로그/index.md)
   [경주 골든 페스티벌](/Archive/Project/경주_골든_페스티벌)
+  [성금 엄마아빠집 리모델링](/Archive/Project/성금_엄마아빠집_리모델링/index.md)
+  [CBPM 견적서 관리 웹앱 개발](/Archive/Project/CBPM_견적서_관리_웹앱_개발/index.md)
+
+
+
+
+## How To Note: PARA
+
+
+**PARA 메모법**
+
+> - Project:
+>   - **지금 가장 전념**하는 것
+>   - 기간/목표가 명확함. 즉, 끝이 있음
+>   - ex) 이사하기, 직장 취업하기, 책 쓰기
+>  
+> - Area:
+>   - **끝이 없고, 꾸준히** 해 나가는 것
+>   - 나의 책임이나 역할이 있음
+>   - ex) 운동, 독서, 프로그래밍 실력 향상
+>
+> - Resource:
+>   - 관심 분야 정보
+>   - 내 **책임은 없음**
+>   - ex) 창업, 종교, 예술, 춤추는법 등
+>
+> - Archive:
+>   - 위의 세 가지에 속하지 않는 것
+>   - 종료/중단된 프로젝트
+>   - 책임이 사라진 영역, 관심이 사라진 자원
