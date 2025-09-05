@@ -3,65 +3,37 @@
 
 
 
+[지원하기](지원하기)
 
-
-
-
-
-
-
-[입소식](입소식)
-[week-0](week-0)
-[에세이](에세이)
-[week-1](week-1)
 [ETC](ETC)
 
-baekjoon/
-  chooselife
-  네이버
-
-
 ---
 
 
 
-
-
-[생활](생활)
-
+[week-0](week-0)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-> [!rf]
+> [!INFO] 알고리즘 (1~4주차)
 >
-> [정글 캠퍼스 생활 안내(교육생 안내용)](https://kraftonjungle.notion.site/junglecampuslife) 
-> 
-> - 훈련교재
-> > `[KRAFTON]` Do it! 자료구조와 함께 배우는 알고리 즘입문: 파이썬 편 / 시타바보요 / 2020
-> > `[KRAFTON]` Introduction to Algorithms / Thomans H. Cormen / 2024
-> > `[KRAFTON]` 컴퓨터시스템 / Randal E.Bryan / 2016
-> > `[KRAFTON]` 운영체제 아주 쉬운 세가지 이야기 (Operating systems : three easy pieces) / Remzi H.Arpaci-Dusseau/ 2020
->
-> - 정글 캠퍼스에 교육자료
-> - 학점은행제 안내에 과제가 학습 가이드라인(요약본)이 될 수 있다.
+> 진행 방식: 챕터&키워드 + 실습(문제 풀기) + 시험 및 리뷰
+
+[week-1](week-1)
 
 
 
 
 
----
 
-[지원하기](etc/지원하기)
 
-[입소 전 준비](입소_전_준비)
+
+
+
+
+
+
+[외부비공개](외부비공개)
+
+
+
