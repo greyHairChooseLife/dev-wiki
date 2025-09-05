@@ -3,13 +3,27 @@
 
 
 
+
+[입소식](입소식)
 [week-0](week-0)
+
+[ETC](ETC)
+
+baekjoon/
+  chooselife
+  네이버
+
+
+---
 
 
 
 
 
 [생활](생활)
+
+
+
 
 
 
@@ -31,6 +45,12 @@
 > > `[KRAFTON]` Introduction to Algorithms / Thomans H. Cormen / 2024
 > > `[KRAFTON]` 컴퓨터시스템 / Randal E.Bryan / 2016
 > > `[KRAFTON]` 운영체제 아주 쉬운 세가지 이야기 (Operating systems : three easy pieces) / Remzi H.Arpaci-Dusseau/ 2020
+>
+> - 정글 캠퍼스에 교육자료
+> - 학점은행제 안내에 과제가 학습 가이드라인(요약본)이 될 수 있다.
+
+
+
 
 
 ---

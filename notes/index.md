@@ -32,7 +32,8 @@
 
 
 
-### Pending
+### 프로젝트 아이디어
+
 
 - 차량 관리
   - 코란도 엔진오일
@@ -50,6 +51,53 @@
     편리할듯
   - AI가 현재 방문한 웹사이트의 ui를 매번 완전히 바꿔주는것도 괜찮을듯? 광고를 없앤다던지,
     집중하고싶은것에만 집중한다던지, 색상을 관리해준다던지 등
+
+
+
+- keepbuffer.nvim :
+
+  나는 gq 또는 qq로 버퍼를 종료시킨다. qq로 종료는 임시로 종료하고, 버퍼에는 그대로 남겨둔다는
+  의미이다. 근데 이게 되살리려고 버퍼 리스트를 조회하면 다른 텝에서 관리하던 버퍼들까지 모두
+  나타난다.
+
+  이에 아래와같은 플러그인을 간단히 개발해 사용하면 좋겠다.
+
+  - qq로 종료시 nvim-tree 아래 윈도우 및 버퍼 생성하며, 파일명만 표시
+  - 해당 탭에서 qq로 종료 시에만 나타나야하고, 다른 텝과는 아무 상관 없음
+  - 생성된 윈도우에서 파일명에 커서를 두고 열면 최근 윈도우의 우측에 다시 윈도우 생성
+
+
+- 스타크래프트 ai 어시스턴트
+  게임 프로세스 및 메모리를 분석해서 의사결정 등에 음성으로 도움을 준다.
+
+
+
+- 다양한 종류의 전자잉크 제품을 만들고 싶다. 휴대폰이라던지... 
+
+
+
+
+- 단순 아이디어
+  [독서모임](/Resource/프로젝트_아이디어/독서모임)
+  [조직문화를 판매한다. 그것을 뒷받침 할 수 있는 system과 합쳐서.](/Resource/프로젝트_아이디어/조직문화를_판매한다._그것을_뒷받침_할_수_있는_system과_합쳐서.)
+  [메뉴얼 수행 추적기](/Resource/프로젝트_아이디어/메뉴얼_수행_추적기)
+  [유아(6세 이하 초등입학 전)용 동화 읽어주고 각종 질문에 대답해주는 인형](/Resource/프로젝트_아이디어/유아(6세_이하_초등입학_전)용_동화_읽어주고_각종_질문에_대답해주는_인형)
+  [정서, 심리 등 과학적 근거를 바탕으로 하는 검사 컨텐츠를 생성형 인공지능으로 서비스하기](/Resource/프로젝트_아이디어/정서,_심리_등_과학적_근거를_바탕으로_하는_검사_컨텐츠를_생성형_인공지능으로_서비스하기)
+  ["시끄러운 목소리"가 주목받는 "댓글" 시스템 개선안](/Resource/프로젝트_아이디어/"시끄러운_목소리"가_주목받는_"댓글"_시스템_개선안)
+
+
+- 구체화된 아이디어
+  [anki-diary](/Resource/프로젝트_아이디어/anki-diary)
+  [충북프로메이케센터 홈페이지 리뉴얼](/Resource/프로젝트_아이디어/충북프로메이케센터_홈페이지_리뉴얼)
+
+
+#### TIPS
+
+- 어떤거 만들어볼만한지는 awesome-selfhosted에 적당히 괜찮은 주제들이 있어요
+
+- 게임 아이디어
+  [요런 스타일](https://www.youtube.com/watch?v=YPowsippmRM) 좋다.
+  [로그라이크류](https://www.youtube.com/watch?v=JFAzdybohUc)도 재밌다.
 
 
 ## Area
@@ -81,6 +129,9 @@
 
 #### 살아남는 개발자는 무엇이 다른가?
 
+
+> [!nt]
+>
 > - 시키는 대로 하기 전에 의심해라. 정말로 필요한 과정/단계/방법인가? 똑똑하고
 >   신뢰할만한 사람일수록 더더욱.
 > - recipe를 존중하되, 본질을 반드시 이해해라.
@@ -114,29 +165,28 @@
 >     [reference](https://www.youtube.com/watch?v=TdozAowj1ZA&list=PL0sBvfbMvyZjvcQZk6vhUSHWFA4Tt2vfg&index=3)
 
 
+> [!rf]
+>
+> [The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
+> [지식근로자의 생산성](https://www.joinc.co.kr/w/knowledge-workder-productivity)
+
+
+
 [개발자 중 누가 살아 남을까? 생존을 위해 반드시 생각해야 할 점](/Area/Programming/살아남는_개발자는_무엇이_다른가?/개발자_중_누가_살아_남을까?_생존을_위해_반드시_생각해야_할_점)
 [개발자가 앞으로 꼭 공부해야하는 분야](/Area/Programming/살아남는_개발자는_무엇이_다른가?/개발자가_앞으로_꼭_공부해야하는_분야)
 [일론의 5단계 법칙](/Area/Programming/살아남는_개발자는_무엇이_다른가?/일론의_5단계_법칙)
 [일류와 이류의 차이 (반도체 전설 짐켈러)](/Area/Programming/살아남는_개발자는_무엇이_다른가?/일류와_이류의_차이_(반도체_전설_짐켈러))
 
 
-[-] 
-[The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
-
-[-] 
-[지식근로자의 생산성](https://www.joinc.co.kr/w/knowledge-workder-productivity)
-
-
 
 
 #### 구독 서비스 관리
 
-| Category     | Service        | Cost      |
-|--------------|----------------|-----------|
-| Subscription | GitHub Copilot | $100/Y    |
-|              | OpenAI GPT     | $20/M     |
-|              | Figma          | $15/M     |
-| API          | Anthropic      | claude.ai |
+| Category     | Service        | Cost           |
+|--------------|----------------|----------------|
+| Subscription | GitHub Copilot | $100/Y         |
+|              | OpenAI GPT     | ~$20/M~ --> quit |
+|              | Figma          | ~$15/M~ --> quit |
 
 
 
@@ -205,9 +255,8 @@
 
 #### Experience
 
-##### Architecture [-] 
+##### Architecture
 
-[-] 
 내가 그동안 설계한 것들 정리해두면 좋겠다.
 
 
@@ -346,13 +395,14 @@
 [연금개혁으로 꿀빨았다는 50대, 과연 안 억울할까? (변명)](/Area/글쓰기/유투브_시청/연금개혁으로_꿀빨았다는_50대,_과연_안_억울할까?_(변명))
 [유튜브가 당신의 지적 성장을 가로막는 이유](/Area/글쓰기/유투브_시청/유튜브가_당신의_지적_성장을_가로막는_이유)
 
-[-] 
-[사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
-- 이 사람은 구독하고 잘 봐야겠다.
-- 심지어 투자를 하고싶은 마음까지 들게 만든다.
 
-[-] 
-[조건을 안보기 시작한 IT 업계](https://www.youtube.com/watch?v=M8oj2ZIoYbY)
+> [!rf]
+>
+> [사랑하는 방법(팔란티어 접근 방식)](https://www.youtube.com/watch?v=zyXgqQkWULU)
+>   - 이 사람은 구독하고 잘 봐야겠다.
+>   - 심지어 투자를 하고싶은 마음까지 들게 만든다.
+> 
+> [조건을 안보기 시작한 IT 업계](https://www.youtube.com/watch?v=M8oj2ZIoYbY)
 
 
 ### 나를 사랑하기
@@ -390,57 +440,11 @@
 
 ### 민주 시민의 책임 & 권한 & 상식
 
-[세금 납부](/Area/민주_시민의_책임_&_권한_&_상식/세금_납부) [-] 
+[세금 납부](/Area/민주_시민의_책임_&_권한_&_상식/세금_납부)
 [각종 서류](/Area/민주_시민의_책임_&_권한_&_상식/각종_서류)
 
 
 ## Resource
-
-### 프로젝트 아이디어
-
-
-- keepbuffer.nvim :
-
-  나는 gq 또는 qq로 버퍼를 종료시킨다. qq로 종료는 임시로 종료하고, 버퍼에는 그대로 남겨둔다는
-  의미이다. 근데 이게 되살리려고 버퍼 리스트를 조회하면 다른 텝에서 관리하던 버퍼들까지 모두
-  나타난다.
-
-  이에 아래와같은 플러그인을 간단히 개발해 사용하면 좋겠다.
-
-  - qq로 종료시 nvim-tree 아래 윈도우 및 버퍼 생성하며, 파일명만 표시
-  - 해당 탭에서 qq로 종료 시에만 나타나야하고, 다른 텝과는 아무 상관 없음
-  - 생성된 윈도우에서 파일명에 커서를 두고 열면 최근 윈도우의 우측에 다시 윈도우 생성
-
-
-- 스타크래프트 ai 어시스턴트
-  게임 프로세스 및 메모리를 분석해서 의사결정 등에 음성으로 도움을 준다.
-
-- 다양한 종류의 전자잉크 제품을 만들고 싶다. 휴대폰이라던지... 
-
-
-
-
-- 단순 아이디어
-  [독서모임](/Resource/프로젝트_아이디어/독서모임)
-  [조직문화를 판매한다. 그것을 뒷받침 할 수 있는 system과 합쳐서.](/Resource/프로젝트_아이디어/조직문화를_판매한다._그것을_뒷받침_할_수_있는_system과_합쳐서.)
-  [메뉴얼 수행 추적기](/Resource/프로젝트_아이디어/메뉴얼_수행_추적기)
-  [유아(6세 이하 초등입학 전)용 동화 읽어주고 각종 질문에 대답해주는 인형](/Resource/프로젝트_아이디어/유아(6세_이하_초등입학_전)용_동화_읽어주고_각종_질문에_대답해주는_인형)
-  [정서, 심리 등 과학적 근거를 바탕으로 하는 검사 컨텐츠를 생성형 인공지능으로 서비스하기](/Resource/프로젝트_아이디어/정서,_심리_등_과학적_근거를_바탕으로_하는_검사_컨텐츠를_생성형_인공지능으로_서비스하기)
-  ["시끄러운 목소리"가 주목받는 "댓글" 시스템 개선안](/Resource/프로젝트_아이디어/"시끄러운_목소리"가_주목받는_"댓글"_시스템_개선안)
-
-
-- 구체화된 아이디어
-  [anki-diary](/Resource/프로젝트_아이디어/anki-diary)
-  [충북프로메이케센터 홈페이지 리뉴얼](/Resource/프로젝트_아이디어/충북프로메이케센터_홈페이지_리뉴얼)
-
-
-#### TIPS
-
-- 어떤거 만들어볼만한지는 awesome-selfhosted에 적당히 괜찮은 주제들이 있어요
-
-- 게임 아이디어
-  [요런 스타일](https://www.youtube.com/watch?v=YPowsippmRM) 좋다.
-  [로그라이크류](https://www.youtube.com/watch?v=JFAzdybohUc)도 재밌다.
 
 
 ### Design
@@ -531,36 +535,36 @@
 ['언어는 사용되어야 한다.' 의미가 점점 사라지는 이유](/Resource/etc/언어는_사용되어야_한다.)
 
 
-
-### REFERENCES
-
-[건전지 사용 제품을 충전지 방식으로 개조하기](https://www.youtube.com/watch?v=-zltotyU1Ek)
-[커뮤니티 구축 방법론](https://www.jianyang.co.kr/p/7-feat?utm_source=publication-search)
-[better way to manage dot files](https://www.youtube.com/watch?v=tBoLDpTWVOM)
-[self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
-[e-commerce example site](https://contents.clayful.store/)
-[good programmer](https://parksb.github.io/article/32.html)
-
-> [강력추천! 영상 크리에이터라면 꼭 알아야 할 7가지 웹사이트]([https://www.youtube.com/watch?v=yYwJI9y_arE)
+> [!rf]
 >
-> === Timestamps ===
-> 00:00 인트로
-> 00:23 레퍼런스 사이트1
-> 01:12 레퍼런스 사이트2
-> 02:02 레퍼런스 사이트3
-> 02:22 레퍼런스 사이트4
-> 02:49 레퍼런스 사이트5
-> 03:22 레퍼런스 사이트6
-> 03:56 레퍼런스 사이트7
-> 03:56 아웃트로
 >
-> ▶레퍼런스 사이트 링크들 입니다.
-> https://eyecannndy.com/
-> https://kive.ai/discover
-> https://film-grab.com/
-> https://shot.cafe/
-> https://www.cosmos.so/
-> nytimes.com/column/anatomy-of-a-scene
+> [건전지 사용 제품을 충전지 방식으로 개조하기](https://www.youtube.com/watch?v=-zltotyU1Ek)
+> [커뮤니티 구축 방법론](https://www.jianyang.co.kr/p/7-feat?utm_source=publication-search)
+> [better way to manage dot files](https://www.youtube.com/watch?v=tBoLDpTWVOM)
+> [self hosted secrets manager](https://www.youtube.com/watch?v=7t5M4FXqs9E&list=WL&index=29)
+> [e-commerce example site](https://contents.clayful.store/)
+> [good programmer](https://parksb.github.io/article/32.html)
+> 
+> > [강력추천! 영상 크리에이터라면 꼭 알아야 할 7가지 웹사이트]([https://www.youtube.com/watch?v=yYwJI9y_arE)
+> >
+> > === Timestamps ===
+> > 00:00 인트로
+> > 00:23 레퍼런스 사이트1
+> > 01:12 레퍼런스 사이트2
+> > 02:02 레퍼런스 사이트3
+> > 02:22 레퍼런스 사이트4
+> > 02:49 레퍼런스 사이트5
+> > 03:22 레퍼런스 사이트6
+> > 03:56 레퍼런스 사이트7
+> > 03:56 아웃트로
+> >
+> > ▶레퍼런스 사이트 링크들 입니다.
+> > https://eyecannndy.com/
+> > https://kive.ai/discover
+> > https://film-grab.com/
+> > https://shot.cafe/
+> > https://www.cosmos.so/
+> > nytimes.com/column/anatomy-of-a-scene
 
 
 
