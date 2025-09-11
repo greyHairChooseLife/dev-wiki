@@ -359,6 +359,9 @@ gh pr checkout <name-what-I-want>
 
     # 7. (rebase되어 기존 맥락을 잃어버리면 헷갈릴 수 있으니 필요시 알려준다.)
     (필요시) PR에서 rebase로 인해 변경된 내용 코멘트 남기기
+
+    # 7. (merged 이후 브랜치 삭제하기)
+    (필요시) git push origin --delete 브랜치이름
     ```
 
 

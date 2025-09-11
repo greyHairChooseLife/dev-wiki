@@ -14,6 +14,86 @@
 >   - 공부도, 소통도
 
 
+## git
+
+### 협업을 위한 git command
+
+#### PR을 fetch해서 로컬에서 변경내역 확인하기
+
+
+```bash
+gh pr list
+gh pr checkout <name-what-I-want>
+# in DiffviewFileHistory --range=origin/dev..HEAD
+```
+
+
+> [!lg] Log 2025-09-03
+>
+> **실행 계획:**
+> 1. `gh pr list`로 PR 번호를 확인한다.
+> 2. PR 번호를 사용해 PR의 head를 fetch한다.
+> 3. 로컬 브랜치로 체크아웃한다.
+> 4. 원하는 브랜치와 비교한다.
+>
+> **예시:**
+> PR 번호가 123이고, 내 로컬 브랜치가 `main`이라면:
+>
+> ```bash
+> git fetch origin pull/123/head:pr-123
+> git checkout pr-123
+> git diff main...pr-123
+> ```
+
+
+
+#### 내가 작업한 브랜치 PR 날리기
+
+
+  ```bash
+  # 현재 브랜치를 원격 저장소로 푸시
+  git push origin HEAD
+
+  # GitHub CLI로 PR 생성
+  gh pr create --base <target branch>
+  ```
+
+  - 이후에 추가적이 변경이 생기면 그냥 commit 후 다시 push하면 자동으로 PR에 반영된다. PR은 remote에
+    존재하는 두 브랜치를 비교하는거기 때문에
+
+  - feature 브랜치를 dev 기준으로 rebase하는 체크리스트
+
+    ```bash
+    # 1. 원격 dev 브랜치 최신화
+    git fetch origin dev
+
+    # 2. 로컬 dev 브랜치 최신화
+    git checkout dev
+    git merge origin/dev
+
+    # 3. 작업 브랜치(feature)로 이동
+    git checkout <feature-branch>
+
+    # 4. dev 브랜치 기준으로 rebase
+    git rebase dev
+
+    # 5. (충돌 발생 시)
+    - 충돌 파일 수정
+    - git add <수정한 파일>
+    - git rebase --continue
+
+    # 6. rebase 완료 후 원격 브랜치 강제 푸시, rebase는 해당 브랜치의 부모 커밋 해시를 바꾼다.
+    git push origin <feature-branch> --force
+
+    # 7. (rebase되어 기존 맥락을 잃어버리면 헷갈릴 수 있으니 필요시 알려준다.)
+    (필요시) PR에서 rebase로 인해 변경된 내용 코멘트 남기기
+
+    # 7. (merged 이후 브랜치 삭제하기)
+    (필요시) git push origin --delete 브랜치이름
+
+
+
+
 
 ## 주차별 학습
 
@@ -81,6 +161,7 @@
 > - [ ] 콤파스의 챕터 1~3에 해당하는 컨텐츠를 잘 읽어보고 분류해 활용하자. 여기 노트에 잘 기록하자.
 
 
+[week-2](week/week-2)
 
 
 
