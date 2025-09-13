@@ -8,6 +8,7 @@
 **Quick**
 
 [크래프톤 정글](/Project/크래프톤_정글/index.md)
+[C](/Area/Programming/Skills/Languages/C)
 
 
   

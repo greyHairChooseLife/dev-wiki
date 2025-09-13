@@ -137,11 +137,12 @@ _배포 자동화는 고객의 요구사항을 빠르게 반영하는 핵심 요
 [single container SPA](/Area/Programming/Skills/CI_CD/single_container_SPA)
 
 
-## Languages [-] 
+## Languages
 
-[Javascript](/Area/Programming/Skills/Languages/Javascript) [-] 
+[Javascript](/Area/Programming/Skills/Languages/Javascript)
 [Typescript](/Area/Programming/Skills/Languages/Typescript)
 [Dart](/Area/Programming/Skills/Languages/Dart)
+[C](/Area/Programming/Skills/Languages/C)
 
 ### Python
 
