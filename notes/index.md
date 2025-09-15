@@ -198,6 +198,10 @@
 
 [docking station과 외부 모니터](/Area/Programming/Hardware/docking_station과_외부_모니터)
 
+[노트북 베터리 관리](/Area/Programming/Hardware/노트북_베터리_관리)
+
+
+
 > [!nt]
 >
 > - 알파스캔 모니터 I2477FWQ
