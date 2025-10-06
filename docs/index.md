@@ -296,6 +296,21 @@ gh pr checkout <name-what-I-want>
 ## 학습
 
 
+> [!tdd] 학점은행제 과제
+>
+> - [x] 자료구조 gitbook 기여
+>   - [PR](https://github.com/krafton-jungle/KJ-DS-BOOK/pull/85)
+> - [x] 알고리즘 gitbook 기여
+>   - [PR](https://github.com/krafton-jungle/KJ-ALGO-BOOK/pull/77)
+>
+>
+> > [!lg] Log 2025-10-02
+> > 언젠가 본적이 있다. 이렇게 모두가 조금씩 기여하면서 책이나 자료를 완성해가는 프로젝트. 
+> > 오픈소스 생태계에 기여에 시작으로 적절하다는 말도 어디선가 들었던 기억이 난다.
+> >
+> > 나는 과제로 처음 접했고, 상당히 미약하지만 그래도 이렇게 시작해 봤다는 것이 좋다.
+
+
 ### TODO
 
 _- 주차별 키워드_
@@ -379,13 +394,10 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 
 > [!td]
 >
-> - [ ] 작성하기
->   - [Chapter.1 컴퓨터 시스템로의 여행](Chapter.1_컴퓨터_시스템로의_여행)
->   - [Chapter.2 정보의 표현과 처리](CSAPP/Chapter.2_정보의_표현과_처리)
-
-
-[Chapter.3 프로그램의 기계수준 표현](CSAPP/Chapter.3_프로그램의_기계수준_표현)
-
+> - [ ] [Chapter.1 컴퓨터 시스템로의 여행](Chapter.1_컴퓨터_시스템로의_여행)
+> - [ ] [Chapter.2 정보의 표현과 처리](CSAPP/Chapter.2_정보의_표현과_처리)
+> - [x] [Chapter.3 프로그램의 기계수준 표현](CSAPP/Chapter.3_프로그램의_기계수준_표현)
+> - [ ] [Chapter.6 메모리 계층구조](CSAPP/Chapter.6_메모리_계층구조)
 
 
 
@@ -401,7 +413,7 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 > - [x] 9강까지 듣고 2025-09-14 (일) 20:00
 > - [c] 17강 까지 듣고 2025-09-28 (일)
 > - [x] 16강 까지 듣고 2025-09-28 (일)
-> - [ ] ~17강 까지 듣고 2025-10-02 (목)
+> - [x] ~17강 까지 듣고 2025-10-02 (목)
 > - [ ] ~18강 까지 듣고 2025-10-05 (일)
 > - [ ] ~22강 까지 듣고 2025-10-11 (토)
 
@@ -422,22 +434,28 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 
 - 널널강의
 
-  [C-language/nullnull/Section 10. 표준 입/출력](C-language/nullnull/Section_10._표준_입/출력)
-  [C-language/nullnull/Section 11. 연산자](C-language/nullnull/Section_11._연산자)
-  [C-language/nullnull/Section 12. 기본 제어문](C-language/nullnull/Section_12._기본_제어문)
-  [C-language/nullnull/Section 13. 반복문](C-language/nullnull/Section_13._반복문)
+  [Section 10. 표준 입/출력](C-language/nullnull/Section_10._표준_입/출력)
+  [Section 11. 연산자](C-language/nullnull/Section_11._연산자)
+  [Section 12. 기본 제어문](C-language/nullnull/Section_12._기본_제어문)
+  [Section 13. 반복문](C-language/nullnull/Section_13._반복문)
 
-  [C-language/nullnull/Section 14. 배열과 프로그래밍 기법](C-language/nullnull/Section_14._배열과_프로그래밍_기법)
-  [C-language/nullnull/Section 15. 함수에 대한 기본 이론](C-language/nullnull/Section_15._함수에_대한_기본_이론)
-  [C-language/nullnull/Section 16. 메모리와 포인터](C-language/nullnull/Section_16._메모리와_포인터)
-  [C-language/nullnull/Section 17. 함수 응용](C-language/nullnull/Section_17._함수_응용)
+  [Section 14. 배열과 프로그래밍 기법](C-language/nullnull/Section_14._배열과_프로그래밍_기법)
+  [Section 15. 함수에 대한 기본 이론](C-language/nullnull/Section_15._함수에_대한_기본_이론)
+  [Section 16. 메모리와 포인터](C-language/nullnull/Section_16._메모리와_포인터)
+  [Section 17. 함수 응용](C-language/nullnull/Section_17._함수_응용)
+
+  [Section 18. 구조체와 공용체](C-language/nullnull/Section_18._구조체와_공용체)
 
 
+
+
+> [!td] 더 알아보기
+>
+> - [ ] 정적 메모리 영역은 컴파일 타임이 아니라 "로드, CRT 진입" 타이밍에 초기화된다. 이부분 좀
+>   공부해보자.
 
 
                     
-
-
 
 
 
@@ -541,7 +559,9 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 > [week-4](week/week-4)
 
 
-
+> [!lg] 탐험 준비 - C언어, 자료구조, 알고리즘
+>
+> [week-5](week/week-5)
 
 ## 공식일정
 
