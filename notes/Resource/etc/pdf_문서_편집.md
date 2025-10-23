@@ -7,7 +7,7 @@
 |--------------|--------------|--------------------------------------------------------------------------------|
 | Split pages  | pdfseparate  | `pdfseparate -f 199 -l 386 input.pdf page_%d.pdf`                              |
 | Combine      | pdfunite     | `pdfunite page_*.pdf output.pdf`                                               |
-| Compress     | ghostscript  | `gs -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile=small.pdf output.pdf`  |
+| Compress     | ghostscript  | `ghostscript -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile=small.pdf output.pdf`  |
 
 
 
@@ -47,7 +47,7 @@ This produced `chapter_3.pdf` containing the selected page range.
 You can compress the merged PDF using Ghostscript:
 
 ```
-gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
+ghostscript -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
    -dNOPAUSE -dQUIET -dBATCH -sOutputFile=chapter_3_small.pdf chapter_3.pdf
 ```
 This will create a smaller, optimized PDF.
