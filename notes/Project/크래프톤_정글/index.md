@@ -409,8 +409,31 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 >   - [ ] 기본 문제 풀기
 
 
-### CSAPP
 
+### Weekly Keyword
+
+
+- WEEK07:
+
+  - main:
+    - 시스템 콜
+    - 데이터 세그먼트
+    - 메모리 단편화
+    - sbrk/mmap
+
+  - sub:
+    - 가상 메모리, 페이징
+    - 동적 메모리 할당 (힙, sbrk, malloc, free)
+    - 메모리 단편화
+    - 메모리 할당 정책 (first fit, next fit, best fit)
+    - implicit free list / explicit free list
+    - demand-zero memory
+    - 시스템 콜
+    - DMA
+    - 이더넷
+
+
+### CSAPP
 
 > [!td]
 >
@@ -420,15 +443,11 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 > - [ ] [Chapter.6 메모리 계층구조](CSAPP/Chapter.6_메모리_계층구조)
 >   - [ ] 미진한거 1.5꼭지 정도 있당..
 > - [ ] [Chapter.7 링킹](CSAPP/Chapter.7_링킹)
->   - 일단은 1, 4, 9, 15
-> - [ ] [Chapter.8 예외적 제어 흐름](CSAPP/Chapter.8_예외적_제어_흐름)
->   - 일단은 1, 5
-> - [ ] [Chapter.9 가상 메모리](CSAPP/Chapter.9_가상_메모리)
->   - 일단은 1 ~ 8
-
-
-
-
+> - [x] [Chapter.8 예외적 제어 흐름](CSAPP/Chapter.8_예외적_제어_흐름)
+> - [x] [Chapter.9 가상 메모리](CSAPP/Chapter.9_가상_메모리)
+> - [x] [Chapter.10 시스템 수준 입출력](CSAPP/Chapter.10_시스템_수준_입출력)
+>   - [ ] subject별로 자세히 보는것도 쭉~ 가보자.
+> - [ ] [Chapter.11 네트워크 프로그래밍](CSAPP/Chapter.11_네트워크_프로그래밍)
 
 
 > [!rf] 9기 선배중에 유명한 분, 기록을 잘 해주셨다고, 블로그 참고해 서공부하면 좋다.
@@ -639,8 +658,7 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 > [week-5: C언어, 자료구조, 알고리즘](week/week-5)
 > [week-6: Red-Black Tree](week/week-6)
 > [week-7: Malloc Lab](week/week-7)
-
-
+> [week-8: Proxy Lab](week/week-8)
 
 
 
