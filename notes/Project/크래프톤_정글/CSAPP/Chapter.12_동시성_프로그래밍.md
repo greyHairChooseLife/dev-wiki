@@ -1,4 +1,4 @@
-# Network Programming (Chapter 11)
+# Concurrency Programming (Chapter 12)
 
 
 [notebookLM](https://notebooklm.google.com/notebook/f405095d-572f-4992-bf85-e8781645f33a)
@@ -6,35 +6,24 @@
 
 
 
-- 11.1 The Client-Server Programming Model
+응용 프로그램 수준에서의 동시성(Concurrency) 구현 방식과, 공유 자원에 대한 접근을 안전하게 관리하는 방법
 
-- 11.2 Networks
 
-- 11.3 The Global IP Internet
-    - 11.3.1 IP Addresses
-    - 11.3.2 Internet Domain Names
-    - 11.3.3 Internet Connections
+  - 12.1 Concurrent Programming with Processes
 
-- 11.4 The Sockets Interface
-    - 11.4.1 Socket Address Structures
-    - 11.4.2 The socket Function
-    - 11.4.3 The connect Function
-    - 11.4.4 The bind Function
-    - 11.4.5 The listen Function
-    - 11.4.6 The accept Function
-    - 11.4.7 Host and Service Conversion (including `getaddrinfo` and `getnameinfo`)
-    - 11.4.8 Helper Functions for the Sockets Interface (including `open_clientfd` and `open_listenfd`)
-    - 11.4.9 Example Echo Client and Server
+  - 12.2 Concurrent Programming with I/O Multiplexing
 
-- 11.5 Web Servers
-    - 11.5.1 Web Basics
-    - 11.5.2 Web Content
-    - 11.5.3 HTTP Transactions
-    - 11.5.4 Serving Dynamic Content (CGI)
+  - 12.3 Concurrent Programming with Threads
 
-- 11.6 Putting It Together: The Tiny Web Server
+  - 12.4 Shared Variables in Threaded Programs
 
-- 11.7 Summary
+  - 12.5 Synchronizing Threads with Semaphores
+
+  - 12.6 Using Threads for Parallelism
+
+  - 12.7 Other Concurrency Issues
+
+  - 12.8 Summary
 
 
 

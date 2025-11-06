@@ -233,11 +233,40 @@ interface called Unix I/O.
 
 
     - **`close`:**  
-      _Tells the OS the file is no longer needed._  
 
-      ```c
-      int close(int fd)
-      ```
+        _Tells the OS the file is no longer needed._  
+
+        - ```c
+          int close(int fd)
+          ```
+
+
+        - **Closing the file descriptor with `close(fd)` does not remove the memory mapping created by `mmap()`.**
+
+          The mapping remains in the process's virtual address space until you explicitly unmap it using
+          `munmap()` or the process terminates.
+
+          ```c
+          int main() {
+              int fd = open("example.txt", O_RDONLY);
+              if (fd == -1) return 1;
+
+              // Map the file into memory
+              char *map = mmap(NULL, 100, PROT_READ, MAP_PRIVATE, fd, 0);
+              if (map == MAP_FAILED) return 1;
+
+              // Close the file descriptor - mapping still exists
+              close(fd);
+
+              // Access the mapped memory (assuming file has content)
+              printf("First char: %c\n", map[0]);
+
+              // Unmap to free memory
+              munmap(map, 100);
+              return 0;
+          }
+          ```
+
 
 
 #### 10.4 Reading and Writing Files
@@ -303,9 +332,32 @@ interface called Unix I/O.
 
         - Use a buffer (`rio_t`) for efficient reading.  
         - `rio_readinitb`: Initializes buffer for a descriptor.  
+
         - `rio_readlineb`: Reads a line, includes newline, ends with NULL.  
+
+            - Reads data into a buffer until it encounters a newline (`\n`), reaches the maximum
+              buffer size, or hits EOF. _Best for text lines._
+
+              It returns,
+                - the number of bytes read (including the newline if present)
+                - 0 on EOF
+                - or -1 on error
+
+
         - `rio_readnb`: Reads up to `n` bytes.  
+
+            - Reads exactly a specified number of bytes into a buffer. _Best for binary data
+              or reading fixed amounts._
+
+              It returns,
+                - the number of bytes read
+                - -1 on error (EOF is an error here)
+
+
         - Can mix `rio_readlineb` and `rio_readnb` on the same descriptor.
+
+
+
 
 
         > [!nt] 
@@ -346,7 +398,55 @@ interface called Unix I/O.
 
 
 
+##### buffered vs unbuffered
+
+
+
+- **Use `rio_readn`** when you need to read a specific number of bytes directly from the
+  file descriptor without any buffering. It's ideal for one-off reads of known sizes (e.g., reading a
+  fixed binary header or large data in a single call), where you want minimal overhead and direct
+  control. No `rio_t` initialization needed.
+
+  _example_
+  Read exactly 1024 bytes of binary data directly from a socket (e.g., a file header).
+
+  ````c
+  char buf[1024];
+  ssize_t n = rio_readn(fd, buf, 1024);
+  if (n < 0) {
+      // Handle error
+  }
+  // Process buf
+  ````
+
+
+
+
+
+- **Use `rio_readnb`** when performing multiple or sequential reads (e.g., in a loop for
+  parsing lines, chunks, or streaming data like an HTTP body). It uses internal buffering for
+  efficiency, reducing system calls, but requires a `rio_t` structure to be initialized first.
+
+  _example_
+  Read an HTTP response body in chunks after parsing headers, using the Rio buffer for efficiency.
+
+  ````c
+  rio_t rp;
+  Rio_readinitb(&rp, fd);
+  char buf[4096];
+  size_t remaining = content_length;  // From headers
+  while (remaining > 0) {
+      size_t to_read = (remaining < 4096) ? remaining : 4096;
+      ssize_t n = rio_readnb(&rp, buf, to_read);
+      if (n <= 0) break;  // Error or EOF
+      // Process buf
+      remaining -= n;
+  }
+  ````
+
+
 #### 10.8 Sharing Files
+
 
 - Linux uses three _data structures_ for open files:
 

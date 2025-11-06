@@ -197,7 +197,7 @@
       >   - Page Table을 구성하는 하나의 "항목"
       >   - 각 PTE는 하나의 가상 페이지에 대한 정보를 담고 있음
       > 
-      >     (usually) which includes:
+      >     (대체로) 아래를 포함한다:
       > 
       >       > 1. **Physical Frame Number (PFN) / Physical Address (aka. Physical Page Number (PPN))**
       >       >    - 해당 가상 페이지가 매핑되는 실제 물리 메모리 프레임의 번호 또는 주소.

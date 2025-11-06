@@ -1584,41 +1584,302 @@ Key points in this example:
 
 ### Example Echo Client and Server
 
+#### client
+
+- File Path: Echo/echo_client.c
+  ```c
+  #include "../csapp.h"
+  
+  int main(int argc, char** argv) {
+      int clientfd;  // host port를 넣어주기 위해
+      char *host, *port;
+      rio_t rio;
+      char buf[MAXLINE];
+  
+      if (argc != 3)
+      {
+          printf("input fuck.");
+          exit(-1);
+      }
+      host = argv[1];
+      port = argv[2];
+      clientfd = Open_clientfd(host, port);
+  
+      if (clientfd < 0)
+      {
+          if (clientfd == -1)
+          {
+              printf("connect fuck.");
+              exit(-1);
+          }
+  
+          else if (clientfd == -2)
+          {
+              printf("something fuck.");
+              exit(-1);
+          }
+  
+          else
+          {
+              printf("somthing really fucked");
+              exit(-1);
+          }
+      }
+  
+      Rio_readinitb(&rio, clientfd);  // 리오 버퍼 초기화
+  
+      while (Fgets(buf, MAXLINE, stdin) != NULL)
+      {
+          Rio_writen(clientfd, buf, strlen(buf));
+          Fputs("============================== start of res\n", stdout);
+  
+          while (Rio_readlineb(&rio, buf, MAXLINE) > 0)
+          {
+              if (strcmp(buf, END_OF_SERVER_RES "\n") == 0)
+                  break;  // 들을만큼 들었으면 이제 "요청"하러 나가기
+              Fputs(buf, stdout);
+          }
+          Fputs("============================== end of res\n\n", stdout);
+      }
+  
+      exit(0);
+  }
+  ```
 
 
+#### server
 
 
----
+- File Path: Echo/echo_server.c
+  ```c
+  #include "../csapp.h"
+  
+  int main(int argc, char** argv) {
+      int listenfd, connfd;
+      char* port;
+      char userbuf[MAXLINE], resBuf[MAXLINE];
+  
+      rio_t rio;
+  
+      if (argc != 2)
+      {
+          printf("input fuck");
+          exit(-1);
+      }
+  
+      port = argv[1];
+      listenfd = Open_listenfd(port);
+  
+      if (listenfd < 0)
+      {
+          printf("socket covert into listen fail.. fuck");
+          exit(-1);
+      }
+  
+      while (1)
+      {
+          struct sockaddr_in client_addr;
+          socklen_t client_len;
+          char client_hostname[MAXLINE], client_port[MAXLINE];
+  
+          client_len = sizeof(client_addr);
+          // client_addr에 client 주소 정보 담아줘
+          connfd = Accept(listenfd, (SA*)&client_addr, &client_len);
+          // client_hostname[MAXLINE] client_port[MAXLINE]에다가 최종적으로 담아줘
+          Getnameinfo((SA*)&client_addr, client_len, client_hostname, MAXLINE,
+                      client_port, MAXLINE, 0);
+  
+          if (connfd < 0) continue;
+  
+          Fputs("connected!!\n", stdout);
+  
+          rio_readinitb(&rio, connfd);
+          while (rio_readlineb(&rio, userbuf, MAXBUF) != 0)
+          {
+              printf("==================== start of req: %s, %s\n",
+                     client_hostname, client_port);
+              printf("user said: %s", userbuf);
+  
+              strtok(userbuf, "\n");  // 마지막 줄바꿈 제거
+              sprintf(
+                  resBuf,
+                  "server: I got your message!\nserver: you said \"%s\"\n%s\n",
+                  userbuf,
+                  END_OF_SERVER_RES);  // Format into buf
+              rio_writen(connfd, resBuf, strlen(resBuf));
+              printf("==================== end of req: %s, %s\n\n",
+                     client_hostname, client_port);
+          }
+          Close(connfd);
+      }
+  }
+  ```
 
 
 
 ## Web Servers
 
 
----
+Web servers utilize fundamental network programming concepts to provide content, ranging from basic
+text and graphics to complex dynamic output. The interaction between Web clients and servers relies
+on the text-based application-level protocol known as HTTP.
 
-### Web Basics
+### 11.5.1 Web Basics
 
+- The core interaction model involves a client (browser) and a server:
 
----
-
-### Web Content
-
-
----
-
-### HTTP Transactions
-
-
----
-
-### Serving Dynamic Content (CGI)
+    - The browser opens an Internet connection to the server.
+    - The browser requests content.
+    - The server responds with the content.
+    - The server then closes the connection.
+    - The browser reads and displays the content.
 
 
----
+- Web services are distinguished by their reliance on HTML (hypertext markup language).
 
-## Putting It Together: The Tiny Web Server
+    - HTML uses instructions (tags) to tell the browser how to display text and graphical objects
+      (e.g., `<b> Make me bold! </b>`).
+    - HTML supports hyperlinks (pointers) that reference content stored on any Internet host.
 
 
----
+- The World Wide Web was invented by Tim Berners-Lee, who proposed a distributed hypertext system
+  in 1989. A pivotal event in its growth was the 1993 release of the graphical browser Mosaic.
+
+
+### 11.5.2 Web Content
+
+
+- Content is defined as a sequence of bytes associated with a MIME type.
+  (Multipurpose Internet Mail Extensions)
+
+
+- Examples of common MIME types include:
+
+    - `text/html`: HTML page.
+    - `text/plain`: Unformatted text.
+    - `image/gif`: Binary image encoded in GIF format.
+    - `image/jpeg`: Binary image encoded in JPEG format.
+
+
+- Web servers provide content in two primary ways:
+
+    - **Static content:** Fetching a disk file and returning its contents.
+    - **Dynamic content:** Running an executable file and returning its runtime output.
+
+
+
+- Every piece of content is associated with a unique URL (Universal Resource Locator).
+
+    - _Clients use the URL prefix_ (e.g., `http://www.google.com:80`) to determine:
+        - The type of server to contact.
+        - Where the server is located.
+        - The port it is listening on (defaults to port 80 for HTTP).
+
+    - _The server uses the URL suffix_ (e.g., `/index.html`) to:
+        - Locate the file on its filesystem.
+        - Determine if the request is for static or dynamic content.
+
+
+
+- Server Interpretation of the URL suffix:
+
+    - The initial `/` in the suffix denotes the home directory configured for the content, not
+      the Linux root directory.
+
+    - The minimal URL suffix, `/`, is expanded by servers to a default home page, such as
+      `/index.html`.
+
+### 11.5.3 HTTP Transactions
+
+- An HTTP transaction involves a request sent by the client and a response returned by the server.
+
+
+- **HTTP Requests**
+
+    - An HTTP request consists of three parts:
+        - a request line
+        - zero or more request headers
+        - an empty text line that terminates the headers
+
+    - _Request Line format:_
+        - `method URI version`
+        - The `GET` method is the most common workhorse, requesting the content identified by the URI.
+        - The version field indicates the HTTP version (e.g., HTTP/1.1).
+
+    - _Request Headers:_
+        - Use the format `header-name: header-data`
+        - The `Host` header is required in HTTP/1.1 requests; it identifies the origin server
+          domain name and is useful for proxy caches.
+
+
+
+- **HTTP Responses**
+
+    - An HTTP response consists of
+        - a response line
+        - zero or more response headers
+        - an empty line
+        - the response body
+
+
+    - _Response Line format:_ `version status-code status-message`.
+
+        - `status-code` is a three-digit integer indicating the request disposition.
+        - Common status codes and messages:
+
+            - `200 OK`: Request was handled without error.
+            - `404 Not found`: Server could not find the requested file.
+            - `501 Not implemented`: Server does not support the request method.
+
+
+    - _Response Headers:_ provide information about the content.
+
+        - `Content-Type` tells the client the MIME type (e.g., `text/html`).
+        - `Content-Length` indicates the content size in bytes.
+
+
+    - _Response body:_ contains the requested content
+
+
+### 11.5.4 Serving Dynamic Content (CGI)
+
+
+- Dynamic content serving is managed by the **CGI (Common Gateway Interface)** standard.
+
+
+- **Passing Arguments from Client to Server:**
+
+    - For `GET` requests, arguments are passed in the URI.
+    - Arguments are separated from the filename by `?` and from each other by `&`.
+
+
+
+- **Passing Arguments from Server to Child Process:**
+
+    - The server creates a child process using `fork` and then runs the CGI program using `execve`.
+
+    - Before `execve`, the child process sets the CGI environment variable `QUERY_STRING`
+      which is containing the arguments.
+
+    - The CGI program accesses these arguments at runtime using the Linux `getenv` function.
+
+    - Other CGI environment variables are also set, such as `SERVER_PORT` and `REQUEST_METHOD`.
+
+
+
+- **Child Process Output to Client:**
+
+    - A CGI program sends its dynamic content to standard output.
+
+    - Before the CGI program runs, the child process uses `dup2` to redirect standard output to
+      the connected descriptor (`connfd`) associated with the client.
+
+        - Consequently, everything the CGI program writes to standard output goes directly to the
+          client _without parent intervention._
+
+    - The CGI program is responsible for generating the necessary response headers, specifically
+      `Content-type` and `Content-length`, and the empty line that terminates the headers.
+
+
+
 

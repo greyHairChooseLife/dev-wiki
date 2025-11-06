@@ -320,8 +320,12 @@ gh pr checkout <name-what-I-want>
 >
 > - [x] 자료구조 gitbook 기여
 >   - [PR](https://github.com/krafton-jungle/KJ-DS-BOOK/pull/85)
+>
 > - [x] 알고리즘 gitbook 기여
 >   - [PR](https://github.com/krafton-jungle/KJ-ALGO-BOOK/pull/77)
+>
+> - [x] CS gitbook 기여
+>   - [PR](https://github.com/krafton-jungle/KJ-CS-BOOK/pull/15)
 >
 >
 > > [!lg] Log 2025-10-02
@@ -441,13 +445,14 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 > - [ ] [Chapter.2 정보의 표현과 처리](CSAPP/Chapter.2_정보의_표현과_처리)
 > - [x] [Chapter.3 프로그램의 기계수준 표현](CSAPP/Chapter.3_프로그램의_기계수준_표현)
 > - [ ] [Chapter.6 메모리 계층구조](CSAPP/Chapter.6_메모리_계층구조)
->   - [ ] 미진한거 1.5꼭지 정도 있당..
+>   - 미진한거 1.5꼭지 정도 있당..
 > - [ ] [Chapter.7 링킹](CSAPP/Chapter.7_링킹)
 > - [x] [Chapter.8 예외적 제어 흐름](CSAPP/Chapter.8_예외적_제어_흐름)
 > - [x] [Chapter.9 가상 메모리](CSAPP/Chapter.9_가상_메모리)
-> - [x] [Chapter.10 시스템 수준 입출력](CSAPP/Chapter.10_시스템_수준_입출력)
->   - [ ] subject별로 자세히 보는것도 쭉~ 가보자.
-> - [ ] [Chapter.11 네트워크 프로그래밍](CSAPP/Chapter.11_네트워크_프로그래밍)
+> - [ ] [Chapter.10 시스템 수준 입출력](CSAPP/Chapter.10_시스템_수준_입출력)
+>   - subject별로 자세히 보는것도 쭉~ 가보자.
+> - [x] [Chapter.11 네트워크 프로그래밍](CSAPP/Chapter.11_네트워크_프로그래밍)
+> - [ ] [Chapter.12 동시성 프로그래밍](CSAPP/Chapter.12_동시성_프로그래밍)
 
 
 > [!rf] 9기 선배중에 유명한 분, 기록을 잘 해주셨다고, 블로그 참고해 서공부하면 좋다.
@@ -474,6 +479,41 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 
 
 ### C-language
+
+#### 특이한 동작들
+
+- 버퍼 플러시가 발생하는 경우들:
+
+    1. **프로그램 종료 시** (일반적인 학습용 프로그램)
+    2. **개행 문자(`\n`) 만날 때**
+    3. **버퍼가 가득 찰 때**
+    4. **`fflush()` 명시적 호출**
+
+
+- 실제 테스트:
+
+  - ````c
+    // 이런 코드로 테스트해보세요
+    #include <stdio.h>
+    #include <unistd.h>
+
+    int main() {
+        printf("Without newline");
+        sleep(3);  // 3초 대기
+        printf("With newline\n");
+        sleep(3);
+        return 0;
+    }
+    ````
+    - 첫 번째 출력은 3초 후에야 나타나고, 두 번째는 즉시 나타날 것입니다.
+
+
+- 결론:
+
+    평소 학습할 때는 프로그램이 금방 종료되어서 자동으로 버퍼가 플러시되었지만, 서버처럼 계속
+    실행되는 프로그램에서는 명시적으로 플러시해야 합니다.
+
+
 
 #### 주차별 문제 풀기
 
@@ -684,6 +724,7 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 
 [웹 발전의 역사 특강 2025-10-23](공식일정/웹_발전의_역사_특강_2025-10-23)
 
+[종합_커피챗_3 2025-11-06](공식일정/운영진_티타임_3_2025-11-06)
 
 
 ## ETC
