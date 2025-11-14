@@ -441,7 +441,7 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 
 > [!td]
 >
-> - [ ] [Chapter.1 컴퓨터 시스템로의 여행](Chapter.1_컴퓨터_시스템로의_여행)
+> - [ ] [Chapter.1 컴퓨터 시스템로의 여행](CSAPP/Chapter.1_컴퓨터_시스템로의_여행)
 > - [ ] [Chapter.2 정보의 표현과 처리](CSAPP/Chapter.2_정보의_표현과_처리)
 > - [x] [Chapter.3 프로그램의 기계수준 표현](CSAPP/Chapter.3_프로그램의_기계수준_표현)
 > - [ ] [Chapter.6 메모리 계층구조](CSAPP/Chapter.6_메모리_계층구조)
@@ -476,6 +476,16 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 >
 > [작은 커널 1](https://github.com/mit-pdos/xv6-public?tab=readme-ov-file)
 > [작은 커널 2](https://github.com/mit-pdos/xv6-riscv)
+
+
+[QnA List](OS/qna/index)
+
+[Concurrency & Threading](OS/threading)
+
+> [!td]
+>
+> - [ ] maybe next time...  
+>   - [Unix Processes in C](https://www.youtube.com/playlist?list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY)
 
 
 ### C-language
@@ -700,6 +710,11 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 > [week-7: Malloc Lab](week/week-7)
 > [week-8: Proxy Lab](week/week-8)
 
+
+
+> [!lg] 정글 끝까지(PintOS)
+>
+> [week-9~11: Threads](week/week-9)
 
 
 ## 공식일정

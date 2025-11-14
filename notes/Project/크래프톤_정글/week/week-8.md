@@ -45,6 +45,7 @@
 
 
 
+
 ## (팀)코어타임 기록
 
 
@@ -83,6 +84,38 @@ notebookLM의 도움을 받아서 최대한 약속한 부분까지 읽었다. �
 
 
 ## Proxy Lab
+
+
+- 테스트용 명령, 코드라인
+
+```
+telnet www.cmu.edu 80
+GET /hub/index.html HTTP/1.0
+
+GET http://www.cmu.edu/hub/index.html HTTP/1.1
+GET http://www.cmu.edu:58091/hub/index.html HTTP/1.1
+
+GET http://localhost:5000/ HTTP/1.1
+GET http://localhost:5000/sdf HTTP/1.1
+
+
+
+tiny: 5000
+proxy: 5001
+
+
+home.html
+http://localhost:5000/home.html
+
+
+curl --max-time 5 --proxy http://localhost:5001 --output home.html http://localhost:5000/home.html
+
+curl --max-time 5 --proxy http://localhost:5001 --output csapp.c http://localhost:5000/csapp.c
+curl --max-time 5 --output csapp.c http://localhost:5000/csapp.c
+
+
+diff -q .proxy/csapp.c .noproxy/csapp.c &> /dev/null
+```
 
 
 ### Part. I
