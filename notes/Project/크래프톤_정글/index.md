@@ -755,27 +755,80 @@ _- 아래에 자료구조/알고리즘에 각각 분류하여 노트한다._
 
 ### 나만무
 
+#### 저랑 같이 해보니까 어떠신가요?
 
-```bash
-tree -d 나만무/
-│
-├── 회의
-├── 학습
-│   └── Next.js
-└── subNotes
-```
+[Phase.1: 기획](나만무/동료로서/Phase.1:_기획)
 
+Phase.2: 개발
+Phase.3: 후기??
+
+
+
+#### 기여
+
+[개발 환경 세팅](나만무/기여/개발_환경_세팅)
+[개발 서버 세팅](나만무/기여/개발_서버_세팅)
+[Continuous Integration: AI 리뷰](나만무/기여/Continuous_Integration:_AI_리뷰)
+
+
+> [!td]
+>
+> - [ ] 브랜치 관리 방식 정립 및 문서화하여 공유
+>     - 멘토님께도..?
+
+
+> [!lg] Log 2026-01-01
+> 근데 이건 기여가 (아직은) 아닌것 같기도하고..?
+
+[terraform 테스트](나만무/기여/terraform_테스트)
+
+#### 나만무 회고
+
+[2025-12-28](나만무/회고/2025-12-28)
+[2025-12-29](나만무/회고/2025-12-29)
+[2025-12-30](나만무/회고/2025-12-30)
+[2025-12-31](나만무/회고/2025-12-31)
+
+#### 아키텍쳐
+
+
+- AI
+    [model serving framework](나만무/architecture/model_serving_framework)
+
+
+- infra
+    [infra-structure](나만무/architecture/infra)
+    [개발서버 터널링 이슈](나만무/architecture/개발서버_터널링_이슈)
+    [개발서버용 인스턴스 템플릿](나만무/architecture/개발서버용_인스턴스_템플릿)
+    [aws resources](나만무/architecture/aws_resources)
+
+    - terraform 테스트
+        [terraform](나만무/architecture/terraform)
 
 
 #### 회의
+
+[idea brainstorming with AI](/Project/크래프톤_정글/나만무/회의/brainstorming_with_AI.md)
 
 [001](나만무/회의/001)
 [002](나만무/회의/002)
 [003](나만무/회의/003)
 
-#### 기획
+> [!lg] Log 2025-12-19
+> 이거 쓰는걸 까먹었다. 역시 계획표가 있어야해.
 
-[brainstorming with AI](/Project/크래프톤_정글/나만무/기획/brainstorming_with_AI.md)
+> [!td]
+>
+> - [ ] [007](나만무/회의/007)
+
+[008](나만무/회의/008)
+[009](나만무/회의/009)
+[010](나만무/회의/010)
+
+> [!lg] Log 2026-01-01
+> 기획회의 이후로는 회의가 급격히 줄어든 느낌이다.
+> 회의 준비를 할 것도 딱히 없고, 그냥 하고 있는 작업 공유 및 의사 결정이다.
+
 
 #### 학습
 
@@ -784,7 +837,6 @@ tree -d 나만무/
 
 [web basic](나만무/학습/web_basic)
 [next js basic](나만무/학습/next_js_basic)
-
 
 
 ##### React
@@ -807,6 +859,13 @@ tree -d 나만무/
 [Server Component vs Client Component](나만무/학습/Next.js/ServerComponent_vs_ClientComponent)
 
 
+> [!td]
+>
+> - [ ] 완성 필요
+>   - 나만무 레벨에서 완성 해야할까?
+>   [컴포넌트 렌더링: Client Component vs Server Component](나만무/학습/Next.js/컴포넌트_렌더링:_Client_Component_vs_Server_Component)
+
+
 
 
 
@@ -814,13 +873,87 @@ tree -d 나만무/
 
 ##### NestJS
 
-ASAP
+> [!lg] Log 2025-12-19
+> 큰일이네 얼른 공부해야하는데...
+
+> [!td]
+>
+> - [ ] Throw하면 실행 흐름이 어디로 이어지지? 각종 Decorator에 걸리면?
+> - [ ] Module이라는 개념적 아이디어와 구현상 아이디어에 대해 알아야 해
+>   - import / provider / controller / export 같은 것들이 있다.
+
+
+
+
+##### AI
+
+
+
+- 우리는 api를 사용하기엔 실시간 응답성이 중요하다.(전화 통화니까)
+- 학습이 필요할 것 같다.(한국어, 사투리, 뭉게진 발음...?)
+
+
+RAG pipeline
+https://wikidocs.net/231393
+
+Loading: 로컬 파일시스템, 구글 드라이브, 슬랙 등등 외부에서 데이터를 가져옴.
+Text Split: 가져온 문서를 분해해서 검색 용이한 형태로 쪼개기. 빠르고 정확한 검색을 위한 단위로 나눔.
+Indexing: Text chunks를 Embedding하여 vectorDB에 저장
+User Input: 질문
+Retrieval: 유저의 질문을 통해 vectorDB에서 적합한 데이터를 다각도로 검색(다양한 방법론이 있다)
+Generation: (Retrieved Documents + 질문)으로 답변 생성
+
+1.  **Loading (Data Ingestion):** PDF, 웹페이지, API 등 다양한 소스에서 원시 데이터를 가져오는 단계입니다. (Document Loader 사용)
+2.  **Text Split (Chunking):** LLM의 입력 토큰 제한(Context Window)과 검색 정확도를 위해 문서를 의미 단위로 자릅니다. 너무 잘게 자르면 문맥을 잃고, 너무 크게 자르면 검색 정확도가 떨어집니다.
+3.  **Indexing (Embedding & Storage):** 텍스트를 숫자로 된 벡터(Vector)로 변환(Embedding)하여 Vector DB(Pinecone, Chroma, FAISS 등)에 저장합니다.
+4.  **User Input:** 사용자의 질문이 들어옵니다.
+5.  **Retrieval:** 사용자의 질문도 벡터로 변환한 뒤, Vector DB에서 가장 유사도가 높은 텍스트 조각(Chunk)들을 찾아옵니다. (Keyword 검색과 Vector 검색을 섞는 Hybrid Search도 많이 씀)
+6.  **Generation:** 찾아온 문서 조각들을 "참고 자료"로 삼아 프롬프트를 구성하고, LLM에게 답변을 생성하도록 요청합니다.
+
+
+3. 나는 실시간 화상통화를 위해 즉각적인 대화를 제공해야해. RAG 파이프라인을 통해서. 이때 적절한 프레임워크 또는 프레임워크의 조합을 추천하고, aws를 활용한 인프라 아키텍쳐를 제안해봐. 개발 속도를 위한 가장 단순한 버전과 성능을 위한 복잡한 버전 두가지를 각각 추천해줘. 특히 몇개의 구분된 서버가 필요한지도 잘 표현하고말야.
+
+###### **B. 성능과 실시간성을 위한 복잡한 버전 (Production)**
+
+레이턴시를 극한으로 줄이고, 보안과 안정성을 확보하는 아키텍처입니다.
+
+*   **서버 구성:** **최소 2~3개 군집 (API Gateway/Backend, Vector DB, LLM Serving)**
+*   **인프라:** AWS EKS (Kubernetes) 또는 EC2 + GPU Instances
+
+**[아키텍처 구성도]**
+
+1.  **Frontend (Client):** WebRTC 화상통화 + WebSocket 연결 (실시간 양방향 통신)
+2.  **Load Balancer (AWS ALB):** 트래픽 분산 및 WebSocket 지원
+3.  **Backend Server (EC2/EKS - Node.js or Go):**
+    *   **역할:** WebSocket 세션 유지, 비즈니스 로직 처리.
+    *   LangChain을 쓰지 않고 직접 경량화된 로직 구현 권장 (오버헤드 제거).
+4.  **RAG Engine Server (EC2/EKS - Python):**
+    *   **역할:** LangChain/LlamaIndex를 사용하여 검색 및 프롬프트 구성.
+    *   **Vector DB:** **Redis Enterprise** (AWS ElastiCache for Redis) 또는 **Milvus**를 로컬/VPC 내부에 구축. (메모리 기반이라 디스크 기반 DB보다 훨씬 빠름)
+5.  **LLM Serving Server (AWS EC2 g5.xlarge 등 GPU 인스턴스):**
+    *   **역할:** 외부 API(OpenAI)를 쓰지 않고 **sLLM(Small Large Language Model)**을 직접 호스팅 (예: Llama-3-8B, Mistral-7B).
+    *   **도구:** vLLM 또는 TGI(Text Generation Inference) 사용하여 추론 속도 극대화.
+    *   **이유:** 외부 API 왕복 시간(Network Latency) 제거 및 보안 강화.
+
+**데이터 흐름**
+`User Voice` -> `STT(AWS Transcribe or Whisper)` -> `Backend` -> `RAG Engine(Redis 검색)` -> `LLM Server(vLLM)` -> `Streaming Response` -> `TTS` -> `User Audio`
+
+**[핵심 포인트]**
+*   **WebSocket:** HTTP 요청/응답 오버헤드를 줄이기 위해 필수.
+*   **Local Vector DB (Redis):** 외부 SaaS(Pinecone 등)를 타지 않고 VPC 내부에서 메모리로 검색하여 속도 단축.
+*   **Self-hosted LLM:** 작은 모델(7B~8B 파라미터)을 GPU 서버에 띄워 네트워크 지연 없이 즉각 추론.
+*   **Streaming:** LLM이 답변을 다 만들 때까지 기다리지 않고, 한 글자씩 생성되는 대로 클라이언트에 전송.
+
+**[요약]**
+*   **고성능 버전:** AWS EC2(GPU) + vLLM(로컬 모델) + Redis(벡터 검색) + WebSocket 서버
 
 
 #### 기타
 
 [시작하기에 앞서](/Project/크래프톤_정글/나만무/시작하기에_앞서)
 [feedback](나만무/feedback)
+
+[refactoring with AI from AI-agent-code](나만무/refactoring_with_AI_from_AI-agent-code)
 
     
 

@@ -55,6 +55,8 @@ Here's an overview of features you'll learn about in this course:
 ## Optimizations
 
 
+### fonts
+
 With fonts, layout shift happens when the browser initially renders text in a fallback or system
 font and then swaps it out for a custom font once it has loaded. This swap can cause the text size,
 spacing, or layout to change, shifting elements around it.
@@ -65,21 +67,55 @@ downloads font files **at build time** and hosts them **with** your other **stat
 This means when a user visits your application, there are no additional network requests for fonts
 which would impact performance.
 
+### The <Image> component
 
-### fonts
+The <Image> Component is an extension of the HTML <img> tag, and comes with automatic image optimization, such as:
+
+Preventing layout shift automatically when images are loading.
+Resizing images to avoid shipping large images to devices with a smaller viewport.
+Lazy loading images by default (images load as they enter the viewport).
+Serving images in modern formats, like WebP and AVIF, when the browser supports it.
 
 
 
 ## Routing
 
 
-aa
+### Layout and Pages
+
+- Next.js uses **file system** for a routing.
+
+- The "page" is a special filename; exposing to client. All others in the same directory works behind
+  the scene. (e.g. testing, util function ...)
+
+- The "layout" is also special. It makes "nested routing" and "partial rendering" working. States of
+  the layout component in the client-side are preserved while rerender the nested components.
+
+
+### Navigating between Pages
+
+- Just replace <a> tag to <Link> from "next/link".
+  Magically optimizes for prefetching on showing links on the viewport.
+
+    - RSC will still be fetched after client manually navigated.
+
+
+- Use `usePathname()` to get pathname.
+
+
 
 
 ## Data Fetching
 
 
-aa
+Learn about some approaches to fetching data: APIs, ORMs, SQL, etc.
+
+How Server Components can help you access back-end resources more securely.
+
+What network waterfalls are.
+
+How to implement parallel data fetching using a JavaScript Pattern.
+
 
 
 ## Search and Pagination
