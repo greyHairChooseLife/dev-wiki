@@ -1,6 +1,11 @@
 # refactoring with AI from AI-agent-code
 
 
+> [!rf]
+> 
+> [REFACTORING_PLAN.md](./REFACTORING_PLAN.md)
+> 익화님이 공유해주셨다.
+
 
 ## 기존 코드 학습하기
 

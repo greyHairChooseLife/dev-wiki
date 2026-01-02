@@ -771,6 +771,24 @@ Phase.3: 후기??
 [Continuous Integration: AI 리뷰](나만무/기여/Continuous_Integration:_AI_리뷰)
 
 
+- 재현가능성 확보
+    chore/#null/reproducibile-environment #3
+    https://github.com/Namanmoo-Damso/ops-infra/pull/3
+
+    chore/#null/reproducibile environment #9
+    https://github.com/Namanmoo-Damso/ops-api/pull/9
+
+
+- ai기능 개선
+    [관련 이슈](https://github.com/Namanmoo-Damso/ops-api/issues/12)
+    - api 서버
+    refactor/#12/selectable ai service provider #17
+    https://github.com/Namanmoo-Damso/ops-api/pull/17
+    - infra 서버; 환경변수 추가
+    chore #null env-variable-for-ai-function #5
+    https://github.com/Namanmoo-Damso/ops-infra/pull/5
+
+
 > [!td]
 >
 > - [ ] 브랜치 관리 방식 정립 및 문서화하여 공유
@@ -788,6 +806,8 @@ Phase.3: 후기??
 [2025-12-29](나만무/회고/2025-12-29)
 [2025-12-30](나만무/회고/2025-12-30)
 [2025-12-31](나만무/회고/2025-12-31)
+[2026-01-01](나만무/회고/2026-01-01)
+[2026-01-02](나만무/회고/2026-01-02)
 
 #### 아키텍쳐
 
