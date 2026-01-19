@@ -54,3 +54,50 @@
     2. plan    (by running terraform plan)
     3. apply   (by running terraform apply)
     4. destroy (by running terraform destroy)
+
+
+
+---
+
+
+- 동적 실행
+
+    - 방법-A
+        - 실행
+            ```bash
+            # cpu_test 모듈만 실행 (기존 t3 인스턴스는 건드리지 않음)
+            terraform apply -target=module.cpu_test
+            # 제거
+            terraform destroy -target=module.cpu_test
+            ```
+
+    - 방법-B
+        ```terraform
+        variable "enable_cpu_test" {
+          description = "C7i 테스트 인스턴스 생성 여부"
+          type        = bool
+          default     = false
+        }
+
+        module "cpu_test" {
+          source = "./modules/c7i-test"
+          
+          # 변수가 true일 때만 모듈 생성 (0이면 생성 안 함)
+          count = var.enable_cpu_test ? 1 : 0
+
+          ami_id            = "ami-092fba6d9bb44f9c8" # 아까 확인한 기존 t3의 이미지
+          key_name          = "dev-server"
+          security_group_id = data.aws_security_group.example.id
+          name              = "c7i-xlarge-benchmark"
+        }
+        ```
+
+        - 실행
+            ```bash
+            # 테스트 서버 켜기
+            terraform apply -var="enable_cpu_test=true"
+
+            # 테스트 서버 끄기 (모듈 내용 삭제)
+            terraform apply -var="enable_cpu_test=false"
+            ```
+

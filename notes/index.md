@@ -9,6 +9,8 @@
 
 [크래프톤 정글](/Project/크래프톤_정글/index.md)
 
+https://kr.linkedin.com/pulse/livekit%EA%B3%BC-twilio%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-ai-agent%EB%A1%9C-%EB%8F%85%EA%B1%B0%EB%85%B8%EC%9D%B8-%EC%95%88%EB%B6%80%EC%A0%84%ED%99%94-%EC%9E%90%EB%8F%99%ED%99%94-taeha-lim-yrobc
+
 
 > [!nt] Note-taking System 개선 (feat. submodule)
 >
@@ -18,8 +20,6 @@
 >     - 그날의 모든 변경사항 git stage에 올리고, recap 문서 생성
 >     - 커밋 메시지로 삼아 커밋
 >     - 개별 커밋 메시지를 통합해 root git dir에서 TIL 생성
-
-
 
 
 

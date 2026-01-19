@@ -789,10 +789,146 @@ Phase.3: 후기??
     https://github.com/Namanmoo-Damso/ops-infra/pull/5
 
 
-> [!td]
->
-> - [ ] 브랜치 관리 방식 정립 및 문서화하여 공유
->     - 멘토님께도..?
+- gpu quota 신청 관련
+
+    조사 및 신청내역 문서화: https://github.com/Namanmoo-Damso/infra/issues/15
+
+
+- v1 배포
+    - 배포 시점 문서화:  https://github.com/Namanmoo-Damso/infra/issues/16
+    - 배포 관련 리소스 관리(s3) 문서화: https://github.com/Namanmoo-Damso/infra/issues/18
+    - v1 배포 자동화 및 문서화: 패키지화(ghcr), terraform 리팩토링 및 배포 자동화
+      https://github.com/Namanmoo-Damso/infra/pull/19
+
+
+- 중복/무용한 코드 제거 및 레포지토리 분리
+
+    https://github.com/Namanmoo-Damso/ops-api/pull/73
+    https://github.com/Namanmoo-Damso/ops-web/pull/55
+
+
+- livekit server 분리(중앙화)
+
+    - 이 중계서버는 cpu집약적인데, 개발편의상 api 등 여타 서버들과 모두 함께 운영되었다.
+    - 이것을 terraform을 활용해 독립적인 프로젝트로 관리
+        - 모든 팀원이 중앙에 존재하는 동일한 livekit 서버를 통해 편리하게 개발
+        - 향후 autoscaling 필요한 포인트일 수 있으므로 자동화되고 재현가능한 분리(terraform)
+
+    https://github.com/Namanmoo-Damso/ops-api/pull/78
+    https://github.com/Namanmoo-Damso/infra/pull/21
+
+
+- 필요 없는 환경변수 등 제거하고, 기본적인 리팩토링(환경변수는 한곳에서 읽기)
+    https://github.com/Namanmoo-Damso/ops-web/issues/123
+    https://github.com/Namanmoo-Damso/ops-web/pull/124
+    https://github.com/Namanmoo-Damso/ops-api/pull/94
+
+
+- 브랜치 전략 실수와 해결
+    - feature --> dev --> main
+    - to-dev-PR 및 to-main-PR 모두 squash merge를 선택했다.
+    - 이와중에 기존 dev를 그대로 사용했다.
+        - **이것이 잘못된 점**
+        - squash merge 한 시점부터 다시 dev:2 따위를 새로 브랜칭해서 사용해야한다.
+        - 혹은 squash merge 대신 fast-forward merge를 해야했다.
+          - [ ] 이거 그림으로 표현해보자
+    - 그래서 기존 main을 지우고 다시 만들었다.
+        - 이 과정에서 지난번 v1을 만들며 기록해둔 issue와 archiving branch가 매우 든든했다.
+
+    ```sh
+    ops-web$ gh pr create --base main
+    Warning: 1 uncommitted change
+
+    Creating pull request for archive/dev-v1 into main in Namanmoo-Damso/ops-web
+
+    ? Title (required) create version 1
+    ? Body <Received>
+    ? What's next? Add metadata
+    ? What would you like to add? Assignees
+    ? Assignees tomk1002
+    ? What's next? Submit
+    https://github.com/Namanmoo-Damso/ops-web/pull/138
+    ```
+
+    ```sh
+    ops-api$ gh pr create --base main
+    Warning: 4 uncommitted changes
+
+    Creating pull request for archive/dev-v1 into main in Namanmoo-Damso/ops-api
+
+    ? Title (required) create version 1
+    ? Body <Received>
+    ? What's next? Add metadata
+    ? What would you like to add? Assignees
+    ? Assignees tomk1002
+    ? What's next? Submit
+    https://github.com/Namanmoo-Damso/ops-api/pull/118
+    ```
+
+
+
+- v2 배포
+    - 빌드 및 컨테이너 이미지 관리 스크립트
+        - 특정 branch의 commit hash를 통해 소스코드 clone
+        - build & push to ghcr
+    - terraform 및 user-data를 활용해 서버 실행 및 어플리케이션 실행
+        - livekit server 전용 인스턴스를 띄우고 실행
+        - 그밖에 사항은 v1과 같음
+            - private s3에서 env, docker-compose.yaml 로딩
+            - docker-compose에 정의된 ghcr 주소에서 version 2 이미지를 pull하고 실행
+
+    [관련 commit](https://github.com/Namanmoo-Damso/infra/commit/ad1e69ee7168f36d6e77aecdbead3a84aa0a5730)
+
+
+
+- LLM을 자체모델로 운영하기
+    - 기존에는 api로 구현함
+        - aws bedrock
+    - network latency 및 간헐적 응답 거절 문제
+
+    - ollama를 엔진으로 자체모델로 전환 
+        - llama3.1
+        - exaon3.5
+
+    - factory pattern을 적용하여 기존 방식도 환경변수 조절로 사용 할 수 있도록 함
+
+    https://github.com/Namanmoo-Damso/ops-agent/issues/39
+    https://github.com/Namanmoo-Damso/ops-agent/pull/40
+          
+
+
+- STT를 자체모델로 운영하기
+    - 기존에는 api로 구현함
+        - aws transriber
+
+    - deepdml/faster-whisper-large-v3-turbo-ct2
+
+    https://github.com/Namanmoo-Damso/ops-agent/pull/41
+
+
+
+- 프롬프팅 구조 개선
+    - 파이썬 코드가 아니라 yaml 형식의 파일로 작성 및 jinja2 템플릿으로 주입
+    - 용도가 뒤섞이거나 중복된 코드 통합 등 리팩토링
+
+    https://github.com/Namanmoo-Damso/ops-agent/pull/42
+    refactor/#null/prompt-dir-and-better-greeting, origin/refactor/#null/prompt-dir-and-better-greeting
+
+
+
+- 할머니봇 infra 구성 - terraform 프로젝트
+재완쓰
+
+
+- v3-production 배포
+
+- tmux & tmuxp 등은 매우 유용하다. 거의 필수다. ssh, ssm은 생각보다 연결 지속성이 병약하다.
+- 간단히 파일을 옮기는 portal이나, 쉘 등 기본 도구들의 alias 따위를 잘 모아두고 가볍게
+서버에서 사용할 수 있게 스크립트를 준비해두면 좋겠다. lambda로 하나 말아놓거나 해도 좋을듯?
+- 컨테이너가 시작조차 못한것은 
+
+
+
 
 
 > [!lg] Log 2026-01-01
@@ -808,6 +944,8 @@ Phase.3: 후기??
 [2025-12-31](나만무/회고/2025-12-31)
 [2026-01-01](나만무/회고/2026-01-01)
 [2026-01-02](나만무/회고/2026-01-02)
+[2026-01-05](나만무/회고/2026-01-05)
+[2026-01-06](나만무/회고/2026-01-06)
 
 #### 아키텍쳐
 
@@ -824,6 +962,8 @@ Phase.3: 후기??
 
     - terraform 테스트
         [terraform](나만무/architecture/terraform)
+
+    - [aws 자원에 접근하는 순서도](나만무/architecture/aws_자원에_접근하는_순서도)
 
 
 #### 회의
@@ -976,6 +1116,10 @@ Generation: (Retrieved Documents + 질문)으로 답변 생성
 [refactoring with AI from AI-agent-code](나만무/refactoring_with_AI_from_AI-agent-code)
 
     
+[refactoring with AI from AI-agent-code](나만무/refactoring_with_AI_from_AI-agent-code)
+
+[how to claude-code](나만무/how_to_claude-code)
+
 
 
 
@@ -1031,6 +1175,9 @@ Generation: (Retrieved Documents + 질문)으로 답변 생성
 
 
 [커피챗_6 2025-12-15](공식일정/커피챗_6_2025-12-15)
+
+[커피챗_7 2026-01-05](공식일정/커피챗_6_2026-01-05)
+
 
 
 ## ETC
