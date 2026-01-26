@@ -920,12 +920,26 @@ Phase.3: 후기??
 재완쓰
 
 
+
 - v3-production 배포
 
-- tmux & tmuxp 등은 매우 유용하다. 거의 필수다. ssh, ssm은 생각보다 연결 지속성이 병약하다.
-- 간단히 파일을 옮기는 portal이나, 쉘 등 기본 도구들의 alias 따위를 잘 모아두고 가볍게
-서버에서 사용할 수 있게 스크립트를 준비해두면 좋겠다. lambda로 하나 말아놓거나 해도 좋을듯?
-- 컨테이너가 시작조차 못한것은 
+    - tmux & tmuxp 등은 매우 유용하다. 거의 필수다. ssh, ssm은 생각보다 연결 지속성이 병약하다.
+    - 간단히 파일을 옮기는 portal이나, 쉘 등 기본 도구들의 alias 따위를 잘 모아두고 가볍게
+    서버에서 사용할 수 있게 스크립트를 준비해두면 좋겠다. lambda로 하나 말아놓거나 해도 좋을듯?
+    - 컨테이너가 시작조차 못한것은 빌드된 것에 문제가 있을 수 있따.
+    - health check가 실패하면 docker inspect 명령으로 살펴보자.
+
+    - 배포 버전 
+        https://github.com/Namanmoo-Damso/ops-web/commits/v3/
+        https://github.com/Namanmoo-Damso/ops-api/commits/v3/
+        https://github.com/Namanmoo-Damso/ops-agentb/commits/v3/
+        https://github.com/Namanmoo-Damso/infra/commits/v3/
+        https://github.com/Namanmoo-Damso/infra/pull/28
+
+
+
+
+
 
 
 
