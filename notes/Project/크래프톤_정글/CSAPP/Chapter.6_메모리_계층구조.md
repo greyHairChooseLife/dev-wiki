@@ -87,7 +87,7 @@ int sumvec(int v[N]) {
 >   󱞪 컴파일러는 스칼라 변수의 시간 지역성이 좋다고 판단하면 **레지스터에** 계속 캐싱해두고 사용한다.
 >
 >
-> > [!nt] 스칼라변수?
+> > [!NOTE] 스칼라변수?
 > >
 > > 배열처럼 sequencial한 변수가 아닌 단일값을 뜻함
 
@@ -109,7 +109,7 @@ int sumvec(int v[N]) {
 >   4. **(하드웨어 레벨에서)** 캐시메모리 위계에 따라 데이터를 찾아 내려간다.
 
 
-> [!nt] 캐시 Hit/Miss 성능을 측정하는 소프트웨어 `perf`
+> [!NOTE] 캐시 Hit/Miss 성능을 측정하는 소프트웨어 `perf`
 >
 > `perf`
 > [analyze-cache-misses](https://www.baeldung.com/linux/analyze-cache-misses)
@@ -153,7 +153,7 @@ int sumvec(int v[N]) {
 >   register state (e.g., PC, SP, general registers) **to the kernel stack or PCB** in virtual memory.
 >   It then loads the saved state of the next process, replacing the old context.
 > 
->   > [!nt] collaboration of kernerl stack with PCB: `context switching`-wise
+>   > [!NOTE] collaboration of kernerl stack with PCB: `context switching`-wise
 >   >
 >   > - How They Work Together:
 >   >   - During context switching, the CPU might temporarily save register states onto
@@ -192,7 +192,7 @@ _각 기술의 물리적 한계와 발전 속도의 차이가 어떻게 메모�
 ### RAM (Random Access Memory)
 
 
-> [!nt]
+> [!NOTE]
 > capacitor: 전하를 저장
 > transistor: 전류의 저항을 조절, 스위치 역할
 
@@ -273,21 +273,21 @@ _각 기술의 물리적 한계와 발전 속도의 차이가 어떻게 메모�
 _CPU와 DRAM 사이의 데이터 흐름을 관리하는 하드웨어_
 
 
-> [!nt] 트랜잭션(transaction)
+> [!NOTE] 트랜잭션(transaction)
 > 버스를 통해 데이터를 주고받는 하나의 완전한 과정. read/write 두 가지
 
 
-> [!nt] DRAM의 인덱싱: supercell의 주소
+> [!NOTE] DRAM의 인덱싱: supercell의 주소
 > - RAS:    Row Access Strobe. 느림(상대적으로)
 > - CAS: Column Access Strobe. (상대적으로)빠름
 >
 >
-> > [!nt] "strobe"란?
+> > [!NOTE] "strobe"란?
 > >
 > > - 전자공학에서 **순간적으로 신호를 보내어 어떤 동작을 트리거(trigger)하는 제어 신호**
 
 
-> [!nt] control wires(제어 와이어): system bus의 일부로, 오가는 정보의 종류와 흐름을 통제하는 신호
+> [!NOTE] control wires(제어 와이어): system bus의 일부로, 오가는 정보의 종류와 흐름을 통제하는 신호
 > - transaction 종류 식별: read / write 식별
 > - 정보 유형 구분: 버스에 실린 데이터가 '주소'인지 '데이터'인지 식별
 > - 대상 장치 지정: 대상지(목적지)가 주기억장치인지 기타 I/O 장치인지 식별
@@ -313,7 +313,7 @@ ex)`movq A-addr, %rax` 명령을 수행하는 과정
 
 
 
-> [!nt] 메모리 칩의 동작 및 RAS와 '지역성'
+> [!NOTE] 메모리 칩의 동작 및 RAS와 '지역성'
 >
 > - chip 내에 하나의 행은 엄청나게 많은 supercell을 가지고 있다.
 > - 예를들어, 8M x 8bit 메모리칩은 2048 row * 4096 column으로 구성될 수 있는데
@@ -489,7 +489,7 @@ ex)`moveq %rax, A-addr` 명령을 수행하는 과정
 
   - 플래시 메모리 칩 + '디스크 컨트롤러'와 같은 역할을 하는 플래시 변환 계층
 
-    > [!nt] 플래시 변환 계층(Flash translation layer)
+    > [!NOTE] 플래시 변환 계층(Flash translation layer)
     >
     > - OS의 파일 시스템 요청(Read/Write/Delete)을 플래시 메모리의 특성에 맞게 변환해주는
     >   소프트웨어 계층
@@ -758,7 +758,7 @@ _데이터 전송 단위를 정의_
     - 조건2: 태그가 요청된 주소의 태그와 일치
 
 
-  > [!nt] 캐시 라인이 많으면 캐시 히트 적중률이 좋으니까 좋은건가?
+  > [!NOTE] 캐시 라인이 많으면 캐시 히트 적중률이 좋으니까 좋은건가?
   >
   > 장단점이 있다.
   >
@@ -786,7 +786,7 @@ _세트당 라인 수에 따라 분류됨_
   | **L2 unified cache** | 256 KB        | 8                         | 64 Byte       | 512         |
   | **L3 unified cache** | 8 MB          | 16                        | 64 Byte       | 8,192       |
 
-  > [!nt] 블록 크기
+  > [!NOTE] 블록 크기
   >
   > - cache line 하나의 크기
   >   - **cache miss 발생시 하위계층에서 하나의 블록을 가져오면 라인 하나를 채워준다.**
@@ -871,7 +871,7 @@ _세트당 라인 수에 따라 분류됨_
 
 - **하드웨어 관리:** 이 캐시들은 전적으로 캐시에 내장된 하드웨어 논리(hardware logic)에 의해 관리됨.
 
-  > [!nt] Hardware logic
+  > [!NOTE] Hardware logic
   >
   > Refers to **dedicated electronic circuits** (transistors, gates, comparators) built into the
   > CPU or cache chip.
@@ -969,7 +969,7 @@ Intel Core i7 프로세서에서 L1, L2, L3 캐시는 모두 CPU 칩 내부에 �
     - Block Offset
 
 
-    > [!nt] Physical vs. Virtual Addresses AROUND Memory Hierarchy
+    > [!NOTE] Physical vs. Virtual Addresses AROUND Memory Hierarchy
     >
     > - **Physical Address**: The actual hardware-level address used to access data in RAM. It's what
     >   the cache uses for lookups, divided into Tag (identifies the block), Set Index (selects the
@@ -993,7 +993,7 @@ Intel Core i7 프로세서에서 L1, L2, L3 캐시는 모두 CPU 칩 내부에 �
 
 - $m$ 비트의 주소는 캐시의 매개변수에 기반하여 세 가지 필드로 나뉘어 구성됨
 
-  > [!nt]
+  > [!NOTE]
   > $m$: the total number of bits in the memory address (e.g., 64 for a 64-bit address)
 
   - $S$(세트 수, $S=2^s$)
@@ -1009,7 +1009,7 @@ Intel Core i7 프로세서에서 L1, L2, L3 캐시는 모두 CPU 칩 내부에 �
   | **Block Offset** | $b$  | $b = \log_2(B)$   | 블록 내에서 요청된 데이터 워드 또는 바이트의 **오프셋**을 지정함.    |
 
     
-> [!nt] Short Version: Why Middle Bits for Cache Set Indexing?
+> [!NOTE] Short Version: Why Middle Bits for Cache Set Indexing?
 >
 > Caches use middle bits (not high-order bits) for set indexing **to avoid mapping
 > contiguous memory blocks to the same set.** With high-order bits, sequential
@@ -1169,7 +1169,7 @@ _세트 연관 캐쉬_
      - 조건 확인: Valid Bit 및 Tag Bit 동시에 검사
      - 연관 메모리: 각 세트는 키(태그와 유효 비트)를 통해 값을 검색하는 작은 **연관 메모리**로 간주됨
 
-       > [!nt] 연관 메모리(Associative Memory) aka. (Content-Addressable Memory or CAM)
+       > [!NOTE] 연관 메모리(Associative Memory) aka. (Content-Addressable Memory or CAM)
        >
        > 원래 메모리란 주소를 통해 값을 색인한다. 근데 주소 그런거 모르고 그냥 컨텐츠 보여주면서
        > "이거 줘" 하는 방식이란거. 이게 가능한 이유는 모든 라인에 대한 병렬 검색을 하드웨어
@@ -1203,7 +1203,7 @@ _완전 연관 캐시_
 - 모든 라인의 태그를 병렬로 검색해야 하므로, 크고 빠르도록 만들기 어려워 보통 작은 캐시
   (예: TLB)에 사용됨
 
-  > [!nt] What is TLB Cache?
+  > [!NOTE] What is TLB Cache?
   >
   > TLB(Translation Lookaside Buffer) is a small, fast cache used in computer memory management to
   > **store recent virtual-to-physical address translations**. It speeds up address translation in
@@ -1233,7 +1233,7 @@ _완전 연관 캐시_
 
 
 
-> [!nt]
+> [!NOTE]
 >
 > Core i7과 같은 현대 시스템은 64 바이트 블록 크기($B=64$ Byte)를 사용하여 절충안을 찾음
 
@@ -1326,7 +1326,7 @@ _완전 연관 캐시_
     - 데이터 객체를 **메모리에 저장된 순서대로 순차적으로 읽는** Stride-1 참조 패턴이 캐시 친화적
     - 스트라이드가 클수록(Stride-k, $k>1$) 공간 지역성이 감소하며, 캐시 성능이 저하됨.
 
-    > [!nt] Stride란?
+    > [!NOTE] Stride란?
     >
     > 연속적 참조 간 거리. 4바이트를 연속적으로 읽으면 Stride-1, 4바이트 건너뛰고 읽으면 Stride-2
 

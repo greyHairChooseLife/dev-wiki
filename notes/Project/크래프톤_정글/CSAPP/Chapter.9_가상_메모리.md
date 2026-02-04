@@ -140,7 +140,7 @@
     - 가상 주소 공간의 주소를 물리적 주소 공간의 주소로 매핑
     - OS가 관리하는 주 메모리의 lookup table(page table)을 사용하여 실시간으로 수행됨
 
-      > [!nt] Page Table
+      > [!NOTE] Page Table
       >
       > - There is **one page table per process** (sometimes shared for threads).
       > - The page table is **data structure** stored in physical memory (RAM), **not as a file.**
@@ -170,13 +170,13 @@
       as it specifies the exact byte position within the page(no translation needed for the offset).
 
 
-      > [!nt] "Frame Number" == "Physical Page Number"
+      > [!NOTE] "Frame Number" == "Physical Page Number"
       >
       > for example, if a frame is 4 kb,
       > frame number 0 corresponds to physical addresses 0x0000–0x0fff, and so on.
 
 
-      > [!nt] PCB (Process Control Block) has pointer for Page Table
+      > [!NOTE] PCB (Process Control Block) has pointer for Page Table
       >
       > - PCB is stored in the kernel's memory area
       > - PCB is a kernel data structure that stores information about a process,
@@ -186,7 +186,7 @@
       >     - This is loaded on the **PTBR** (Page Table Base Register) by context switching
 
 
-      > [!nt] Page Table vs Page Table Entry
+      > [!NOTE] Page Table vs Page Table Entry
       >
       > - **Page Table:**
       >   - 운영체제에서 가상 메모리 주소를 실제 물리 메모리 주소로 변환하기 위해 사용하는 자료구조
@@ -220,7 +220,7 @@
       >       >    - 예: 페이지 크기, 글로벌 페이지 여부, NX(Non-Executable) 비트 등.
 
 
-      > [!nt] TLB (Translation Lookaside Buffer)
+      > [!NOTE] TLB (Translation Lookaside Buffer)
       >
       > - It is a **cache** inside the MMU.
       > - It stores recently accessed Page's data
@@ -248,7 +248,7 @@
 
 
 
-> [!nt]
+> [!NOTE]
 >
 > 리눅스 x86-64 시스템에서 프로세스의 VM은 일반적으로 아래와 같이 구성됨
 >
@@ -302,10 +302,10 @@ _VM은 메인 메모리(DRAM)를 효율적으로 사용하는 메커니즘이며
   - VM 시스템은 "디스크의 가상 메모리"를 고정 크기 블록인 **가상 페이지(VP)**로 분할함 (크기 $P = 2^p$ 바이트)
   - 물리 메모리(DRAM) 역시 동일한 크기 $P$ 바이트의 **물리 페이지(PP, 페이지 프레임)**로 분할됨
 
-    > [!nt]  "디스크의 가상 메모리"
+    > [!NOTE]  "디스크의 가상 메모리"
     > It means executable file's code, data, and other regions
 
-    > [!nt] Page Size
+    > [!NOTE] Page Size
     >
     > The page size P is calculated as `P = 2^p` bytes, where **`p` is the number of bits used for the
     > virtual page offset (VPO)** in the virtual address.
@@ -577,7 +577,7 @@ Linux kernel uses the following data structures to manage each process's VM area
     - `mm_struct` is a component within `task_struct` for modularity,
       allowing efficient sharing like in threads.
 
-  > [!nt] `task_struct` is the comprehensive process descriptor, containing much more than VM details.
+  > [!NOTE] `task_struct` is the comprehensive process descriptor, containing much more than VM details.
   >
   > It includes:
   >   - pid
@@ -815,7 +815,7 @@ MM은 VM이 제공하는 프로세스 추상화 및 관리 기능을 구현하�
     - In 32-bit mode (`gcc -m32`), the address is always a multiple of 8.
     - In 64-bit mode (the default), the address is always a multiple of 16.
 
-    > [!nt]
+    > [!NOTE]
     >
     > `errno` is a global integer variable defined in the C standard library (typically in `<errno.h>`).
     > It stores error codes set by system calls or library functions (like `malloc`) when they fail,
@@ -1213,7 +1213,7 @@ it must **decide** how much of that block to allocate, a choice that determines 
 
 
 
-> [!nt]
+> [!NOTE]
 >
 > Internal fragmentation occurs when allocated memory blocks are **larger than needed,** wasting space.
 > Splitting helps reduce this, but only if the leftover block is usable according to the allocator's
@@ -1436,7 +1436,7 @@ especially,
     - Prologue and epilogue blocks help eliminate edge cases during coalescing.
 
 
-    > [!nt]
+    > [!NOTE]
     >
     > **Invariant Form in Heap Structure**
     >
@@ -1452,7 +1452,7 @@ especially,
     > related to boundary conditions.
 
 
-    > [!nt]
+    > [!NOTE]
     >
     > **Zero-Size Header (Epilogue Header) Explanation**
     >
@@ -1584,7 +1584,7 @@ especially,
           Address-ordered first-fit usually results in **better memory usage,** similar to best-fit
           policies.
 
-          > [!nt] Why Address-Ordered First-Fit Improves Utilization
+          > [!NOTE] Why Address-Ordered First-Fit Improves Utilization
           >
           > - **Locality of Free Blocks:**
           >   Keeping the free list sorted by address means adjacent free blocks are next to each other
@@ -1627,7 +1627,7 @@ especially,
     - All possible block sizes are divided into these size classes (often by powers of 2).
     - The allocator keeps an array of free lists, sorted by increasing block size.
 
-    > [!nt] Storage of Segregated Free Lists
+    > [!NOTE] Storage of Segregated Free Lists
     >
     > - In most implementations, the array of free lists for segregated storage is stored as a
     >   **global or static variable.**
@@ -1677,7 +1677,7 @@ especially,
     - Freed blocks are merged (coalesced) and returned to the correct list.
 - **Efficiency:** Widely used in production allocators (e.g., GNU `malloc`) for speed and memory efficiency.
 
-> [!nt]
+> [!NOTE]
 >
 > Immediate coalescing in segregated fits helps reduce fragmentation, but it does not fully prevent
 > thrashing if allocations and frees happen rapidly for small blocks. Thrashing can still occur if
@@ -1688,7 +1688,7 @@ especially,
 > fragmentation effects.
 
 
-> [!nt] Tuneing
+> [!NOTE] Tuneing
 >
 > - "Tune" refers to adjusting the allocator's parameters or policies to optimize performance
 >   and memory usage for specific workloads or environments.
@@ -1819,7 +1819,7 @@ no longer used by a program.
 - **Conceptual Model:**
   Garbage collectors view memory as a directed reachability graph.
 
-  > [!nt]
+  > [!NOTE]
   >
   > 메모리를 "방향성 있는 도달 가능성 그래프(directed reachability graph)"로 본다는 것은, 가비지
   > 컬렉터가 프로그램의 메모리 구조를 그래프로 모델링한다는 뜻입니다. 여기서 각 노드는 객체(메모리
@@ -1918,7 +1918,7 @@ Implementing Mark & Sweep in C requires a conservative approach due to language 
 
 
 
-> [!nt]
+> [!NOTE]
 >
 > Conservative garbage collection in C may leave some garbage uncollected, but it guarantees
 > that no necessary memory is freed prematurely.
@@ -2029,7 +2029,7 @@ Here are common memory-related bugs in C programming:
        Using `unsigned int` avoids problems with sign extension that could occur if a signed type
        were used. This is important for manipulating raw data like size fields and status bits.
 
-> [!nt]
+> [!NOTE]
 >
 > Casting to `(unsigned int *)` ensures that the allocator performs correct 4-byte read and write
 > operations on generic memory pointers, maintaining consistency and preventing errors.
@@ -2067,7 +2067,7 @@ This distinction is important because the block's actual start is where its meta
 
 
 
-> [!nt] Size of block
+> [!NOTE] Size of block
 >
 > It is including 'header' & 'footer'
 
@@ -2102,7 +2102,7 @@ Casting to `char *` is essential for precise pointer arithmetic in heap manageme
       breaking boundary tag logic or block traversal.
 
 
-> [!nt]
+> [!NOTE]
 >
 > Using `char *` for pointer arithmetic guarantees movement by exact bytes, which is necessary for
 > reliable heap manipulation and metadata access.
@@ -2219,7 +2219,7 @@ This line is correct due to the order of execution and the definition of the `FT
     `FTRP(bp)` now points to the last word of the merged block, which matches the location of the original next block's footer.
 
 
-> [!nt]
+> [!NOTE]
 >
 > Using `PUT(FTRP(NEXT_BLKP(bp)), PACK(size, 0));` would only work if `FTRP` or `NEXT_BLKP(bp)` were defined
 > differently. By updating the header first and then using `FTRP(bp)`, the allocator consistently locates the

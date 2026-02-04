@@ -94,7 +94,7 @@ pritnf("%05d", 3);   // 00003 출력된다.
   ```
 
 
-  > [!nt] scanf_s는 C99 표준이 아니다.
+  > [!NOTE] scanf_s는 C99 표준이 아니다.
   >
   > ```md
   > **Diagnosis:**  

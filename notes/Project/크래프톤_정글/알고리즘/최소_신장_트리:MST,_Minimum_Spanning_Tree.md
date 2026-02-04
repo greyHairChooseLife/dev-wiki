@@ -2,12 +2,12 @@
 
 - 가중치 총합이 가장 낮은 Spanning Tree
 
-  > [!nt] Spanning Tree
+  > [!NOTE] Spanning Tree
   >
   > - no cycle _(tree니까 당연히)_
   > - connects all nodes _(즉 연결요소가 하나인 것)_
  
-  > [!nt]
+  > [!NOTE]
   >
   > - cycle
   >   - 자기 자신에게 돌아오는 것

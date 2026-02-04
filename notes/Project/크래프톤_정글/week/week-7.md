@@ -4,7 +4,7 @@
 
 
 
-> [!nt]
+> [!NOTE]
 >
 > 팀원: 배재완 + 박지호
 
@@ -120,7 +120,7 @@ root@sy-x390:/workspace# ls /usr/include/ | grep bits
 root@sy-x390:/workspace#
 ```
 
-  > [!nt] "usr" in the path(`/usr`) stands for "Unix System Resource"
+  > [!NOTE] "usr" in the path(`/usr`) stands for "Unix System Resource"
 
 
 **solution**

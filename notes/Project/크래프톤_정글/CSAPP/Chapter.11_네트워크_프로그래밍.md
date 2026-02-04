@@ -68,7 +68,7 @@ chapter ends with building a simple Web server ("Tiny") that serves both static 
 
 - **Router:** Specialized computer used to connect incompatible LANs and WANs to form an internet.
 
-    > [!nt]
+    > [!NOTE]
     >
     >
     > A **router** is a networking device (often a specialized computer or hardware appliance) that
@@ -410,7 +410,7 @@ Connects computers in a small area (like a building).
 
 
 
-  > [!nt] Contradiction? No, it's "Ethernet Frame Processing"
+  > [!NOTE] Contradiction? No, it's "Ethernet Frame Processing"
   >
   > - **Hub Level:**
   >     - Hub broadcasts all bits to all connected ports
@@ -614,7 +614,7 @@ Created by connecting multiple LANs and WANs using routers.
 - Protocols operate at different layers of a network stack, such as the OSI model or TCP/IP stack,
   allowing _modular_ design where each layer handles specific responsibilities.
 
-  > [!nt] Network Layers in the TCP/IP Stack
+  > [!NOTE] Network Layers in the TCP/IP Stack
   >
   > - **Physical Layer:**
   >   Responsible for transmitting raw bits over a physical medium, such as cables or wireless signals.
@@ -640,7 +640,7 @@ Created by connecting multiple LANs and WANs using routers.
   >   - *Implementation*: Web servers (e.g., Apache), client applications (e.g., browsers).
   >
   >
-  >   > [!nt]
+  >   > [!NOTE]
   >   > Each layer depends on the services provided by the layer below it. Higher-level
   >   > protocols rely on lower-level > layers for data transmission and routing.
 
@@ -668,7 +668,7 @@ A protocol layer runs on every host and router to enable communication across di
 
 
 
-> [!nt] Overview
+> [!NOTE] Overview
 >
 > - **Transport Layer (TCP/UDP):**
 >   Creates segments with source/destination ports, but does not handle MAC addresses. MAC
@@ -1007,7 +1007,7 @@ Example: A client on host A (LAN1) sends data to a server on host B (LAN2) via a
 
 - _Use big-endian_ (network byte order). Functions like `htonl` and `ntohl` convert between host and network order.
 
-  > [!nt] Byte Order Conversion Functions
+  > [!NOTE] Byte Order Conversion Functions
   >
   > - `htonl`: Stands for "host to network long."
   >   It converts a 32-bit integer _**from** the host's native byte order **to** network byte order (big-endian)._
@@ -1019,7 +1019,7 @@ Example: A client on host A (LAN1) sends data to a server on host B (LAN2) via a
 
 - Shown as dotted-decimal (e.g., 128.2.194.242). Use `inet_pton` and `inet_ntop` for conversions.
 
-  > [!nt]
+  > [!NOTE]
   >
   > `inet_pton` and `inet_ntop` are C functions from `<arpa/inet.h>` for converting IP addresses
   > between human-readable (presentation) and binary (network) formats. They support both IPv4
@@ -1050,7 +1050,7 @@ Example: A client on host A (LAN1) sends data to a server on host B (LAN2) via a
     - Top level: .com, .org, .net (managed globally).
     - Second level: example.com (registered by a user or organization).
 
-      > [!nt]
+      > [!NOTE]
       >
       > It is registered through accredited domain registrars (like GoDaddy or Namecheap).
       > These registrars submit the registration to the TLD registry (e.g., Verisign for .com),
@@ -1080,7 +1080,7 @@ Example: A client on host A (LAN1) sends data to a server on host B (LAN2) via a
 
 - Data is sent over _reliable_ streams.
 
-    > [!nt]
+    > [!NOTE]
     >
     > The _reliability_ in "data is sent over reliable streams" refers to protocols like TCP
     > (part of TCP/IP), which ensure:
@@ -1349,7 +1349,7 @@ Key points in this example:
 
     - `listen` turns an active socket into a **listening socket** for connection requests.
 
-        > [!nt]
+        > [!NOTE]
         >
         > By default, the kernel assumes that a descriptor created by the socket function corresponds to
         > an active socket that will live on the client end of a connection. A server calls the listen
@@ -1400,7 +1400,7 @@ Key points in this example:
 - These functions convert between _binary socket addresses_ and _string representations (hostnames, service names)_,
   supporting protocol-independent code.
 
-    > [!nt]
+    > [!NOTE]
     >
     > - **Hostnames**: Human-readable names for hosts (e.g., "www.example.com" or "localhost"), which
     >   resolve to IP addresses. They make addresses easier to remember than numeric IPs.
@@ -1419,7 +1419,7 @@ Key points in this example:
     - Returns _a linked list of `addrinfo` structures;_ clients and servers iterate through
       them, trying connections/bindings.
 
-      > [!nt]
+      > [!NOTE]
       >
       > - **`getaddrinfo` data sources**: It queries system name resolution services to populate the
       >   `addrinfo` linked list. On Linux (and most Unix-like systems), this includes:
@@ -1432,7 +1432,7 @@ Key points in this example:
       >   dynamically based on available network interfaces and resolution results.
 
 
-      > [!nt]
+      > [!NOTE]
       >
       > - **Default behavior**: When calling `getaddrinfo()` without specifying `ai_socktype` in the
       >   hints (or setting it to 0), it returns up to three `addrinfo` structures for each unique IP

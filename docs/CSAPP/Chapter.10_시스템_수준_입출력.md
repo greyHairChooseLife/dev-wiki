@@ -57,7 +57,7 @@ interface called Unix I/O.
 
     - Constants like `STDIN_FILENO`, `STDOUT_FILENO`, and `STDERR_FILENO` represent these values.
 
-      > [!nt]
+      > [!NOTE]
       >
       > These constants are predefined macros in Unix-like systems (defined in `<unistd.h>` in C) that
       > represent the integer values of the standard file descriptors:
@@ -109,7 +109,7 @@ interface called Unix I/O.
 
       - The **Rio (Robust I/O) package** solves this by repeating operations until all requested data is transferred.
 
-        > [!nt]
+        > [!NOTE]
         >
         > Unix I/O functions like `read` and `write` can return short counts (fewer bytes than
         > requested) _due to interruptions (e.g., signals), end-of-file, or network issues (e.g., sockets
@@ -122,7 +122,7 @@ interface called Unix I/O.
         > For simple disk I/O, short counts are rare, so Rio isn't always necessary, but it simplifies code.
 
 
-        > [!nt]
+        > [!NOTE]
         >
         > Short counts are common with network sockets and terminals. Always check the return value of
         > `read` and `write` to ensure all data is transferred. Use Rio for robust network I/O.
@@ -152,7 +152,7 @@ interface called Unix I/O.
       Used for network communication between processes.
 
 
-    > [!nt]
+    > [!NOTE]
     >
     > 소켓 파일은 리눅스에서 프로세스 간 통신을 위해 운영체제가 제공하는 특수 파일로, 개발자가 직접
     > 내용을 읽거나 수정하는 것이 아니라, 각 언어에서 제공하는 소켓 API를 통해 데이터를 송수신하는 용도로
@@ -162,7 +162,7 @@ interface called Unix I/O.
 
 
 
-    > [!nt] There are also ...
+    > [!NOTE] There are also ...
     >
     > - **Character Device Files**: Handle data as a stream of characters, like keyboards or serial ports.
     >   e.g., `/dev/tty` for terminals
@@ -360,7 +360,7 @@ interface called Unix I/O.
 
 
 
-        > [!nt] 
+        > [!NOTE] 
         >
         > `rio_readlineb` is a blocking operation. It will wait (block) until either:
         > 
@@ -370,7 +370,7 @@ interface called Unix I/O.
         > 4. An error occurs
 
 
-        > [!nt]
+        > [!NOTE]
         >
         > The Rio buffered functions require you to _explicitly allocate and manage a buffer in memory_
         > using the `rio_t` structure.
@@ -391,7 +391,7 @@ interface called Unix I/O.
         > ```
 
 
-        > [!nt]
+        > [!NOTE]
         >
         > - 이건 읽기만 있다.
         > - 출력은 버퍼 없는쪽걸로 한다.
@@ -507,7 +507,7 @@ interface called Unix I/O.
       - After `dup2(4, 1)`, both 4 and 1 refer to the same file table entry.  
       - Data written to standard output (1) goes to the file referenced by 4.
 
-      > [!nt] "Close" means just drop of the file descriptor.
+      > [!NOTE] "Close" means just drop of the file descriptor.
       >
       > When `dup2` closes `newfd`, it removes that file descriptor from the process's descriptor
       > table (making it unavailable for that slot). If no other descriptors (in this or other processes)
@@ -555,7 +555,7 @@ interface called Unix I/O.
         - For formatted input: use `rio_readlineb` then `sscanf`.
 
 
-          > [!nt] What is "Formatted I/O"?
+          > [!NOTE] What is "Formatted I/O"?
           >
           > Formatted I/O involves converting data between binary and text formats for reading/writing.
           > For network sockets, standard I/O (like `printf`) isn't reliable due to buffering issues, so
@@ -657,7 +657,7 @@ provided by the kernel.
     - The kernel frees resources and makes the descriptor available again.
     - When a process ends, the kernel closes all open files automatically.
 
-> [!nt]
+> [!NOTE]
 >
 > Unix I/O is essential for low-level programming and system understanding. It provides direct access to
 > files and devices, which is necessary for tasks that high-level I/O cannot handle.

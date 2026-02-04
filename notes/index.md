@@ -2,17 +2,13 @@
 
 
 
-
-
-
 **Quick**
 
 [크래프톤 정글](/Project/크래프톤_정글/index.md)
 
-https://kr.linkedin.com/pulse/livekit%EA%B3%BC-twilio%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-ai-agent%EB%A1%9C-%EB%8F%85%EA%B1%B0%EB%85%B8%EC%9D%B8-%EC%95%88%EB%B6%80%EC%A0%84%ED%99%94-%EC%9E%90%EB%8F%99%ED%99%94-taeha-lim-yrobc
 
 
-> [!nt] Note-taking System 개선 (feat. submodule)
+> [!NOTE] Note-taking System 개선 (feat. submodule)
 >
 > - 위키를 다수 만들고 운영하자. dev-wiki 및 job-wiki에 모두 집어넣는것은 이제 무리다.
 > - 그러면서도 동시에 모든 위키를 관리할 수 있는 접근방법을 구성하자.
@@ -20,6 +16,10 @@ https://kr.linkedin.com/pulse/livekit%EA%B3%BC-twilio%EB%A5%BC-%ED%99%9C%EC%9A%A
 >     - 그날의 모든 변경사항 git stage에 올리고, recap 문서 생성
 >     - 커밋 메시지로 삼아 커밋
 >     - 개별 커밋 메시지를 통합해 root git dir에서 TIL 생성
+
+
+
+
 
 
 
@@ -119,7 +119,7 @@ https://kr.linkedin.com/pulse/livekit%EA%B3%BC-twilio%EB%A5%BC-%ED%99%9C%EC%9A%A
 ### Programming
 
 
-> [!nt]
+> [!NOTE]
 >
 > 프로덕션에 가까운 프로젝트들을 보면서 배우는 것이 중요하다.
 > "Fediverse가 프로덕션에 가깝게 되어있는게 많아요. 루비는 마스토돈, nodejs는 미스키, 파이썬은 bookwyrm"
@@ -144,7 +144,7 @@ https://kr.linkedin.com/pulse/livekit%EA%B3%BC-twilio%EB%A5%BC-%ED%99%9C%EC%9A%A
 #### 살아남는 개발자는 무엇이 다른가?
 
 
-> [!nt]
+> [!NOTE]
 >
 > - 시키는 대로 하기 전에 의심해라. 정말로 필요한 과정/단계/방법인가? 똑똑하고
 >   신뢰할만한 사람일수록 더더욱.
@@ -216,7 +216,7 @@ https://kr.linkedin.com/pulse/livekit%EA%B3%BC-twilio%EB%A5%BC-%ED%99%9C%EC%9A%A
 
 
 
-> [!nt]
+> [!NOTE]
 >
 > - 알파스캔 모니터 I2477FWQ
 >   - 어뎁터 공식: 33,000원

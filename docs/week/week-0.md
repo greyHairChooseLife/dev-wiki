@@ -111,7 +111,7 @@
 
 1. **LLM structured model output**
 
-  > [!nt] openai 공식자료
+  > [!NOTE] openai 공식자료
   > [ref](https://platform.openai.com/docs/guides/structured-outputs)
   >
   > - 다른 라이브러리와 조합도 좋다.
@@ -133,7 +133,7 @@
   > - (example도 제공함)
 
 
-  > [!nt] how to use text.format?
+  > [!NOTE] how to use text.format?
   > 
   > - Step 1: Define your schema
   >
@@ -156,7 +156,7 @@
   >     - refusal key가 포함된다.
 
 
-  > [!nt] Tips
+  > [!NOTE] Tips
   >
   > - Handling mistakes
   >   Structured Outputs can still contain mistakes. If you see mistakes, try adjusting your

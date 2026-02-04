@@ -96,7 +96,7 @@
     - 프로세스는 시그널 핸들러로 시그널을 제어할 수 있음
     - 오류 조건에 반응하여 임의의 위치로 비지역 점프(Nonlocal Jumps)를 수행
 
-    > [!nt]  What is "시그널(Signal)"?
+    > [!NOTE]  What is "시그널(Signal)"?
     >
     > ECF 맥락에서 OS와 어플리케이션을 연계하는 개념
     >
@@ -107,7 +107,7 @@
 
 ---
 
-  > [!nt] 이밖에도 ECF 관련 아래의 역할도 수행
+  > [!NOTE] 이밖에도 ECF 관련 아래의 역할도 수행
   >
   > - **OS/kernel**은 signals를 생성 또는 릴레이로 타겟 프로세스까지 전달
   >   - 릴레이로 전달해주는 signals는 이놈들이 만든다: hardware events, **system calls** from processes, etc ..
@@ -118,7 +118,7 @@
   >   process, which may handle it by terminating or running a custom handler.
   >
   >
-  >   > [!nt] What is "system calls"
+  >   > [!NOTE] What is "system calls"
   >   >
   >   > user-level 프로그램이 kernel에 시스템 레벨의 작업을 요청하는 것. **traps 예외**로 구현된다.
   >   > 커널은 요청을 받아서 실행시켜주고 다시 프로세스에게 제어권을 돌려준다.
@@ -554,7 +554,7 @@ int main() {
 ```
 
 
-> [!nt] Analysis of the `waitpid()`
+> [!NOTE] Analysis of the `waitpid()`
 >
 > - `pid`: The process ID of the child to wait for (returned by `fork()`). Use `-1` to
 >   wait for any child, or specific values for groups.
@@ -892,11 +892,11 @@ sigsuspend: 시그널을 명시적으로 기다리는 원자적 메커니즘
   - `sigsuspend` 함수는 현재 프로세스의 **`blocked set`를 일시적으로 `mask`로 교체하고,**
     원하는 시그널이 수신될 때까지 프로세스를 정지(suspend)시킴
 
-    > [!nt] 원자적이 뭐임?
+    > [!NOTE] 원자적이 뭐임?
     >
     > "중간에 시그널이 오거나, 다른 코드가 끼어들 수 없는, 완전히 안전한 한 덩어리 작업"이라는 뜻
 
-    > [!nt] `sigsuspend`의 동작 요약
+    > [!NOTE] `sigsuspend`의 동작 요약
     >
     > `sigsuspend(mask)` 호출은 다음 세 단계를 **인터럽트 불가능하게** 수행하는 것과 동일함:
     > 
