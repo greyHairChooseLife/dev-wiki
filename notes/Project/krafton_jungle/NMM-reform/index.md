@@ -1,13 +1,5 @@
 # 나만무
 
-<details><summary><h2>저랑 같이 해보니까 어떠신가요?</h2></summary>
-
-- [Phase.1: 기획](./동료로서/Phase.1:_기획.md)
-- Phase.2: 개발
-- Phase.3: 후기
-
-</details>
-
 <details><summary><h2>기여</h2></summary>
 
 - [개발 환경 세팅](기여/개발_환경_세팅.md)
@@ -212,6 +204,17 @@
 - [2026-01-05](회고/2026-01-05.md)
 - [2026-01-06](회고/2026-01-06.md)
 - [2026-01-16](회고/2026-01-16.md)
+
+
+<details><summary>저랑 같이 해보니까 어떠신가요?</summary>
+
+- [Phase.1: 기획](./동료로서/Phase.1:_기획.md)
+- Phase.2: 개발
+- Phase.3: 후기
+
+</details>
+
+
 
 </details>
 
