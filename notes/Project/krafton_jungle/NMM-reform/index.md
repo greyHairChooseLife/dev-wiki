@@ -2,25 +2,22 @@
 
 ## 저랑 같이 해보니까 어떠신가요?
 
-[Phase.1: 기획](동료로서/Phase.1:_기획)
-Phase.2: 개발
-Phase.3: 후기
+- [Phase.1: 기획](동료로서/Phase.1:_기획)
+- Phase.2: 개발
+- Phase.3: 후기
 
 
 ## 기여
 
-[개발 환경 세팅](기여/개발_환경_세팅)
-[개발 서버 세팅](기여/개발_서버_세팅)
-[Continuous Integration: AI 리뷰](기여/Continuous_Integration:_AI_리뷰)
+- [개발 환경 세팅](기여/개발_환경_세팅)
+- [개발 서버 세팅](기여/개발_서버_세팅)
+- [Continuous Integration: AI 리뷰](기여/Continuous_Integration:_AI_리뷰)
 
 - 재현가능성 확보
 
     > [!NOTE]
     >
-    > chore/#null/reproducibile-environment #3
     > https://github.com/Namanmoo-Damso/ops-infra/pull/3
-    >
-    > chore/#null/reproducibile environment #9
     > https://github.com/Namanmoo-Damso/ops-api/pull/9
 
 
@@ -31,11 +28,9 @@ Phase.3: 후기
     > [관련 이슈](https://github.com/Namanmoo-Damso/ops-api/issues/12)
     >
     > - api 서버
-    > refactor/#12/selectable ai service provider #17
     > https://github.com/Namanmoo-Damso/ops-api/pull/17
     >
     > - infra 서버; 환경변수 추가
-    > chore #null env-variable-for-ai-function #5
     > https://github.com/Namanmoo-Damso/ops-infra/pull/5
 
 
@@ -47,6 +42,7 @@ Phase.3: 후기
 
 
 - v1 배포
+
     > [!NOTE]
     >
     > - 배포 시점 문서화:  https://github.com/Namanmoo-Damso/infra/issues/16
@@ -163,9 +159,7 @@ Phase.3: 후기
 
     > [!NOTE]
     >
-    > branch: deepdml/faster-whisper-large-v3-turbo-ct2
     > https://github.com/Namanmoo-Damso/ops-agent/pull/41
-
 
 
 - 프롬프팅 구조 개선
@@ -174,15 +168,11 @@ Phase.3: 후기
 
     > [!NOTE]
     >
-    > branch: refactor/#null/prompt-dir-and-better-greeting
-    > branch: origin/refactor/#null/prompt-dir-and-better-greeting
     > https://github.com/Namanmoo-Damso/ops-agent/pull/42
-
 
 
 - 할머니봇 infra 구성 - terraform 프로젝트
     재완쓰
-
 
 
 - v3-production 배포
