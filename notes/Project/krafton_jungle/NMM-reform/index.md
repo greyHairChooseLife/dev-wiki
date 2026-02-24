@@ -1,13 +1,17 @@
 # 나만무
 
-## 저랑 같이 해보니까 어떠신가요?\n<details>\n<summary>펼치기/접기</summary>
+## 저랑 같이 해보니까 어떠신가요?
+<details><summary>펼치기/접기</summary>
 
 - [Phase.1: 기획](동료로서/Phase.1:_기획)
 - Phase.2: 개발
 - Phase.3: 후기
 
 
-</details>\n\n## 기여\n<details>\n<summary>펼치기/접기</summary>
+</details>
+
+## 기여
+<details><summary>펼치기/접기</summary>
 
 - [개발 환경 세팅](기여/개발_환경_세팅)
 - [개발 서버 세팅](기여/개발_서버_세팅)
@@ -198,7 +202,9 @@
 
 [terraform 테스트](기여/terraform_테스트)
 
-</details>\n\n## 나만무 회고\n<details>\n<summary>펼치기/접기</summary>
+</details>
+
+## 나만무 회고\n<details>\n<summary>펼치기/접기</summary>
 
 [2025-12-28](회고/2025-12-28)
 [2025-12-29](회고/2025-12-29)
