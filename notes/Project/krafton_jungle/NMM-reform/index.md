@@ -1,13 +1,13 @@
 # 나만무
 
-## 저랑 같이 해보니까 어떠신가요?
+## 저랑 같이 해보니까 어떠신가요?\n<details>\n<summary>펼치기/접기</summary>
 
 - [Phase.1: 기획](동료로서/Phase.1:_기획)
 - Phase.2: 개발
 - Phase.3: 후기
 
 
-## 기여
+</details>\n\n## 기여\n<details>\n<summary>펼치기/접기</summary>
 
 - [개발 환경 세팅](기여/개발_환경_세팅)
 - [개발 서버 세팅](기여/개발_서버_세팅)
@@ -198,7 +198,7 @@
 
 [terraform 테스트](기여/terraform_테스트)
 
-## 나만무 회고
+</details>\n\n## 나만무 회고\n<details>\n<summary>펼치기/접기</summary>
 
 [2025-12-28](회고/2025-12-28)
 [2025-12-29](회고/2025-12-29)
@@ -212,7 +212,7 @@
 
 
 
-## 아키텍쳐
+</details>\n\n## 아키텍쳐\n<details>\n<summary>펼치기/접기</summary>
 
 
 - AI
@@ -231,7 +231,7 @@
     - [aws 자원에 접근하는 순서도](architecture/aws_자원에_접근하는_순서도)
 
 
-## 회의
+</details>\n\n## 회의\n<details>\n<summary>펼치기/접기</summary>
 
 [idea brainstorming with AI](/Project/크래프톤_정글/회의/brainstorming_with_AI.md)
 
@@ -255,7 +255,7 @@
 > 회의 준비를 할 것도 딱히 없고, 그냥 하고 있는 작업 공유 및 의사 결정이다.
 
 
-## 학습
+</details>\n\n## 학습\n<details>\n<summary>펼치기/접기</summary>
 
 
 ### 기초
@@ -365,7 +365,7 @@ Generation: (Retrieved Documents + 질문)으로 답변 생성
 *   **고성능 버전:** AWS EC2(GPU) + vLLM(로컬 모델) + Redis(벡터 검색) + WebSocket 서버
 
 
-## 기타
+</details>\n\n## 기타\n<details>\n<summary>펼치기/접기</summary>
 
 [시작하기에 앞서](/Project/크래프톤_정글/시작하기에_앞서)
 [feedback](feedback)
@@ -405,4 +405,4 @@ Generation: (Retrieved Documents + 질문)으로 답변 생성
 > - [x] window, document 객체란?
 >   - window: 브라우저 api 등 내부 객체에 접근할 수 있는 진입점
 >   - document: DOM 객체 진입점
-> - [ ] 담당 정하기: 기획 / UIUX / 배포 / CICD / repository / LangChain
+> - [ ] 담당 정하기: 기획 / UIUX / 배포 / CICD / repository / LangChain\n\n</details>
