@@ -2,7 +2,7 @@
 
 <details><summary><h2>저랑 같이 해보니까 어떠신가요?</h2></summary>
 
-- [Phase.1: 기획](./동료로서/Phase.1:_기획)
+- [Phase.1: 기획](./동료로서/Phase.1:_기획.md)
 - Phase.2: 개발
 - Phase.3: 후기
 
@@ -10,9 +10,9 @@
 
 <details><summary><h2>기여</h2></summary>
 
-- [개발 환경 세팅](기여/개발_환경_세팅)
-- [개발 서버 세팅](기여/개발_서버_세팅)
-- [Continuous Integration: AI 리뷰](기여/Continuous_Integration:_AI_리뷰)
+- [개발 환경 세팅](기여/개발_환경_세팅.md)
+- [개발 서버 세팅](기여/개발_서버_세팅.md)
+- [Continuous Integration: AI 리뷰](기여/Continuous_Integration:_AI_리뷰.md)
 
 - 재현가능성 확보
 
@@ -26,7 +26,7 @@
 
     > [!NOTE]
     >
-    > [관련 이슈](https://github.com/Namanmoo-Damso/ops-api/issues/12)
+    > [관련 이슈](https://github.com/Namanmoo-Damso/ops-api/issues/12.md)
     >
     > - api 서버
     > - https://github.com/Namanmoo-Damso/ops-api/pull/17
@@ -197,52 +197,52 @@
 > [!lg] Log 2026-01-01
 > 근데 이건 기여가 (아직은) 아닌것 같기도하고..?
 
-- [terraform 테스트](기여/terraform_테스트)
+- [terraform 테스트](기여/terraform_테스트.md)
 
 </details>
 
 <details><summary><h2>나만무 회고</h2></summary>
 
-- [2025-12-28](회고/2025-12-28)
-- [2025-12-29](회고/2025-12-29)
-- [2025-12-30](회고/2025-12-30)
-- [2025-12-31](회고/2025-12-31)
-- [2026-01-01](회고/2026-01-01)
-- [2026-01-02](회고/2026-01-02)
-- [2026-01-05](회고/2026-01-05)
-- [2026-01-06](회고/2026-01-06)
-- [2026-01-16](회고/2026-01-16)
+- [2025-12-28](회고/2025-12-28.md)
+- [2025-12-29](회고/2025-12-29.md)
+- [2025-12-30](회고/2025-12-30.md)
+- [2025-12-31](회고/2025-12-31.md)
+- [2026-01-01](회고/2026-01-01.md)
+- [2026-01-02](회고/2026-01-02.md)
+- [2026-01-05](회고/2026-01-05.md)
+- [2026-01-06](회고/2026-01-06.md)
+- [2026-01-16](회고/2026-01-16.md)
 
 </details>
 
 <details><summary><h2>아키텍쳐</h2></summary>
 
 - AI
-    - [model serving framework](architecture/model_serving_framework)
+    - [model serving framework](architecture/model_serving_framework.md)
 
 - infra
-    - [infra-structure](architecture/infra)
-    - [개발서버 터널링 이슈](architecture/개발서버_터널링_이슈)
-    - [개발서버용 인스턴스 템플릿](architecture/개발서버용_인스턴스_템플릿)
-    - [aws resources](architecture/aws_resources)
+    - [infra-structure](architecture/infra.md)
+    - [개발서버 터널링 이슈](architecture/개발서버_터널링_이슈.md)
+    - [개발서버용 인스턴스 템플릿](architecture/개발서버용_인스턴스_템플릿.md)
+    - [aws resources](architecture/aws_resources.md)
 
     - terraform 테스트
-        - [terraform](architecture/terraform)
+        - [terraform](architecture/terraform.md)
 
-    - [aws 자원에 접근하는 순서도](architecture/aws_자원에_접근하는_순서도)
+    - [aws 자원에 접근하는 순서도](architecture/aws_자원에_접근하는_순서도.md)
 
 </details>
 
 <details><summary><h2>회의</h2></summary>
 
 - [idea brainstorming with AI](/Project/크래프톤_정글/회의/brainstorming_with_AI.md)
-- [001](회의/001)
-- [002](회의/002)
-- [003](회의/003)
-- [007](회의/007)
-- [008](회의/008)
-- [009](회의/009)
-- [010](회의/010)
+- [001](회의/001.md)
+- [002](회의/002.md)
+- [003](회의/003.md)
+- [007](회의/007.md)
+- [008](회의/008.md)
+- [009](회의/009.md)
+- [010](회의/010.md)
 
 > [!lg] Log 2026-01-01
 > 기획회의 이후로는 회의가 급격히 줄어든 느낌이다.
@@ -254,29 +254,29 @@
 
 ### 기초
 
-- [web basic](학습/web_basic)
-- [next js basic](학습/next_js_basic)
+- [web basic](학습/web_basic.md)
+- [next js basic](학습/next_js_basic.md)
 
 ### React
 
-- [why react?](학습/React/why_react?)
+- [why react?](학습/React/why_react?.md)
 - [learn react](학습/React/learn_react.md)
 - [react router](학습/React/why_react_router.md)
 
 ### Next.js
 
-- [why next.js?](학습/Next.js/why_next.js)
-- [Routing](학습/Next.js/Routing)
-- [Dynamic(가변적) Routing](학습/Next.js/Dynamic_Routing)
-- [SPA, `<Link>`](학습/Next.js/SPA)
-- [정적 자원 사용하기](학습/Next.js/정적_자원_사용하기)
-- [Server Component vs Client Component](학습/Next.js/ServerComponent_vs_ClientComponent)
+- [why next.js?](학습/Next.js/why_next.js.md)
+- [Routing](학습/Next.js/Routing.md)
+- [Dynamic(가변적) Routing](학습/Next.js/Dynamic_Routing.md)
+- [SPA, `<Link>`](학습/Next.js/SPA.md)
+- [정적 자원 사용하기](학습/Next.js/정적_자원_사용하기.md)
+- [Server Component vs Client Component](학습/Next.js/ServerComponent_vs_ClientComponent.md)
 
 > [!td]
 >
 > - [ ] 완성 필요
 >   - 나만무 레벨에서 완성 해야할까?
->   [컴포넌트 렌더링: Client Component vs Server Component](학습/Next.js/컴포넌트_렌더링:_Client_Component_vs_Server_Component)
+>   [컴포넌트 렌더링: Client Component vs Server Component](학습/Next.js/컴포넌트_렌더링:_Client_Component_vs_Server_Component.md)
 
 
 ### NestJS
@@ -357,10 +357,10 @@ Generation: (Retrieved Documents + 질문)으로 답변 생성
 
 <details><summary><h2>기타</h2></summary>
 
-- [시작하기에 앞서](/Project/크래프톤_정글/시작하기에_앞서)
-- [feedback](feedback)
-- [refactoring with AI from AI-agent-code](refactoring_with_AI_from_AI-agent-code)
-- [how to claude-code](how_to_claude-code)
+- [시작하기에 앞서](/Project/크래프톤_정글/시작하기에_앞서.md)
+- [feedback](feedback.md)
+- [refactoring with AI from AI-agent-code](refactoring_with_AI_from_AI-agent-code.md)
+- [how to claude-code](how_to_claude-code.md)
 
 
 > [!qt] 할머니, 할아버지.. 전화 하고 싶으실까? 그렇게 만들려면?
