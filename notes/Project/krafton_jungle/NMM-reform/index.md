@@ -10,8 +10,7 @@
 
 </details>
 
-## 기여
-<details><summary>펼치기/접기</summary>
+<details><summary><h2>기여</h2></summary>
 
 - [개발 환경 세팅](기여/개발_환경_세팅)
 - [개발 서버 세팅](기여/개발_서버_세팅)
