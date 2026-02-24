@@ -857,7 +857,6 @@ Phase.3: 후기??
         - **이것이 잘못된 점**
         - squash merge 한 시점부터 다시 dev:2 따위를 새로 브랜칭해서 사용해야한다.
         - 혹은 squash merge 대신 fast-forward merge를 해야했다.
-          - [ ] 이거 그림으로 표현해보자
     - 그래서 기존 main을 지우고 다시 만들었다.
         - 이 과정에서 지난번 v1을 만들며 기록해둔 issue와 archiving branch가 매우 든든했다.
 
