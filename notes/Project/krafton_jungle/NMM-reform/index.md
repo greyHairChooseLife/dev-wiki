@@ -2,7 +2,7 @@
 
 <details><summary><h2>저랑 같이 해보니까 어떠신가요?</h2></summary>
 
-- [Phase.1: 기획](동료로서/Phase.1:_기획)
+- [Phase.1: 기획](./동료로서/Phase.1:_기획)
 - Phase.2: 개발
 - Phase.3: 후기
 
