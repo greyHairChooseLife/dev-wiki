@@ -203,31 +203,31 @@
 
 <details><summary><h2>나만무 회고</h2></summary>
 
-[2025-12-28](회고/2025-12-28)
-[2025-12-29](회고/2025-12-29)
-[2025-12-30](회고/2025-12-30)
-[2025-12-31](회고/2025-12-31)
-[2026-01-01](회고/2026-01-01)
-[2026-01-02](회고/2026-01-02)
-[2026-01-05](회고/2026-01-05)
-[2026-01-06](회고/2026-01-06)
-[2026-01-16](회고/2026-01-16)
+- [2025-12-28](회고/2025-12-28)
+- [2025-12-29](회고/2025-12-29)
+- [2025-12-30](회고/2025-12-30)
+- [2025-12-31](회고/2025-12-31)
+- [2026-01-01](회고/2026-01-01)
+- [2026-01-02](회고/2026-01-02)
+- [2026-01-05](회고/2026-01-05)
+- [2026-01-06](회고/2026-01-06)
+- [2026-01-16](회고/2026-01-16)
 
 </details>
 
 <details><summary><h2>아키텍쳐</h2></summary>
 
 - AI
-    [model serving framework](architecture/model_serving_framework)
+    - [model serving framework](architecture/model_serving_framework)
 
 - infra
-    [infra-structure](architecture/infra)
-    [개발서버 터널링 이슈](architecture/개발서버_터널링_이슈)
-    [개발서버용 인스턴스 템플릿](architecture/개발서버용_인스턴스_템플릿)
-    [aws resources](architecture/aws_resources)
+    - [infra-structure](architecture/infra)
+    - [개발서버 터널링 이슈](architecture/개발서버_터널링_이슈)
+    - [개발서버용 인스턴스 템플릿](architecture/개발서버용_인스턴스_템플릿)
+    - [aws resources](architecture/aws_resources)
 
     - terraform 테스트
-        [terraform](architecture/terraform)
+        - [terraform](architecture/terraform)
 
     - [aws 자원에 접근하는 순서도](architecture/aws_자원에_접근하는_순서도)
 
@@ -235,27 +235,18 @@
 
 <details><summary><h2>회의</h2></summary>
 
-[idea brainstorming with AI](/Project/크래프톤_정글/회의/brainstorming_with_AI.md)
-
-[001](회의/001)
-[002](회의/002)
-[003](회의/003)
-
-> [!lg] Log 2025-12-19
-> 이거 쓰는걸 까먹었다. 역시 계획표가 있어야해.
-
-> [!td]
->
-> - [ ] [007](회의/007)
-
-[008](회의/008)
-[009](회의/009)
-[010](회의/010)
+- [idea brainstorming with AI](/Project/크래프톤_정글/회의/brainstorming_with_AI.md)
+- [001](회의/001)
+- [002](회의/002)
+- [003](회의/003)
+- [007](회의/007)
+- [008](회의/008)
+- [009](회의/009)
+- [010](회의/010)
 
 > [!lg] Log 2026-01-01
 > 기획회의 이후로는 회의가 급격히 줄어든 느낌이다.
 > 회의 준비를 할 것도 딱히 없고, 그냥 하고 있는 작업 공유 및 의사 결정이다.
-
 
 </details>
 
@@ -263,29 +254,23 @@
 
 ### 기초
 
-[web basic](학습/web_basic)
-[next js basic](학습/next_js_basic)
-
+- [web basic](학습/web_basic)
+- [next js basic](학습/next_js_basic)
 
 ### React
 
-[why react?](학습/React/why_react?)
-[learn react](학습/React/learn_react.md)
-
-[react router](학습/React/why_react_router.md)
-
+- [why react?](학습/React/why_react?)
+- [learn react](학습/React/learn_react.md)
+- [react router](학습/React/why_react_router.md)
 
 ### Next.js
 
-[why next.js?](학습/Next.js/why_next.js)
-
-
-[Routing](학습/Next.js/Routing)
-[Dynamic(가변적) Routing](학습/Next.js/Dynamic_Routing)
-[SPA, `<Link>`](학습/Next.js/SPA)
-[정적 자원 사용하기](학습/Next.js/정적_자원_사용하기)
-[Server Component vs Client Component](학습/Next.js/ServerComponent_vs_ClientComponent)
-
+- [why next.js?](학습/Next.js/why_next.js)
+- [Routing](학습/Next.js/Routing)
+- [Dynamic(가변적) Routing](학습/Next.js/Dynamic_Routing)
+- [SPA, `<Link>`](학습/Next.js/SPA)
+- [정적 자원 사용하기](학습/Next.js/정적_자원_사용하기)
+- [Server Component vs Client Component](학습/Next.js/ServerComponent_vs_ClientComponent)
 
 > [!td]
 >
@@ -372,12 +357,10 @@ Generation: (Retrieved Documents + 질문)으로 답변 생성
 
 <details><summary><h2>기타</h2></summary>
 
-[시작하기에 앞서](/Project/크래프톤_정글/시작하기에_앞서)
-[feedback](feedback)
-
-[refactoring with AI from AI-agent-code](refactoring_with_AI_from_AI-agent-code)
-
-[how to claude-code](how_to_claude-code)
+- [시작하기에 앞서](/Project/크래프톤_정글/시작하기에_앞서)
+- [feedback](feedback)
+- [refactoring with AI from AI-agent-code](refactoring_with_AI_from_AI-agent-code)
+- [how to claude-code](how_to_claude-code)
 
 
 > [!qt] 할머니, 할아버지.. 전화 하고 싶으실까? 그렇게 만들려면?
