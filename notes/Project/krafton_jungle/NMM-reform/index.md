@@ -17,8 +17,8 @@
 
     > [!NOTE]
     >
-    > https://github.com/Namanmoo-Damso/ops-infra/pull/3
-    > https://github.com/Namanmoo-Damso/ops-api/pull/9
+    > - https://github.com/Namanmoo-Damso/ops-infra/pull/3
+    > - https://github.com/Namanmoo-Damso/ops-api/pull/9
 
 
 - ai기능 개선
@@ -28,10 +28,10 @@
     > [관련 이슈](https://github.com/Namanmoo-Damso/ops-api/issues/12)
     >
     > - api 서버
-    > https://github.com/Namanmoo-Damso/ops-api/pull/17
+    > - https://github.com/Namanmoo-Damso/ops-api/pull/17
     >
     > - infra 서버; 환경변수 추가
-    > https://github.com/Namanmoo-Damso/ops-infra/pull/5
+    > - https://github.com/Namanmoo-Damso/ops-infra/pull/5
 
 
 - gpu quota 신청 관련
@@ -55,8 +55,8 @@
 
     > [!NOTE]
     >
-    > https://github.com/Namanmoo-Damso/ops-api/pull/73
-    > https://github.com/Namanmoo-Damso/ops-web/pull/55
+    > - https://github.com/Namanmoo-Damso/ops-api/pull/73
+    > - https://github.com/Namanmoo-Damso/ops-web/pull/55
 
 
 - livekit server 분리(중앙화)
@@ -68,17 +68,17 @@
 
     > [!NOTE]
     >
-    > https://github.com/Namanmoo-Damso/ops-api/pull/78
-    > https://github.com/Namanmoo-Damso/infra/pull/21
+    > - https://github.com/Namanmoo-Damso/ops-api/pull/78
+    > - https://github.com/Namanmoo-Damso/infra/pull/21
 
 
 - 필요 없는 환경변수 등 제거하고, 기본적인 리팩토링(환경변수는 한곳에서 읽기)
 
     > [!NOTE]
     >
-    > https://github.com/Namanmoo-Damso/ops-web/issues/123
-    > https://github.com/Namanmoo-Damso/ops-web/pull/124
-    > https://github.com/Namanmoo-Damso/ops-api/pull/94
+    > - https://github.com/Namanmoo-Damso/ops-web/issues/123
+    > - https://github.com/Namanmoo-Damso/ops-web/pull/124
+    > - https://github.com/Namanmoo-Damso/ops-api/pull/94
 
 
 - 브랜치 전략 실수와 해결
@@ -149,8 +149,8 @@
 
     > [!NOTE]
     >
-    > https://github.com/Namanmoo-Damso/ops-agent/issues/39
-    > https://github.com/Namanmoo-Damso/ops-agent/pull/40
+    > - https://github.com/Namanmoo-Damso/ops-agent/issues/39
+    > - https://github.com/Namanmoo-Damso/ops-agent/pull/40
               
 
 - STT를 자체모델로 운영하기
@@ -159,7 +159,7 @@
 
     > [!NOTE]
     >
-    > https://github.com/Namanmoo-Damso/ops-agent/pull/41
+    > - https://github.com/Namanmoo-Damso/ops-agent/pull/41
 
 
 - 프롬프팅 구조 개선
@@ -168,7 +168,7 @@
 
     > [!NOTE]
     >
-    > https://github.com/Namanmoo-Damso/ops-agent/pull/42
+    > - https://github.com/Namanmoo-Damso/ops-agent/pull/42
 
 
 - 할머니봇 infra 구성 - terraform 프로젝트
@@ -186,11 +186,11 @@
     > [!NOTE]
     >
     > 배포 버전 
-    > https://github.com/Namanmoo-Damso/ops-web/commits/v3/
-    > https://github.com/Namanmoo-Damso/ops-api/commits/v3/
-    > https://github.com/Namanmoo-Damso/ops-agentb/commits/v3/
-    > https://github.com/Namanmoo-Damso/infra/commits/v3/
-    > https://github.com/Namanmoo-Damso/infra/pull/28
+    > - https://github.com/Namanmoo-Damso/ops-web/commits/v3/
+    > - https://github.com/Namanmoo-Damso/ops-api/commits/v3/
+    > - https://github.com/Namanmoo-Damso/ops-agentb/commits/v3/
+    > - https://github.com/Namanmoo-Damso/infra/commits/v3/
+    > - https://github.com/Namanmoo-Damso/infra/pull/28
 
 
 > [!lg] Log 2026-01-01
